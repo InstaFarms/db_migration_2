@@ -1,0 +1,691 @@
+{
+  "generatedAt": "2026-03-30T11:45:10.226Z",
+  "tables": [
+    {
+      "table": "activities",
+      "file": "activities.json",
+      "rowCount": 46,
+      "checksumSha256": "ccf2c192d94901d574b87ede32bb917ed73aa3adea0acdd91e5bc017c07a5fa7",
+      "exportedAt": "2026-03-30T11:45:09.473Z"
+    },
+    {
+      "table": "activitiesOnProperties",
+      "file": "activitiesOnProperties.json",
+      "rowCount": 970,
+      "checksumSha256": "9adcd4c8d1ada671f711025f286874491c2b2ea5f94a60637ab25fc9f35b16b1",
+      "exportedAt": "2026-03-30T11:45:09.479Z"
+    },
+    {
+      "table": "activityLogs",
+      "file": "activityLogs.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.481Z"
+    },
+    {
+      "table": "admins",
+      "file": "admins.json",
+      "rowCount": 12,
+      "checksumSha256": "3f18ca6588ff6a25595f6dd5f157200fcf6822e403dc209d593c067977be38a0",
+      "exportedAt": "2026-03-30T11:45:09.484Z"
+    },
+    {
+      "table": "amenities",
+      "file": "amenities.json",
+      "rowCount": 36,
+      "checksumSha256": "5dcd4f5cac014691dc23064bbb6dbeda5161832c1dc65ea703b2576bef768f86",
+      "exportedAt": "2026-03-30T11:45:09.487Z"
+    },
+    {
+      "table": "amenitiesOnProperties",
+      "file": "amenitiesOnProperties.json",
+      "rowCount": 1911,
+      "checksumSha256": "36d8c9ce077c154cf0bd173f91071ea117eca02c8b81f93231da7bb89cad823a",
+      "exportedAt": "2026-03-30T11:45:09.496Z"
+    },
+    {
+      "table": "areas",
+      "file": "areas.json",
+      "rowCount": 13,
+      "checksumSha256": "c8459db32fcf36f5e114d567a82d6f753abe833f6852cf3fdda395e7ad4349df",
+      "exportedAt": "2026-03-30T11:45:09.510Z"
+    },
+    {
+      "table": "bankDetails",
+      "file": "bankDetails.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.512Z"
+    },
+    {
+      "table": "bankDetailsOnProperties",
+      "file": "bankDetailsOnProperties.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.513Z"
+    },
+    {
+      "table": "blockedDates",
+      "file": "blockedDates.json",
+      "rowCount": 3,
+      "checksumSha256": "478f60169da76771facd02c7442a401c6c9ee768777c2960d20ce6065202b269",
+      "exportedAt": "2026-03-30T11:45:09.515Z"
+    },
+    {
+      "table": "bookingAuditLog",
+      "file": "bookingAuditLog.json",
+      "rowCount": 1517,
+      "checksumSha256": "919fd130db2a7f7317902bfe4afbdb27e7290163b85db444858a6e921305884a",
+      "exportedAt": "2026-03-30T11:45:09.534Z"
+    },
+    {
+      "table": "bookingPaymentSchedule",
+      "file": "bookingPaymentSchedule.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.536Z"
+    },
+    {
+      "table": "bookings",
+      "file": "bookings.json",
+      "rowCount": 490,
+      "checksumSha256": "99f70eb4bca3cea23ad0eb50cc7f1df3f74b5057350718be3fad2c79b61a9ba9",
+      "exportedAt": "2026-03-30T11:45:09.558Z"
+    },
+    {
+      "table": "bulkUpdateLogs",
+      "file": "bulkUpdateLogs.json",
+      "rowCount": 3,
+      "checksumSha256": "b830bc8db5a9a3989e3a17842873c7ef7d3c8eabac5bbdd40bd5451eb88e5a71",
+      "exportedAt": "2026-03-30T11:45:09.560Z"
+    },
+    {
+      "table": "cancellationPercentages",
+      "file": "cancellationPercentages.json",
+      "rowCount": 24,
+      "checksumSha256": "4b2b1273e423903009a27460b351914ea901df56298fd9448a8b03fb36ccb81e",
+      "exportedAt": "2026-03-30T11:45:09.562Z"
+    },
+    {
+      "table": "cancellationPlans",
+      "file": "cancellationPlans.json",
+      "rowCount": 8,
+      "checksumSha256": "c03f06e8ec716d47d0dd428772355c91ce5b585232a491e4ceb5f7714c034d3d",
+      "exportedAt": "2026-03-30T11:45:09.563Z"
+    },
+    {
+      "table": "cancellations",
+      "file": "cancellations.json",
+      "rowCount": 36,
+      "checksumSha256": "cc5f37ec849b890f3f2b966972630024a073637db5f50733260fccf213c36c59",
+      "exportedAt": "2026-03-30T11:45:09.565Z"
+    },
+    {
+      "table": "caretakersOnProperties",
+      "file": "caretakersOnProperties.json",
+      "rowCount": 116,
+      "checksumSha256": "aeccee0e003955a278a658241f1f331f972de24c20369f177fa19222fbb9493b",
+      "exportedAt": "2026-03-30T11:45:09.566Z"
+    },
+    {
+      "table": "carousel",
+      "file": "carousel.json",
+      "rowCount": 6,
+      "checksumSha256": "2c45ac947523443319c9423140b6eae37121fb398e728af589032d56761716b4",
+      "exportedAt": "2026-03-30T11:45:09.567Z"
+    },
+    {
+      "table": "carouselPhotos",
+      "file": "carouselPhotos.json",
+      "rowCount": 12,
+      "checksumSha256": "4ec33d2910aeb28bc04557c933aad04523c8b3760df4003d471ef12eef89c678",
+      "exportedAt": "2026-03-30T11:45:09.569Z"
+    },
+    {
+      "table": "checklistCategoryMaster",
+      "file": "checklistCategoryMaster.json",
+      "rowCount": 14,
+      "checksumSha256": "213f274b355db8b866282e66d4458be584f3b8508b53ed6f052b868a261323b2",
+      "exportedAt": "2026-03-30T11:45:09.570Z"
+    },
+    {
+      "table": "checklistItemMaster",
+      "file": "checklistItemMaster.json",
+      "rowCount": 60,
+      "checksumSha256": "03be5c59b6963da94dd8d9742df2bebe1251a989efa0f59004f7abcc9a3944f6",
+      "exportedAt": "2026-03-30T11:45:09.573Z"
+    },
+    {
+      "table": "checklistItemMedia",
+      "file": "checklistItemMedia.json",
+      "rowCount": 23,
+      "checksumSha256": "0c71388dc9ce325a3e3fa0e50e4c98422f6ec95d398c0262fe545bb1e6f9914c",
+      "exportedAt": "2026-03-30T11:45:09.574Z"
+    },
+    {
+      "table": "cities",
+      "file": "cities.json",
+      "rowCount": 8,
+      "checksumSha256": "1afc9a1e18ab06bb94e3db20b3c2621578573ac2aef1a34e3a90923d0e2ed3c3",
+      "exportedAt": "2026-03-30T11:45:09.576Z"
+    },
+    {
+      "table": "cms",
+      "file": "cms.json",
+      "rowCount": 5,
+      "checksumSha256": "ae175eb33d5308e28a364429689e6f57a415cb80bb49877da0fa7501dbb7dfa2",
+      "exportedAt": "2026-03-30T11:45:09.579Z"
+    },
+    {
+      "table": "collectionProperties",
+      "file": "collectionProperties.json",
+      "rowCount": 730,
+      "checksumSha256": "5b9172689777abccb215d1db03d9687348fa1d7642e4cc2a54f4c9100799bb9e",
+      "exportedAt": "2026-03-30T11:45:09.586Z"
+    },
+    {
+      "table": "collections",
+      "file": "collections.json",
+      "rowCount": 19,
+      "checksumSha256": "e8c409a36c5f9c360f7caccc475ec4c4e905c751658b3b3abf4638497d3645b1",
+      "exportedAt": "2026-03-30T11:45:09.590Z"
+    },
+    {
+      "table": "contactEnquiry",
+      "file": "contactEnquiry.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.592Z"
+    },
+    {
+      "table": "coupons",
+      "file": "coupons.json",
+      "rowCount": 52,
+      "checksumSha256": "f308ed04cffa6782e06ab4be8a13152c155a29b56aebdf5bc6f2abb0139d82ff",
+      "exportedAt": "2026-03-30T11:45:09.595Z"
+    },
+    {
+      "table": "customers",
+      "file": "customers.json",
+      "rowCount": 586,
+      "checksumSha256": "eedfedf592d495aa02416d84d6f5a6b496988d5a1f2289be2e81e370621b669e",
+      "exportedAt": "2026-03-30T11:45:09.601Z"
+    },
+    {
+      "table": "discountPlans",
+      "file": "discountPlans.json",
+      "rowCount": 2,
+      "checksumSha256": "1b8e4cd786ed575d0f6516843c6aa8f796843a6bbd28ad3fd2527cd34ecd0471",
+      "exportedAt": "2026-03-30T11:45:09.603Z"
+    },
+    {
+      "table": "discountPlansValues",
+      "file": "discountPlansValues.json",
+      "rowCount": 3,
+      "checksumSha256": "3c51b089e7adbce01d3a01bd99824649fa61c0df363c9cfc3fb0849bcfee0519",
+      "exportedAt": "2026-03-30T11:45:09.604Z"
+    },
+    {
+      "table": "enquiries",
+      "file": "enquiries.json",
+      "rowCount": 4,
+      "checksumSha256": "4e9a121c55c74c708115ab7ee90df02ac9d9f1029db87d4ed4e10de51558cc42",
+      "exportedAt": "2026-03-30T11:45:09.606Z"
+    },
+    {
+      "table": "extraPlans",
+      "file": "extraPlans.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.607Z"
+    },
+    {
+      "table": "ezeeSyncData",
+      "file": "ezeeSyncData.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.609Z"
+    },
+    {
+      "table": "faqs",
+      "file": "faqs.json",
+      "rowCount": 25,
+      "checksumSha256": "b9637a1677a97df61f17aa22fce1ce6d8547515dc586b08fa762f897cdd5da72",
+      "exportedAt": "2026-03-30T11:45:09.610Z"
+    },
+    {
+      "table": "globalConstants",
+      "file": "globalConstants.json",
+      "rowCount": 1,
+      "checksumSha256": "09a06a2cdf6032b8f15032f43ad59744b1fe8e054fa7bcd402d37709e1f6fb4d",
+      "exportedAt": "2026-03-30T11:45:09.612Z"
+    },
+    {
+      "table": "icalLinks",
+      "file": "icalLinks.json",
+      "rowCount": 1,
+      "checksumSha256": "36c5e38455a681fad69960f2b012669f1f56081b4939da9cbd7fa36da7e9dc9d",
+      "exportedAt": "2026-03-30T11:45:09.613Z"
+    },
+    {
+      "table": "importedBookings",
+      "file": "importedBookings.json",
+      "rowCount": 3,
+      "checksumSha256": "69bd09f59dc37fb7cc0378bfefd8dae3fb7eda03190f3ae301957ba4a3bc2e46",
+      "exportedAt": "2026-03-30T11:45:09.614Z"
+    },
+    {
+      "table": "inventoryAuditChecklistItems",
+      "file": "inventoryAuditChecklistItems.json",
+      "rowCount": 6,
+      "checksumSha256": "c96e0edb5414c473ad222a160809705f6145bb4de0d918aede35cba03c66657f",
+      "exportedAt": "2026-03-30T11:45:09.615Z"
+    },
+    {
+      "table": "inventoryChecklistItems",
+      "file": "inventoryChecklistItems.json",
+      "rowCount": 60,
+      "checksumSha256": "127a3035c0c3b080bb4781accb059f448602c5b80461c02db888b5edf88c11dc",
+      "exportedAt": "2026-03-30T11:45:09.617Z"
+    },
+    {
+      "table": "issueTypes",
+      "file": "issueTypes.json",
+      "rowCount": 5,
+      "checksumSha256": "766cbc9cbcf2d826d61441fb0cc8e7e05f94086b84839f34191ec47d92895d82",
+      "exportedAt": "2026-03-30T11:45:09.619Z"
+    },
+    {
+      "table": "landmarks",
+      "file": "landmarks.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.620Z"
+    },
+    {
+      "table": "listingUsers",
+      "file": "listingUsers.json",
+      "rowCount": 1,
+      "checksumSha256": "39970d353b2aa141d2080d01419a4d0fdfed5c0a061d2c42a7ed4d70cbf467ae",
+      "exportedAt": "2026-03-30T11:45:09.625Z"
+    },
+    {
+      "table": "maintenanceAuditChecklistItems",
+      "file": "maintenanceAuditChecklistItems.json",
+      "rowCount": 18,
+      "checksumSha256": "98f5fb7efad9b693a725329e92545611930e2477607413da02e264fdfff2187b",
+      "exportedAt": "2026-03-30T11:45:09.626Z"
+    },
+    {
+      "table": "maintenanceChecklistItems",
+      "file": "maintenanceChecklistItems.json",
+      "rowCount": 22,
+      "checksumSha256": "d794e45f28e5cde322fcf74510e55ad91f3cf3e4f96f29425c258774c0f70617",
+      "exportedAt": "2026-03-30T11:45:09.628Z"
+    },
+    {
+      "table": "managersOnProperties",
+      "file": "managersOnProperties.json",
+      "rowCount": 133,
+      "checksumSha256": "57473c884e12851e7420570211bb32f5b2477cacfa0be9bfd0b17f38fc39b1cc",
+      "exportedAt": "2026-03-30T11:45:09.629Z"
+    },
+    {
+      "table": "nearbyLocations",
+      "file": "nearbyLocations.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.630Z"
+    },
+    {
+      "table": "notification_dead_letter_queue",
+      "file": "notification_dead_letter_queue.json",
+      "rowCount": 160,
+      "checksumSha256": "26665e34dbd7c903db2ead7880bd48e17eeaab87fb4442ec58c7d316a6318d76",
+      "exportedAt": "2026-03-30T11:45:09.634Z"
+    },
+    {
+      "table": "notification_delivery_log",
+      "file": "notification_delivery_log.json",
+      "rowCount": 1172,
+      "checksumSha256": "513a38a8f9af4b000178d1d0778198345c03b65f09909b2d0ffa0fe91bb89963",
+      "exportedAt": "2026-03-30T11:45:09.721Z"
+    },
+    {
+      "table": "notification_event_log",
+      "file": "notification_event_log.json",
+      "rowCount": 116,
+      "checksumSha256": "c7aa96c409f9f0c6e9e0f0cca52be1424481bb0fb0774047f2a3976663f3291b",
+      "exportedAt": "2026-03-30T11:45:09.726Z"
+    },
+    {
+      "table": "notification_event_types",
+      "file": "notification_event_types.json",
+      "rowCount": 6,
+      "checksumSha256": "b61ee67f097f70df24e126fbf6f7e29b22221e0961c17186d3de68dc171f887e",
+      "exportedAt": "2026-03-30T11:45:09.728Z"
+    },
+    {
+      "table": "notification_templates",
+      "file": "notification_templates.json",
+      "rowCount": 29,
+      "checksumSha256": "eca9a9b88ce05273c80dbdfabde9840904cf89ef1acf9cd198d18dc84214c3d8",
+      "exportedAt": "2026-03-30T11:45:09.734Z"
+    },
+    {
+      "table": "ownersOnProperties",
+      "file": "ownersOnProperties.json",
+      "rowCount": 126,
+      "checksumSha256": "6cd640e7406c4194032b1baf48d5826635225d5c030d46ec018a1853aa8e107d",
+      "exportedAt": "2026-03-30T11:45:09.736Z"
+    },
+    {
+      "table": "ownersWallet",
+      "file": "ownersWallet.json",
+      "rowCount": 23,
+      "checksumSha256": "89b8fab17515d2541de6cb22befab65b19706e72b788669b37e78caba37f65cb",
+      "exportedAt": "2026-03-30T11:45:09.737Z"
+    },
+    {
+      "table": "payments",
+      "file": "payments.json",
+      "rowCount": 82,
+      "checksumSha256": "af1d9242ab6bf007ed9a438e5caf2c541ccc9a7658a6386983ae6d759fe6f66c",
+      "exportedAt": "2026-03-30T11:45:09.740Z"
+    },
+    {
+      "table": "permanentPriceUpdateLogs",
+      "file": "permanentPriceUpdateLogs.json",
+      "rowCount": 10,
+      "checksumSha256": "696ad9cdeba9cbd16d97c621286e4a564c1ff1ca620a77eff4c62cc5c86fbf13",
+      "exportedAt": "2026-03-30T11:45:09.743Z"
+    },
+    {
+      "table": "photos",
+      "file": "photos.json",
+      "rowCount": 10283,
+      "checksumSha256": "884736e5c4ba9312f1c43e45f38e3041a3966ffcfecf2c9c2bceff2a4d325ad1",
+      "exportedAt": "2026-03-30T11:45:09.899Z"
+    },
+    {
+      "table": "properties",
+      "file": "properties.json",
+      "rowCount": 141,
+      "checksumSha256": "57e80e5f41c21403184fd28ab7914642df5d8aa28f946d384710d83c7a5ee332",
+      "exportedAt": "2026-03-30T11:45:09.974Z"
+    },
+    {
+      "table": "propertyAuditAreaCategoryMaster",
+      "file": "propertyAuditAreaCategoryMaster.json",
+      "rowCount": 8,
+      "checksumSha256": "767420941b7df6f34385688fa5e71ffba921d8e862d7002efc74d51393c5637b",
+      "exportedAt": "2026-03-30T11:45:09.977Z"
+    },
+    {
+      "table": "propertyAuditAreas",
+      "file": "propertyAuditAreas.json",
+      "rowCount": 26,
+      "checksumSha256": "a3973db0bddeab38588178b0d2c53bae044ec542b0f2734a7a66ac502be99398",
+      "exportedAt": "2026-03-30T11:45:09.979Z"
+    },
+    {
+      "table": "propertyAuditSessions",
+      "file": "propertyAuditSessions.json",
+      "rowCount": 18,
+      "checksumSha256": "57490a1a6b3f2b1fd369f07a2ede95de5b71b5e9b240d850f50378437713ccd7",
+      "exportedAt": "2026-03-30T11:45:09.981Z"
+    },
+    {
+      "table": "propertyCancellationPlans",
+      "file": "propertyCancellationPlans.json",
+      "rowCount": 248,
+      "checksumSha256": "03702f938ced4069a67fdfaebd8b6db5a53f10bf03517d90d9d86f83aac333ea",
+      "exportedAt": "2026-03-30T11:45:09.985Z"
+    },
+    {
+      "table": "propertyCoupons",
+      "file": "propertyCoupons.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.986Z"
+    },
+    {
+      "table": "propertyDiscountPlans",
+      "file": "propertyDiscountPlans.json",
+      "rowCount": 125,
+      "checksumSha256": "7296646c60779560546e93395b18cb9a179fb328dd7943639bae07abc4a0556e",
+      "exportedAt": "2026-03-30T11:45:09.989Z"
+    },
+    {
+      "table": "propertyFaqs",
+      "file": "propertyFaqs.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.991Z"
+    },
+    {
+      "table": "propertyHouseRules",
+      "file": "propertyHouseRules.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:09.992Z"
+    },
+    {
+      "table": "propertyPhotos",
+      "file": "propertyPhotos.json",
+      "rowCount": 10064,
+      "checksumSha256": "5ded41e5e8724195b624f104203bfcf6ad6a756c4c5b7ac5f36a16e2aaa4e6ef",
+      "exportedAt": "2026-03-30T11:45:10.113Z"
+    },
+    {
+      "table": "propertyTypes",
+      "file": "propertyTypes.json",
+      "rowCount": 4,
+      "checksumSha256": "3325828420db4413d2943445ef46be62fc71ac415d3fde2439e448ca1d7e5fc2",
+      "exportedAt": "2026-03-30T11:45:10.116Z"
+    },
+    {
+      "table": "property_tags",
+      "file": "property_tags.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.120Z"
+    },
+    {
+      "table": "proposalItems",
+      "file": "proposalItems.json",
+      "rowCount": 17,
+      "checksumSha256": "2573312729cb28ebffba6c3558917b06215cec659f0b113a7d7e0d76112a8593",
+      "exportedAt": "2026-03-30T11:45:10.123Z"
+    },
+    {
+      "table": "proposals",
+      "file": "proposals.json",
+      "rowCount": 4,
+      "checksumSha256": "30621426de0068d2340312ac0f716ff990c9ac12b66518c65cf2815aad7cbd1e",
+      "exportedAt": "2026-03-30T11:45:10.126Z"
+    },
+    {
+      "table": "ratePlans",
+      "file": "ratePlans.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.130Z"
+    },
+    {
+      "table": "recentSearches",
+      "file": "recentSearches.json",
+      "rowCount": 762,
+      "checksumSha256": "1f0ab3d634262f4ca8b632c5a816a87233b619cfd6b3c3add20581100cc4f115",
+      "exportedAt": "2026-03-30T11:45:10.145Z"
+    },
+    {
+      "table": "recentlyVisited",
+      "file": "recentlyVisited.json",
+      "rowCount": 2694,
+      "checksumSha256": "e127f2198020c211bf010e8121008ef6100dc71802f6e23e4966b60d9e57b002",
+      "exportedAt": "2026-03-30T11:45:10.183Z"
+    },
+    {
+      "table": "reviewMagicLinks",
+      "file": "reviewMagicLinks.json",
+      "rowCount": 3,
+      "checksumSha256": "690485b77d075ea2f697be859afb46bea03e1a3f9af956803a9a1a7af8225966",
+      "exportedAt": "2026-03-30T11:45:10.185Z"
+    },
+    {
+      "table": "reviews",
+      "file": "reviews.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.187Z"
+    },
+    {
+      "table": "safetyHygiene",
+      "file": "safetyHygiene.json",
+      "rowCount": 4,
+      "checksumSha256": "589fa3b5451dff41dd6a261e1de8334ba8270169c570a97798f87a587740e362",
+      "exportedAt": "2026-03-30T11:45:10.188Z"
+    },
+    {
+      "table": "safetyHygieneOnProperties",
+      "file": "safetyHygieneOnProperties.json",
+      "rowCount": 10,
+      "checksumSha256": "6cddee30ec36bdfaffb58c02ccf7f570c4fad97b5d5eb9a1e8dfba66d2368d67",
+      "exportedAt": "2026-03-30T11:45:10.189Z"
+    },
+    {
+      "table": "searchQuery",
+      "file": "searchQuery.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.191Z"
+    },
+    {
+      "table": "settings",
+      "file": "settings.json",
+      "rowCount": 2,
+      "checksumSha256": "2e0ac0a3dfe9869849e6df1b0c62306e210f246441dbfb00dd9f17874a18b6ce",
+      "exportedAt": "2026-03-30T11:45:10.192Z"
+    },
+    {
+      "table": "singlePages ",
+      "file": "singlePages .json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.194Z"
+    },
+    {
+      "table": "spaceProperties",
+      "file": "spaceProperties.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.196Z"
+    },
+    {
+      "table": "spaces",
+      "file": "spaces.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.197Z"
+    },
+    {
+      "table": "specialDates",
+      "file": "specialDates.json",
+      "rowCount": 4,
+      "checksumSha256": "608a1b29cca988f1a16c8ebde5ce647781254e32fa0d4f50956dca0a5b105cf2",
+      "exportedAt": "2026-03-30T11:45:10.199Z"
+    },
+    {
+      "table": "states",
+      "file": "states.json",
+      "rowCount": 4,
+      "checksumSha256": "833ea0da0b3a77a4fb4e8b7a28e5da9dc9db27d9fbe9bbe99eb5c47dcb42f0a2",
+      "exportedAt": "2026-03-30T11:45:10.202Z"
+    },
+    {
+      "table": "staticImages",
+      "file": "staticImages.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.203Z"
+    },
+    {
+      "table": "supervisors",
+      "file": "supervisors.json",
+      "rowCount": 2,
+      "checksumSha256": "4b3d3d1c5e9dc4b7c63a8fdd838d97033ba2377df59d002a6e908b13e82ea783",
+      "exportedAt": "2026-03-30T11:45:10.205Z"
+    },
+    {
+      "table": "suppliesAuditChecklistItems",
+      "file": "suppliesAuditChecklistItems.json",
+      "rowCount": 23,
+      "checksumSha256": "98fffd3f1f20cd2311275779f99a29a0e7f155fa3e58b2dd0506374825f4009a",
+      "exportedAt": "2026-03-30T11:45:10.207Z"
+    },
+    {
+      "table": "suppliesChecklistItems",
+      "file": "suppliesChecklistItems.json",
+      "rowCount": 4,
+      "checksumSha256": "4b71ec63d2e7435e7ec674bc67e3b46ad57ec2606b138ee908608de2cb0460e0",
+      "exportedAt": "2026-03-30T11:45:10.208Z"
+    },
+    {
+      "table": "tags",
+      "file": "tags.json",
+      "rowCount": 4,
+      "checksumSha256": "184978cc96ade0211e5cc392d86a2cdb7bbfcd6e3e619664eeba8935aafefc4a",
+      "exportedAt": "2026-03-30T11:45:10.210Z"
+    },
+    {
+      "table": "ticketResolutionLogs",
+      "file": "ticketResolutionLogs.json",
+      "rowCount": 2,
+      "checksumSha256": "50aa79fda110a07e25d1ba3a8f043d9f3548de43b43d977265b47d01221aa7f9",
+      "exportedAt": "2026-03-30T11:45:10.211Z"
+    },
+    {
+      "table": "tickets",
+      "file": "tickets.json",
+      "rowCount": 12,
+      "checksumSha256": "291cdad7e1d881050c778cc8ccb46687f4770b431924098588e5275c281251a5",
+      "exportedAt": "2026-03-30T11:45:10.212Z"
+    },
+    {
+      "table": "users",
+      "file": "users.json",
+      "rowCount": 291,
+      "checksumSha256": "6ebb69d33547691b44a9949e0a44ed75959327b214ecd11209a47907c29f9782",
+      "exportedAt": "2026-03-30T11:45:10.217Z"
+    },
+    {
+      "table": "viewEnquiry",
+      "file": "viewEnquiry.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.219Z"
+    },
+    {
+      "table": "walletTransactions",
+      "file": "walletTransactions.json",
+      "rowCount": 82,
+      "checksumSha256": "b827eec297bc23a00f5090fd5ec9443600a52e83ff65e7bade7632de683c5208",
+      "exportedAt": "2026-03-30T11:45:10.222Z"
+    },
+    {
+      "table": "walletWithdrawalRequests",
+      "file": "walletWithdrawalRequests.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.224Z"
+    },
+    {
+      "table": "whatsappLog",
+      "file": "whatsappLog.json",
+      "rowCount": 0,
+      "checksumSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exportedAt": "2026-03-30T11:45:10.226Z"
+    }
+  ]
+}

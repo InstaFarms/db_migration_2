@@ -1,0 +1,40 @@
+{
+  "table": "reviewMagicLinks",
+  "schemaVersion": "old-schema",
+  "rowCount": 3,
+  "rows": [
+    {
+      "id": "2cfac4f5-58aa-4e5c-a579-91fd47036abd",
+      "bookingId": "67c90b45-fd9d-4962-a116-f80c6715b052",
+      "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+      "shortCode": "gHynfB32rYND",
+      "tokenHash": "be4da76b2346987ca8991b91b25f468520abde9c32aa6989a1dc5bd0385c7cfd",
+      "expiresAt": "2026-04-04T11:30:00.000Z",
+      "usedAt": null,
+      "createdAt": "2026-03-28T11:30:00.068Z",
+      "updatedAt": "2026-03-28T11:30:00.068Z"
+    },
+    {
+      "id": "5e2545f0-6418-4811-ba13-d01fd7df736e",
+      "bookingId": "98f4413f-b3a7-48c2-9b80-6a18173072ba",
+      "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+      "shortCode": "MHnuE9mLQLtZ",
+      "tokenHash": "b25846c4a62ed71d9255320bdb04e4cb24f9c7ae095acfbbe57d92879ab1857e",
+      "expiresAt": "2026-04-05T11:30:00.000Z",
+      "usedAt": null,
+      "createdAt": "2026-03-29T11:30:00.080Z",
+      "updatedAt": "2026-03-29T11:30:00.080Z"
+    },
+    {
+      "id": "9b0dce12-9449-410b-85be-8707e6d7d2df",
+      "bookingId": "b95c95cd-a794-42e0-889b-eef4001b93fa",
+      "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+      "shortCode": "j6DoA3rhCUuy",
+      "tokenHash": "7eabcaf2dde36c9743d05804b05fcc50f6e184f800e59550b99b80d073de2f97",
+      "expiresAt": "2026-04-05T11:30:00.000Z",
+      "usedAt": null,
+      "createdAt": "2026-03-29T11:30:00.106Z",
+      "updatedAt": "2026-03-29T11:30:00.106Z"
+    }
+  ]
+}

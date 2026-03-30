@@ -1,0 +1,50 @@
+{
+  "table": "settings",
+  "schemaVersion": "old-schema",
+  "rowCount": 2,
+  "rows": [
+    {
+      "id": "websitesetting3016",
+      "value": {
+        "siteTitle": "InstaFarms",
+        "metaTitle": "Find Your Next Stay in your city",
+        "metaDescription": "<p>Your one stop destination for anything and everything related to Farmhouses!</p>",
+        "metaKeywords": "instafarms",
+        "centralPhone": "8019127474",
+        "whatsappPhone": "7416500646",
+        "homePhone": "9403892058",
+        "supportPhone": "9403892058",
+        "supportEmail": "support@instafarms.in"
+      },
+      "description": "Website settings",
+      "instafarmWatermarkUrl": null,
+      "listingWatermarkUrl": null,
+      "createdAt": "2026-01-28T12:36:56.717Z",
+      "updatedAt": "2025-07-08T11:32:22.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "site_settings",
+      "value": {
+        "homePageNumber": "9403892058",
+        "supportNumber": "9403892058",
+        "supportEmail": "test@gmail.com",
+        "whatsappNumber": "9403892058",
+        "centralBookingNumber": "9403892058",
+        "siteTitle": "test",
+        "siteMetaTitle": "test",
+        "siteMetaKeywords": "test",
+        "siteMetaDescription": "test",
+        "instafarmWatermarkUrl": "https://storage.googleapis.com/jarvis-448307.firebasestorage.app/watermarks/3c4062f7-545e-4366-9098-55b38f93b4d1_original.jpg"
+      },
+      "description": "Website settings",
+      "instafarmWatermarkUrl": null,
+      "listingWatermarkUrl": null,
+      "createdAt": "2026-02-12T16:04:03.437Z",
+      "updatedAt": "2026-03-17T06:16:41.375Z",
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    }
+  ]
+}

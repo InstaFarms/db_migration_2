@@ -1,0 +1,39 @@
+{
+  "table": "propertyTypes",
+  "schemaVersion": "old-schema",
+  "rowCount": 4,
+  "rows": [
+    {
+      "id": "2cafb33f-1dd0-4faa-a1e5-adca9c324ed3",
+      "name": "Farm Houses",
+      "createdAt": "2026-02-09T06:53:11.475Z",
+      "updatedAt": "2026-02-09T06:53:11.475Z",
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "5a5c9d39-3957-4c44-bffe-80bf37a88f29",
+      "name": "Luxury Villa",
+      "createdAt": "2026-02-09T06:53:32.395Z",
+      "updatedAt": "2026-02-09T06:53:32.395Z",
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "d776c938-5dcf-497e-b914-f4bc20ba37ef",
+      "name": "Home Stay",
+      "createdAt": "2026-02-09T06:53:46.046Z",
+      "updatedAt": "2026-02-09T06:53:46.046Z",
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "94f6a992-7f2a-4a06-b914-35f11a0a276b",
+      "name": "Cottages",
+      "createdAt": "2026-02-09T06:53:57.949Z",
+      "updatedAt": "2026-02-09T06:53:57.949Z",
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    }
+  ]
+}

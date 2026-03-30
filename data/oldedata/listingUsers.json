@@ -1,0 +1,17 @@
+{
+  "table": "listingUsers",
+  "schemaVersion": "old-schema",
+  "rowCount": 1,
+  "rows": [
+    {
+      "id": "975a6044-f3f6-4682-aef4-9d8d1c4955b7",
+      "mobileNumber": "+917990851378",
+      "name": "User",
+      "email": null,
+      "gender": null,
+      "whatsappNumber": null,
+      "createdAt": "2026-03-26T12:13:41.769Z",
+      "updatedAt": "2026-03-26T12:13:41.769Z"
+    }
+  ]
+}

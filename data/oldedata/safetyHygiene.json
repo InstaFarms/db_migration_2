@@ -1,0 +1,43 @@
+{
+  "table": "safetyHygiene",
+  "schemaVersion": "old-schema",
+  "rowCount": 4,
+  "rows": [
+    {
+      "id": "f12bdfca-cdfd-4abc-8e94-25b2dd61601a",
+      "name": "Smoke Detectors",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FKyYaQhealthicons_health-data-security-outline.png?alt=media&token=db81eb05-f210-46d9-984d-9a5c6aa58932",
+      "createdAt": "2024-06-29T16:41:18.000Z",
+      "updatedAt": "2024-10-15T07:50:42.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7d82e9f2-7963-41b4-b458-79cfe3036fb0",
+      "name": "Fire Extinguishers",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FXI9wphealthicons_health-data-security-outline.png?alt=media&token=28132bd6-5233-4f83-b295-00b56de65a60",
+      "createdAt": "2024-06-29T16:41:18.000Z",
+      "updatedAt": "2024-06-29T16:41:18.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "01db326d-286d-4060-aa40-70754b2f77d6",
+      "name": "Daily Cleaning",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2F5XgLghealthicons_health-data-security-outline.png?alt=media&token=c4ce6cdd-35d3-44d2-ab2b-0fe0c3227fe6",
+      "createdAt": "2024-06-29T16:41:18.000Z",
+      "updatedAt": "2024-06-29T16:41:18.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "eee9527e-eed4-47e7-b7cd-65f969e863df",
+      "name": "Disinfections and Sterilizations",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FSHzjlhealthicons_health-data-security-outline.png?alt=media&token=57b92617-5c9d-4502-980d-d5840542c24d",
+      "createdAt": "2024-06-29T16:41:18.000Z",
+      "updatedAt": "2024-06-29T16:41:18.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    }
+  ]
+}

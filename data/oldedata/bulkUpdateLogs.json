@@ -1,0 +1,52 @@
+{
+  "table": "bulkUpdateLogs",
+  "schemaVersion": "old-schema",
+  "rowCount": 3,
+  "rows": [
+    {
+      "id": "590ddaf3-8396-4d8c-9012-d22a2dbc2bfd",
+      "entityType": "ENTITY",
+      "isAppliedToAll": false,
+      "date": "2026-03-13T18:30:00.000Z",
+      "operationType": "increase",
+      "operationMode": "percentage",
+      "operationValue": 50,
+      "affectedCount": 2,
+      "status": "COMPLETED",
+      "createdAt": "2026-03-12T17:45:06.455Z",
+      "updatedAt": "2026-03-12T17:45:06.455Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "aa3c19cc-be3e-4f54-bc54-6f9fb0e418ac",
+      "entityType": "ENTITY",
+      "isAppliedToAll": false,
+      "date": "2026-03-29T18:30:00.000Z",
+      "operationType": "increase",
+      "operationMode": "percentage",
+      "operationValue": 0,
+      "affectedCount": 2,
+      "status": "COMPLETED",
+      "createdAt": "2026-03-21T13:57:19.919Z",
+      "updatedAt": "2026-03-21T13:57:19.919Z",
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    },
+    {
+      "id": "62bee0b0-cb63-4149-af55-f844be0033dc",
+      "entityType": "ENTITY",
+      "isAppliedToAll": false,
+      "date": "2027-01-30T18:30:00.000Z",
+      "operationType": "increase",
+      "operationMode": "percentage",
+      "operationValue": 0,
+      "affectedCount": 2,
+      "status": "COMPLETED",
+      "createdAt": "2026-03-21T13:59:34.771Z",
+      "updatedAt": "2026-03-21T13:59:34.771Z",
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    }
+  ]
+}

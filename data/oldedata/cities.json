@@ -1,0 +1,227 @@
+{
+  "table": "cities",
+  "schemaVersion": "old-schema",
+  "rowCount": 8,
+  "rows": [
+    {
+      "id": "a0cfae39-c049-46bc-9876-dc4b516addbf",
+      "city": "Hyderabad",
+      "slug": "telangana-hyderabad",
+      "weight": "100.00",
+      "featured": true,
+      "stateId": "6b782f53-5b19-4e7a-90a0-432ed3d318d8",
+      "createdAt": "2024-07-02T08:32:39.000Z",
+      "updatedAt": "2024-07-06T14:53:12.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "icon": null,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "a923e90a-fcb8-4410-8ee5-ceae157dd47d",
+      "city": "Manoharabad",
+      "slug": "telangana-manoharabad",
+      "weight": "12.00",
+      "featured": false,
+      "stateId": "6b782f53-5b19-4e7a-90a0-432ed3d318d8",
+      "createdAt": "2025-05-05T22:36:11.000Z",
+      "updatedAt": "2025-05-05T22:36:11.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "icon": null,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "57a950f3-6df5-4dd6-a79e-5a14523022c8",
+      "city": "Bommasandra",
+      "slug": "karnataka-bommasandra",
+      "weight": "50.00",
+      "featured": false,
+      "stateId": "0ba3d58c-afd2-4c4a-b3d3-9560b21ae683",
+      "createdAt": "2026-01-27T17:36:24.000Z",
+      "updatedAt": "2026-01-27T17:36:24.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "icon": null,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "0dfe0635-8b90-4141-b4af-816ac968bdfd",
+      "city": "Medchal",
+      "slug": "telangana-medchal",
+      "weight": "12.00",
+      "featured": false,
+      "stateId": "6b782f53-5b19-4e7a-90a0-432ed3d318d8",
+      "createdAt": "2025-05-05T23:28:16.000Z",
+      "updatedAt": "2025-05-05T23:28:16.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "icon": null,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "9f754c35-7038-4c8c-8f3c-46cd63186c01",
+      "city": "Kucharam",
+      "slug": "telangana-kucharam",
+      "weight": "40.00",
+      "featured": false,
+      "stateId": "6b782f53-5b19-4e7a-90a0-432ed3d318d8",
+      "createdAt": "2025-05-20T11:44:26.000Z",
+      "updatedAt": "2025-05-20T11:44:26.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "icon": null,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "d762ee44-4644-468b-a014-0790d2b6d3b4",
+      "city": "Karimnagar",
+      "slug": "telangana-karimnagar",
+      "weight": "12.00",
+      "featured": false,
+      "stateId": "6b782f53-5b19-4e7a-90a0-432ed3d318d8",
+      "createdAt": "2025-04-14T13:48:59.000Z",
+      "updatedAt": "2025-04-14T13:48:59.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "icon": null,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "e19d8dc0-55c8-47a9-b87d-d4d8fb781e6c",
+      "city": "Chirala",
+      "slug": "chirala",
+      "weight": "0.00",
+      "featured": false,
+      "stateId": "cdbbe72e-7025-4708-8f2b-498951918fed",
+      "createdAt": "2026-03-12T14:09:37.608Z",
+      "updatedAt": "2026-03-25T15:58:11.065Z",
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "heading": "Farmhouses in Chirala",
+      "description": "Find luxury farmhouses and weekend getaways in Chirala. Choose a city or browse all locations below.",
+      "isActive": true,
+      "icon": null,
+      "faqs": [
+        {
+          "answer": "The peak season is from November to February, when the weather is pleasantly cool and the sea is calm. However, for those who love the monsoon beach vibe, visiting between August and October offers lush greenery and beautiful skies, though swimming in the sea may be restricted during heavy tides.\n",
+          "weight": 1,
+          "isActive": true,
+          "question": "What is the best time of year to visit a farmhouse in Chirala? "
+        },
+        {
+          "answer": "Yes! Chirala is a growing hub for destination weddings. Several farmhouses in Chirala feature massive lawns that can host hundreds of guests. These venues offer a more private and customizable alternative to standard hotels for wedding ceremonies.\n",
+          "weight": 2,
+          "isActive": true,
+          "question": "Can we host large events like weddings at these farmhouses? "
+        },
+        {
+          "answer": "Most Farmhouses in Chirala have caretakers who can arrange for authentic Andhra style cuisine. You can also visit the local markets and bring food back for a BBQ.",
+          "weight": 3,
+          "isActive": true,
+          "question": "Is catering available at the farmhouses? "
+        },
+        {
+          "answer": "Safety is a priority for our listings. Our farmhouses in Chirala are gated, well-lit, and usually have on-site staff quarters. While the beaches are public, the farmhouse perimeters provide a private sanctuary, allowing you to enjoy the coastal evening in complete security.",
+          "weight": 4,
+          "isActive": true,
+          "question": "Are these properties safe for families and women-only groups? "
+        },
+        {
+          "answer": "Chirala town has excellent 4G and 5G coverage. Our premium farmhouses in Chirala also provide high-speed Wi-Fi, making them ideal for corporate stays where you can attend meetings with a view of the Bay of Bengal.\n",
+          "weight": 5,
+          "isActive": true,
+          "question": "How is mobile connectivity for remote work? "
+        }
+      ],
+      "info": {
+        "title": "Best Farmhouses Near Chirala",
+        "description": "<p><b style=\"font-weight:normal;\" id=\"docs-internal-guid-f65bc538-7fff-b601-3ce1-8bcf9669748f\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Experience Chirala, where the rhythm of the bay meets a legendary textile heritage. Unlike the suburban farmhouses of the city, a retreat in Chirala offers a distinct coastal flavour, combining the rustic charm of coconut groves with the luxury of private beach access. This is the premier destination for people who want to trade urban jams for golden sands and the aroma of salt air. To assist you in finding your escape,</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> InstaFarms </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">showcases the Best Farmhouses near Chirala, where your getaway is reimagined by the tide.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Our farmhouses are perfect for beach-side cookouts, yoga retreats, and big-scale family gatherings. Our handpicked collection of the Best Farmhouses in Chirala features exterior infinity pools and specific bonfire pits for chilly nights.</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> InstaFarms </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">guarantees these properties deliver 24/7 safety and a calm spirit, far from the packed commercial resorts.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The true wonder of Chirala exists in its mix of relaxation and deep regional culture. Residing at the Best Farmhouses in Chirala places you right beside the Vodarevu Beach and the Ramapuram Beach, ideal for jet skiing or long, peaceful walks. You also get to experience the Chirala Handloom Market, world-renowned for its premium textiles and rare weaves. For a hint of divinity and history, the old Bhavanarayana Swamy Temple or the St. Mark’s Lutheran Church offers a glimpse into the district's varied legacy. Whether you are buying famous local cashews or discovering the lighthouse, Chirala delivers a multi-sensory getaway.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Strategically accessible via the NH-16 and well-linked by train, Chirala is the favoured weekend escape. By picking the Best Farmhouses in Chirala, you are selecting a stay that celebrates the horizon. These estates provide a remote, high-end setting where you can hear the waves from your bedroom window. Secure your dream farmhouse through </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">InstaFarms </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">now and enjoy the sun-soaked opulence of the Best Farmhouses in Chirala.</span></p></b><br class=\"Apple-interchange-newline\"><br></p>"
+      },
+      "meta": {}
+    },
+    {
+      "id": "ed214d3d-dea6-4b65-a616-8d33347aaed4",
+      "city": "Coorg",
+      "slug": "karnataka-coorg",
+      "weight": "45.00",
+      "featured": false,
+      "stateId": "0ba3d58c-afd2-4c4a-b3d3-9560b21ae683",
+      "createdAt": "2025-11-13T16:49:23.000Z",
+      "updatedAt": "2026-03-25T16:02:43.973Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "heading": "Farmhouses in Coorg",
+      "description": "Find luxury farmhouses and weekend getaways in Coorg. Choose a city or browse all locations below.",
+      "isActive": true,
+      "icon": null,
+      "faqs": [
+        {
+          "answer": "The weather here is unpredictable. Even in summer, evenings can be chilly, so bring a light sweater. If you are visiting during the Monsoon (June–September), high-quality rain gear and waterproof boots are essential. For plantation walks, we recommend long trousers and sturdy shoes to protect against leeches, which are common in the lush undergrowth.\n",
+          "weight": 1,
+          "isActive": true,
+          "question": "What should we pack for a farmhouse stay in Coorg?"
+        },
+        {
+          "answer": "Yes, Coorg is widely considered one of the safest travel destinations in India. Our Farmhouses in Coorg have a dedicated on-site team of caretakers who treat guests like extended family. InstaFarms only lists verified properties with excellent safety records.",
+          "weight": 2,
+          "isActive": true,
+          "question": "Are these farmhouses safe for solo travelers? "
+        },
+        {
+          "answer": "Absolutely. One of the biggest reasons to choose a farmhouse over a hotel is the home-cooked food. Most hosts specialize in traditional Kodava cuisine, featuring dishes like Kadambuttu (rice balls), Pandi Curry, and Bamboo Shoot Curry. We recommend requesting these in advance!",
+          "weight": 3,
+          "isActive": true,
+          "question": "Can we get authentic Coorgi (Kodava) food at the farmhouses? "
+        },
+        {
+          "answer": "In the deeper valleys, mobile signals can be patchy. However, most of our premium Farmhouses in Coorg provide Wi-Fi or high-speed broadband to ensure you can stay connected, though we always suggest downloading your maps offline before heading into the estates.\n",
+          "weight": 4,
+          "isActive": true,
+          "question": "Is mobile network and Wi-Fi reliable in these remote estates? "
+        },
+        {
+          "answer": "Many of our Farmhouses in Coorg feature spacious ground-floor suites, eliminating the need for steep stairs. These properties also offer modern amenities like attached western-style bathrooms with grab rails and paved walkways through the plantations. If you are traveling with seniors, we can help you select a property with drive-to-door access so they can enjoy the greenery without any strenuous trekking.\n",
+          "weight": 5,
+          "isActive": true,
+          "question": "Are these properties suitable for senior citizens or guests with limited mobility? "
+        }
+      ],
+      "info": {
+        "title": " Best Farmhouses Near Coorg",
+        "description": "<p><b style=\"font-weight:normal;\" id=\"docs-internal-guid-e3a95aed-7fff-da8a-2f82-56849e804e49\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Find yourself in the misty highlands of Coorg, where the air is scented with roasting coffee and wild black pepper. Coorg is more than just a destination, it’s an immersive sensory experience. Unlike the highway-side farmhouses of the plains, a stay in Coorg means waking up inside a living, breathing ecosystem. From colonial-style bungalows to rustic wooden cottages hidden deep within teak forests, </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">InstaFarms </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">brings you the Best Farmhouses near Coorg, where the luxury of silence is the greatest amenity of all.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Coorg’s farmhouses are the gold standard for soulful retreats and intimate family reunions. Our curated selection of the Best Farmhouses near Coorg features quintessential Kodava experiences, including guided sunrise plantation treks, private waterfalls within estate boundaries, and evening bonfires with authentic Kodagu cuisine. </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">InstaFarms </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">ensures these stays offer the perfect balance of off-grid charm and modern comfort, featuring cozy fireplaces and reliable Wi-Fi, power backup, air-conditioned luxury rooms and private infinity pools.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The magic of a Coorg farmhouse is its proximity to some of the Western Ghats' most breathtaking landmarks. Staying at the Best Farmhouses near Coorg puts you within reach of the Abbey Falls and the spiritual serenity of the Namdroling Monastery. For the adventurous, a trek to Tadiandamol, the highest peak in Coorg, or a day spent bathing elephants at the Dubare Elephant Camp offers unforgettable memories. If you prefer a quieter pace, the hidden Chiklihole Dam or the ancient Omkareshwara Temple provide a glimpse into the region’s tranquil heritage.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Accessible via a scenic drive from the main city, Coorg offers a true high-altitude escape from the tropical heat. By choosing InstaFarms’ Best Farmhouses near Coorg, you are opting for a stay that honours the land and its traditions. Whether you are sipping estate-grown coffee or stargazing in a clear mountain sky, these properties offer a sanctuary for the spirit. Secure your highland estate through </span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">InstaFarms</span><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> and experience the misty grandeur of Farmhouses in Coorg.</span></p></b><br class=\"Apple-interchange-newline\"><br></p>"
+      },
+      "meta": {}
+    }
+  ]
+}

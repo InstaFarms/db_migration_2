@@ -1,0 +1,87 @@
+{
+  "table": "safetyHygieneOnProperties",
+  "schemaVersion": "old-schema",
+  "rowCount": 10,
+  "rows": [
+    {
+      "propertyId": "f171c5f1-db3f-4286-872b-d4ea96a8baf9",
+      "safetyHygieneId": "f12bdfca-cdfd-4abc-8e94-25b2dd61601a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "f171c5f1-db3f-4286-872b-d4ea96a8baf9",
+      "safetyHygieneId": "7d82e9f2-7963-41b4-b458-79cfe3036fb0",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "4878cff5-eed3-4623-aca8-3fc68b22d068",
+      "safetyHygieneId": "f12bdfca-cdfd-4abc-8e94-25b2dd61601a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "propertyId": "645488a5-bcbe-473c-8003-7d130a8b462a",
+      "safetyHygieneId": "f12bdfca-cdfd-4abc-8e94-25b2dd61601a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "62b8ba4b-a995-41d7-aefa-9dfc284ef7cb",
+      "safetyHygieneId": "f12bdfca-cdfd-4abc-8e94-25b2dd61601a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "b225bce4-bb9b-4d34-99ad-09d4f6d4ae39",
+      "safetyHygieneId": "7d82e9f2-7963-41b4-b458-79cfe3036fb0",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "74a97be6-2ea8-44d0-a544-6113fbec4874",
+      "safetyHygieneId": "f12bdfca-cdfd-4abc-8e94-25b2dd61601a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "74a97be6-2ea8-44d0-a544-6113fbec4874",
+      "safetyHygieneId": "7d82e9f2-7963-41b4-b458-79cfe3036fb0",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "74a97be6-2ea8-44d0-a544-6113fbec4874",
+      "safetyHygieneId": "01db326d-286d-4060-aa40-70754b2f77d6",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "propertyId": "74a97be6-2ea8-44d0-a544-6113fbec4874",
+      "safetyHygieneId": "eee9527e-eed4-47e7-b7cd-65f969e863df",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    }
+  ]
+}

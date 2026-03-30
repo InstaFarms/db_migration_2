@@ -1,0 +1,43 @@
+{
+  "table": "tags",
+  "schemaVersion": "old-schema",
+  "rowCount": 4,
+  "rows": [
+    {
+      "id": "0d5c830b-bfee-4bb2-9304-0e598e780275",
+      "name": "Amenities",
+      "color": null,
+      "createdAt": "2024-08-11T09:09:17.000Z",
+      "updatedAt": "2024-08-11T09:09:17.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "53b9ccaf-a9c2-426d-9161-cbef7f1c5a93",
+      "name": "Bed & Bath",
+      "color": null,
+      "createdAt": "2024-08-11T09:09:17.000Z",
+      "updatedAt": "2024-08-11T09:09:17.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "d41184e9-1131-48f3-b63b-20c7328c33fb",
+      "name": "Indoors",
+      "color": null,
+      "createdAt": "2024-08-11T09:09:17.000Z",
+      "updatedAt": "2024-08-11T09:09:17.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7a0c1721-0d73-4d92-bcd3-5be912af5873",
+      "name": "Outdoors",
+      "color": null,
+      "createdAt": "2025-02-10T12:02:43.000Z",
+      "updatedAt": "2025-02-10T12:02:43.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "table": "ticketResolutionLogs",
+  "schemaVersion": "old-schema",
+  "rowCount": 2,
+  "rows": [
+    {
+      "id": "664620e2-a775-423d-ae1c-c60f22daa165",
+      "ticketId": "cae759f1-aa1d-4b3a-b5c1-bbe1405d753d",
+      "resolutionNotes": "test resolved",
+      "supervisorResolvedBy": "58549ecd-c6ba-4695-ac51-49da6eb2d16f",
+      "createdAt": "2026-03-03T18:02:23.765Z",
+      "updatedAt": "2026-03-05T13:49:39.686Z",
+      "adminCreatedBy": null,
+      "adminUpdatedBy": null,
+      "supervisorCreatedBy": "58549ecd-c6ba-4695-ac51-49da6eb2d16f",
+      "supervisorUpdatedBy": "58549ecd-c6ba-4695-ac51-49da6eb2d16f",
+      "adminResolvedBy": null
+    },
+    {
+      "id": "cd448275-e4ce-42dd-9562-5d210890b54b",
+      "ticketId": "0fc7d8ef-0b3a-409d-93ec-4e5c6487e370",
+      "resolutionNotes": "test resolve from admin",
+      "supervisorResolvedBy": null,
+      "createdAt": "2026-03-09T14:08:41.958Z",
+      "updatedAt": "2026-03-09T14:08:41.958Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "supervisorCreatedBy": null,
+      "supervisorUpdatedBy": null,
+      "adminResolvedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    }
+  ]
+}

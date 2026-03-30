@@ -1,0 +1,46 @@
+{
+  "table": "discountPlansValues",
+  "schemaVersion": "old-schema",
+  "rowCount": 3,
+  "rows": [
+    {
+      "id": "73f7243e-cc1b-4f98-89b2-184ca6d4cb13",
+      "discountPlanId": "d2559163-cc24-4c2c-a441-3219f3595d04",
+      "minDays": 2,
+      "discountPercentage": "2.00",
+      "flatDiscount": null,
+      "createdAt": "2026-02-15T08:00:24.035Z",
+      "updatedAt": "2026-02-15T08:00:24.035Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "id": "8d9eca81-3dc8-4644-9adb-25fc93d36ce4",
+      "discountPlanId": "d2559163-cc24-4c2c-a441-3219f3595d04",
+      "minDays": 5,
+      "discountPercentage": "5.00",
+      "flatDiscount": null,
+      "createdAt": "2026-02-15T08:00:24.039Z",
+      "updatedAt": "2026-02-15T08:00:24.039Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "id": "c7ca31f1-b8bf-4021-93a3-48a1530eff51",
+      "discountPlanId": "d2559163-cc24-4c2c-a441-3219f3595d04",
+      "minDays": 10,
+      "discountPercentage": "10.00",
+      "flatDiscount": null,
+      "createdAt": "2026-02-15T08:00:24.042Z",
+      "updatedAt": "2026-02-15T08:00:24.042Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    }
+  ]
+}

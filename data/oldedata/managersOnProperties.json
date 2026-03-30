@@ -1,0 +1,1071 @@
+{
+  "table": "managersOnProperties",
+  "schemaVersion": "old-schema",
+  "rowCount": 133,
+  "rows": [
+    {
+      "managerId": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+      "propertyId": "f6cff1cb-00a0-4657-925e-e1eafd777bb9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "c008b04d-27e4-44c3-a6d5-1d0041c6c202",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "propertyId": "f6cff1cb-00a0-4657-925e-e1eafd777bb9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "32b550ea-d87b-4200-bf4d-b5776a7da1c3",
+      "propertyId": "c881aa65-31b7-4871-b8b2-f428e0da7b40",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "e9cbd884-a084-4d4e-bc2d-44134c0e0811",
+      "propertyId": "83a41163-9669-4d4d-b4e8-f09644bbb707",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "c3ecc1ad-2a86-4804-872a-faaaa0990ec3",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "57606e19-eba9-479e-ba7d-8c325ae4e2a9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3ffe30ad-8406-4346-9724-817fe0ecb475",
+      "propertyId": "74415120-f0ba-4a68-b69f-b7be2b3de985",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "a99a1835-66d8-40a3-8859-e32c5851d062",
+      "propertyId": "5497ad80-ee8d-48d8-b29a-f546e95d423a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "613bede3-9f5e-4503-9c73-4c99b205fcd2",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "356ea9ad-325c-415d-8443-85c4a2157487",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "477ce2c1-1383-467d-89f9-aa84631a0b42",
+      "propertyId": "f6a57cb8-480c-4da9-858c-1f33463b8247",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "50b13e3c-c9ec-42b9-910b-cae475fbddec",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    },
+    {
+      "managerId": "3c6c074c-1684-49a9-b707-4b79704eb851",
+      "propertyId": "9e88a8f9-a4e5-4745-85e4-8df26822c153",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+      "propertyId": "f171c5f1-db3f-4286-872b-d4ea96a8baf9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "0faf3d4a-9e7f-4c97-8bf6-b2aa33e3d383",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "49fbdc67-4f04-483f-bbc6-c63c21e391a8",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "f55d118a-8faf-4f65-a28c-bd3cff0dd9e8",
+      "propertyId": "49fbdc67-4f04-483f-bbc6-c63c21e391a8",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "6b8f1f47-805d-4a31-829b-fed635c60991",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "e5e01ee8-b8f1-4a2b-983c-97de41ee1b64",
+      "propertyId": "4878cff5-eed3-4623-aca8-3fc68b22d068",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "managerId": "1689504d-ea17-4f27-bb56-fb2b0eb4f141",
+      "propertyId": "e0296966-56ec-4199-9a22-cf13978051b6",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "099d72ae-ce9b-4fe1-bc00-abca19d41111",
+      "propertyId": "365d088f-4693-46c3-a930-2464c50747e3",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "e4067243-920b-449f-a6ed-eb48fac93a52",
+      "propertyId": "717ad23d-5305-49fb-8b76-4f9fa49cfcd0",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "f454b436-ba13-4ccd-b37a-4b226b19b8c5",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "3f8a83cb-f9fa-4f4b-b682-981e7f2cadda",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "a2916103-a33e-4210-a2c1-d819c60c19fa",
+      "propertyId": "55855f18-e58a-4a87-895d-5951e67e9e57",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "8d257075-fbb0-434d-9e2f-2a985c65f6e9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "3f8a83cb-f9fa-4f4b-b682-981e7f2cadda",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "8e06e1db-363d-41b8-a5a8-58330ce7c78e",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "8e06e1db-363d-41b8-a5a8-58330ce7c78e",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "240048b0-4b72-4024-83dd-b9a11418aef6",
+      "propertyId": "43621b44-739a-4bf7-beb6-a8cb0b48af66",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "9f0c7264-6958-4706-ba4e-fe99d86486bf",
+      "propertyId": "01d634dd-2481-4158-a74e-fc7f11e4cae9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "01de30df-dfec-44ad-aea4-4090a636eb88",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "6ffd4b31-de49-4b8b-af25-85d7be7dadef",
+      "propertyId": "ba9f5e50-7e13-4b7d-8265-6dbbf43e9461",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "2f16ee53-a8f6-4558-bd9c-309e91f415b0",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "1a3bc869-3120-456d-8eaf-1cca09a17961",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "managerId": "ab982f8b-a832-4560-a998-40398569e379",
+      "propertyId": "647640ca-246c-4aac-968e-87c8c3a83cdd",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "c93bccd0-2dc6-409b-89d5-cbc3f2d6b290",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "ea8f6e52-d46a-44ad-abee-29818eb01995",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "ab982f8b-a832-4560-a998-40398569e379",
+      "propertyId": "d28919b5-6cf6-4387-b9e7-5994f10887b3",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "b5bbb505-8041-4789-a69b-c19bca9ff9fe",
+      "propertyId": "040b148e-2ee0-45f5-a7b1-99645a78b561",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5c4065c3-8044-472b-8859-8d4432b014cf",
+      "propertyId": "ad2f75bc-1941-46a0-97c4-8579023d7523",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "92b5eb39-a556-4805-b17b-fe31d17af096",
+      "propertyId": "6f7d6898-0880-4011-a545-0317c7710ac6",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "4ec6f271-1b77-4f06-93d6-11d686b7ca2f",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "7faad95b-50b3-4a9a-87a3-25be5fef6e69",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "cfddf55b-ea3b-4722-a137-850088f055af",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    },
+    {
+      "managerId": "306f8acc-604f-4d9c-b228-33713778839b",
+      "propertyId": "dac9e431-5845-4b2f-995d-4ed83c952731",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "a362aa32-0777-4bfc-91d0-5f89ea89247f",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "3da72e8f-9ab5-45eb-9a7b-17ae187356bc",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "6513494b-a805-4e56-bc0e-e1a222e519a9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "8abf77fe-1e7d-4676-86f2-b32f8a6d9a69",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "6723a720-5952-46a7-90f2-6f5c9d04dd0c",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "6d381e16-fa6c-41d4-9b98-f29d12a0e376",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "e8ea2efc-d209-4e30-bce8-0deb3100f3cc",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "2656117a-5c85-4a04-80b1-2c340ed93f20",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "6304da9d-0d86-4d1c-93ea-8116a1661613",
+      "propertyId": "a79c573d-55dd-4678-95fb-aad9e338fcec",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+      "propertyId": "ffd1639e-0c13-4809-99a9-a421bbf172ad",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "ea8c693e-f3d4-4c71-afc7-86ab1e2a9dfe",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "45eb45bc-259a-458b-a8fc-f78847decfb2",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "f42a0502-ef95-410d-9856-d224c5bb9734",
+      "propertyId": "645488a5-bcbe-473c-8003-7d130a8b462a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "f33ca4c3-b218-4e74-892f-e7d2f8b68a9c",
+      "propertyId": "645488a5-bcbe-473c-8003-7d130a8b462a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "4365d27f-f3fb-4b6b-9ae9-d2e459731f63",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "c2ca98db-9e9e-4f7b-ba48-aab580b29995",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "8333b508-9728-49d3-a411-dc68a406046e",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "735bca80-e358-4bff-8132-d03334003478",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "714f4804-67b0-458f-8d0c-ad850a72b0da",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "4318047b-88e3-428c-a0b4-9a3c7f936425",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "9a6f6dfb-76e1-486f-acd0-fd2c312a8da7",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "591e267b-4581-4962-bdb4-d89061c317eb",
+      "propertyId": "ee7fdf9c-51ef-4c71-a5a0-692921e950fc",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "1dd55abc-04e4-49ec-b8c1-9a243a8898f1",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "6aa05018-0b93-439f-bf89-0ac9b1ea46cd",
+      "propertyId": "ad547321-2847-4afa-b119-db93fa2627da",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "04ec07cd-72b4-4bf4-9ad4-07745c59bfeb",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+      "propertyId": "b225bce4-bb9b-4d34-99ad-09d4f6d4ae39",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "b09351a1-6f16-4644-9c43-4a0d59c73ffa",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "acfaf28f-cd8e-4d41-b5fd-372dd9e9fb1a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "592ed8a3-3398-4478-a112-da54d7a8272d",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "3560c46f-eb97-427d-adbf-e137ae932c32",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "be07ecd7-beb0-4363-a484-8a2ecd3838ab",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "28c2ec1d-c6b2-42ec-9d54-c0aaa6d829ec",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1f976ebe-df62-4fdc-a0f0-638dbcf8310d",
+      "propertyId": "1298613e-3aa7-4bee-9601-39bd3d13e86c",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5c4065c3-8044-472b-8859-8d4432b014cf",
+      "propertyId": "1174480b-f9e7-498a-8b2d-e8631b49d77c",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "621c8a6b-104e-4d83-aa4d-dcdd35e7b420",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "26f2904d-4a53-4163-9881-8d44d25bfc8b",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "26f2904d-4a53-4163-9881-8d44d25bfc8b",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "d10d0556-b3a8-4c00-b341-9407cabd8b15",
+      "propertyId": "8ea341cb-e3ca-4574-ace4-d54dfe4c24ab",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "b1a0d666-9911-425a-a14a-0ec69e8a33a1",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "0b6ab5fc-8d31-486c-bb2a-4606a2331d9a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "94d25a4c-13cd-46b5-a185-be5e805b9a59",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "ab982f8b-a832-4560-a998-40398569e379",
+      "propertyId": "ddc1d7fb-68a2-47bb-a22b-162a891579cd",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "b8bf2c10-8f68-415a-9770-d54a06506627",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "c16054cb-1d50-4eec-8267-a88d6115fd13",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "171fd090-c268-4297-b5ea-7838dd0feb84",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "171fd090-c268-4297-b5ea-7838dd0feb84",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "62a833a0-3d7f-486e-9346-a220246e5675",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "41d57082-bf1f-4cd3-be9f-a7958c2df5f0",
+      "propertyId": "762a1373-1c97-4980-9b19-f1f35e84ed40",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "8f92b277-c075-423f-af87-51737e9838dc",
+      "propertyId": "171fd090-c268-4297-b5ea-7838dd0feb84",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+      "propertyId": "fa421091-2120-45d6-a5a1-e003d0419b37",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "fde7bf2a-e636-440d-928e-936bfb69dbbd",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "fde7bf2a-e636-440d-928e-936bfb69dbbd",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "managerId": "6aa05018-0b93-439f-bf89-0ac9b1ea46cd",
+      "propertyId": "cf73183c-0de9-4083-8a84-b18eed8ab505",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "bb95a7a8-be9b-4a07-8d8d-37751ec86d3b",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "240048b0-4b72-4024-83dd-b9a11418aef6",
+      "propertyId": "ce9dcf19-155f-4df6-8a66-751255995e99",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+      "propertyId": "6df8be2c-2086-453f-a14e-130ab04ec432",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "managerId": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+      "propertyId": "74a97be6-2ea8-44d0-a544-6113fbec4874",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "5ff9d75b-0eff-4238-9926-f35e4ea37771",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "41ba3f9b-75ed-435a-b721-10afefc4958c",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "047c6ecd-8f7b-4c43-a39a-5e14ebd27ef7",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "8152d7b9-c541-4c03-937c-28dd2d0ece9a",
+      "propertyId": "57fcd542-dc7a-4fb6-911a-7d888a1d80f9",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "a1fa2685-1786-4dd9-a2d3-84e73bc9252b",
+      "propertyId": "caa4b07d-d9db-48d8-8626-d16e5583bbd0",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "32419d70-13b0-480c-8fd6-98a88e5325cd",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "9fb03a22-7b38-49ac-a840-7cbc03242c1e",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "77b12481-442c-44b0-8566-2075a4a00997",
+      "adminUpdatedBy": "77b12481-442c-44b0-8566-2075a4a00997"
+    },
+    {
+      "managerId": "b5bbb505-8041-4789-a69b-c19bca9ff9fe",
+      "propertyId": "b002a2c2-f4f9-4b5b-93f7-0ef427f47f58",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "972d1bbd-a978-4a3b-b65d-805578050484",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "faab8897-31ab-47c9-b5a5-f9275c3696e3",
+      "propertyId": "44918a3e-063d-450d-998b-d59940093dba",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "baeae0ac-8a8f-47ee-aeaf-9722598528c4",
+      "propertyId": "e2bc793f-7bc0-40a5-88b8-9a273938491a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+      "adminUpdatedBy": "fe2fb309-13c7-4592-910c-2569a11d3df3"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "d2bde057-c76c-4a69-90a5-dd34c81c1a6a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "a2916103-a33e-4210-a2c1-d819c60c19fa",
+      "propertyId": "eab20f5d-6b2a-4b46-8473-ec1f2d04708b",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "41d57082-bf1f-4cd3-be9f-a7958c2df5f0",
+      "propertyId": "c41a484b-e1f8-4495-be05-238066c285fd",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "8870d691-67ef-499b-a8ee-d53ac4266aa9",
+      "propertyId": "51cfd623-a8a8-4f65-aa3d-6b7238b91c4a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "25e4937d-3b4f-4fdc-a29d-64144081fd4c",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "332b409c-dcb0-438f-8ca8-2c1e3653d729",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "332b409c-dcb0-438f-8ca8-2c1e3653d729",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "17ebaa4c-a330-46dd-893a-8b8ef68c1507",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "cce87f4d-5e73-4758-95a0-25972ab9dd82",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "080b8220-e087-4258-9e36-a74d4e6cbda5",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "cd7787fc-0c52-46b3-842f-753b36068eb3",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "17fb8455-0132-4e44-81b6-b4fbea9124db",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+      "propertyId": "62b8ba4b-a995-41d7-aefa-9dfc284ef7cb",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "3a18a599-e8dc-4c45-b1fe-b3050e932904",
+      "propertyId": "253b1be6-9866-4ef5-8dc9-a878853cdf8a",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "62b8ba4b-a995-41d7-aefa-9dfc284ef7cb",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "e0e74826-6912-4b02-afa5-58cc50e61567",
+      "propertyId": "5eb7341a-9dfc-4e4d-9fcf-51a9742a98b3",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "d920faaf-11e5-4180-bc66-3b1892d28aa0",
+      "propertyId": "c0d9055c-7e8d-448a-b309-b37e894880d5",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "managerId": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+      "propertyId": "c4c1c458-31f8-4f98-9bbb-c025e5c51a90",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    }
+  ]
+}

@@ -1,0 +1,4705 @@
+{
+  "table": "notification_event_log",
+  "schemaVersion": "old-schema",
+  "rowCount": 116,
+  "rows": [
+    {
+      "id": "b841c4a7-8df2-4f75-a719-9f79d7821e0e",
+      "eventId": "booking.cancelled.60fe15f2-aa45-409d-9431-5eb0b9289817.1771995568593",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "60fe15f2-aa45-409d-9431-5eb0b9289817",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "60fe15f2-aa45-409d-9431-5eb0b9289817",
+      "createdAt": "2026-02-24T23:29:28.593Z",
+      "updatedAt": "2026-02-24T23:29:28.612Z"
+    },
+    {
+      "id": "3dcf7479-372c-4ce8-8071-1a772922b273",
+      "eventId": "booking.cancelled.83e81d31-c7fb-4ed3-9acb-b2a83e77a23a.1773477631845",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "881b8e6e-3564-4110-b2f8-49b7d9496fb5",
+          "type": "owner"
+        },
+        {
+          "id": "eb9f04fc-787b-42a2-b2e7-fc605f21812a",
+          "type": "caretaker"
+        },
+        {
+          "id": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "e1c568fa-20af-4716-b297-5e5174ef8fcf",
+        "bookingId": "83e81d31-c7fb-4ed3-9acb-b2a83e77a23a",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "83e81d31-c7fb-4ed3-9acb-b2a83e77a23a",
+      "createdAt": "2026-03-14T03:10:31.846Z",
+      "updatedAt": "2026-03-14T03:10:35.362Z"
+    },
+    {
+      "id": "9b99e380-7b80-4b2a-8c7b-cb7339481b1c",
+      "eventId": "booking.cancelled.5925c7da-b4bd-4172-83a5-ffdce86c3352.1771995739284",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "5925c7da-b4bd-4172-83a5-ffdce86c3352",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "5925c7da-b4bd-4172-83a5-ffdce86c3352",
+      "createdAt": "2026-02-24T23:32:19.284Z",
+      "updatedAt": "2026-02-24T23:32:19.303Z"
+    },
+    {
+      "id": "7b10a882-34de-4984-ab3d-4948bf3a5c87",
+      "eventId": "booking.cancelled.8906fb87-0668-4ef7-9e57-b79e1eec38ea.1772198804653",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "8906fb87-0668-4ef7-9e57-b79e1eec38ea",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "8906fb87-0668-4ef7-9e57-b79e1eec38ea",
+      "createdAt": "2026-02-27T07:56:44.654Z",
+      "updatedAt": "2026-02-27T07:56:44.691Z"
+    },
+    {
+      "id": "3a6c8d83-62dd-452d-ad5a-0a5db0325416",
+      "eventId": "booking.request.pay_SRnrC5S5BWhEsL",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 11,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "a1cf4c4e-b14c-4c97-810d-2418f01dd51e",
+        "paymentId": "pay_SRnrC5S5BWhEsL",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-03-19",
+        "finalAmount": 21,
+        "checkoutDate": "2026-03-20",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "a1cf4c4e-b14c-4c97-810d-2418f01dd51e",
+      "createdAt": "2026-03-16T01:16:45.290Z",
+      "updatedAt": "2026-03-16T01:16:45.325Z"
+    },
+    {
+      "id": "bb76a33c-5758-440e-a0f9-d185d49e873c",
+      "eventId": "booking.cancelled.71df57db-3aa1-40fe-8521-732f5c7ab7ba.1772610044009",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "71df57db-3aa1-40fe-8521-732f5c7ab7ba",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "71df57db-3aa1-40fe-8521-732f5c7ab7ba",
+      "createdAt": "2026-03-04T02:10:44.010Z",
+      "updatedAt": "2026-03-04T02:10:44.027Z"
+    },
+    {
+      "id": "b4d0fe1b-6d00-40be-bd54-afb62af2edb3",
+      "eventId": "booking.request_accepted.7fe4eb5b-defb-4624-a086-a8a2c481577d.1773643927656",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "7fe4eb5b-defb-4624-a086-a8a2c481577d",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-04-15",
+        "checkoutDate": "2026-04-17"
+      },
+      "status": "completed",
+      "bookingId": "7fe4eb5b-defb-4624-a086-a8a2c481577d",
+      "createdAt": "2026-03-16T01:22:07.656Z",
+      "updatedAt": "2026-03-16T01:22:10.391Z"
+    },
+    {
+      "id": "808a377d-89da-4b5d-ae64-b8a1ac053dd6",
+      "eventId": "request.denied.f26e15f4-1541-403a-b1d0-5ca9b9b5387e.1772881628431",
+      "eventType": "request.denied",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "f26e15f4-1541-403a-b1d0-5ca9b9b5387e",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "refundAmount": 1050
+      },
+      "status": "completed",
+      "bookingId": "f26e15f4-1541-403a-b1d0-5ca9b9b5387e",
+      "createdAt": "2026-03-07T05:37:08.432Z",
+      "updatedAt": "2026-03-07T05:37:08.464Z"
+    },
+    {
+      "id": "34d26583-a1ed-4d6e-998a-1767df559bf7",
+      "eventId": "booking.request_accepted.7be5e94c-63c2-4fd6-9aa0-f8c26775b53a.1772881905958",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "7be5e94c-63c2-4fd6-9aa0-f8c26775b53a",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-03-09",
+        "checkoutDate": "2026-03-10"
+      },
+      "status": "completed",
+      "bookingId": "7be5e94c-63c2-4fd6-9aa0-f8c26775b53a",
+      "createdAt": "2026-03-07T05:41:45.959Z",
+      "updatedAt": "2026-03-07T05:41:48.119Z"
+    },
+    {
+      "id": "7c1fdaef-954b-4d2d-9500-8d3ca17da0c4",
+      "eventId": "booking.cancelled.a5fb248b-0048-48f3-b58c-0833e7ebec33.1771850741032",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "ef3bc2d5-79f3-4907-9b75-f89e5c6ce169",
+          "type": "caretaker"
+        },
+        {
+          "id": "3c6c074c-1684-49a9-b707-4b79704eb851",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "a5c6a9fd-67f4-4816-8446-bd075574f738",
+        "bookingId": "a5fb248b-0048-48f3-b58c-0833e7ebec33",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "a5fb248b-0048-48f3-b58c-0833e7ebec33",
+      "createdAt": "2026-02-23T07:15:41.033Z",
+      "updatedAt": "2026-02-23T07:15:41.051Z"
+    },
+    {
+      "id": "e27f0d24-f5e9-475c-b4ca-80c1e1a9e8fd",
+      "eventId": "booking.cancelled.70cdcbc0-33be-4954-9cec-02aa304357c0.1771850746569",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "70cdcbc0-33be-4954-9cec-02aa304357c0",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "70cdcbc0-33be-4954-9cec-02aa304357c0",
+      "createdAt": "2026-02-23T07:15:46.569Z",
+      "updatedAt": "2026-02-23T07:15:46.588Z"
+    },
+    {
+      "id": "7fce0a3d-c2a7-4aa1-87f7-73749856c82d",
+      "eventId": "booking.confirmed.pay_SFGTr2HWBOv1wH",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "15568b15-3c8e-4ad3-83d8-4fd0af640070",
+          "type": "owner"
+        },
+        {
+          "id": "3b785c39-4b8a-4ca2-a300-aac6d49af858",
+          "type": "caretaker"
+        },
+        {
+          "id": "f33ca4c3-b218-4e74-892f-e7d2f8b68a9c",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 195518.87,
+        "entityId": "4141c9f0-5478-4df2-959a-889c5cc0a5bb",
+        "bookingId": "5572390c-0346-411d-9d6f-0095b7375ad4",
+        "paymentId": "pay_SFGTr2HWBOv1wH",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "J House - 4 BR Pool Farmhouse",
+        "checkinDate": "2026-02-23",
+        "finalAmount": 195547.9,
+        "checkoutDate": "2026-03-03"
+      },
+      "status": "completed",
+      "bookingId": "5572390c-0346-411d-9d6f-0095b7375ad4",
+      "createdAt": "2026-02-12T08:49:51.660Z",
+      "updatedAt": "2026-02-12T08:49:59.785Z"
+    },
+    {
+      "id": "a9695b04-5c94-42bb-a843-8f9830e0b826",
+      "eventId": "booking.cancelled.51f92e43-712f-421a-9665-02682f5c6959.1770967762754",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "51f92e43-712f-421a-9665-02682f5c6959",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "51f92e43-712f-421a-9665-02682f5c6959",
+      "createdAt": "2026-02-13T01:59:22.755Z",
+      "updatedAt": "2026-02-13T01:59:22.779Z"
+    },
+    {
+      "id": "1b147dd1-9bbe-46d7-913c-1871dedd88ba",
+      "eventId": "booking.cancelled.de8ec3c2-a9d0-498d-aeff-6c3c60cfd0f0.1771228436133",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "bookingId": "de8ec3c2-a9d0-498d-aeff-6c3c60cfd0f0",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "de8ec3c2-a9d0-498d-aeff-6c3c60cfd0f0",
+      "createdAt": "2026-02-16T02:23:56.134Z",
+      "updatedAt": "2026-02-16T02:23:56.157Z"
+    },
+    {
+      "id": "292c7e1b-5562-46be-be91-d9b6a6a7271e",
+      "eventId": "booking.request_accepted.969aadd0-4486-4606-ae0f-4e6b8cbcec92.1771356527751",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "115b2cd7-5c9c-427d-b9dc-1d6b42ff794e",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "f42a0502-ef95-410d-9856-d224c5bb9734",
+          "type": "caretaker"
+        },
+        {
+          "id": "f42a0502-ef95-410d-9856-d224c5bb9734",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "4141c9f0-5478-4df2-959a-889c5cc0a5bb",
+        "bookingId": "969aadd0-4486-4606-ae0f-4e6b8cbcec92",
+        "customerId": "115b2cd7-5c9c-427d-b9dc-1d6b42ff794e",
+        "checkinDate": "2026-08-04",
+        "checkoutDate": "2026-08-06"
+      },
+      "status": "completed",
+      "bookingId": "969aadd0-4486-4606-ae0f-4e6b8cbcec92",
+      "createdAt": "2026-02-17T13:58:47.753Z",
+      "updatedAt": "2026-02-17T13:58:56.699Z"
+    },
+    {
+      "id": "cae3daae-967e-4481-b7fe-beb7210e4233",
+      "eventId": "booking.confirmed.pay_SHdEPmAVdDMECl",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 51566,
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "f65e0414-7114-4b26-84dd-05dc32dea63b",
+        "paymentId": "pay_SHdEPmAVdDMECl",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Syna Heritage - 2BR Pool Villa",
+        "checkinDate": "2026-03-02",
+        "finalAmount": 51566,
+        "checkoutDate": "2026-03-07"
+      },
+      "status": "completed",
+      "bookingId": "f65e0414-7114-4b26-84dd-05dc32dea63b",
+      "createdAt": "2026-02-18T08:23:12.236Z",
+      "updatedAt": "2026-02-18T08:23:20.818Z"
+    },
+    {
+      "id": "cb174eeb-1c34-460b-bb91-67b5db123431",
+      "eventId": "booking.confirmed.pay_SHxbBoy8xrOQA4",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 51566,
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "23147e64-42f0-4be4-9d99-00cc8e18903b",
+        "paymentId": "pay_SHxbBoy8xrOQA4",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Syna Heritage - 2BR Pool Villa",
+        "checkinDate": "2026-03-16",
+        "finalAmount": 51566,
+        "checkoutDate": "2026-03-21"
+      },
+      "status": "completed",
+      "bookingId": "23147e64-42f0-4be4-9d99-00cc8e18903b",
+      "createdAt": "2026-02-19T04:18:33.425Z",
+      "updatedAt": "2026-02-19T04:18:44.791Z"
+    },
+    {
+      "id": "7183427a-f6f2-40b3-a542-147d01fd86d9",
+      "eventId": "booking.confirmed.pay_SHxv08M5w8UxaZ",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 54368.5,
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "0bfd2ab0-ac71-4310-8f4c-bbbec7efce5d",
+        "paymentId": "pay_SHxv08M5w8UxaZ",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Syna Heritage - 2BR Pool Villa",
+        "checkinDate": "2026-03-23",
+        "finalAmount": 54368.5,
+        "checkoutDate": "2026-03-28"
+      },
+      "status": "completed",
+      "bookingId": "0bfd2ab0-ac71-4310-8f4c-bbbec7efce5d",
+      "createdAt": "2026-02-19T04:37:17.983Z",
+      "updatedAt": "2026-02-19T04:37:24.814Z"
+    },
+    {
+      "id": "fedbd005-413b-4f9c-85ed-db4c335396ae",
+      "eventId": "booking.cancelled.23147e64-42f0-4be4-9d99-00cc8e18903b.1771848976533",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "23147e64-42f0-4be4-9d99-00cc8e18903b",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "23147e64-42f0-4be4-9d99-00cc8e18903b",
+      "createdAt": "2026-02-23T06:46:16.535Z",
+      "updatedAt": "2026-02-23T06:46:16.567Z"
+    },
+    {
+      "id": "cb7d7f81-596b-4c8e-96c8-109e98d5d134",
+      "eventId": "booking.cancelled.0bfd2ab0-ac71-4310-8f4c-bbbec7efce5d.1771849056512",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "0bfd2ab0-ac71-4310-8f4c-bbbec7efce5d",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "0bfd2ab0-ac71-4310-8f4c-bbbec7efce5d",
+      "createdAt": "2026-02-23T06:47:36.513Z",
+      "updatedAt": "2026-02-23T06:47:36.539Z"
+    },
+    {
+      "id": "44f98770-b473-4be2-9610-aeed178f44fa",
+      "eventId": "booking.cancelled.f65e0414-7114-4b26-84dd-05dc32dea63b.1771850717195",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "f65e0414-7114-4b26-84dd-05dc32dea63b",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "f65e0414-7114-4b26-84dd-05dc32dea63b",
+      "createdAt": "2026-02-23T07:15:17.196Z",
+      "updatedAt": "2026-02-23T07:15:17.218Z"
+    },
+    {
+      "id": "e2a306e7-8d7e-457f-8a34-f545611ba9e4",
+      "eventId": "booking.cancelled.c4ed9b24-f21b-434e-85ae-c0b440607908.1774671871698",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "15568b15-3c8e-4ad3-83d8-4fd0af640070",
+          "type": "owner"
+        },
+        {
+          "id": "f42a0502-ef95-410d-9856-d224c5bb9734",
+          "type": "caretaker"
+        },
+        {
+          "id": "3b785c39-4b8a-4ca2-a300-aac6d49af858",
+          "type": "caretaker"
+        },
+        {
+          "id": "f42a0502-ef95-410d-9856-d224c5bb9734",
+          "type": "manager"
+        },
+        {
+          "id": "f33ca4c3-b218-4e74-892f-e7d2f8b68a9c",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "4141c9f0-5478-4df2-959a-889c5cc0a5bb",
+        "bookingId": "c4ed9b24-f21b-434e-85ae-c0b440607908",
+        "customerId": null
+      },
+      "status": "completed",
+      "bookingId": "c4ed9b24-f21b-434e-85ae-c0b440607908",
+      "createdAt": "2026-03-27T22:54:31.699Z",
+      "updatedAt": "2026-03-27T22:54:35.738Z"
+    },
+    {
+      "id": "0dcd9af0-5285-41d1-8e1d-943d6528086c",
+      "eventId": "booking.request_accepted.28d2010e-9855-44b9-a6e1-13cc5dc55ad0.1772883954960",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "28d2010e-9855-44b9-a6e1-13cc5dc55ad0",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-03-16",
+        "checkoutDate": "2026-03-22"
+      },
+      "status": "completed",
+      "bookingId": "28d2010e-9855-44b9-a6e1-13cc5dc55ad0",
+      "createdAt": "2026-03-07T06:15:54.961Z",
+      "updatedAt": "2026-03-07T06:15:57.393Z"
+    },
+    {
+      "id": "3712096e-91ac-44c8-8749-bba3f52c2cfe",
+      "eventId": "booking.request_accepted.27c5a511-6803-4372-8942-62bfa5d5f497.1772884302227",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "27c5a511-6803-4372-8942-62bfa5d5f497",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-03-23",
+        "checkoutDate": "2026-03-24"
+      },
+      "status": "completed",
+      "bookingId": "27c5a511-6803-4372-8942-62bfa5d5f497",
+      "createdAt": "2026-03-07T06:21:42.228Z",
+      "updatedAt": "2026-03-07T06:21:45.127Z"
+    },
+    {
+      "id": "25c7238a-e2a4-4e49-b20a-65cf8abc65fc",
+      "eventId": "booking.request_accepted.82a06dff-867c-41c9-9068-862394a082df.1772884751996",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "82a06dff-867c-41c9-9068-862394a082df",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-04-13",
+        "checkoutDate": "2026-04-14"
+      },
+      "status": "completed",
+      "bookingId": "82a06dff-867c-41c9-9068-862394a082df",
+      "createdAt": "2026-03-07T06:29:11.997Z",
+      "updatedAt": "2026-03-07T06:29:14.788Z"
+    },
+    {
+      "id": "cc54799a-ba04-4481-8aaa-043c23acb0c4",
+      "eventId": "booking.confirmed.pay_SPcqlBi9j6MVHX",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "b01ecaf7-3edf-49d4-81fb-6bc83ec4838b",
+        "paymentId": "pay_SPcqlBi9j6MVHX",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-11",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-12"
+      },
+      "status": "completed",
+      "bookingId": "b01ecaf7-3edf-49d4-81fb-6bc83ec4838b",
+      "createdAt": "2026-03-10T13:13:00.320Z",
+      "updatedAt": "2026-03-10T13:13:49.707Z"
+    },
+    {
+      "id": "3959259d-5c1d-47ae-9602-2b130e009c27",
+      "eventId": "booking.request.pay_SPn1sfn19y6Sdt",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "bb82860e-cc79-481b-851b-beeb044597b7",
+        "paymentId": "pay_SPn1sfn19y6Sdt",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 3 New-Ad",
+        "checkinDate": "2026-04-06",
+        "finalAmount": 11,
+        "checkoutDate": "2026-04-07",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "bb82860e-cc79-481b-851b-beeb044597b7",
+      "createdAt": "2026-03-10T23:10:08.851Z",
+      "updatedAt": "2026-03-10T23:10:08.882Z"
+    },
+    {
+      "id": "a58b456e-5f4a-49da-b15c-7f12ae8c378f",
+      "eventId": "booking.request_accepted.bb82860e-cc79-481b-851b-beeb044597b7.1773204959675",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "15084169-17c0-494f-9297-d9c2d7db06e0",
+        "bookingId": "bb82860e-cc79-481b-851b-beeb044597b7",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-04-06",
+        "checkoutDate": "2026-04-07"
+      },
+      "status": "completed",
+      "bookingId": "bb82860e-cc79-481b-851b-beeb044597b7",
+      "createdAt": "2026-03-10T23:25:59.675Z",
+      "updatedAt": "2026-03-10T23:26:03.371Z"
+    },
+    {
+      "id": "b3f1b747-68e9-4353-b463-e2ff4b792d90",
+      "eventId": "booking.confirmed.pay_SPnI7xYYO779xW",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3.16,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "98f4413f-b3a7-48c2-9b80-6a18173072ba",
+        "paymentId": "pay_SPnI7xYYO779xW",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-27",
+        "finalAmount": 3.2699999999999996,
+        "checkoutDate": "2026-03-29"
+      },
+      "status": "completed",
+      "bookingId": "98f4413f-b3a7-48c2-9b80-6a18173072ba",
+      "createdAt": "2026-03-10T23:25:32.417Z",
+      "updatedAt": "2026-03-10T23:26:22.118Z"
+    },
+    {
+      "id": "ab2ff86d-ae0e-427a-85ad-6ccb0eea9c2d",
+      "eventId": "booking.confirmed.pay_SPoOB7luOplKu2",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8685043d-5ba5-431b-8668-5955a2aa4749",
+          "type": "caretaker"
+        },
+        {
+          "id": "ccfbae50-c420-4a8b-9df1-c0c1eb8dcabf",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 11.79,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "eddcc0dd-a589-43bc-abba-12aaddd01887",
+        "paymentId": "pay_SPoOB7luOplKu2",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-16",
+        "finalAmount": 12.34,
+        "checkoutDate": "2026-03-19"
+      },
+      "status": "completed",
+      "bookingId": "eddcc0dd-a589-43bc-abba-12aaddd01887",
+      "createdAt": "2026-03-11T00:29:58.165Z",
+      "updatedAt": "2026-03-11T00:30:48.002Z"
+    },
+    {
+      "id": "dd066985-31ee-43df-ba67-f39dcdb25fab",
+      "eventId": "booking.confirmed.pay_SPpS9Q5Kd4IGBI",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7e9b27a5-caaf-46eb-bc86-bcb0006d876a",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3.99,
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "590a01ae-80f0-4047-9286-27f04b5a390c",
+        "paymentId": "pay_SPpS9Q5Kd4IGBI",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "BeatBox - 2BR Retreat",
+        "checkinDate": "2026-03-30",
+        "finalAmount": 4,
+        "checkoutDate": "2026-03-31"
+      },
+      "status": "completed",
+      "bookingId": "590a01ae-80f0-4047-9286-27f04b5a390c",
+      "createdAt": "2026-03-11T01:32:26.005Z",
+      "updatedAt": "2026-03-11T01:33:15.672Z"
+    },
+    {
+      "id": "dd6eac47-02f4-439f-8b62-ba1ca76ad25d",
+      "eventId": "booking.confirmed.pay_SPsjvJ75YfRA4R",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "9c933efd-9678-445f-a023-193bcee20246",
+        "paymentId": "pay_SPsjvJ75YfRA4R",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-23",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-24"
+      },
+      "status": "completed",
+      "bookingId": "9c933efd-9678-445f-a023-193bcee20246",
+      "createdAt": "2026-03-11T04:45:39.345Z",
+      "updatedAt": "2026-03-11T04:46:28.268Z"
+    },
+    {
+      "id": "b168fc76-8672-4c16-a588-4de239c3649b",
+      "eventId": "booking.confirmed.pay_SR6g5yWLHPi1u5",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "f58d78ef-85e1-47ae-aacd-544a824c3dc7",
+        "paymentId": "pay_SR6g5yWLHPi1u5",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-06",
+        "finalAmount": 1,
+        "checkoutDate": "2026-04-07"
+      },
+      "status": "completed",
+      "bookingId": "f58d78ef-85e1-47ae-aacd-544a824c3dc7",
+      "createdAt": "2026-03-14T07:02:24.678Z",
+      "updatedAt": "2026-03-14T07:03:14.400Z"
+    },
+    {
+      "id": "da7ed2cd-d179-4581-abe9-5fbae1a6b79a",
+      "eventId": "booking.confirmed.pay_SPuTVFDxbGdlXc",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "ae1345b7-bcba-4207-9fa5-abad77102d64",
+        "paymentId": "pay_SPuTVFDxbGdlXc",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-24",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-25"
+      },
+      "status": "completed",
+      "bookingId": "ae1345b7-bcba-4207-9fa5-abad77102d64",
+      "createdAt": "2026-03-11T06:27:08.996Z",
+      "updatedAt": "2026-03-11T06:27:57.534Z"
+    },
+    {
+      "id": "3689db80-b23e-410c-963a-afe5318ae3c9",
+      "eventId": "booking.cancelled.8cd463c2-b4dd-4bb1-86fb-51d114136459.1774245595077",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "afc6e9bd-fdf9-428b-9254-0c755e9cd4e0",
+          "type": "owner"
+        },
+        {
+          "id": "4e22178e-9be4-4a4f-a790-601ab6fa1202",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "1942951d-c02f-4c7c-bd0c-51910355d518",
+        "bookingId": "8cd463c2-b4dd-4bb1-86fb-51d114136459",
+        "customerId": null
+      },
+      "status": "completed",
+      "bookingId": "8cd463c2-b4dd-4bb1-86fb-51d114136459",
+      "createdAt": "2026-03-23T00:29:55.078Z",
+      "updatedAt": "2026-03-23T00:29:57.115Z"
+    },
+    {
+      "id": "57b83597-c510-4036-a31a-442b772fd2d1",
+      "eventId": "booking.confirmed.pay_SPuZuJeC9nx3qC",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "7efcc462-7551-4c98-b438-675c050c9a95",
+        "paymentId": "pay_SPuZuJeC9nx3qC",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-25",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-26"
+      },
+      "status": "completed",
+      "bookingId": "7efcc462-7551-4c98-b438-675c050c9a95",
+      "createdAt": "2026-03-11T06:33:19.397Z",
+      "updatedAt": "2026-03-11T06:34:16.977Z"
+    },
+    {
+      "id": "11794e9c-7749-47b1-881f-4f163e214d0c",
+      "eventId": "booking.confirmed.pay_SPvE8tSDGB8Zy6",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "075564f0-af95-4ed5-aba1-1522d8dd4194",
+        "paymentId": "pay_SPvE8tSDGB8Zy6",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-30",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-31"
+      },
+      "status": "completed",
+      "bookingId": "075564f0-af95-4ed5-aba1-1522d8dd4194",
+      "createdAt": "2026-03-11T07:11:18.300Z",
+      "updatedAt": "2026-03-11T07:12:07.096Z"
+    },
+    {
+      "id": "a33cb73c-0456-487f-b61a-57bbdb63d72e",
+      "eventId": "booking.confirmed.pay_SPvUpLjXQ7puIv",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "a69d6b6f-21e3-4342-87df-55b8032e3c66",
+        "paymentId": "pay_SPvUpLjXQ7puIv",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-31",
+        "finalAmount": 11,
+        "checkoutDate": "2026-04-01"
+      },
+      "status": "completed",
+      "bookingId": "a69d6b6f-21e3-4342-87df-55b8032e3c66",
+      "createdAt": "2026-03-11T07:27:10.216Z",
+      "updatedAt": "2026-03-11T07:28:10.126Z"
+    },
+    {
+      "id": "3e8b9337-b73f-464f-8ac6-1a131969b165",
+      "eventId": "booking.confirmed.pay_SPvbFvArzpX59P",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "93c558b5-89f7-4de5-8129-224b1e6c904c",
+        "paymentId": "pay_SPvbFvArzpX59P",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-19",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-20"
+      },
+      "status": "completed",
+      "bookingId": "93c558b5-89f7-4de5-8129-224b1e6c904c",
+      "createdAt": "2026-03-11T07:33:10.727Z",
+      "updatedAt": "2026-03-11T07:33:59.465Z"
+    },
+    {
+      "id": "e4e560cd-8461-418f-ab57-56d594648667",
+      "eventId": "booking.confirmed.pay_SPvqMGup09ORox",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.97,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "dd7aeed2-d2b8-493d-bbef-9b2bad48319b",
+        "paymentId": "pay_SPvqMGup09ORox",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-20",
+        "finalAmount": 11.4,
+        "checkoutDate": "2026-03-21"
+      },
+      "status": "completed",
+      "bookingId": "dd7aeed2-d2b8-493d-bbef-9b2bad48319b",
+      "createdAt": "2026-03-11T07:47:28.493Z",
+      "updatedAt": "2026-03-11T07:48:18.252Z"
+    },
+    {
+      "id": "b7a171dc-96c6-4eaa-8ee0-fc57b2051c54",
+      "eventId": "booking.confirmed.pay_SQFEbHQ2zgTP0s",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "96fc6712-c3e1-4f31-bdb5-954e9bec153c",
+        "paymentId": "pay_SQFEbHQ2zgTP0s",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-12",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-13"
+      },
+      "status": "completed",
+      "bookingId": "96fc6712-c3e1-4f31-bdb5-954e9bec153c",
+      "createdAt": "2026-03-12T02:45:38.632Z",
+      "updatedAt": "2026-03-12T02:46:28.124Z"
+    },
+    {
+      "id": "398c7c40-cfb1-4f21-875d-4d05b4aeab2a",
+      "eventId": "booking.confirmed.pay_SQHWUlQTrIPEXK",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.97,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "c82ff888-7077-4779-998e-8cdc122ac659",
+        "paymentId": "pay_SQHWUlQTrIPEXK",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-13",
+        "finalAmount": 11.4,
+        "checkoutDate": "2026-03-14"
+      },
+      "status": "completed",
+      "bookingId": "c82ff888-7077-4779-998e-8cdc122ac659",
+      "createdAt": "2026-03-12T04:59:56.015Z",
+      "updatedAt": "2026-03-12T05:00:44.905Z"
+    },
+    {
+      "id": "a023c2cf-f80a-4ab5-afa3-9e8369ab975b",
+      "eventId": "booking.cancelled.590a01ae-80f0-4047-9286-27f04b5a390c.1773472675744",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "590a01ae-80f0-4047-9286-27f04b5a390c",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "590a01ae-80f0-4047-9286-27f04b5a390c",
+      "createdAt": "2026-03-14T01:47:55.745Z",
+      "updatedAt": "2026-03-14T01:47:59.279Z"
+    },
+    {
+      "id": "240b5b49-acb7-4ccd-a6a1-ceab602d608b",
+      "eventId": "booking.confirmed.pay_SRmyCWTeffpnIs",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 2.28,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "82336766-e668-45da-b8dc-2d6971abe849",
+        "paymentId": "pay_SRmyCWTeffpnIs",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-25",
+        "finalAmount": 2.3499999999999996,
+        "checkoutDate": "2026-04-26"
+      },
+      "status": "completed",
+      "bookingId": "82336766-e668-45da-b8dc-2d6971abe849",
+      "createdAt": "2026-03-16T00:24:40.301Z",
+      "updatedAt": "2026-03-16T00:25:28.700Z"
+    },
+    {
+      "id": "03cc5a47-b563-4fdf-9561-0af730d8a5b7",
+      "eventId": "booking.request_accepted.a1cf4c4e-b14c-4c97-810d-2418f01dd51e.1773643840330",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "a1cf4c4e-b14c-4c97-810d-2418f01dd51e",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+        "checkinDate": "2026-03-19",
+        "checkoutDate": "2026-03-20"
+      },
+      "status": "completed",
+      "bookingId": "a1cf4c4e-b14c-4c97-810d-2418f01dd51e",
+      "createdAt": "2026-03-16T01:20:40.330Z",
+      "updatedAt": "2026-03-16T01:20:43.566Z"
+    },
+    {
+      "id": "f5185148-315e-47a6-8b74-963845f148da",
+      "eventId": "booking.cancelled.db1167a3-ae8d-4ae1-83ac-e931c29a3aea.1773472680396",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "db1167a3-ae8d-4ae1-83ac-e931c29a3aea",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "db1167a3-ae8d-4ae1-83ac-e931c29a3aea",
+      "createdAt": "2026-03-14T01:48:00.397Z",
+      "updatedAt": "2026-03-14T01:48:03.911Z"
+    },
+    {
+      "id": "196b53a4-0d46-40e1-88c3-9484728875ba",
+      "eventId": "booking.cancelled.ec25e58c-ad4e-47df-9667-30603afff80d.1773472683544",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "ec25e58c-ad4e-47df-9667-30603afff80d",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "ec25e58c-ad4e-47df-9667-30603afff80d",
+      "createdAt": "2026-03-14T01:48:03.545Z",
+      "updatedAt": "2026-03-14T01:48:07.057Z"
+    },
+    {
+      "id": "ba6c932e-1c22-4256-83b3-9e1379671118",
+      "eventId": "send_customer_review_request.67c90b45-fd9d-4962-a116-f80c6715b052",
+      "eventType": "send_customer_review_request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "name": "Gowthami Venkata Shiva",
+        "bookingId": "67c90b45-fd9d-4962-a116-f80c6715b052",
+        "reviewLink": "https://api.instafarms.in/api/reviews/m/gHynfB32rYND",
+        "propertyName": "Green Haven - 3BR Pool Farmhouse"
+      },
+      "status": "completed",
+      "bookingId": "67c90b45-fd9d-4962-a116-f80c6715b052",
+      "createdAt": "2026-03-28T06:00:00.076Z",
+      "updatedAt": "2026-03-28T06:00:00.088Z"
+    },
+    {
+      "id": "806303c9-56e3-4a90-b23f-9147796872d9",
+      "eventId": "booking.cancelled.a1cf4c4e-b14c-4c97-810d-2418f01dd51e.1773644070097",
+      "eventType": "booking.cancelled_by_customer",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "a1cf4c4e-b14c-4c97-810d-2418f01dd51e",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d"
+      },
+      "status": "completed",
+      "bookingId": "a1cf4c4e-b14c-4c97-810d-2418f01dd51e",
+      "createdAt": "2026-03-16T01:24:30.097Z",
+      "updatedAt": "2026-03-16T01:24:33.135Z"
+    },
+    {
+      "id": "1ba53e57-a3fc-489d-b88a-452a3fb26ad1",
+      "eventId": "booking.cancelled.bde9a3fd-80cd-44d5-bbc3-4c6314d70687.1773472687293",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "bde9a3fd-80cd-44d5-bbc3-4c6314d70687",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "bde9a3fd-80cd-44d5-bbc3-4c6314d70687",
+      "createdAt": "2026-03-14T01:48:07.293Z",
+      "updatedAt": "2026-03-14T01:48:10.803Z"
+    },
+    {
+      "id": "6f64e652-998b-4033-8345-89aebb2b63b5",
+      "eventId": "booking.cancelled.0d205204-55ea-46c1-b560-f14b1b835a9b.1773472690225",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "0d205204-55ea-46c1-b560-f14b1b835a9b",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "0d205204-55ea-46c1-b560-f14b1b835a9b",
+      "createdAt": "2026-03-14T01:48:10.226Z",
+      "updatedAt": "2026-03-14T01:48:13.739Z"
+    },
+    {
+      "id": "f1fb2fef-10e5-49ef-a2bd-723acdd40815",
+      "eventId": "booking.request_accepted.8d013895-e48a-4bf8-8017-d86d9fe7e2e5.1773657765577",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "8d013895-e48a-4bf8-8017-d86d9fe7e2e5",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-03-17",
+        "checkoutDate": "2026-03-19"
+      },
+      "status": "completed",
+      "bookingId": "8d013895-e48a-4bf8-8017-d86d9fe7e2e5",
+      "createdAt": "2026-03-16T05:12:45.578Z",
+      "updatedAt": "2026-03-16T05:12:48.756Z"
+    },
+    {
+      "id": "bc828bf8-38ab-46e0-8122-9d490ff67383",
+      "eventId": "booking.request_accepted.bf8bf2f7-288e-4f0b-8a1b-7e784c455da8.1773728220766",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "bf8bf2f7-288e-4f0b-8a1b-7e784c455da8",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-04-06",
+        "checkoutDate": "2026-04-07"
+      },
+      "status": "completed",
+      "bookingId": "bf8bf2f7-288e-4f0b-8a1b-7e784c455da8",
+      "createdAt": "2026-03-17T00:47:00.767Z",
+      "updatedAt": "2026-03-17T00:47:03.553Z"
+    },
+    {
+      "id": "862b2079-411c-47fe-affc-5dd9efa57ed5",
+      "eventId": "booking.cancelled.a5a19ad0-0dab-4b83-9955-664909d2bdc5.1773755009104",
+      "eventType": "booking.cancelled_by_customer",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "a5a19ad0-0dab-4b83-9955-664909d2bdc5",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d"
+      },
+      "status": "completed",
+      "bookingId": "a5a19ad0-0dab-4b83-9955-664909d2bdc5",
+      "createdAt": "2026-03-17T08:13:29.104Z",
+      "updatedAt": "2026-03-17T08:13:35.168Z"
+    },
+    {
+      "id": "2e9069bf-4ec3-421d-9851-d5be034f8310",
+      "eventId": "booking.cancelled.82336766-e668-45da-b8dc-2d6971abe849.1773641063079",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "82336766-e668-45da-b8dc-2d6971abe849",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "82336766-e668-45da-b8dc-2d6971abe849",
+      "createdAt": "2026-03-16T00:34:23.079Z",
+      "updatedAt": "2026-03-16T00:34:26.118Z"
+    },
+    {
+      "id": "7d85649b-e40b-404f-be6f-59ebcd9bc601",
+      "eventId": "booking.cancelled.04b24800-9abb-4190-820a-ce68a13ba30e.1773472692964",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "04b24800-9abb-4190-820a-ce68a13ba30e",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "04b24800-9abb-4190-820a-ce68a13ba30e",
+      "createdAt": "2026-03-14T01:48:12.964Z",
+      "updatedAt": "2026-03-14T01:48:16.474Z"
+    },
+    {
+      "id": "e5aa98a1-f782-4c23-b6b5-0eeee8fb452d",
+      "eventId": "booking.cancelled.0b0a6bde-8d62-4217-8473-fea5e2381ceb.1773472695642",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "def6c700-c0f7-430f-937d-60e2c8484f30",
+          "type": "owner"
+        },
+        {
+          "id": "cc4a20b1-8e5b-4612-bc47-64ee38068b4e",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "0b0a6bde-8d62-4217-8473-fea5e2381ceb",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "0b0a6bde-8d62-4217-8473-fea5e2381ceb",
+      "createdAt": "2026-03-14T01:48:15.643Z",
+      "updatedAt": "2026-03-14T01:48:19.157Z"
+    },
+    {
+      "id": "b0d13a44-be0b-45eb-bead-463a7d05cea4",
+      "eventId": "booking.request.pay_SRnwgpUTYjgfDg",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1.48,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "7fe4eb5b-defb-4624-a086-a8a2c481577d",
+        "paymentId": "pay_SRnwgpUTYjgfDg",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-15",
+        "finalAmount": 1.5599999999999987,
+        "checkoutDate": "2026-04-17",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "7fe4eb5b-defb-4624-a086-a8a2c481577d",
+      "createdAt": "2026-03-16T01:21:54.387Z",
+      "updatedAt": "2026-03-16T01:21:54.420Z"
+    },
+    {
+      "id": "1a51e5c1-0396-4a2b-ae1e-87515b8f4501",
+      "eventId": "booking.request.pay_SRnzFQkbsIG5hy",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "03fd9fe3-2b9a-4299-8f3f-40d84b782a8f",
+        "paymentId": "pay_SRnzFQkbsIG5hy",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-13",
+        "finalAmount": 1,
+        "checkoutDate": "2026-04-14",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "03fd9fe3-2b9a-4299-8f3f-40d84b782a8f",
+      "createdAt": "2026-03-16T01:24:22.167Z",
+      "updatedAt": "2026-03-16T01:24:22.189Z"
+    },
+    {
+      "id": "999026bf-282d-4134-9a5c-6f3a4aae575e",
+      "eventId": "booking.request.pay_SRoa30Idde1qDS",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "7d7dacb4-9356-43f3-8b8b-0e12be9a9706",
+        "paymentId": "pay_SRoa30Idde1qDS",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-03-25",
+        "finalAmount": 1.5599999999999987,
+        "checkoutDate": "2026-03-27",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "7d7dacb4-9356-43f3-8b8b-0e12be9a9706",
+      "createdAt": "2026-03-16T01:59:11.524Z",
+      "updatedAt": "2026-03-16T01:59:11.572Z"
+    },
+    {
+      "id": "8eebaa47-bc14-40a3-b291-4f979f12bec9",
+      "eventId": "booking.request.pay_SRoeGsXMuljB9W",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "c21823fc-2039-4688-a177-1847fda76dbe",
+        "paymentId": "pay_SRoeGsXMuljB9W",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-03-16",
+        "finalAmount": 5,
+        "checkoutDate": "2026-03-17",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "c21823fc-2039-4688-a177-1847fda76dbe",
+      "createdAt": "2026-03-16T02:03:10.918Z",
+      "updatedAt": "2026-03-16T02:03:10.950Z"
+    },
+    {
+      "id": "ecf49ae8-d791-4947-be30-027390b45afa",
+      "eventId": "booking.request.pay_SRpoM4WJxgjWQy",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "eb8cd6a8-dabf-4178-bbf3-ba17ea82281d",
+        "paymentId": "pay_SRpoM4WJxgjWQy",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-27",
+        "finalAmount": 1,
+        "checkoutDate": "2026-04-28",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "eb8cd6a8-dabf-4178-bbf3-ba17ea82281d",
+      "createdAt": "2026-03-16T03:11:26.984Z",
+      "updatedAt": "2026-03-16T03:11:27.022Z"
+    },
+    {
+      "id": "f4854f90-d2e7-414b-b66e-ff41a065829e",
+      "eventId": "booking.request.pay_SRrrpyQrjhsCCS",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "8d013895-e48a-4bf8-8017-d86d9fe7e2e5",
+        "paymentId": "pay_SRrrpyQrjhsCCS",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-03-17",
+        "finalAmount": 1.5599999999999987,
+        "checkoutDate": "2026-03-19",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "8d013895-e48a-4bf8-8017-d86d9fe7e2e5",
+      "createdAt": "2026-03-16T05:12:06.530Z",
+      "updatedAt": "2026-03-16T05:12:06.563Z"
+    },
+    {
+      "id": "1ffd59c2-742e-44a0-bd06-4e8503a18155",
+      "eventId": "booking.request.pay_SSJRQyTVR1POK4",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 8,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "a5a19ad0-0dab-4b83-9955-664909d2bdc5",
+        "paymentId": "pay_SSJRQyTVR1POK4",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-04-02",
+        "finalAmount": 15,
+        "checkoutDate": "2026-04-03",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "a5a19ad0-0dab-4b83-9955-664909d2bdc5",
+      "createdAt": "2026-03-17T08:10:38.396Z",
+      "updatedAt": "2026-03-17T08:10:38.438Z"
+    },
+    {
+      "id": "bf1ad5d3-396b-468e-ba4b-faaa6a8fcc44",
+      "eventId": "booking.request.pay_SRtguEMKOs9J4F",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "cdf74299-83c9-485d-920f-c2d26335aaf6",
+        "paymentId": "pay_SRtguEMKOs9J4F",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-04-27",
+        "finalAmount": 5,
+        "checkoutDate": "2026-04-28",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "cdf74299-83c9-485d-920f-c2d26335aaf6",
+      "createdAt": "2026-03-16T06:59:08.557Z",
+      "updatedAt": "2026-03-16T06:59:08.587Z"
+    },
+    {
+      "id": "603edb7a-fcc5-4453-997f-5a635ca55ff1",
+      "eventId": "send_customer_review_request.98f4413f-b3a7-48c2-9b80-6a18173072ba",
+      "eventType": "send_customer_review_request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "name": "Gowthami Venkata Shiva",
+        "bookingId": "98f4413f-b3a7-48c2-9b80-6a18173072ba",
+        "reviewLink": "https://api.instafarms.in/api/reviews/m/MHnuE9mLQLtZ",
+        "propertyName": "Test Property 2 Dont Book"
+      },
+      "status": "completed",
+      "bookingId": "98f4413f-b3a7-48c2-9b80-6a18173072ba",
+      "createdAt": "2026-03-29T06:00:00.085Z",
+      "updatedAt": "2026-03-29T06:00:00.099Z"
+    },
+    {
+      "id": "d0cacbac-48c7-47c9-985c-3782bcce27b8",
+      "eventId": "booking.request.pay_SSBs9d9gXoz9UD",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "bf8bf2f7-288e-4f0b-8a1b-7e784c455da8",
+        "paymentId": "pay_SSBs9d9gXoz9UD",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-04-06",
+        "finalAmount": 5,
+        "checkoutDate": "2026-04-07",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "bf8bf2f7-288e-4f0b-8a1b-7e784c455da8",
+      "createdAt": "2026-03-17T00:46:16.071Z",
+      "updatedAt": "2026-03-17T00:46:16.099Z"
+    },
+    {
+      "id": "3e2e1111-b36e-4dc7-9ce7-6047550d7f4b",
+      "eventId": "booking.confirmed.pay_SSKvdNm9NpjTLY",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "52ff0266-6019-48ce-983d-2715548a8c8e",
+        "paymentId": "pay_SSKvdNm9NpjTLY",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-19",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-20"
+      },
+      "status": "completed",
+      "bookingId": "52ff0266-6019-48ce-983d-2715548a8c8e",
+      "createdAt": "2026-03-17T09:37:51.190Z",
+      "updatedAt": "2026-03-17T09:38:51.969Z"
+    },
+    {
+      "id": "a9d91e38-5e71-4a08-ad59-b1564690d4b9",
+      "eventId": "booking.request.pay_SSCFHSSuKH4qQn",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 5.25,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "ac888d42-4a3b-4102-86c1-83f74ebf7aa7",
+        "paymentId": "pay_SSCFHSSuKH4qQn",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-04-01",
+        "finalAmount": 5,
+        "checkoutDate": "2026-04-02",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "ac888d42-4a3b-4102-86c1-83f74ebf7aa7",
+      "createdAt": "2026-03-17T01:08:24.248Z",
+      "updatedAt": "2026-03-17T01:08:24.281Z"
+    },
+    {
+      "id": "d17594dc-7676-44cd-bc00-b506c5a92d67",
+      "eventId": "booking.confirmed.pay_SSLELnTeiEW4Gz",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.97,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "6251fea3-a64e-4a67-8b03-6890d5b878fd",
+        "paymentId": "pay_SSLELnTeiEW4Gz",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-20",
+        "finalAmount": 11.4,
+        "checkoutDate": "2026-03-21"
+      },
+      "status": "completed",
+      "bookingId": "6251fea3-a64e-4a67-8b03-6890d5b878fd",
+      "createdAt": "2026-03-17T09:55:31.549Z",
+      "updatedAt": "2026-03-17T09:56:32.483Z"
+    },
+    {
+      "id": "0efd0ada-d96f-41c3-a34c-792a5dd6caab",
+      "eventId": "booking.cancelled.de3fab03-0279-49ae-ba23-fa426c0190ed.1774245633195",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "672b363c-f623-4fc7-8e50-f7e0193c82b8",
+        "bookingId": "de3fab03-0279-49ae-ba23-fa426c0190ed",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d"
+      },
+      "status": "completed",
+      "bookingId": "de3fab03-0279-49ae-ba23-fa426c0190ed",
+      "createdAt": "2026-03-23T00:30:33.196Z",
+      "updatedAt": "2026-03-23T00:30:36.230Z"
+    },
+    {
+      "id": "20e6847d-f506-4c83-8255-875b59ca6151",
+      "eventId": "booking.cancelled.3f8337c2-669c-4133-b28a-2d1d2f1d7adb.1774245659942",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "7a639cb8-7d23-4cc3-b4c0-474b551b8a37",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "3f8337c2-669c-4133-b28a-2d1d2f1d7adb",
+        "customerId": "7a639cb8-7d23-4cc3-b4c0-474b551b8a37"
+      },
+      "status": "completed",
+      "bookingId": "3f8337c2-669c-4133-b28a-2d1d2f1d7adb",
+      "createdAt": "2026-03-23T00:30:59.943Z",
+      "updatedAt": "2026-03-23T00:31:02.980Z"
+    },
+    {
+      "id": "2948d764-dcc7-465e-90f4-0480d6f0ecc8",
+      "eventId": "booking.request_accepted.ac888d42-4a3b-4102-86c1-83f74ebf7aa7.1773729745949",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "ac888d42-4a3b-4102-86c1-83f74ebf7aa7",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-04-01",
+        "checkoutDate": "2026-04-02"
+      },
+      "status": "completed",
+      "bookingId": "ac888d42-4a3b-4102-86c1-83f74ebf7aa7",
+      "createdAt": "2026-03-17T01:12:25.950Z",
+      "updatedAt": "2026-03-17T01:12:28.651Z"
+    },
+    {
+      "id": "0aa26b40-bf3e-4a7e-a28c-4b0dd2d5710c",
+      "eventId": "booking.request.pay_SSCSrDneW2bNMl",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3.16,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "04b43515-f6a8-41c4-9db1-3a667eb0f242",
+        "paymentId": "pay_SSCSrDneW2bNMl",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-17",
+        "finalAmount": 3.2699999999999996,
+        "checkoutDate": "2026-04-19",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "04b43515-f6a8-41c4-9db1-3a667eb0f242",
+      "createdAt": "2026-03-17T01:21:02.903Z",
+      "updatedAt": "2026-03-17T01:21:02.935Z"
+    },
+    {
+      "id": "f92beb33-174c-4bf7-8c44-b9c102e5943a",
+      "eventId": "booking.request_accepted.04b43515-f6a8-41c4-9db1-3a667eb0f242.1773730318571",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "04b43515-f6a8-41c4-9db1-3a667eb0f242",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-04-17",
+        "checkoutDate": "2026-04-19"
+      },
+      "status": "completed",
+      "bookingId": "04b43515-f6a8-41c4-9db1-3a667eb0f242",
+      "createdAt": "2026-03-17T01:21:58.571Z",
+      "updatedAt": "2026-03-17T01:22:01.523Z"
+    },
+    {
+      "id": "78d2e410-489a-4181-85af-fc3988e02bda",
+      "eventId": "booking.request.pay_SSDQY0atkHpptx",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1.87,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "29edd212-993c-46b5-9078-1f79a5b5b53b",
+        "paymentId": "pay_SSDQY0atkHpptx",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-19",
+        "finalAmount": 1.9499999999999993,
+        "checkoutDate": "2026-03-21",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "29edd212-993c-46b5-9078-1f79a5b5b53b",
+      "createdAt": "2026-03-17T02:17:46.563Z",
+      "updatedAt": "2026-03-17T02:17:46.591Z"
+    },
+    {
+      "id": "b7b45ccb-3713-4bf3-bcef-c62c554c0fbb",
+      "eventId": "booking.confirmed.pay_SSEGqB1DTSAEkh",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 5.25,
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "a98a2f01-cdac-4825-b8c1-bf88817be260",
+        "paymentId": "pay_SSEGqB1DTSAEkh",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Syna Heritage - 2BR Pool Villa",
+        "checkinDate": "2026-04-06",
+        "finalAmount": 5,
+        "checkoutDate": "2026-04-07"
+      },
+      "status": "completed",
+      "bookingId": "a98a2f01-cdac-4825-b8c1-bf88817be260",
+      "createdAt": "2026-03-17T03:07:02.781Z",
+      "updatedAt": "2026-03-17T03:07:50.914Z"
+    },
+    {
+      "id": "5ac8aa91-a118-4a8f-8304-6c22c30a3212",
+      "eventId": "booking.confirmed.pay_SSEdnMBxvwlzgs",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 5.25,
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "8293465a-3210-4fb4-885a-419ea4e5de17",
+        "paymentId": "pay_SSEdnMBxvwlzgs",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Syna Heritage - 2BR Pool Villa",
+        "checkinDate": "2026-03-30",
+        "finalAmount": 5,
+        "checkoutDate": "2026-03-31"
+      },
+      "status": "completed",
+      "bookingId": "8293465a-3210-4fb4-885a-419ea4e5de17",
+      "createdAt": "2026-03-17T03:29:05.632Z",
+      "updatedAt": "2026-03-17T03:29:53.766Z"
+    },
+    {
+      "id": "e80114e1-30dc-4294-868b-7f2f22c6393a",
+      "eventId": "booking.request.pay_SSFEX9xqz6yu0B",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3,
+        "entityId": "a683265f-c9b7-4fc6-a485-888d702424a8",
+        "bookingId": "62dca9e1-6e43-427f-99e1-a4e7c971de3d",
+        "paymentId": "pay_SSFEX9xqz6yu0B",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Petal Wood - 3BR Luxury Pool Farmhouse",
+        "checkinDate": "2026-03-23",
+        "finalAmount": 5,
+        "checkoutDate": "2026-03-24",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "62dca9e1-6e43-427f-99e1-a4e7c971de3d",
+      "createdAt": "2026-03-17T04:03:32.039Z",
+      "updatedAt": "2026-03-17T04:03:32.071Z"
+    },
+    {
+      "id": "db41dea9-2340-4e9b-a80b-43adc81db69e",
+      "eventId": "booking.request_accepted.62dca9e1-6e43-427f-99e1-a4e7c971de3d.1773740126024",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "a683265f-c9b7-4fc6-a485-888d702424a8",
+        "bookingId": "62dca9e1-6e43-427f-99e1-a4e7c971de3d",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-03-23",
+        "checkoutDate": "2026-03-24"
+      },
+      "status": "completed",
+      "bookingId": "62dca9e1-6e43-427f-99e1-a4e7c971de3d",
+      "createdAt": "2026-03-17T04:05:26.025Z",
+      "updatedAt": "2026-03-17T04:05:28.652Z"
+    },
+    {
+      "id": "dad02ced-74af-43f3-95ad-ffab620e09b3",
+      "eventId": "booking.request.pay_SSFFjUfi1rUbHG",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3,
+        "entityId": "a683265f-c9b7-4fc6-a485-888d702424a8",
+        "bookingId": "92d9126c-bfb7-4a02-96a3-f6f2497bf32e",
+        "paymentId": "pay_SSFFjUfi1rUbHG",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Petal Wood - 3BR Luxury Pool Farmhouse",
+        "checkinDate": "2026-03-30",
+        "finalAmount": 5,
+        "checkoutDate": "2026-03-31",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "92d9126c-bfb7-4a02-96a3-f6f2497bf32e",
+      "createdAt": "2026-03-17T04:07:21.700Z",
+      "updatedAt": "2026-03-17T04:07:21.719Z"
+    },
+    {
+      "id": "cf150b79-ea5d-4735-a4b3-f3d8997b7fea",
+      "eventId": "send_customer_review_request.b95c95cd-a794-42e0-889b-eef4001b93fa",
+      "eventType": "send_customer_review_request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        }
+      ],
+      "data": {
+        "name": "Gowthami Venkata Shiva",
+        "bookingId": "b95c95cd-a794-42e0-889b-eef4001b93fa",
+        "reviewLink": "https://api.instafarms.in/api/reviews/m/j6DoA3rhCUuy",
+        "propertyName": "Green Haven - 3BR Pool Farmhouse"
+      },
+      "status": "completed",
+      "bookingId": "b95c95cd-a794-42e0-889b-eef4001b93fa",
+      "createdAt": "2026-03-29T06:00:00.108Z",
+      "updatedAt": "2026-03-29T06:00:00.117Z"
+    },
+    {
+      "id": "121606ea-5ae4-4c6f-b5e0-0ddeee637a3c",
+      "eventId": "booking.request.pay_SSGavYeKLJZQP5",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1.48,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "7e6c0e03-745e-4259-a596-72c93eeb8650",
+        "paymentId": "pay_SSGavYeKLJZQP5",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-04-28",
+        "finalAmount": 1.5599999999999987,
+        "checkoutDate": "2026-04-30",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "7e6c0e03-745e-4259-a596-72c93eeb8650",
+      "createdAt": "2026-03-17T05:23:29.581Z",
+      "updatedAt": "2026-03-17T05:23:29.683Z"
+    },
+    {
+      "id": "02fb86ca-16d5-4522-8aca-d6fa2d19fc38",
+      "eventId": "booking.request_accepted.a5a19ad0-0dab-4b83-9955-664909d2bdc5.1773754946888",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "a5a19ad0-0dab-4b83-9955-664909d2bdc5",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+        "checkinDate": "2026-04-02",
+        "checkoutDate": "2026-04-03"
+      },
+      "status": "completed",
+      "bookingId": "a5a19ad0-0dab-4b83-9955-664909d2bdc5",
+      "createdAt": "2026-03-17T08:12:26.889Z",
+      "updatedAt": "2026-03-17T08:12:30.445Z"
+    },
+    {
+      "id": "2d9b2fd6-47ca-4525-9d6b-f1b70d8de7fc",
+      "eventId": "booking.request_accepted.29edd212-993c-46b5-9078-1f79a5b5b53b.1773745415759",
+      "eventType": "booking.request_accepted",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "29edd212-993c-46b5-9078-1f79a5b5b53b",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "checkinDate": "2026-03-19",
+        "checkoutDate": "2026-03-21"
+      },
+      "status": "completed",
+      "bookingId": "29edd212-993c-46b5-9078-1f79a5b5b53b",
+      "createdAt": "2026-03-17T05:33:35.761Z",
+      "updatedAt": "2026-03-17T05:33:38.578Z"
+    },
+    {
+      "id": "5fac0842-0856-4cf4-8683-c37fcec87f24",
+      "eventId": "booking.confirmed.pay_SSH7t8hcfz9b9F",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+          "type": "manager"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 10.5,
+        "entityId": "481f1f0e-237f-4bec-99fe-a7f134cad9d7",
+        "bookingId": "b3cbc0b8-e37a-4f3e-b172-f47f6e88f1ee",
+        "paymentId": "pay_SSH7t8hcfz9b9F",
+        "customerId": "ccc024f3-7726-4cf0-9ace-90e7f2ccb948",
+        "entityName": "Test Property 2 Dont Book",
+        "checkinDate": "2026-03-18",
+        "finalAmount": 11,
+        "checkoutDate": "2026-03-19"
+      },
+      "status": "completed",
+      "bookingId": "b3cbc0b8-e37a-4f3e-b172-f47f6e88f1ee",
+      "createdAt": "2026-03-17T05:54:39.032Z",
+      "updatedAt": "2026-03-17T05:55:39.680Z"
+    },
+    {
+      "id": "68ffffea-184b-4640-a7ba-8a8a51928269",
+      "eventId": "booking.cancelled.92d9126c-bfb7-4a02-96a3-f6f2497bf32e.1773753986179",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "93b11952-a08d-4293-aa57-1490b37bede4",
+          "type": "owner"
+        },
+        {
+          "id": "daabc487-4348-48c4-9300-981c4cb3dea2",
+          "type": "caretaker"
+        },
+        {
+          "id": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "a683265f-c9b7-4fc6-a485-888d702424a8",
+        "bookingId": "92d9126c-bfb7-4a02-96a3-f6f2497bf32e",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "92d9126c-bfb7-4a02-96a3-f6f2497bf32e",
+      "createdAt": "2026-03-17T07:56:26.179Z",
+      "updatedAt": "2026-03-17T07:56:29.228Z"
+    },
+    {
+      "id": "3e31f9d1-5e5b-4d66-8afb-ce167c809f37",
+      "eventId": "booking.cancelled.62dca9e1-6e43-427f-99e1-a4e7c971de3d.1773753997104",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "93b11952-a08d-4293-aa57-1490b37bede4",
+          "type": "owner"
+        },
+        {
+          "id": "daabc487-4348-48c4-9300-981c4cb3dea2",
+          "type": "caretaker"
+        },
+        {
+          "id": "1dd7f10e-810b-405c-aa73-f7489c372ca6",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "a683265f-c9b7-4fc6-a485-888d702424a8",
+        "bookingId": "62dca9e1-6e43-427f-99e1-a4e7c971de3d",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "62dca9e1-6e43-427f-99e1-a4e7c971de3d",
+      "createdAt": "2026-03-17T07:56:37.105Z",
+      "updatedAt": "2026-03-17T07:56:40.136Z"
+    },
+    {
+      "id": "55e306cd-6a8d-468a-9878-4e94b5f55b64",
+      "eventId": "booking.cancelled.8293465a-3210-4fb4-885a-419ea4e5de17.1773754003285",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "8293465a-3210-4fb4-885a-419ea4e5de17",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "8293465a-3210-4fb4-885a-419ea4e5de17",
+      "createdAt": "2026-03-17T07:56:43.285Z",
+      "updatedAt": "2026-03-17T07:56:46.314Z"
+    },
+    {
+      "id": "1642aa33-0f58-4c32-96c3-67897f9c98a5",
+      "eventId": "booking.cancelled.a98a2f01-cdac-4825-b8c1-bf88817be260.1773754017096",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "accb80df-0389-4cb9-bcad-8e11dc1ece8b",
+          "type": "owner"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "5419f073-dae3-4f7e-a334-8f04c582d2eb",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "a98a2f01-cdac-4825-b8c1-bf88817be260",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc"
+      },
+      "status": "completed",
+      "bookingId": "a98a2f01-cdac-4825-b8c1-bf88817be260",
+      "createdAt": "2026-03-17T07:56:57.097Z",
+      "updatedAt": "2026-03-17T07:57:00.130Z"
+    },
+    {
+      "id": "4d42e5ef-7d75-47e7-b234-6bd251270fcc",
+      "eventId": "booking.cancelled.c9ef55f6-583c-4e89-8eab-f65082cdb45a.1774245677170",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "fe314e19-de74-4b3a-ab7f-6714f3a21803",
+          "type": "caretaker"
+        },
+        {
+          "id": "faab8897-31ab-47c9-b5a5-f9275c3696e3",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "47f0dde5-2538-464e-ab93-74031c964556",
+        "bookingId": "c9ef55f6-583c-4e89-8eab-f65082cdb45a",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d"
+      },
+      "status": "completed",
+      "bookingId": "c9ef55f6-583c-4e89-8eab-f65082cdb45a",
+      "createdAt": "2026-03-23T00:31:17.171Z",
+      "updatedAt": "2026-03-23T00:31:19.201Z"
+    },
+    {
+      "id": "79b0f1fa-dc65-40c3-b7af-132b3e230d6c",
+      "eventId": "booking.cancelled.1da5f94a-e5ab-46a3-a423-e22c76c7950b.1774245697544",
+      "eventType": "booking.cancelled_by_host",
+      "recipients": [
+        {
+          "id": "7a639cb8-7d23-4cc3-b4c0-474b551b8a37",
+          "type": "customer"
+        },
+        {
+          "id": "d7b0de45-4391-49a0-a5f3-2d2c268ad029",
+          "type": "owner"
+        },
+        {
+          "id": "0b6ed310-fdd4-4eda-b1f1-257865f693e4",
+          "type": "caretaker"
+        },
+        {
+          "id": "798d52b3-034e-4ffb-96d9-5fd8017dfd41",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "entityId": "cd126462-fc9c-4a88-96b6-a9dc608df2f2",
+        "bookingId": "1da5f94a-e5ab-46a3-a423-e22c76c7950b",
+        "customerId": "7a639cb8-7d23-4cc3-b4c0-474b551b8a37"
+      },
+      "status": "completed",
+      "bookingId": "1da5f94a-e5ab-46a3-a423-e22c76c7950b",
+      "createdAt": "2026-03-23T00:31:37.545Z",
+      "updatedAt": "2026-03-23T00:31:40.581Z"
+    },
+    {
+      "id": "c672799d-e3ae-4a1d-bac8-5cce2251d227",
+      "eventId": "booking.request.pay_SXLEb1KLKkwvT8",
+      "eventType": "booking.request",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "caretaker"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "manager"
+        },
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 3,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "75023e7f-3909-456e-bcf5-1f319bc5b625",
+        "paymentId": "pay_SXLEb1KLKkwvT8",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-04-28",
+        "finalAmount": 5,
+        "checkoutDate": "2026-04-29",
+        "hoursForConfirmation": 12
+      },
+      "status": "completed",
+      "bookingId": "75023e7f-3909-456e-bcf5-1f319bc5b625",
+      "createdAt": "2026-03-30T01:10:45.924Z",
+      "updatedAt": "2026-03-30T01:10:45.957Z"
+    },
+    {
+      "id": "c3446fd7-f442-4b2e-8c75-d50552193408",
+      "eventId": "ical.booking_synced.6f6806ca-2da6-4e84-a4f5-dc7f72bf8188",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-22",
+        "checkoutDate": "2027-03-24",
+        "importedBookingId": "6f6806ca-2da6-4e84-a4f5-dc7f72bf8188"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-23T13:00:00.502Z",
+      "updatedAt": "2026-03-23T18:30:00.389Z"
+    },
+    {
+      "id": "931ad6df-bdad-482d-94da-4c6032dd2ece",
+      "eventId": "booking.confirmed.pay_SVmgqUMgOOxjOX",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "owner"
+        },
+        {
+          "id": "9c7e76ac-a81b-4ef4-9028-9e98a92007c1",
+          "type": "caretaker"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 4,
+        "entityId": "cd04d3a2-9b51-4f88-b0b8-8f4d5cd42652",
+        "bookingId": "dd7bdbe5-a307-4415-83d7-8b2dea0d9928",
+        "paymentId": "pay_SVmgqUMgOOxjOX",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "Atman - 2BR Luxury Pool Stay",
+        "checkinDate": "2026-04-27",
+        "finalAmount": 7.440000000000001,
+        "checkoutDate": "2026-04-29"
+      },
+      "status": "completed",
+      "bookingId": "dd7bdbe5-a307-4415-83d7-8b2dea0d9928",
+      "createdAt": "2026-03-26T02:44:15.882Z",
+      "updatedAt": "2026-03-26T02:45:04.991Z"
+    },
+    {
+      "id": "fe87bfe3-32c4-485f-a9ce-2cec0bd8cfa7",
+      "eventId": "booking.confirmed.pay_SVmq1Safb10hUF",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "owner"
+        },
+        {
+          "id": "9c7e76ac-a81b-4ef4-9028-9e98a92007c1",
+          "type": "caretaker"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 11,
+        "entityId": "f618ff55-a97b-4ad3-a676-2b26f8cd16f8",
+        "bookingId": "05365a86-c378-4f03-8750-e5b876687a0d",
+        "paymentId": "pay_SVmq1Safb10hUF",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "Aarish Farms - 2BR Luxury Stay",
+        "checkinDate": "2026-07-06",
+        "finalAmount": 21,
+        "checkoutDate": "2026-07-07"
+      },
+      "status": "completed",
+      "bookingId": "05365a86-c378-4f03-8750-e5b876687a0d",
+      "createdAt": "2026-03-26T02:53:12.565Z",
+      "updatedAt": "2026-03-26T02:54:01.547Z"
+    },
+    {
+      "id": "328aab8c-7de0-4c40-bfea-ba59ea1ccbc8",
+      "eventId": "booking.confirmed.pay_SVn6l4jQzJAmog",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "9c7e76ac-a81b-4ef4-9028-9e98a92007c1",
+          "type": "caretaker"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 9.45,
+        "entityId": "7840b6e4-943e-4512-9653-0d6b5ee69d3a",
+        "bookingId": "025083fe-59ed-49a4-bb91-883b9527e783",
+        "paymentId": "pay_SVn6l4jQzJAmog",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "Prego - 2BR Pool Farmhouse",
+        "checkinDate": "2026-06-22",
+        "finalAmount": 9.9,
+        "checkoutDate": "2026-06-23"
+      },
+      "status": "completed",
+      "bookingId": "025083fe-59ed-49a4-bb91-883b9527e783",
+      "createdAt": "2026-03-26T03:09:14.092Z",
+      "updatedAt": "2026-03-26T03:10:03.537Z"
+    },
+    {
+      "id": "2bdedf37-3cbe-4198-94a5-b486b9970650",
+      "eventId": "ical.booking_synced.e96f3cd6-7dd1-455b-b4fd-ba2747875fc3",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-28",
+        "checkoutDate": "2026-03-29",
+        "importedBookingId": "e96f3cd6-7dd1-455b-b4fd-ba2747875fc3"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-24T09:30:00.723Z",
+      "updatedAt": "2026-03-24T09:30:00.754Z"
+    },
+    {
+      "id": "51ef9cc5-af86-4ed5-a664-018b008c818d",
+      "eventId": "ical.booking_synced.e0614807-4fb9-4021-bf51-96a429915a47",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-23",
+        "checkoutDate": "2026-03-25",
+        "importedBookingId": "e0614807-4fb9-4021-bf51-96a429915a47"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-24T02:00:00.350Z",
+      "updatedAt": "2026-03-24T13:00:00.699Z"
+    },
+    {
+      "id": "99a99d6d-b70a-45d7-8371-7f858eb96bf3",
+      "eventId": "ical.booking_synced.40682e1e-53c5-4c14-bd92-7579ba9dc9d3",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-23",
+        "checkoutDate": "2027-03-25",
+        "importedBookingId": "40682e1e-53c5-4c14-bd92-7579ba9dc9d3"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-24T13:00:00.630Z",
+      "updatedAt": "2026-03-24T18:30:00.392Z"
+    },
+    {
+      "id": "5f270f50-ce53-4cf1-9b51-e1eab7c1a805",
+      "eventId": "ical.booking_synced.71101517-8baf-4df8-a4ae-25f06b5d4fb0",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-25",
+        "checkoutDate": "2026-03-26",
+        "importedBookingId": "71101517-8baf-4df8-a4ae-25f06b5d4fb0"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-25T02:00:00.460Z",
+      "updatedAt": "2026-03-25T02:00:00.530Z"
+    },
+    {
+      "id": "97a3a96f-8ab3-41c4-9aad-fee39cca88d4",
+      "eventId": "booking.confirmed.pay_SVOp03azPHzo2J",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+          "type": "customer"
+        },
+        {
+          "id": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+          "type": "owner"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+          "type": "manager"
+        },
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "manager"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 8,
+        "entityId": "0ded8dde-04f1-4e48-8968-a3a424fd0ce7",
+        "bookingId": "3ceb8958-13b8-4e03-8c46-790a95c25482",
+        "paymentId": "pay_SVOp03azPHzo2J",
+        "customerId": "83754288-84ea-4fc8-855b-794b7c57ac2d",
+        "entityName": "Test Property 1 Dont Book ",
+        "checkinDate": "2026-04-02",
+        "finalAmount": 15,
+        "checkoutDate": "2026-04-03"
+      },
+      "status": "completed",
+      "bookingId": "3ceb8958-13b8-4e03-8c46-790a95c25482",
+      "createdAt": "2026-03-25T03:23:21.175Z",
+      "updatedAt": "2026-03-25T03:24:19.394Z"
+    },
+    {
+      "id": "7d6deb03-268a-4a1a-a831-437f3f73b787",
+      "eventId": "ical.booking_synced.2bb39325-3a22-4b01-a98d-2a1ca385a626",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-24",
+        "checkoutDate": "2027-03-26",
+        "importedBookingId": "2bb39325-3a22-4b01-a98d-2a1ca385a626"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-25T13:00:00.470Z",
+      "updatedAt": "2026-03-25T18:30:00.435Z"
+    },
+    {
+      "id": "149ec405-439a-48d6-b92b-d00ed6ff110e",
+      "eventId": "booking.confirmed.pay_SVjU1xd8Ms0xUS",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 1,
+        "entityId": "96e1c7f0-d582-4272-9a56-dab576542024",
+        "bookingId": "85a730f6-3feb-49f0-9b73-fb959027019e",
+        "paymentId": "pay_SVjU1xd8Ms0xUS",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Syna Heritage - 2BR Pool Villa",
+        "checkinDate": "2026-05-23",
+        "finalAmount": 1,
+        "checkoutDate": "2026-05-24"
+      },
+      "status": "completed",
+      "bookingId": "85a730f6-3feb-49f0-9b73-fb959027019e",
+      "createdAt": "2026-03-25T23:36:01.470Z",
+      "updatedAt": "2026-03-25T23:36:50.057Z"
+    },
+    {
+      "id": "e3838415-1e44-4307-9f47-001e24ebe106",
+      "eventId": "booking.confirmed.pay_SVk8if7rAybqVV",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "owner"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "caretaker"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 6.34,
+        "entityId": "cd126462-fc9c-4a88-96b6-a9dc608df2f2",
+        "bookingId": "0abd92e2-de0d-450e-b0e4-ac71aa9a46c5",
+        "paymentId": "pay_SVk8if7rAybqVV",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "GS Farms - 2BR Pool Villa",
+        "checkinDate": "2026-06-08",
+        "finalAmount": 6.5,
+        "checkoutDate": "2026-06-13"
+      },
+      "status": "completed",
+      "bookingId": "0abd92e2-de0d-450e-b0e4-ac71aa9a46c5",
+      "createdAt": "2026-03-26T00:14:35.660Z",
+      "updatedAt": "2026-03-26T00:15:24.728Z"
+    },
+    {
+      "id": "672bbac6-e6e2-48b8-8dea-136190372add",
+      "eventId": "booking.confirmed.pay_SVlmQ1wYLBR2d4",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "owner"
+        },
+        {
+          "id": "9c7e76ac-a81b-4ef4-9028-9e98a92007c1",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 2,
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "8a1c8020-3773-4f79-9fc4-958c154e4a8c",
+        "paymentId": "pay_SVlmQ1wYLBR2d4",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "BeatBox - 2BR Retreat",
+        "checkinDate": "2026-06-26",
+        "finalAmount": 3.1199999999999974,
+        "checkoutDate": "2026-06-29"
+      },
+      "status": "completed",
+      "bookingId": "8a1c8020-3773-4f79-9fc4-958c154e4a8c",
+      "createdAt": "2026-03-26T01:50:49.344Z",
+      "updatedAt": "2026-03-26T01:51:38.268Z"
+    },
+    {
+      "id": "96884596-4b93-4978-a652-1c92663c0cae",
+      "eventId": "booking.confirmed.pay_SVltEQ6LSoDBST",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "0e7a69de-15b6-4738-931b-82da710cbf82",
+          "type": "customer"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "owner"
+        },
+        {
+          "id": "9c7e76ac-a81b-4ef4-9028-9e98a92007c1",
+          "type": "caretaker"
+        },
+        {
+          "id": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 6,
+        "entityId": "dcff83fd-f0aa-486b-9ec0-cec65814dd54",
+        "bookingId": "717eb499-b5b3-4a5f-bd7b-9e7910217f15",
+        "paymentId": "pay_SVltEQ6LSoDBST",
+        "customerId": "0e7a69de-15b6-4738-931b-82da710cbf82",
+        "entityName": "BeatBox - 2BR Retreat",
+        "checkinDate": "2026-06-24",
+        "finalAmount": 13,
+        "checkoutDate": "2026-06-25"
+      },
+      "status": "completed",
+      "bookingId": "717eb499-b5b3-4a5f-bd7b-9e7910217f15",
+      "createdAt": "2026-03-26T01:57:15.777Z",
+      "updatedAt": "2026-03-26T01:58:04.875Z"
+    },
+    {
+      "id": "2fb27eac-c86a-4a6d-bf20-e868a18caaec",
+      "eventId": "ical.booking_synced.afaa3203-aeae-48ee-b384-c96a00299438",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-26",
+        "checkoutDate": "2026-03-27",
+        "importedBookingId": "afaa3203-aeae-48ee-b384-c96a00299438"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-26T02:00:00.409Z",
+      "updatedAt": "2026-03-26T02:00:00.477Z"
+    },
+    {
+      "id": "ece69b92-121e-4722-b2b1-0ab8f68f0574",
+      "eventId": "booking.confirmed.pay_SVmXLR2UBRfCwO",
+      "eventType": "booking.confirmed",
+      "recipients": [
+        {
+          "id": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+          "type": "customer"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "owner"
+        },
+        {
+          "id": "9c7e76ac-a81b-4ef4-9028-9e98a92007c1",
+          "type": "caretaker"
+        },
+        {
+          "id": "8ac8501e-35f1-4785-8dec-f992983d5fae",
+          "type": "manager"
+        }
+      ],
+      "data": {
+        "amount": 4,
+        "entityId": "cd04d3a2-9b51-4f88-b0b8-8f4d5cd42652",
+        "bookingId": "31a49612-8873-4a5c-8447-cab6a46d36e4",
+        "paymentId": "pay_SVmXLR2UBRfCwO",
+        "customerId": "fa8bb75c-c0e5-4e05-82ac-6f435f47a5fc",
+        "entityName": "Atman - 2BR Luxury Pool Stay",
+        "checkinDate": "2026-06-01",
+        "finalAmount": 7.440000000000001,
+        "checkoutDate": "2026-06-03"
+      },
+      "status": "completed",
+      "bookingId": "31a49612-8873-4a5c-8447-cab6a46d36e4",
+      "createdAt": "2026-03-26T02:36:08.044Z",
+      "updatedAt": "2026-03-26T02:36:56.727Z"
+    },
+    {
+      "id": "90e1d91a-59de-4996-b3a9-0e0c5b098857",
+      "eventId": "ical.booking_synced.7f0e4c66-74c2-4b09-84cb-1508f345b260",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-25",
+        "checkoutDate": "2027-03-27",
+        "importedBookingId": "7f0e4c66-74c2-4b09-84cb-1508f345b260"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-26T13:00:00.472Z",
+      "updatedAt": "2026-03-26T18:30:00.632Z"
+    },
+    {
+      "id": "12b27d22-4185-4d57-9557-7391be9eb62a",
+      "eventId": "ical.booking_synced.4db55009-5a94-414e-af80-4cd9a6727077",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-27",
+        "checkoutDate": "2026-03-29",
+        "importedBookingId": "4db55009-5a94-414e-af80-4cd9a6727077"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-27T02:00:00.569Z",
+      "updatedAt": "2026-03-27T02:00:00.614Z"
+    },
+    {
+      "id": "97a79b35-e8ac-45b2-aa77-e06dd990939a",
+      "eventId": "ical.booking_synced.3c414641-89d7-4897-babd-8c8c20fcb297",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-26",
+        "checkoutDate": "2027-03-28",
+        "importedBookingId": "3c414641-89d7-4897-babd-8c8c20fcb297"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-27T13:00:00.325Z",
+      "updatedAt": "2026-03-27T18:30:00.400Z"
+    },
+    {
+      "id": "2196f7fc-711a-4967-9675-05e7467593ae",
+      "eventId": "ical.booking_synced.f44cc567-a762-40b8-afc6-2fa5ba180308",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-28",
+        "checkoutDate": "2026-03-29",
+        "importedBookingId": "f44cc567-a762-40b8-afc6-2fa5ba180308"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-27T13:00:00.321Z",
+      "updatedAt": "2026-03-29T13:00:00.445Z"
+    },
+    {
+      "id": "9f3b447a-db39-46da-9b2b-f8a7d1df4cf9",
+      "eventId": "ical.booking_synced.dd9ff21e-2bc1-42a5-8dea-25a3ebd56f2b",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-27",
+        "checkoutDate": "2027-03-29",
+        "importedBookingId": "dd9ff21e-2bc1-42a5-8dea-25a3ebd56f2b"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-28T13:00:00.343Z",
+      "updatedAt": "2026-03-28T18:30:00.393Z"
+    },
+    {
+      "id": "358bebe2-b4bd-4b90-aef9-491f95e09d22",
+      "eventId": "ical.booking_synced.d18adccd-8a77-4447-9829-5f8734a47487",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-03-30",
+        "checkoutDate": "2026-03-31",
+        "importedBookingId": "d18adccd-8a77-4447-9829-5f8734a47487"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-29T13:00:00.362Z",
+      "updatedAt": "2026-03-29T13:00:00.445Z"
+    },
+    {
+      "id": "500c1fe1-f96a-4313-b153-2568e23dadd6",
+      "eventId": "ical.booking_synced.f440ac7e-2739-46de-81a6-efd1f709dec7",
+      "eventType": "ical.booking_synced",
+      "recipients": [
+        {
+          "id": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+          "type": "owner"
+        },
+        {
+          "id": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+          "type": "manager"
+        },
+        {
+          "id": "d708c414-0e5c-47cd-bdee-cf7912a0407c",
+          "type": "admin"
+        },
+        {
+          "id": "694a617e-f350-473d-bb76-c23a07ebc69a",
+          "type": "admin"
+        },
+        {
+          "id": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+          "type": "admin"
+        },
+        {
+          "id": "dc1efedd-3f27-4587-8de4-f8f941194f4d",
+          "type": "admin"
+        },
+        {
+          "id": "74f17386-855f-4e97-9058-5ebfdcd5d5e6",
+          "type": "admin"
+        },
+        {
+          "id": "0b61ddb4-12ea-44c8-b084-572d76605383",
+          "type": "admin"
+        },
+        {
+          "id": "ac85ef0c-17d3-4a63-9911-e3185c0ea942",
+          "type": "admin"
+        },
+        {
+          "id": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+          "type": "admin"
+        },
+        {
+          "id": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+          "type": "admin"
+        },
+        {
+          "id": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+          "type": "admin"
+        },
+        {
+          "id": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+          "type": "admin"
+        },
+        {
+          "id": "77b12481-442c-44b0-8566-2075a4a00997",
+          "type": "admin"
+        }
+      ],
+      "data": {
+        "source": "Airbnb",
+        "entityId": "2f966323-0b34-4b2b-8f88-5cfbff713e62",
+        "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+        "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+        "checkinDate": "2026-06-28",
+        "checkoutDate": "2027-03-30",
+        "importedBookingId": "f440ac7e-2739-46de-81a6-efd1f709dec7"
+      },
+      "status": "completed",
+      "bookingId": null,
+      "createdAt": "2026-03-29T13:00:00.365Z",
+      "updatedAt": "2026-03-29T18:30:00.793Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "table": "icalLinks",
+  "schemaVersion": "old-schema",
+  "rowCount": 1,
+  "rows": [
+    {
+      "id": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "entityId": null,
+      "name": "Airbnb",
+      "icalUrl": "https://www.airbnb.co.in/calendar/ical/845871014836396110.ics?t=1ede99b3525044ceaffc8485a44a82e1",
+      "lastSyncedAt": "2026-03-30T06:40:00.348Z",
+      "syncStatus": "success",
+      "syncError": null,
+      "isActive": true,
+      "createdAt": "2026-03-23T08:52:57.849Z",
+      "updatedAt": "2026-03-30T06:40:00.350Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+      "adminUpdatedBy": "fe2fb309-13c7-4592-910c-2569a11d3df3"
+    }
+  ]
+}

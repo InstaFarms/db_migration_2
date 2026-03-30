@@ -1,0 +1,271 @@
+{
+  "table": "cancellationPercentages",
+  "schemaVersion": "old-schema",
+  "rowCount": 24,
+  "rows": [
+    {
+      "id": "815f289d-2353-4a79-8ffd-950fba394fd4",
+      "cancellationPlanId": "2046137b-ce98-4112-b337-ab927487bed0",
+      "percentage": "0.00",
+      "days": 7,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "1b90513f-ffae-40f4-94c3-6b57bcda6257",
+      "cancellationPlanId": "2046137b-ce98-4112-b337-ab927487bed0",
+      "percentage": "50.00",
+      "days": 14,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "4cd82511-543d-457e-bcce-15238c9fc2b9",
+      "cancellationPlanId": "2046137b-ce98-4112-b337-ab927487bed0",
+      "percentage": "100.00",
+      "days": 14,
+      "lessThan": false,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "4748ddcc-d9d0-4c4e-aac7-21c233883b31",
+      "cancellationPlanId": "086bedd3-f97e-405e-9e84-b58a206fdb21",
+      "percentage": "0.00",
+      "days": 7,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "0b962e0f-c9b1-4e87-a847-f722c046b40e",
+      "cancellationPlanId": "086bedd3-f97e-405e-9e84-b58a206fdb21",
+      "percentage": "50.00",
+      "days": 14,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "3d1ac607-6f59-4df0-8109-bb6898ba819a",
+      "cancellationPlanId": "086bedd3-f97e-405e-9e84-b58a206fdb21",
+      "percentage": "75.00",
+      "days": 30,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "74857eb9-7ed1-4f62-be23-d6ce0af3f766",
+      "cancellationPlanId": "086bedd3-f97e-405e-9e84-b58a206fdb21",
+      "percentage": "100.00",
+      "days": 30,
+      "lessThan": false,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "64c92ee5-d06d-4327-aeae-6302407cf388",
+      "cancellationPlanId": "c8bbd2ef-2765-4e08-84ef-a364c7cbf99b",
+      "percentage": "0.00",
+      "days": 1,
+      "lessThan": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2025-02-24T10:51:15.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "0c533d24-f732-4ab2-8365-6e84337d3509",
+      "cancellationPlanId": "c8bbd2ef-2765-4e08-84ef-a364c7cbf99b",
+      "percentage": "50.00",
+      "days": 7,
+      "lessThan": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2025-02-24T10:51:15.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "9ff9c610-58ef-436d-8d8b-077e72f31d8a",
+      "cancellationPlanId": "c8bbd2ef-2765-4e08-84ef-a364c7cbf99b",
+      "percentage": "100.00",
+      "days": 7,
+      "lessThan": false,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2025-02-24T10:51:15.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "f257a71f-43d9-43a2-aca7-741d5cc35c7c",
+      "cancellationPlanId": "56ff717f-07d8-4c27-96dd-46d4cb520e1c",
+      "percentage": "11.00",
+      "days": 5,
+      "lessThan": true,
+      "createdAt": "2026-02-05T08:02:20.203Z",
+      "updatedAt": "2026-02-05T08:02:20.203Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "eb08ab08-217a-408a-9956-6c59f122e14d",
+      "cancellationPlanId": "56ff717f-07d8-4c27-96dd-46d4cb520e1c",
+      "percentage": "50.00",
+      "days": 15,
+      "lessThan": true,
+      "createdAt": "2026-02-05T08:02:20.203Z",
+      "updatedAt": "2026-02-05T08:02:20.203Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "a93cb477-a3cd-4097-b3c2-4936b0339cca",
+      "cancellationPlanId": "56ff717f-07d8-4c27-96dd-46d4cb520e1c",
+      "percentage": "100.00",
+      "days": 30,
+      "lessThan": false,
+      "createdAt": "2026-02-05T08:02:20.203Z",
+      "updatedAt": "2026-02-05T08:02:20.203Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "d062cd4c-ef2b-40d8-a97a-57d6a776b195",
+      "cancellationPlanId": "5d407533-0abf-4166-ad22-13bb7e50cbd2",
+      "percentage": "0.00",
+      "days": 7,
+      "lessThan": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2024-12-30T12:07:11.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "c5523ee3-1fd7-4d38-91c8-6e3073f8a899",
+      "cancellationPlanId": "5d407533-0abf-4166-ad22-13bb7e50cbd2",
+      "percentage": "50.00",
+      "days": 14,
+      "lessThan": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2024-12-30T12:07:11.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "d3859b58-e51f-4a3b-88b1-8caa068d5286",
+      "cancellationPlanId": "5d407533-0abf-4166-ad22-13bb7e50cbd2",
+      "percentage": "75.00",
+      "days": 30,
+      "lessThan": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2024-12-30T12:07:11.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "32c7b3ef-8273-4704-8f38-46de5100523e",
+      "cancellationPlanId": "5d407533-0abf-4166-ad22-13bb7e50cbd2",
+      "percentage": "100.00",
+      "days": 30,
+      "lessThan": false,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2024-12-30T12:07:11.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7a0ec8f2-35c0-4d37-b86f-778d025fc8f4",
+      "cancellationPlanId": "4495e9ed-d1a5-4b58-8c70-44a51b15d885",
+      "percentage": "0.00",
+      "days": 1,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7f8b5e0b-ced4-4bc8-94fa-331c16025623",
+      "cancellationPlanId": "4495e9ed-d1a5-4b58-8c70-44a51b15d885",
+      "percentage": "50.00",
+      "days": 7,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "64ff4ee7-2b1c-46fb-8f90-c088cf56f2c5",
+      "cancellationPlanId": "4495e9ed-d1a5-4b58-8c70-44a51b15d885",
+      "percentage": "100.00",
+      "days": 7,
+      "lessThan": false,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "fa120711-e8d2-4102-b353-9d1742ca33b5",
+      "cancellationPlanId": "37529545-0e78-4866-aaf4-85db56e919b7",
+      "percentage": "50.00",
+      "days": 3,
+      "lessThan": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "cc00644a-325e-495c-a6ba-3b63242f8ea7",
+      "cancellationPlanId": "37529545-0e78-4866-aaf4-85db56e919b7",
+      "percentage": "100.00",
+      "days": 3,
+      "lessThan": false,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "0953a44c-3c85-4133-bc7a-d04c15c14e30",
+      "cancellationPlanId": "51d58454-a1c8-4599-9172-b839d736c005",
+      "percentage": "2.00",
+      "days": 2,
+      "lessThan": false,
+      "createdAt": "2026-02-12T15:36:56.681Z",
+      "updatedAt": "2026-02-12T15:36:56.681Z",
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "id": "18da6b13-b421-4b27-810d-495b4085c02a",
+      "cancellationPlanId": "51d58454-a1c8-4599-9172-b839d736c005",
+      "percentage": "4.00",
+      "days": 4,
+      "lessThan": false,
+      "createdAt": "2026-02-12T15:36:56.681Z",
+      "updatedAt": "2026-02-12T15:36:56.681Z",
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    }
+  ]
+}

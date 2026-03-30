@@ -1,0 +1,40 @@
+{
+  "table": "blockedDates",
+  "schemaVersion": "old-schema",
+  "rowCount": 3,
+  "rows": [
+    {
+      "id": "818ae9a8-96f0-42f2-9dee-6b9cdd3c84e4",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "blockedDate": "2026-03-25T18:30:00.000Z",
+      "createdAt": "2026-03-22T11:37:16.137Z",
+      "updatedAt": "2026-03-22T11:37:16.137Z",
+      "createdBy": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "updatedBy": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "adminCreatedBy": null,
+      "adminUpdatedBy": null
+    },
+    {
+      "id": "6f47672c-17f2-4360-b421-913615d38653",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "blockedDate": "2026-03-26T18:30:00.000Z",
+      "createdAt": "2026-03-22T11:37:16.137Z",
+      "updatedAt": "2026-03-22T11:37:16.137Z",
+      "createdBy": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "updatedBy": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "adminCreatedBy": null,
+      "adminUpdatedBy": null
+    },
+    {
+      "id": "b97ec916-b164-4662-9015-16b9543f84f6",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "blockedDate": "2026-03-27T18:30:00.000Z",
+      "createdAt": "2026-03-22T11:37:16.137Z",
+      "updatedAt": "2026-03-22T11:37:16.137Z",
+      "createdBy": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "updatedBy": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "adminCreatedBy": null,
+      "adminUpdatedBy": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "table": "supervisors",
+  "schemaVersion": "old-schema",
+  "rowCount": 2,
+  "rows": [
+    {
+      "id": "58549ecd-c6ba-4695-ac51-49da6eb2d16f",
+      "name": "Anshul Mendiratta",
+      "phone": "7990851378",
+      "email": "anshul@instafarms.in",
+      "role": "JUNIOR_SUPERVISOR",
+      "isActive": true,
+      "createdAt": "2026-03-01T10:18:59.269Z",
+      "updatedAt": "2026-03-01T10:18:59.269Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "060dc237-d4d8-485c-bc69-307255cb7f49",
+      "name": "Piyush Kumar",
+      "phone": "9528486231",
+      "email": "piyushkumar@instafarms.in",
+      "role": "JUNIOR_SUPERVISOR",
+      "isActive": true,
+      "createdAt": "2026-03-06T09:37:19.278Z",
+      "updatedAt": "2026-03-06T09:37:19.278Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "activities": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "admins": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "amenities": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "bulkUpdateLogs": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "cancellationPlans": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "checklistCategoryMaster": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "collections": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "coupons": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "customers": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "listingUsers": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "discountPlans": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "extraPlans": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "ezeeSyncData": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "faqs": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "globalConstants": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "issueTypes": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "notification_event_types": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "photos": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "propertyAuditAreaCategoryMaster": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "propertyTypes": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "ratePlans": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "recentSearches": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "safetyHygiene": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "settings": {
+    "mode": "regenerate",
+    "reason": "Non-UUID id; safer remap for mixed strategy."
+  },
+  "singlePages ": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "spaces": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "states": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "staticImages": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "supervisors": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "tags": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "users": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "permanentPriceUpdateLogs": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "cancellationPercentages": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "checklistItemMaster": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "proposals": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "discountPlansValues": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "notification_templates": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "cms": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "cities": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "activityLogs": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "bankDetails": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "ownersWallet": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "walletTransactions": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "areas": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "walletWithdrawalRequests": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "landmarks": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "nearbyLocations": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "properties": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "searchQuery": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "activitiesOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "amenitiesOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "bankDetailsOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "blockedDates": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "bookings": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "caretakersOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "carousel": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "collectionProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "contactEnquiry": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "enquiries": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "icalLinks": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "managersOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "ownersOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "propertyAuditAreas": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "propertyAuditSessions": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "propertyCancellationPlans": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "propertyCoupons": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "propertyDiscountPlans": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "propertyPhotos": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "property_tags": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "proposalItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "recentlyVisited": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "safetyHygieneOnProperties": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "spaceProperties": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "specialDates": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "viewEnquiry": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "bookingAuditLog": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "cancellations": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "notification_event_log": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "payments": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "reviewMagicLinks": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "reviews": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "carouselPhotos": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "whatsappLog": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "importedBookings": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "inventoryChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "maintenanceChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "suppliesChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "tickets": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "notification_dead_letter_queue": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "notification_delivery_log": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "bookingPaymentSchedule": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "inventoryAuditChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "maintenanceAuditChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "suppliesAuditChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "ticketResolutionLogs": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "checklistItemMedia": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  }
+}

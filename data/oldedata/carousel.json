@@ -1,0 +1,73 @@
+{
+  "table": "carousel",
+  "schemaVersion": "old-schema",
+  "rowCount": 6,
+  "rows": [
+    {
+      "id": "5f5b4fb2-d5e3-475a-b749-e0ffd5f3a979",
+      "heading": "",
+      "subHeading": null,
+      "weight": 800,
+      "propertyId": null,
+      "createdAt": "2025-06-13T20:59:58.000Z",
+      "updatedAt": "2025-06-13T20:59:58.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "d178af64-cdd2-4721-8661-2889bb553783",
+      "heading": "",
+      "subHeading": null,
+      "weight": 300,
+      "propertyId": null,
+      "createdAt": "2025-06-13T21:14:04.000Z",
+      "updatedAt": "2025-06-13T21:14:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "ae1f13cd-ab06-48d7-8801-a8e12615735c",
+      "heading": "",
+      "subHeading": null,
+      "weight": 500,
+      "propertyId": null,
+      "createdAt": "2025-06-13T21:08:23.000Z",
+      "updatedAt": "2025-09-03T21:09:00.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "f3452a5f-da87-4488-bc2e-0ecffd85341f",
+      "heading": "",
+      "subHeading": null,
+      "weight": 700,
+      "propertyId": null,
+      "createdAt": "2025-06-13T21:05:42.000Z",
+      "updatedAt": "2025-06-13T21:05:42.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7cfd10f9-2e29-48a3-9245-5753c1d6d8bb",
+      "heading": "",
+      "subHeading": null,
+      "weight": 400,
+      "propertyId": null,
+      "createdAt": "2025-06-13T21:10:28.000Z",
+      "updatedAt": "2025-06-13T21:10:28.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "4c374606-04b8-4106-8c5d-e862ef8d5015",
+      "heading": "",
+      "subHeading": null,
+      "weight": 900,
+      "propertyId": null,
+      "createdAt": "2025-06-13T20:55:04.000Z",
+      "updatedAt": "2025-06-13T20:55:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "table": "issueTypes",
+  "schemaVersion": "old-schema",
+  "rowCount": 5,
+  "rows": [
+    {
+      "id": "2a4ead6e-4ef5-4e8f-a242-dc98f5da64f3",
+      "code": "DAMAGED",
+      "label": "Damaged",
+      "description": "Physical Damage",
+      "isActive": true,
+      "createdAt": "2026-02-20T08:20:51.707Z",
+      "updatedAt": "2026-02-20T08:20:51.707Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "f5225369-9471-4f32-9256-21594f465f41",
+      "code": "MISSING",
+      "label": "Missing",
+      "description": "Item missing",
+      "isActive": true,
+      "createdAt": "2026-02-20T08:21:13.938Z",
+      "updatedAt": "2026-02-20T08:21:13.938Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "98bce57b-f95e-43fa-9bcf-917d9f9b08e7",
+      "code": "NOT_WORKING",
+      "label": "Not Working",
+      "description": "Item not functioning",
+      "isActive": false,
+      "createdAt": "2026-02-20T08:20:27.452Z",
+      "updatedAt": "2026-02-20T08:41:16.174Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "c3128961-6dbc-44cb-a944-67a798061b86",
+      "code": "UNCLEAN",
+      "label": "Unclean",
+      "description": "",
+      "isActive": true,
+      "createdAt": "2026-03-06T04:19:30.883Z",
+      "updatedAt": "2026-03-06T04:19:30.883Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "5d21b9c4-4f31-4756-b971-f5efa2f59446",
+      "code": "LEAKING",
+      "label": "Leaking",
+      "description": "",
+      "isActive": true,
+      "createdAt": "2026-03-06T04:19:39.906Z",
+      "updatedAt": "2026-03-06T04:19:39.906Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "table": "checklistCategoryMaster",
+  "schemaVersion": "old-schema",
+  "rowCount": 14,
+  "rows": [
+    {
+      "id": "3830b3a7-cc16-4c0a-9089-9f010e032c74",
+      "name": "Bedding",
+      "itemType": "INVENTORY",
+      "weight": 1,
+      "isActive": true,
+      "createdAt": "2026-02-20T08:05:10.537Z",
+      "updatedAt": "2026-02-20T08:05:10.537Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "8e3bc62d-ce46-4471-9dc6-30c69de78a1f",
+      "name": "Plumbing",
+      "itemType": "MAINTENANCE",
+      "weight": 2,
+      "isActive": true,
+      "createdAt": "2026-02-20T08:06:50.382Z",
+      "updatedAt": "2026-02-20T08:06:50.382Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "55ba952a-7b67-40b3-9fc6-ef6bed3ba14d",
+      "name": "Cleaning Supplies",
+      "itemType": "SUPPLIES",
+      "weight": 3,
+      "isActive": true,
+      "createdAt": "2026-02-20T08:07:07.446Z",
+      "updatedAt": "2026-02-20T08:07:07.446Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "12384bfc-f09b-46dd-bfed-97f034c68a86",
+      "name": "Utensils",
+      "itemType": "INVENTORY",
+      "weight": 30,
+      "isActive": true,
+      "createdAt": "2026-03-01T11:18:15.825Z",
+      "updatedAt": "2026-03-01T11:18:15.825Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "7060ce6b-5ca4-4c46-8743-e504b8eb56c4",
+      "name": "Swimming Pool",
+      "itemType": "MAINTENANCE",
+      "weight": 20,
+      "isActive": true,
+      "createdAt": "2026-03-01T11:19:15.980Z",
+      "updatedAt": "2026-03-01T11:19:15.980Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "779f0623-49ef-4243-b3ba-0a5cef724e72",
+      "name": "Outdoor",
+      "itemType": "MAINTENANCE",
+      "weight": 50,
+      "isActive": true,
+      "createdAt": "2026-03-01T11:19:47.085Z",
+      "updatedAt": "2026-03-01T11:19:47.085Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "908261b3-23a8-41bc-97d4-0aa7c8641ceb",
+      "name": "Electrical Appliances",
+      "itemType": "INVENTORY",
+      "weight": 60,
+      "isActive": true,
+      "createdAt": "2026-03-01T11:20:09.550Z",
+      "updatedAt": "2026-03-01T11:20:09.550Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "98427855-97de-4e9e-918a-49f6d9cca0b7",
+      "name": "Furniture",
+      "itemType": "INVENTORY",
+      "weight": 40,
+      "isActive": true,
+      "createdAt": "2026-03-06T04:17:36.366Z",
+      "updatedAt": "2026-03-06T04:17:36.366Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "d2c7c37c-cdc4-45c7-9661-02ba53bf73b9",
+      "name": "IT & Network",
+      "itemType": "MAINTENANCE",
+      "weight": 70,
+      "isActive": true,
+      "createdAt": "2026-03-06T04:18:16.750Z",
+      "updatedAt": "2026-03-06T04:18:16.750Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "e593a352-c6ad-48dd-a561-4405518c1e2d",
+      "name": "Electrical Appliances",
+      "itemType": "MAINTENANCE",
+      "weight": 0,
+      "isActive": true,
+      "createdAt": "2026-03-06T04:29:57.081Z",
+      "updatedAt": "2026-03-06T04:29:57.081Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "b71bcf95-c160-4db4-94ba-b949932b115e",
+      "name": "Games",
+      "itemType": "INVENTORY",
+      "weight": 45,
+      "isActive": true,
+      "createdAt": "2026-03-06T04:18:03.126Z",
+      "updatedAt": "2026-03-06T04:32:56.466Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "bc460000-91d5-4120-be3c-2a12f507e589",
+      "name": "Outdoor",
+      "itemType": "INVENTORY",
+      "weight": 80,
+      "isActive": true,
+      "createdAt": "2026-03-06T05:16:03.240Z",
+      "updatedAt": "2026-03-06T05:16:03.240Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "32252c5c-a8df-4a7a-b927-42f1fa1a820b",
+      "name": "Property",
+      "itemType": "MAINTENANCE",
+      "weight": 4,
+      "isActive": true,
+      "createdAt": "2026-03-06T06:47:13.238Z",
+      "updatedAt": "2026-03-06T06:47:13.238Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "7edac405-aeb3-4454-9621-4fa67b126b6d",
+      "name": "test",
+      "itemType": "INVENTORY",
+      "weight": 0,
+      "isActive": false,
+      "createdAt": "2026-03-09T14:58:22.759Z",
+      "updatedAt": "2026-03-09T14:58:36.089Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "db_migration_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:clear": "tsx src/migration-json/clear-cache.ts",
+    "schema:push": "tsx src/migration-json/push-schema.ts",
+    "json:export": "tsx src/migration-json/export/run-export.ts",
+    "json:import": "tsx src/migration-json/import/run-import.ts",
+    "json:validate": "tsx src/migration-json/validate/run-validate.ts",
+    "json:all": "npm run json:export && npm run json:import && npm run json:validate"
+  },
+  "keywords": [],
+  "author": "InstaFarms",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "drizzle-orm": "^0.44.5",
+    "firebase-admin": "^13.5.0",
+    "luxon": "^3.6.1",
+    "pg": "^8.20.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

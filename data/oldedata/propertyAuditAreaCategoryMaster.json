@@ -1,0 +1,87 @@
+{
+  "table": "propertyAuditAreaCategoryMaster",
+  "schemaVersion": "old-schema",
+  "rowCount": 8,
+  "rows": [
+    {
+      "id": "c2d24b89-0a1a-4f97-955b-4df18e742d9c",
+      "name": "Bathroom",
+      "weight": 2,
+      "isActive": true,
+      "createdAt": "2026-02-20T08:27:56.906Z",
+      "updatedAt": "2026-02-20T08:27:56.906Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "68ceca24-f3f9-4cc3-b0cc-6f6b49c211d4",
+      "name": "Kitchen",
+      "weight": 3,
+      "isActive": true,
+      "createdAt": "2026-02-20T08:28:08.348Z",
+      "updatedAt": "2026-02-20T08:28:08.348Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "476d2f6f-d36b-4471-8ab2-5b4affc82471",
+      "name": "Bedroom",
+      "weight": 10,
+      "isActive": true,
+      "createdAt": "2026-02-20T08:27:44.197Z",
+      "updatedAt": "2026-02-20T08:28:31.779Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "7bfa1467-6c70-4674-baa3-631a2edc27ef",
+      "name": "Outdoors",
+      "weight": 40,
+      "isActive": true,
+      "createdAt": "2026-03-01T11:26:41.047Z",
+      "updatedAt": "2026-03-01T11:26:41.047Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "4c58c8b0-5d2e-4c1b-84ed-1e9aca63155a",
+      "name": "Hall",
+      "weight": 50,
+      "isActive": true,
+      "createdAt": "2026-03-01T11:26:52.412Z",
+      "updatedAt": "2026-03-01T11:26:52.412Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "d1328c40-ca44-4f95-8c0f-a9d48ab8cbfe",
+      "name": "Store Room",
+      "weight": 60,
+      "isActive": true,
+      "createdAt": "2026-03-06T04:16:40.807Z",
+      "updatedAt": "2026-03-06T04:16:40.807Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "75019789-032d-4929-97d8-cba1d5bd0af6",
+      "name": "Staff Quarters",
+      "weight": 70,
+      "isActive": true,
+      "createdAt": "2026-03-06T04:16:52.376Z",
+      "updatedAt": "2026-03-06T04:16:52.376Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "d2950150-35e0-475f-8a42-2b82616ee0de",
+      "name": "test",
+      "weight": 1000000,
+      "isActive": false,
+      "createdAt": "2026-03-10T09:43:56.040Z",
+      "updatedAt": "2026-03-10T09:45:11.595Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    }
+  ]
+}

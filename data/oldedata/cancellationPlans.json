@@ -1,0 +1,79 @@
+{
+  "table": "cancellationPlans",
+  "schemaVersion": "old-schema",
+  "rowCount": 8,
+  "rows": [
+    {
+      "id": "2046137b-ce98-4112-b337-ab927487bed0",
+      "name": "Firm1",
+      "isActive": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "086bedd3-f97e-405e-9e84-b58a206fdb21",
+      "name": "Strict1",
+      "isActive": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "c8bbd2ef-2765-4e08-84ef-a364c7cbf99b",
+      "name": "ShortTerm Default",
+      "isActive": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2025-02-24T10:51:15.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "56ff717f-07d8-4c27-96dd-46d4cb520e1c",
+      "name": "Can Type one",
+      "isActive": true,
+      "createdAt": "2026-02-05T07:59:07.819Z",
+      "updatedAt": "2026-02-05T07:59:07.819Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "5d407533-0abf-4166-ad22-13bb7e50cbd2",
+      "name": "LongTerm Default",
+      "isActive": true,
+      "createdAt": "2024-12-30T12:07:11.000Z",
+      "updatedAt": "2024-12-30T12:07:11.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "4495e9ed-d1a5-4b58-8c70-44a51b15d885",
+      "name": "Moderate1",
+      "isActive": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "37529545-0e78-4866-aaf4-85db56e919b7",
+      "name": "Flexible1",
+      "isActive": true,
+      "createdAt": "2024-08-20T06:33:55.000Z",
+      "updatedAt": "2024-08-20T06:33:55.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "51d58454-a1c8-4599-9172-b839d736c005",
+      "name": "Can",
+      "isActive": true,
+      "createdAt": "2026-02-12T15:35:23.181Z",
+      "updatedAt": "2026-02-12T15:36:56.673Z",
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    }
+  ]
+}

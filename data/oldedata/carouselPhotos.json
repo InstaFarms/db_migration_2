@@ -1,0 +1,115 @@
+{
+  "table": "carouselPhotos",
+  "schemaVersion": "old-schema",
+  "rowCount": 12,
+  "rows": [
+    {
+      "carouselId": "5f5b4fb2-d5e3-475a-b749-e0ffd5f3a979",
+      "photoId": "e5fb8e5c-3fb3-439a-a58f-3d7e275b28d2",
+      "key": "desktop",
+      "createdAt": "2025-06-13T20:59:58.000Z",
+      "updatedAt": "2025-06-13T20:59:58.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "5f5b4fb2-d5e3-475a-b749-e0ffd5f3a979",
+      "photoId": "351a310a-6dda-4b76-82da-bc97228bfad5",
+      "key": "mobile",
+      "createdAt": "2025-06-13T20:59:58.000Z",
+      "updatedAt": "2025-06-13T20:59:58.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "d178af64-cdd2-4721-8661-2889bb553783",
+      "photoId": "8a8503c1-5d0d-416e-aecc-82d2c6dd9fe6",
+      "key": "desktop",
+      "createdAt": "2025-06-13T21:14:04.000Z",
+      "updatedAt": "2025-06-13T21:14:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "d178af64-cdd2-4721-8661-2889bb553783",
+      "photoId": "6990bad1-f529-4d52-8a31-fd5c2b1ce814",
+      "key": "mobile",
+      "createdAt": "2025-06-13T21:14:04.000Z",
+      "updatedAt": "2025-06-13T21:14:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "ae1f13cd-ab06-48d7-8801-a8e12615735c",
+      "photoId": "fcc63629-fbc7-4442-9c7f-b6719eb4031e",
+      "key": "desktop",
+      "createdAt": "2025-06-13T21:08:23.000Z",
+      "updatedAt": "2025-09-03T21:09:00.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "ae1f13cd-ab06-48d7-8801-a8e12615735c",
+      "photoId": "40327a6e-e2a6-4b83-8204-9892d4d714f4",
+      "key": "mobile",
+      "createdAt": "2025-06-13T21:08:23.000Z",
+      "updatedAt": "2025-09-03T21:09:00.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "f3452a5f-da87-4488-bc2e-0ecffd85341f",
+      "photoId": "062dbc41-c43e-4c99-acce-2b3864d9253b",
+      "key": "desktop",
+      "createdAt": "2025-06-13T21:05:42.000Z",
+      "updatedAt": "2025-06-13T21:05:42.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "f3452a5f-da87-4488-bc2e-0ecffd85341f",
+      "photoId": "0be89b5f-d043-42a4-ac4c-fc2629b23b60",
+      "key": "mobile",
+      "createdAt": "2025-06-13T21:05:42.000Z",
+      "updatedAt": "2025-06-13T21:05:42.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "7cfd10f9-2e29-48a3-9245-5753c1d6d8bb",
+      "photoId": "9ca34bc4-2a13-4721-bd9b-956904b815c3",
+      "key": "desktop",
+      "createdAt": "2025-06-13T21:10:28.000Z",
+      "updatedAt": "2025-06-13T21:10:28.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "7cfd10f9-2e29-48a3-9245-5753c1d6d8bb",
+      "photoId": "f0efe107-24df-4515-86fa-e1ca70d0fe35",
+      "key": "mobile",
+      "createdAt": "2025-06-13T21:10:28.000Z",
+      "updatedAt": "2025-06-13T21:10:28.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "4c374606-04b8-4106-8c5d-e862ef8d5015",
+      "photoId": "468862a6-2757-4855-ae1a-b1c729627517",
+      "key": "desktop",
+      "createdAt": "2025-06-13T20:55:04.000Z",
+      "updatedAt": "2025-06-13T20:55:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "carouselId": "4c374606-04b8-4106-8c5d-e862ef8d5015",
+      "photoId": "4222d193-dd55-4e58-927b-6b9d85e2bafa",
+      "key": "mobile",
+      "createdAt": "2025-06-13T20:55:04.000Z",
+      "updatedAt": "2025-06-13T20:55:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    }
+  ]
+}

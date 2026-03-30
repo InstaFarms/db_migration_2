@@ -1,0 +1,21 @@
+{
+  "table": "globalConstants",
+  "schemaVersion": "old-schema",
+  "rowCount": 1,
+  "rows": [
+    {
+      "id": "38b7c9a0-b94b-4063-b821-5ec66329452a",
+      "key": "BOOKING_EXPIRY_HOURS",
+      "value": "24",
+      "description": "Hours before a booking request expires if not accepted",
+      "dataType": "number",
+      "isActive": true,
+      "createdAt": "2026-02-20T17:53:08.345Z",
+      "updatedAt": "2026-02-20T17:53:08.345Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "fe2fb309-13c7-4592-910c-2569a11d3df3",
+      "adminUpdatedBy": "fe2fb309-13c7-4592-910c-2569a11d3df3"
+    }
+  ]
+}

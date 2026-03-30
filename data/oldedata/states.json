@@ -1,0 +1,88 @@
+{
+  "table": "states",
+  "schemaVersion": "old-schema",
+  "rowCount": 4,
+  "rows": [
+    {
+      "id": "6fefbae9-3cdd-476a-8397-ecbf517a3d1f",
+      "state": "Tamilnadu",
+      "slug": "tamilnadu",
+      "weight": "34.00",
+      "featured": false,
+      "createdAt": "2026-02-09T05:20:27.062Z",
+      "updatedAt": "2026-02-09T05:20:27.062Z",
+      "adminCreatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8",
+      "icon": null,
+      "heading": null,
+      "description": null,
+      "isActive": true,
+      "faqs": [],
+      "info": {},
+      "meta": {}
+    },
+    {
+      "id": "cdbbe72e-7025-4708-8f2b-498951918fed",
+      "state": "Andhra Pradesh",
+      "slug": "andhra-pradesh",
+      "weight": "20.00",
+      "featured": false,
+      "createdAt": "2026-03-12T14:06:55.695Z",
+      "updatedAt": "2026-03-25T15:55:29.930Z",
+      "adminCreatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "icon": null,
+      "heading": "Farmhouses in Andhra Pradesh",
+      "description": "Find luxury farmhouses and weekend getaways across Andhra Pradesh. Choose a city or browse all locations below.",
+      "isActive": true,
+      "faqs": [],
+      "info": {
+        "title": "Best Farmhouses in Andhra Pradesh",
+        "description": "<p><b style=\"font-weight:normal;\" id=\"docs-internal-guid-96bf1aa6-7fff-1a73-2855-4d7ba94efeb7\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Welcome to Andhra Pradesh, a state where the golden coastlines of the bay meet the ancient whispers of the ghats. Andhra Pradesh is much more than its agricultural roots, it is a powerhouse of spiritual energy, cinematic landscapes, and rapidly growing luxury retreats. Whether you are seeking the divine vibrations of the world's most-visited temples or the misty silence of high-altitude coffee plantations, InstaFarms helps you navigate the Best Farmhouses in Andhra Pradesh, where traditional Telugu hospitality meets modern comfort.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Andhra Pradesh is a diverse playground for travelers, and our curated selection of the Best Farmhouses in Andhra Pradesh spans its most iconic regions. Our properties offer peaceful sanctuaries for pilgrims looking to balance their temple visits with private relaxation. Along the coastal region, from the bustling beaches to the serene backwaters, you can discover beach villas that put you right on the water's edge. For those chasing the winter chill, the misty ghats of the valley host farmstays nestled within coffee orchards and pepper vines.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The state’s true charm lies in its hidden gems and heritage sites. Staying at the Best Farmhouses in Andhra Pradesh gives you easy access to the ‘Grand Canyon of India’ at Gandikota, the underground marvels of the Belum Caves, and the architectural wonders of Lepakshi. For nature enthusiasts, the Coringa Wildlife Sanctuary offers breathtaking mangrove trails, while the Nallamala Hills provide a pastime for adventure seekers.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">By choosing the Best Farmhouses in Andhra Pradesh, you are opting for a stay that celebrates the state's vibrant culture, world-class spicy cuisine, and boundless landscapes. Whether you are exploring the Buddhist heritage at Amaravati or enjoying a boat ride in Papikondalu, these properties provide a grand stage for your memories. Secure your next big adventure through InstaFarms today and experience the magnificent heart of the Telugu land.</span></p></b><br class=\"Apple-interchange-newline\"><br></p>"
+      },
+      "meta": {}
+    },
+    {
+      "id": "0ba3d58c-afd2-4c4a-b3d3-9560b21ae683",
+      "state": "Karnataka",
+      "slug": "karnataka",
+      "weight": "67.00",
+      "featured": false,
+      "createdAt": "2025-11-13T16:48:48.000Z",
+      "updatedAt": "2026-03-25T15:59:55.034Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "icon": null,
+      "heading": "Farmhouses in Karnataka",
+      "description": "Find luxury farmhouses and weekend getaways across Karnataka. Choose a city or browse all locations below.",
+      "isActive": true,
+      "faqs": [],
+      "info": {
+        "title": "Best Farmhouses in Karnataka",
+        "description": "<p><b style=\"font-weight:normal;\" id=\"docs-internal-guid-3f6b7e72-7fff-bf82-0175-b08f70978cbd\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Step into the diverse landscapes of Karnataka, that offers a staycation for every possible mood. Whether you are seeking a luxury villa near the international airport or a rustic eco-stay in the heart of a spice plantation, InstaFarms curates the Best Farmhouses in Karnataka, where the state’s heritage and natural beauty come to life in your own private backyard.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Karnataka’s farmhouse culture is uniquely defined by its varied geography, and our selection of the Best Farmhouses in Karnataka covers every iconic belt. In the northern side, our properties offer a breezy, Mediterranean vibe with infinity pools and vineyard views. Deep in the Plantation West, you’ll find colonial-style estates nestled within coffee forests. For history lovers, our farmstays near the UNESCO site of Hampi provide a front-row seat to ancient boulder-strewn landscapes, while the Coastal Edge features seaside retreats shaded by coconut groves.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The true luxury of a Karnataka getaway is the seamless blend of history and nature. Staying at the Best Farmhouses in Karnataka puts you within reach of the thunderous Jog Falls, the spiritual serenity of the Golden Temple in Bylakuppe, and the wildlife-rich corridors of Kabini and Bandipur. With infrastructure improvements in the state, escaping the city's gridlock for a rural sanctuary has never been faster or more convenient.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">By choosing the Best Farmhouses in Karnataka, you are opting for a stay that prioritizes both sustainability and sophistication. Experience the soul of the coffee hills or the rugged charm of the Deccan plateau without leaving the 21st century behind. Our listed properties seamlessly blend rustic charm with modern essentials like high-speed Wi-Fi and private pools. Secure your next big reset through InstaFarms today and experience the limitless, emerald grandeur of Karnataka.</span></p></b><br class=\"Apple-interchange-newline\"><br></p>"
+      },
+      "meta": {}
+    },
+    {
+      "id": "6b782f53-5b19-4e7a-90a0-432ed3d318d8",
+      "state": "Telangana",
+      "slug": "telangana",
+      "weight": "90.00",
+      "featured": true,
+      "createdAt": "2024-07-02T08:32:39.000Z",
+      "updatedAt": "2026-03-25T16:07:04.712Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2",
+      "icon": null,
+      "heading": "Farmhouses in Telangana",
+      "description": "Find luxury farmhouses and weekend getaways across Telangana. Choose a city or browse all locations below.",
+      "isActive": true,
+      "faqs": [],
+      "info": {
+        "title": "Best Farmhouses in Telangana",
+        "description": "<p><br></p><p><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-23bf9396-7fff-8567-c33e-9e5f9c6a4ff7\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Discover Telangana, a land where the majestic history of the Nizams meets a futuristic skyline. Beyond the buzzing tech corridors of the city lies a landscape of hills, sprawling grape vineyards, and serene reservoirs. Telangana has pioneered the weekend getaway culture in South India, turning the city’s outskirts into a luxury playground. Whether you are looking for a high-energy villa for a reunion or a quiet escape into the forests, InstaFarms curates the Best Farmhouses in Telangana, where heritage meets contemporary luxury.</span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-23bf9396-7fff-8567-c33e-9e5f9c6a4ff7\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Telangana’s farmhouses are centered around the capital but extend into breathtaking rural pockets. Our selection of the Best Farmhouses in Telangana highlights the state’s most popular retreat zones. In the Western Corridor, offer expansive estates with private cricket pitches and swimming pools. To the North, our properties provide a rocky, scenic backdrop perfect for resort-style farmstays.&nbsp;</span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-23bf9396-7fff-8567-c33e-9e5f9c6a4ff7\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The true appeal of a Telangana stay is the blend of high-speed accessibility and rustic charm. Staying at the Best Farmhouses in Telangana puts you within reach of the historic Golconda Fort, the serene Osman Sagar Lake, and the famous Ramoji Film City. For spiritual seekers, a quick drive from your farmhouse can lead to the magnificent Yadadri Temple or the Statue of Equality. With massive infrastructure updates, you can now reach secluded farmhouses in half the time, bypassing city traffic entirely to start your vacation sooner.</span></strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-23bf9396-7fff-8567-c33e-9e5f9c6a4ff7\"><span style=\"font-size:11pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">By choosing the Best Farmhouses in Telangana, you are opting for a stay that understands modern needs. Many of these properties are corporate ready, featuring high-speed Wi-Fi and open-air boardrooms. Whether it’s a sunset barbecue by a private lake or a morning yoga session overlooking the boulders, secure your sanctuary through InstaFarms today and experience the vibrant heart of Telangana.</span></strong></p><br class=\"Apple-interchange-newline\"><br><p><br></p>"
+      },
+      "meta": {}
+    }
+  ]
+}

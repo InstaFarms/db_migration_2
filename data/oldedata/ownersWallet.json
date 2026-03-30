@@ -1,0 +1,237 @@
+{
+  "table": "ownersWallet",
+  "schemaVersion": "old-schema",
+  "rowCount": 23,
+  "rows": [
+    {
+      "id": "cee96fb7-cec1-4b8c-86a1-3809eaed0a9d",
+      "ownerId": "37a58e39-9ac2-477f-b08e-5abe4201e893",
+      "currentBalance": "20493.00",
+      "totalCredits": "20493.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-02-15T06:00:00.068Z",
+      "createdAt": "2026-02-15T06:00:00.068Z",
+      "updatedAt": "2026-02-15T06:00:00.068Z"
+    },
+    {
+      "id": "e1501ec4-d751-4f64-a5da-acd4548ff671",
+      "ownerId": "15568b15-3c8e-4ad3-83d8-4fd0af640070",
+      "currentBalance": "174904.69",
+      "totalCredits": "174904.69",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-02-24T06:00:00.079Z",
+      "createdAt": "2026-02-20T06:00:00.075Z",
+      "updatedAt": "2026-02-24T06:00:00.079Z"
+    },
+    {
+      "id": "b29d9c62-f94a-4937-bd47-16435e37f29a",
+      "ownerId": "59e62ea6-3f86-4dd4-8827-f87b72df3323",
+      "currentBalance": "8820.00",
+      "totalCredits": "8820.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-06T06:47:04.691Z",
+      "createdAt": "2026-03-06T06:47:03.998Z",
+      "updatedAt": "2026-03-06T06:47:04.691Z"
+    },
+    {
+      "id": "f2aa7580-1ff6-41ed-8938-875e4c5dee71",
+      "ownerId": "feaf3205-16f1-4e3f-864d-9e6323b5292d",
+      "currentBalance": "8820.00",
+      "totalCredits": "8820.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-06T06:47:05.261Z",
+      "createdAt": "2026-03-06T06:47:03.754Z",
+      "updatedAt": "2026-03-06T06:47:05.261Z"
+    },
+    {
+      "id": "f410c30d-c839-4e63-921f-8192cfab3f25",
+      "ownerId": "1ec9e5b5-c529-4a53-b9a8-2ddcf38b507c",
+      "currentBalance": "0.00",
+      "totalCredits": "0.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": null,
+      "createdAt": "2026-03-06T06:47:08.915Z",
+      "updatedAt": "2026-03-06T06:47:08.915Z"
+    },
+    {
+      "id": "6b92433d-5907-437f-9740-0102e1fa1cc8",
+      "ownerId": "e3e1513d-73cc-476f-9799-bc974b4b6a57",
+      "currentBalance": "8820.00",
+      "totalCredits": "8820.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-06T06:47:11.061Z",
+      "createdAt": "2026-03-06T06:47:09.223Z",
+      "updatedAt": "2026-03-06T06:47:11.061Z"
+    },
+    {
+      "id": "f35bd1a9-895a-40c2-8a9c-ef0bae77d620",
+      "ownerId": "66523513-fda9-43f6-a605-decce748c119",
+      "currentBalance": "0.00",
+      "totalCredits": "0.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": null,
+      "createdAt": "2026-03-06T06:47:14.879Z",
+      "updatedAt": "2026-03-06T06:47:14.879Z"
+    },
+    {
+      "id": "5a8cefe3-0e9c-4207-b938-6c279aeff3ca",
+      "ownerId": "b76ce7c0-ba7e-4b8e-9f71-a4a1bb32a67e",
+      "currentBalance": "8820.00",
+      "totalCredits": "8820.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-07T18:05:09.732Z",
+      "createdAt": "2026-03-06T06:47:15.372Z",
+      "updatedAt": "2026-03-07T18:05:09.732Z"
+    },
+    {
+      "id": "95d5a839-475a-48f6-9123-aedce61b6996",
+      "ownerId": "190f81f0-d292-4e18-a567-73f2fa435f1d",
+      "currentBalance": "8820.00",
+      "totalCredits": "8820.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-08T07:21:42.242Z",
+      "createdAt": "2026-03-06T06:47:11.783Z",
+      "updatedAt": "2026-03-08T07:21:42.242Z"
+    },
+    {
+      "id": "10942e8e-ac89-4416-9e3f-06320b135ee0",
+      "ownerId": "7772ff63-023a-40b7-8bba-9367f14e3ea0",
+      "currentBalance": "0.00",
+      "totalCredits": "0.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": null,
+      "createdAt": "2026-03-23T18:13:38.303Z",
+      "updatedAt": "2026-03-23T18:13:38.303Z"
+    },
+    {
+      "id": "631f4642-37a2-41d7-8498-9276783d31d4",
+      "ownerId": "07c09a0c-54df-4102-b48f-da1fad25b0ab",
+      "currentBalance": "21000.00",
+      "totalCredits": "46000.00",
+      "totalDebits": "25000.00",
+      "lastTransactionAt": "2026-03-11T06:08:25.463Z",
+      "createdAt": "2026-03-07T07:39:06.433Z",
+      "updatedAt": "2026-03-11T06:08:25.463Z"
+    },
+    {
+      "id": "c5a5920b-f4f4-4330-aed8-31ed369e54d7",
+      "ownerId": "71c69c44-9b09-4a68-a2e4-72e759a938ee",
+      "currentBalance": "0.00",
+      "totalCredits": "0.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": null,
+      "createdAt": "2026-03-13T08:57:28.920Z",
+      "updatedAt": "2026-03-13T08:57:28.920Z"
+    },
+    {
+      "id": "99d445d7-40b3-4f85-ba28-cb2cd3bfe111",
+      "ownerId": "93b11952-a08d-4293-aa57-1490b37bede4",
+      "currentBalance": "4.24",
+      "totalCredits": "4.24",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-25T06:00:00.120Z",
+      "createdAt": "2026-03-25T06:00:00.120Z",
+      "updatedAt": "2026-03-25T06:00:00.120Z"
+    },
+    {
+      "id": "dc5e07a2-b70c-4873-9231-fa219454f582",
+      "ownerId": "def6c700-c0f7-430f-937d-60e2c8484f30",
+      "currentBalance": "10.24",
+      "totalCredits": "10.24",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-25T06:00:00.149Z",
+      "createdAt": "2026-03-11T06:00:00.065Z",
+      "updatedAt": "2026-03-25T06:00:00.149Z"
+    },
+    {
+      "id": "c7525d99-5ab4-4a46-9705-59f83185ea7d",
+      "ownerId": "db490741-06ea-4aca-a144-02e3f720c8bd",
+      "currentBalance": "0.00",
+      "totalCredits": "0.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": null,
+      "createdAt": "2026-03-13T10:34:55.810Z",
+      "updatedAt": "2026-03-13T15:29:39.315Z"
+    },
+    {
+      "id": "f51c597f-579b-422f-849d-8c0199a4548a",
+      "ownerId": "9afbf532-2cf8-4b4a-b6c9-6a0588ed12e4",
+      "currentBalance": "7361.32",
+      "totalCredits": "7361.32",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-14T06:00:00.103Z",
+      "createdAt": "2026-02-14T06:00:00.074Z",
+      "updatedAt": "2026-03-14T06:00:00.103Z"
+    },
+    {
+      "id": "5872323a-a298-4caa-a2a2-96804cb882a0",
+      "ownerId": "03fc85e3-89d1-45f2-9d08-5282ed2a5e42",
+      "currentBalance": "0.72",
+      "totalCredits": "0.72",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-20T06:00:00.120Z",
+      "createdAt": "2026-03-20T06:00:00.120Z",
+      "updatedAt": "2026-03-20T06:00:00.120Z"
+    },
+    {
+      "id": "9f30a311-d722-4c48-b7f2-d32c57218396",
+      "ownerId": "25c5f8fe-f59a-4524-a85f-b00b6ef1820d",
+      "currentBalance": "9434.69",
+      "totalCredits": "9534.69",
+      "totalDebits": "100.00",
+      "lastTransactionAt": "2026-03-28T06:00:00.109Z",
+      "createdAt": "2026-02-20T06:00:00.075Z",
+      "updatedAt": "2026-03-28T06:00:00.109Z"
+    },
+    {
+      "id": "225bc5c8-28b8-413b-ba9f-019c73d9d17e",
+      "ownerId": "14f41054-0c0c-4982-80d2-3de2f00c02af",
+      "currentBalance": "12.03",
+      "totalCredits": "12.03",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-30T06:00:00.070Z",
+      "createdAt": "2026-03-11T06:00:00.091Z",
+      "updatedAt": "2026-03-30T06:00:00.070Z"
+    },
+    {
+      "id": "fb3e43ca-7280-4cca-a48e-beb8f7e322fc",
+      "ownerId": "8d903cfb-1b2a-4c78-81f8-281a0d0d5436",
+      "currentBalance": "50.22",
+      "totalCredits": "50.22",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-30T06:00:00.084Z",
+      "createdAt": "2026-03-13T06:00:00.077Z",
+      "updatedAt": "2026-03-30T06:00:00.084Z"
+    },
+    {
+      "id": "dd84d6f7-8ce1-4bf4-8fde-bf904639bf04",
+      "ownerId": "a36101bf-6a72-49fc-9de3-365bde6e20ae",
+      "currentBalance": "7822.68",
+      "totalCredits": "7822.68",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-30T06:00:00.084Z",
+      "createdAt": "2026-03-03T06:00:00.070Z",
+      "updatedAt": "2026-03-30T06:00:00.084Z"
+    },
+    {
+      "id": "d299c6dd-9698-47d2-9ce4-2d12a5218eec",
+      "ownerId": "7c2f34ca-06f9-44d0-ba40-7194e21fbd39",
+      "currentBalance": "26.95",
+      "totalCredits": "26.95",
+      "totalDebits": "0.00",
+      "lastTransactionAt": "2026-03-30T06:00:00.084Z",
+      "createdAt": "2026-03-11T06:00:00.105Z",
+      "updatedAt": "2026-03-30T06:00:00.084Z"
+    },
+    {
+      "id": "514f6e85-b0fe-4b60-b1bf-0dd6ed12e1a7",
+      "ownerId": "0f787758-b49e-4f97-832d-801db9769bf4",
+      "currentBalance": "0.00",
+      "totalCredits": "0.00",
+      "totalDebits": "0.00",
+      "lastTransactionAt": null,
+      "createdAt": "2026-03-30T06:03:02.571Z",
+      "updatedAt": "2026-03-30T06:03:02.571Z"
+    }
+  ]
+}

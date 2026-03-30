@@ -1,0 +1,980 @@
+{
+  "table": "collections",
+  "schemaVersion": "old-schema",
+  "rowCount": 19,
+  "rows": [
+    {
+      "id": "89703e58-fa13-42f2-b894-cb487ca575b3",
+      "name": "Wedding Farmhouses",
+      "description": null,
+      "heading": null,
+      "slug": "wedding-farmhouses",
+      "weight": 46,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2F3j4rcWedding_Farmhouses_1.webp?alt=media&token=6da9cc23-3799-49a2-940e-d5067afb8fb3",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "",
+        "metaImage": "",
+        "metaTitle": "Wedding Farmhouses in Hyderabad | Luxury Private Venues",
+        "metaDescription": "Plan a fairytale wedding at a farmhouse in Hyderabad. Lush lawns, pools, and elegant halls ensure an ideal setting for intimate ceremonies or grand receptions."
+      },
+      "faqs": [
+        {
+          "answer": "<p>Absolutely. Our farmhouses are designed to host multi-event occasions including engagement rituals, wedding ceremonies, dinner receptions and after-parties. They can all be at the same venue for convenience and continuity.<br><br></p>",
+          "question": "Can I book a farmhouse for both ceremonies and after-party events?"
+        },
+        {
+          "answer": "<p>The sooner, the better. Popular farmhouses for wedding Hyderabad spots can book up quickly, especially in the wedding season and festival seasons. Booking 3 to 6 months in advance is a smart move for availability and planning flexibility.<br><br></p>",
+          "question": "How early should I book?"
+        },
+        {
+          "answer": "<p>Certainly. Many properties feature secure play areas, lawns and spacious interiors ideal for children and even pets.<br><br></p>",
+          "question": "Are these farmhouses child- and pet-friendly?"
+        },
+        {
+          "answer": "<p>Yes. You can tailor decor, dining options, lighting and vendor selections to suit your theme, from rustic charm to royal elegance, or glamorous chic.<br><br><br></p>",
+          "question": "Are luxury farmhouse bookings in Hyderabad customizable?"
+        },
+        {
+          "answer": "<p>With verified luxury farmhouses in Hyderabad, transparent pricing, instant booking and customer support, InstaFarms offers a seamless and reliable path to your dream celebration.<br><br></p>",
+          "question": "What makes InstaFarms a trusted partner for weddings?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Wedding Farmhouses in Hyderabad",
+          "content": "<p>Discover the magic of transforming your wedding into a fairytale with InstaFarms’ wedding farmhouses. Nestled amid lush landscapes around Hyderabad, our curated properties offer that perfect blend of aesthetics, privacy and charm. Whether you’re planning an intimate wedding or a grand reception, our farmhouses ensure a truly unforgettable celebration.</p><p><br></p><p><strong>Why choose a farmhouse for your wedding celebrations?</strong><br>Unmatched Ambience &amp; Privacy - InstaFarms’ farmhouse for wedding collection offers exclusive privacy, far removed from the bustle, yet conveniently close to the city. You can also customise the decor as per your liking to make the background look as aesthetic as possible.<br><br>Luxurious Properties - Our luxurious farmhouses offer magnificent architecture, premium interiors, landscaped exteriors and resort-like amenities like pools, lounges and spacious lawns made for events and celebrations.<br><br>Made for every celebration - From elegant weddings to grand receptions and vibrant mehendi ceremonies, these farmhouses are versatile, spacious and ready to adapt to your story. With expert local vendors and seamless coordination options, organizing your wedding at our farmhouse becomes effortless.<br><br>Stress Free Booking Experience - InstaFarms makes luxury farmhouse booking Hyderabad a breeze. Enjoy verified listings, transparent pricing, instant booking confirmation and dedicated customer support to guide you at every step. It’s wedding planning made simple.<br><br><strong>How to book your perfect Wedding Venue?</strong><br>Browse Collections - Look through the Wedding Farmhouses collection and explore detailed profiles of farmhouse venues that fit your style and guest needs.<br><br>Filter by amenities - You can filter farmhouses based on the amenities you need such as guest capacity, pool availability, projector, open grounds, banquet hall, etc to match your wedding requirements.<br><br>Check availability &amp; pricing - View real-time rates and availability for your preferred dates and farmhouse.<br><br>Book Instantly - Secure your venue with a click. Confirmations are instantaneous, giving you one less thing to worry about.</p><p><strong>Want to have a Fairy Tale Wedding?</strong><br>Your perfect luxury farmhouse wedding in Hyderabad awaits at InstaFarms. Browse, filter and book instantly and effortlessly. Let us help you create memories that last forever. Visit the Wedding Farmhouses collection and transform your dream wedding into reality.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-09T11:18:35.000Z",
+      "updatedAt": "2025-10-23T14:40:25.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "0608dfe4-9a32-4560-b5f7-71c6a5f5741a",
+      "name": "Farmhouses for Events",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-for-events",
+      "weight": 97,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FrbrAaFarmhouses_for_Events.webp?alt=media&token=72856b4e-7d65-4f8a-97d9-b4a663543405",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-for-events",
+        "metaImage": "",
+        "metaTitle": "Farmhouses for Events| Book Top Venues for Parties",
+        "metaKeywords": "Farmhouses For Events",
+        "metaDescription": "Find the best farmhouses for weddings, parties, and corporate events. Explore venues and book your perfect farmhouse event space now!"
+      },
+      "faqs": [
+        {
+          "answer": "<p>Birthdays, weddings, anniversaries, bridal showers, mehendi, sangeet, <a href=\"https://instafarms.in/collections/luxury-pool-party-farmhouses\" target=\"_blank\">pool parties</a>, and corporate offsites — these farmhouses are versatile for both casual and formal events.</p>",
+          "question": "What types of events can these farmhouses host?"
+        },
+        {
+          "answer": "Guest capacity ranges from 20 to 200 depending on the farmhouse. Check individual listings for specific guest limits and parking availability.\n",
+          "question": "How many guests can these farmhouses accommodate?"
+        },
+        {
+          "answer": "<p><br></p><p>Many farmhouses allow you to bring your own vendors for catering, decor, and entertainment. We recommend checking the property’s amenities section and confirming with <a href=\"https://instafarms.in/contact-us\" target=\"_blank\">our support team</a> before finalizing.\n</p><p><br></p>",
+          "question": "Do these properties allow decoration and event setup services?"
+        },
+        {
+          "answer": "Most event farmhouses permit music till a certain time (usually 10:30 PM due to regulations). Sound limits and restrictions vary by location.\n",
+          "question": "Is loud music and DJ setup allowed?"
+        },
+        {
+          "answer": "Yes, if you’ve booked a stay along with the event.\n",
+          "question": "Can we stay overnight after the event?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Best Farmhouses for events in hyderabad",
+          "content": "<p>Host your next grand event at one of our Celebration Gardens which include luxurious farmhouses near Hyderabad that offer stunning outdoor settings for your special occasions. These properties are perfect for any kind of celebration, providing expansive gardens surrounded by nature. Enjoy the privacy, tranquillity and charm of these verified properties while celebrating with your loved ones. Whether you’re planning an intimate garden party or a large-scale event, our verified properties provide the perfect venue to make your moments unforgettable.</p><p>Celebrate your grandest moments at InstaFarms properties designed for unforgettable events in locations like <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tspa-moinabad\" target=\"_blank\">TSPA/Moinabad</a> (65 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddagolkonda\" target=\"_blank\">Pedda Golconda</a> (50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamshabad\" target=\"_blank\">Shamshabad</a> (40 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-with-home-theatre\" target=\"_blank\">Farmhouses with Home Theatre</a>, <a href=\"https://instafarms.in/collections/farmhouses-with-banquet-halls\" target=\"_blank\">Banquet Hall Farmhouses</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:39:52.000Z",
+      "updatedAt": "2025-10-11T07:19:35.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7e674b17-9d6e-4013-8fab-3c3d60cafd14",
+      "name": "Nature Stay Farmhouses",
+      "description": null,
+      "heading": null,
+      "slug": "nature-stay-farmhouses",
+      "weight": 96,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FXcaM6Nature_Stay_Farmhouses.webp?alt=media&token=219201a2-9382-42e0-8a4d-55b6f44f75b5",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/nature-stay-farmhouses",
+        "metaImage": "",
+        "metaTitle": "Nature Stay Farmhouse for Friends & Family | InstaFarms",
+        "metaKeywords": "Nature Stay Farmhouses",
+        "metaDescription": "Enjoy a nature stay farmhouse surrounded by greenery—perfect for family outings, friend groups, and parties. Relax, recharge, and book your stay today!"
+      },
+      "faqs": [
+        {
+          "answer": "Absolutely — these farmhouses are known for their lush lawns, trees, and peaceful, natural surroundings.",
+          "question": "Are these properties surrounded by greenery?"
+        },
+        {
+          "answer": "Yes — open lawns, walking paths, and clean air make these ideal for family outings.\n",
+          "question": "Is it safe for kids and elderly guests?"
+        },
+        {
+          "answer": "Some of them are. It’ll be mentioned on the property listing.",
+          "question": "Are these farmhouses pet-friendly?"
+        },
+        {
+          "answer": "Most Green Escapes offer outdoor dining setups and barbecue pits. Check with the property for availability.\n",
+          "question": "Do these farmhouses have open-air dining or barbecue spaces?"
+        },
+        {
+          "answer": "Some have walking trails or open fields. Check individual property details.\n",
+          "question": "Do these properties offer nature walks or treks?"
+        },
+        {
+          "answer": "A few properties do. Availability is mentioned in listings.\n",
+          "question": "Do they have organic gardens or fruit orchards?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Nature Stay Farmhouses in Hyderabad",
+          "content": "<p>Reconnect with nature with Green Meadows, a curated collection of farmhouses near Hyderabad surrounded by lush greenery and breathtaking landscape views. These verified properties are perfect for those seeking a quiet escape from the city’s chaos. Whether it’s a weekend getaway, a peaceful staycation or a cozy catch-up with friends, our Green Meadow properties offer a calm, nature-rich environment with all the comforts of modern living. Wake up to chirping birds, take a walk through private gardens or simply lounge in a lawn with a book. These farmhouses are designed for slow living and soulful relaxation.</p><p>Unwind in InstaFarms Nature Properties near the locations of <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-kollur\" target=\"_blank\">Kollur </a>(45 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddamberpet\" target=\"_blank\">Peddamberpet </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamirpet\" target=\"_blank\">Shamirpet </a>(40 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-for-events\" target=\"_blank\">Farmhouses for Events</a>, <a href=\"https://instafarms.in/collections/kids-friendly-farmhouses\" target=\"_blank\">Kids Friendly Farmhouses</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:45:35.000Z",
+      "updatedAt": "2025-10-11T10:56:35.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "3dd0a8d8-37cf-4198-8142-191711bfeb4a",
+      "name": "Family Farmhouses",
+      "description": "",
+      "heading": null,
+      "slug": "family-farmhouses",
+      "weight": 68,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FxkNSHFamily_Farmhouses.webp?alt=media&token=9a114377-ca7b-41aa-b427-d08093ebc82c",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaTitle": "Family Farmhouses in Hyderabad | Spacious Villas for Rent",
+        "metaDescription": "Reconnect with family at spacious farmhouses in Hyderabad. These private villas offer play areas, green lawns & pools—perfect for fun getaways for all ages.\r\n"
+      },
+      "faqs": [
+        {
+          "answer": "<p>We offer 2 to 12 bedroom villas with private pools, indoor and outdoor entertainment zones, large lawns and sometimes banquet or projector setups.<br><br></p>",
+          "weight": 0,
+          "question": "What types of family farmhouses are available?"
+        },
+        {
+          "answer": "<p>Most of our farmhouses are located within a 40 to 60 minute drive from Hyderabad. Locations like Medchal, Moinabad, Shamirpet and Kollur are some of our most popular locations.<br><br></p>",
+          "weight": 0,
+          "question": "How far are these farmhouses from Hyderabad?"
+        },
+        {
+          "answer": "<p>Yes. All have safety features, easy ground-floor access, secure play zones and areas to relax. Pools and entertainment areas are family safe, though adult supervision is always advised.<br><br></p>",
+          "weight": 0,
+          "question": "Are these properties suitable for families with kids and elders?"
+        },
+        {
+          "answer": "<p>InstaFarms offers curated, verified stays with transparent pricing, instant booking, customer support and other amenities, making it a seamless and trustworthy alternative to Airbnb.<br><br></p>",
+          "weight": 0,
+          "question": "Is InstaFarms similar to Airbnb for farmhouse booking?"
+        },
+        {
+          "answer": "<p>Select location and guest count, view available farmhouses and book instantly with secure payments. Standard amenities include AC bedrooms, Wi-Fi, private pools, kitchens, entertainment zones and parking.<br><br></p>",
+          "weight": 0,
+          "question": "How do I book and what amenities are standard?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Family Farmhouses in Hyderabad",
+          "content": "<p><strong>Reconnect &amp; Create Memories with your family at the Perfect Farmhouse Villa Near Hyderabad</strong><br>Experience the best kind of family retreat with our handpicked collection of private farmhouses in Hyderabad. Our ‘family farmhouses’ collection brings together spacious, comfortable farm villas designed for multi generational fun, located just a short drive from the city. Whether you're planning a restful weekend or a reunion, InstaFarms offers an unforgettable escape made for everyone.</p><p><strong>What makes these farmhouses special?</strong><br>Spacious, Private getaways - Each farmhouse in our family collection features multiple bedrooms, play zones for kids, lush lawns and private pools, which makes them perfect for gatherings both big and small.<br><br>Various Activities to do - From large screen indoor/outdoor projectors to indoor games and outdoor sports facilities, these farmhouses in Hyderabad are designed for immersive fun and shared memories.<br><br>Safe, family-oriented stays - We make sure that every property is following the strict safety standards. The farmhouses are designed to be comfortable and secure for elders, children and everyone in between.<br><br>Surrounded by nature - Most of these farmhouses are surrounded by scenic landscapes whether lush greenery, hills or forest, giving you a peaceful escape from city life.<br><br><strong>Why Choose InstaFarms for your Weekend Getaway near Hyderabad?</strong><br>Verified Properties -  Each InstaFarms farmhouse villa for rent near Hyderabad is verified for safety, cleanliness and reliability.<br><br>Instant Booking - Enjoy hassle free booking with instant confirmations and responsive customer service on InstaFarms.<br><br>Family Friendly Amenities - From private pools and games rooms to theatre like projectors and kids play areas, these farmhouses offer entertainment for kids and adults alike.<br><br>Prime Locations near Hyderabad - You can choose farmhouses from various locations like Medchal, Shamirpet, Moinabad, Shamshabad, Kollur and more. All these locations are ideal for a quick weekend getaway near Hyderabad.<br><br>Great Value &amp; Transparent Pricing - Competitive, transparent rates with group discounts and seasonal deals make InstaFarms a good alternative to Airbnb for farmhouse booking.</p><p><strong>Ready to book your next family getaway?</strong><br>Your perfect private farmhouse booking Hyderabad experience awaits at InstaFarms. Browse our “Family Farmhouses” collection now and transform ordinary weekends into unforgettable occasions.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-09T11:00:33.000Z",
+      "updatedAt": "2026-03-11T15:01:27.102Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "741fec5e-adb7-4ad6-ad2d-ecead3fbdf60",
+      "name": "Kids friendly farmhouses",
+      "description": "Kids",
+      "heading": "Kids",
+      "slug": "kids-friendly-farmhouses",
+      "weight": 101,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FZPhdaKids_Friendly_Farmhouses.webp?alt=media&token=e8fff902-2be2-483e-83cf-d0e0d0724636",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/kids-friendly-farmhouses",
+        "metaTitle": "Best Kids-Friendly Farmhouses for Safe Family Getaways",
+        "metaDescription": "Kids-friendly farmhouses with safe play areas, open lawns, and fun amenities—perfect for family getaways, weekend trips, and memorable escapes. Book now."
+      },
+      "faqs": [
+        {
+          "answer": "<p><p>Many properties have dedicated kids’ play zones, swings, or <a href=\"https://instafarms.in/collections/luxury-pool-party-farmhouses\" target=\"_blank\">shallow pools</a>. Details are available in each listing.\n</p></p>",
+          "weight": 0,
+          "question": "Do these farmhouses have play areas or kids’ pools?"
+        },
+        {
+          "answer": "Select farmhouses allow pets — look for the pet-friendly tag on listings.\n",
+          "weight": 0,
+          "question": "Are pets allowed along with kids?"
+        },
+        {
+          "answer": "Some properties have separate kids' pools or shallow sections. Always supervise children around water.\n\n\n",
+          "weight": 0,
+          "question": "Is the swimming pool safe for kids?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Kids Friendly Farmhouses in Hyderabad",
+          "content": "<p>Kids Play Paradise is a handpicked collection of family-friendly, luxurious farmhouses near Hyderabad designed with children in mind. These verified properties offer experiences that keep your children active, entertained and happy. From colourful outdoor play zones and trampolines to safe lawns and child-focused spaces, every farmhouse in this collection creates the perfect blend of relaxation for adults and fun for the young ones.</p><p>Keep the little ones happy and engaged at InstaFarms Kid Friendly <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamshabad\" target=\"_blank\">Farmhouses near Shamshabad</a> (40 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddamberpet\" target=\"_blank\">Peddamberpet </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-ghatkesar\" target=\"_blank\">Ghatkesar </a>(50 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/luxury-farmhouses\" target=\"_blank\">Luxury Farmhouses</a>, <a href=\"https://instafarms.in/collections/farmhouses-near-city\" target=\"_blank\">Farmhouses near city</a> and more.</p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:50:13.000Z",
+      "updatedAt": "2026-03-11T15:12:06.309Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "403d64a8-07b2-4ab1-bd1c-fbb921dcff61",
+      "name": "Farmhouses For Corporate Party",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-for-corporate-party",
+      "weight": 48,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FK5sTVFarmhouses_for_Corporate_Parties.webp?alt=media&token=1e0a58a1-8cce-4a7a-9dc4-742ef2488914",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "",
+        "metaImage": "",
+        "metaTitle": "Farmhouses for Corporate Party in Hyderabad | Team Outings",
+        "metaDescription": "Plan a corporate outing at a Hyderabad farmhouse. Spacious lawns, private pools & conference-ready halls ensure your team enjoys a productive yet fun retreat.\n"
+      },
+      "faqs": [
+        {
+          "answer": "<p>You can explore our collection online, check availability and complete your farmhouse online booking in Hyderabad directly through the InstaFarms website.<br></p>",
+          "question": "How can I book a farmhouse for a corporate outing in Hyderabad?"
+        },
+        {
+          "answer": "<p>Most farmhouses include a swimming pool, lawn, furnished halls, kitchen, bedrooms and entertainment facilities. Specific amenities are listed on each property’s detail page.<br><br></p>",
+          "question": "What amenities are included in a corporate farmhouse?"
+        },
+        {
+          "answer": "<p>Absolutely. You can arrange conferences, seminars and also plan leisure activities like pool parties and outdoor games.<br><br><br></p>",
+          "question": "Are farmhouses suitable for both formal and informal events?"
+        },
+        {
+          "answer": "<p>Some properties offer catering services on request. Alternatively, you can arrange your own food or hire external vendors.<br><br></p>",
+          "question": "Is catering provided at these farmhouses?"
+        },
+        {
+          "answer": "<p>Yes, several farmhouses offer multiple bedrooms and overnight stay options for your team.<br><br></p>",
+          "question": "Can I host an overnight corporate party at the farmhouse?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Farmhouses For Corporate Party in Hyderabad",
+          "content": "<p>Planning the perfect corporate gathering requires the right balance of space, comfort and luxury. At InstaFarms, we make it easy to find the ideal farmhouse for rent in Hyderabad for your next team event, annual meet-up or corporate celebration. With our carefully curated collection of farmhouses, you can host everything from formal board meetings to fun filled team building activities in serene and private surroundings.</p><p><strong>Why should you have a corporate outing in a farmhouse?</strong><br>Corporate outings are more than just a day away from the office, they’re opportunities to connect, collaborate and celebrate. Choosing a farmhouse for corporate outing in Hyderabad offers several advantages:<br>Privacy and Exclusivity - Unlike hotels or banquet halls, farmhouses give your team the freedom to enjoy events without any other interruptions.<br><br>Spacious Properties - Large lawns, open spaces and elegant interiors provide room for both professional and leisure activities.<br><br>Relaxed atmosphere - Farmhouses allow colleagues to bond in a calm, natural setting, away from city distractions.<br><br>Flexible options - Whether you want to set up a formal conference area, poolside party or outdoor dinner, farmhouses offer unmatched flexibility.<br><br><strong>Some of the best features of our farmhouses for corporate events</strong><br>At InstaFarms, every property is designed to make your corporate gathering memorable. Many of our farmhouses come with:<br>Swimming Pool - Farmhouses with pool in Hyderabad add the perfect touch of leisure to your event. Teams can relax, host poolside parties or simply unwind after meetings.<br><br>Spacious Lawns and Outdoor Spaces - Ideal for team-building games, evening gatherings or setting up a stage for corporate presentations.<br><br>Modern Interiors - Spacious halls, dining areas and equipped kitchens make it easy to host both formal and casual events.<br><br>Accommodation Options - Many farmhouses offer multiple bedrooms with extra mattresses, making them suitable for overnight corporate retreats or weekend getaways.<br><br>Entertainment and Activities - From indoor games to outdoor sports, karaoke setups and projector facilities, these farmhouses are designed to keep teams engaged.<br><br><strong>Simple and convenient online booking</strong><br>Finding the right farmhouse has never been easier. With farmhouse online booking in Hyderabad through InstaFarms, you can:<br>Browse a wide selection of verified properties.<br>View detailed images, features and amenities.<br>Check availability and pricing in real-time.<br>Instantly confirm your booking in just a few clicks.<br>Our seamless process ensures that planning your corporate party is stress-free from start to finish.<br><br><strong>Why Book with InstaFarms?</strong><br>Handpicked, well-maintained farmhouses across Hyderabad.<br>Verified listings with transparent pricing.<br>Properties suitable for small teams to large organizations.<br>Dedicated customer support to assist with special requirements.</p><p>Turn your corporate outing into an unforgettable experience with InstaFarms. If you’re looking for a farmhouse for rent in Hyderabad with a spacious area, a pool, a banquet hall or any other amenities for your corporate outing, you can simply book a farmhouse hassle-free on InstaFarms.<br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-09T11:22:33.000Z",
+      "updatedAt": "2025-10-11T13:23:45.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "ffdccb0a-c865-41ab-9a4f-fa07d9337dbf",
+      "name": "Farmhouses with large swimming pool",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-with-large-swimming-pool",
+      "weight": 90,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FTh0nTFarmhouses_with_Large_Swimming_Pools.webp?alt=media&token=fffae259-b0ab-4619-ae97-5bdf5fe1ea5a",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-with-large-swimming-pool",
+        "metaImage": "",
+        "metaTitle": "Farmhouses with large Swimming Pool | Refresh & Relax Today",
+        "metaKeywords": "Farmhouses With Large Swimming Pool",
+        "metaDescription": "Cool off at farmhouses with private swimming pools. Perfect for pool parties and relaxing getaways. Browse and book your farmhouse with a large pool today!"
+      },
+      "faqs": [
+        {
+          "answer": "Yes, till a permitted time (usually 10:30 PM). Volume restrictions may apply in certain areas.",
+          "question": "Do these farmhouses allow loud music during parties?"
+        },
+        {
+          "answer": "Most farmhouses allow outside catering. Alcohol is allowed as per Telangana Excise rules — it must be purchased within the same mandal with a valid bill. Check property details to confirm.\n",
+          "question": "Is outside catering or alcohol allowed?"
+        },
+        {
+          "answer": "Yes — with prior approval from our support.\n",
+          "question": "Can we decorate the pool area for the party?"
+        },
+        {
+          "answer": "Backup options vary by property. Some farmhouses offer indoor event spaces or banquet halls for adverse weather, while others may not have alternatives. Please review the property details or consult our support team before booking.\n",
+          "question": "Are there backup options for rain or bad weather?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Stunning Luxury Swimming Pool Farmhouses in Hyderabad",
+          "content": "<p>Take your getaway to the next level with our Luxe Pools collection which contains a list of luxurious farmhouses near Hyderabad featuring uniquely designed private pools. From infinity-edge style to pool waterfalls, these verified properties are perfect for staycations, celebrations and poolside lounging. Whether you're planning a birthday bash, a sundowner or just want to unwind with sophistication, Luxe Pools offers an experience where relaxation meets visual delight.</p><p>Dive in and make a splash at InstaFarms Large Swimming Pools near <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-medchal\" target=\"_blank\">Medchal </a>(40 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddamberpet\" target=\"_blank\">Peddamberpet </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tspa-moinabad\" target=\"_blank\">TSPA/moinabad</a> (65 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-for-events\" target=\"_blank\">Farmhouses for Events</a>, <a href=\"https://instafarms.in/collections/farmhouses-with-private-pool-and-theatre\" target=\"_blank\">Private Pool Theatre Farmhouses</a> and more.<br><br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:56:07.000Z",
+      "updatedAt": "2025-10-11T13:23:45.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "179dd0ba-78c6-4131-b047-8e9925659662",
+      "name": "Newly Launched Farmhouses",
+      "description": null,
+      "heading": null,
+      "slug": "newly-launched-farmhouses",
+      "weight": 39,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FLkPSBNewly_Launched_Farmhouses.webp?alt=media&token=f2c7fa9b-5860-4ea0-894a-3b065a2d97dc",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "",
+        "metaImage": "",
+        "metaTitle": "Newly Launched Farmhouses in Hyderabad | Latest Escapes",
+        "metaDescription": "Newly launched farmhouses in Hyderabad feature top amenities, private pools, and serene settings—perfect for family retreats, celebrations or weekend escapes.\n"
+      },
+      "faqs": [
+        {
+          "answer": "<p>Browse the “Newly Launched Farmhouses” collection, pick your favorite property, select your dates and number of guests and proceed with the instant booking system.<br><br></p>",
+          "question": "How do I book a newly launched farmhouse? "
+        },
+        {
+          "answer": "<p>Absolutely. Most of InstaFarms’ farmhouses are located in a close proximity to the city ensuring a quick and refreshing escape, perfect for weekends or short breaks.<br><br></p>",
+          "question": "Are these properties suitable for weekend getaways near Hyderabad?"
+        },
+        {
+          "answer": "<p>Yes. Most of our properties feature private swimming pools, entertainment systems and lush exteriors to guarantee a private farmhouse in Hyderabad with a luxury feel.<br><br></p>",
+          "question": "Can I find luxury farmhouse options with private amenities?"
+        },
+        {
+          "answer": "<p>These farmhouses include amenities like kids’ play zones, projectors and spacious lawns which are designed with families and celebrations in mind.<br><br></p>",
+          "question": "What if I want to book for a family or event?"
+        },
+        {
+          "answer": "<p>Definitely. InstaFarms offers dedicated customer support to assist with any query before or during your stay.<br><br></p>",
+          "question": "Is customer support available during my stay?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Newly Launched Farmhouses in Hyderabad",
+          "content": "<p>Explore our brand new, handpicked farmhouse escapes that are perfect for relaxing, celebrating and reconnecting. From intimate luxury retreats to family-friendly escapes, these newly launched farmhouses in and around Hyderabad redefine the concept of a weekend getaway near Hyderabad.</p><p><strong>Why These Newly Launched Farmhouses Are Special<br></strong>Discover why you should browse through and book from our newly launched collection:<br>Fresh, exclusive listings: Each farmhouse is a new addition to InstaFarms, offering luxurious interiors, modern amenities and entertainment options for everyone.<br><br><br>Luxury combined with privacy: These luxury farmhouses in Hyderabad offer amazing amenities such as indoor home theatres, private pools, well-maintained spacious lawns and premium furnishings, while ensuring a secluded and serene environment.<br><br><br>Perfect for any occasion: Whether you’re planning a family retreat, hosting a small celebration or just searching for a peaceful escape from the city’s hustle, these farmhouses offer versatility and space to match your mood.<br><br><strong>These farmhouses are perfect for<br></strong>Weekend Getaways<br>Escape the hustle and bustle with just a short drive from the city. Each property listed on InstaFarms provides the privacy and amenities needed to rejuvenate and unwind.<br><br>Family Retreats<br>With amenities that can be suitable for kids like kids play areas and kids’ pools and for adults which include projectors, indoor games and outdoor sports facilities, these spaces cater to all age groups.<br><br>Celebrations &amp; Events<br>You can also host events and parties at our farmhouses. From intimate birthdays to casual get-togethers, these newly launched farmhouses are event-ready with large halls, projector setups and spacious lawns.<br><br>Corporate or Group Outings<br>Impress your team or retreat with colleagues in professionally-equipped settings offering seamless support from InstaFarms. These farmhouses are also ideal for hosting corporate events and retreats.<br><br><strong>Why Choose InstaFarms?<br></strong>Verified and Trusted Listings - Each farmhouse undergoes a rigorous verification process so that it can guarantee quality, safety and comfort for all guests.<br><br>Hassle-Free Instant Booking - InstaFarms provides seamless booking experience with quick confirmation and transparent pricing for a stress free booking experience.<br><br>Premium Amenities, Competitive Pricing - Enjoy luxury farmhouses in Hyderabad without premium markups, designed to offer maximum value.<br><br>Dedicated Customer Care - Support is just a call away. You can always call our customer service in case you have any questions or need any additional details about any property. <br><br>Browse the “Newly Launched Farmhouses” collection now to book your next farmhouse getaway near Hyderabad. Whether it's a luxurious staycation or a memorable family retreat, InstaFarms brings you the best of privacy, comfort and value, all tailored to your perfect weekend getaway near Hyderabad.<br>Book today and step into a world of luxury, serenity and unforgettable experiences.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-09T12:20:00.000Z",
+      "updatedAt": "2026-01-07T14:29:33.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "534f1a8f-e11a-41ab-98e5-2abe724205fa",
+      "name": "Farmhouses with private pool and theatre",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-with-private-pool-and-theatre",
+      "weight": 89,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FCKIU5Private_Pool_Theatre_Farmhouses.webp?alt=media&token=a9b90a7c-f9ab-44c6-9091-36399b99e95c",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-with-private-pool-and-theatre",
+        "metaImage": "",
+        "metaTitle": "Farmhouses with Private Pool & Theatre | Book Now",
+        "metaKeywords": "Farmhouses With Private Pool And Theatre",
+        "metaDescription": "Experience the best of luxury with farmhouses featuring private pools and theatres. Perfect for exclusive stays and events. Find and book your dream farmhouse!"
+      },
+      "faqs": [
+        {
+          "answer": "Open-air projector setups with large screens by the poolside. Details vary.\n",
+          "question": "What type of screen setup is available?"
+        },
+        {
+          "answer": "Typically, screenings are allowed till 10:30 PM — depends on the property’s rules.\n",
+          "question": "Is there a limit to movie timings?"
+        },
+        {
+          "answer": " Yes — most setups support personal content via pen drives or HDMI.",
+          "question": "Can we bring our own movies or OTT logins?"
+        },
+        {
+          "answer": "Many properties provide them. It’s mentioned in the listing.\n",
+          "question": "Are bean bags or poolside loungers available?"
+        },
+        {
+          "answer": "Check with the property — some have indoor setups.",
+          "question": "Is there a backup plan for rain?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Pool Theatre Farmhouses in Hyderabad",
+          "content": "<p>Welcome to The Aquaplex Collection, a refreshing escape of farmhouses near Hyderabad, each featuring a private swimming pool. This collection showcases verified properties that turn ordinary getaways into unforgettable dips and dives. These farmhouses are perfect for poolside lounging, laid-back celebrations or simply soaking up the sun in a serene setting. Every farmhouse in this collection is thoughtfully chosen for its ambience, privacy and that refreshing poolside charm that makes your stay feel like a true retreat.</p><p>Enjoy movies or game nights by the pool at InstaFarms Private Pool Theatre Farmhouses near <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-ghatkesar\" target=\"_blank\">Ghatkesar </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tukkuguda\" target=\"_blank\">Tukkuguda </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-kollur\" target=\"_blank\">Kollur </a>(45 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-near-city\" target=\"_blank\">Farmhouses near city</a>, <a href=\"https://instafarms.in/collections/farmhouses-with-sports-amenities\" target=\"_blank\">Farmhouses with Sports Amenities</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T03:00:40.000Z",
+      "updatedAt": "2025-10-11T12:48:54.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "b460c025-e5e6-476a-ac22-ad5b9bb95e2b",
+      "name": "Farmhouses For Bachelor Party",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-for-bachelor-party",
+      "weight": 38,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FwA8xkFarmhouses_for_Bachelor_Party.webp?alt=media&token=66f05ee2-ca34-4760-817b-925b09ca73f6",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "",
+        "metaImage": "",
+        "metaTitle": "Farmhouses for Bachelor Parties in Hyderabad | Party Villas",
+        "metaDescription": "Plan an epic bachelor party at a farmhouse in Hyderabad—enjoy private lawns, a pool, and game zones for an unforgettable night with friends.\n"
+      },
+      "faqs": [
+        {
+          "answer": "<p>Prices vary depending on the size, location and amenities of the farmhouse. InstaFarms offers options ranging from budget-friendly to luxury, ensuring there’s something for everyone.<br><br></p>",
+          "question": "How much does it cost to book a farmhouse for a bachelor party in Hyderabad?"
+        },
+        {
+          "answer": "<p>Yes. Many of our farmhouses feature private swimming pools, perfect for hosting an exciting poolside bachelor bash.<br><br></p>",
+          "question": "Can I book a farmhouse with a pool in Hyderabad for my party?"
+        },
+        {
+          "answer": "<p>It’s easy. Visit the InstaFarms website, browse our collection, select your preferred farmhouse and confirm your booking in just a few clicks.<br><br></p>",
+          "question": "How do I make a farmhouse online booking in Hyderabad?"
+        },
+        {
+          "answer": "<p>Most farmhouses allow music, but some may have time restrictions depending on their location. Check the property details before booking.<br><br></p>",
+          "question": "Can we play loud music at the farmhouse?"
+        },
+        {
+          "answer": "<p>Capacity varies by property, some are ideal for intimate groups of 10 to 15 people, while others can host larger gatherings of 100+ guests.<br><br><br></p>",
+          "question": "How many people can a farmhouse accommodate?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Farmhouses For Bachelor Party in Hyderabad",
+          "content": "<p>A bachelor party is a once in a lifetime memory with your closest friends. InstaFarms brings you the best farmhouse for bachelor parties in Hyderabad, designed to make your night unforgettable. Whether you want a private gathering with your squad, a poolside bash or a grand party under the stars, our farmhouses give you the perfect mix of privacy, luxury and entertainment.<br>With InstaFarms, finding the right farmhouse is easier than ever. Through our seamless farmhouse online booking platform, you can choose from handpicked properties that suit every mood, group size and budget.</p><p><strong>Why choose a farmhouse for your bachelor party?</strong><br>Unlike traditional banquet halls or pubs, farmhouses provide the perfect balance of space, privacy and comfort. Here’s why they’re the best choice for your bachelor bash:<br>Total Privacy: Celebrate with your friends without restrictions or outside interference.<br>Spacious Venues: From cozy villas to expansive lawns, choose a setting that matches your party style.<br>Customizable Experience: Set up your own music, food and décor without limitations.<br>Fun Activities: Many of our farmhouses come with game zones, barbecue areas and outdoor seating for extra fun.<br><br><strong>Farmhouse Options in Hyderabad</strong><br>InstaFarms offers an extensive collection of properties tailored for bachelor parties. Whether you’re looking for a farmhouse with a pool to host a lively pool party or a luxury farmhouse villa surrounded by greenery, we’ve got you covered.<br><br>1. Farmhouse with Pool - Cool off and party by the pool! Perfect for day or night parties, our poolside farmhouses are ideal for music, drinks and unlimited fun.<br><br>2. Luxury Villas - If you want to keep things classy, our luxury villas offer premium interiors, stylish halls and spacious bedrooms where you can party and relax.<br><br>3. Spacious Lawns &amp; Outdoor Spaces - For those who love an open-air vibe, our farmhouses with sprawling lawns allow you to host big gatherings with live music, dance floors and more.<br><br><strong>Hassle-Free Online Booking</strong><br>At InstaFarms, booking your dream farmhouse is simple and quick. With just a few clicks, you can browse, select and confirm your farmhouse for rent in Hyderabad. Our team ensures every detail is taken care of, so you can focus only on enjoying your bachelor night.</p><p>Your bachelor party deserves a venue as unique as your celebration. With InstaFarms, you can find the best farmhouse for a bachelor party in Hyderabad, complete with modern amenities, beautiful surroundings and total freedom to celebrate your way.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-09T11:37:05.000Z",
+      "updatedAt": "2025-10-23T14:40:25.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "7013c4cd-5f3f-4feb-9e2d-c08529516942",
+      "name": "Farmhouses with Banquet Halls",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-with-banquet-halls",
+      "weight": 85,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2F6S2OMBanquet_Hall_Farmhouses.webp?alt=media&token=4e9ebbb3-4084-462a-aa07-5d6a25f449db",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-with-banquet-halls",
+        "metaImage": "",
+        "metaTitle": "Farmhouses with Banquet Halls for Grand Events | Book Today",
+        "metaKeywords": "Farmhouses With Banquet Halls",
+        "metaDescription": "Host large gatherings at farmhouses with spacious banquet halls. Ideal for weddings and corporate events. Discover and reserve your farmhouse venue now!"
+      },
+      "faqs": [
+        {
+          "answer": "Ranges from 50 to 200 guests. Exact capacity is listed per property.\n",
+          "question": "How many guests can the banquet hall accommodate?"
+        },
+        {
+          "answer": "Yes — some properties offer in-house catering. Outside catering is also allowed at many farmhouses. Please check the individual property details and confirm with our support team before booking.\n",
+          "question": "Is catering service available for the banquet?"
+        },
+        {
+          "answer": "Yes — with prior approval from our support.\n",
+          "question": "Do these farmhouses allow event decorations?"
+        },
+        {
+          "answer": "Most halls are fully air-conditioned — details mentioned on property pages.\n",
+          "question": "Is air-conditioning available in banquet halls?"
+        },
+        {
+          "answer": "Basic AV systems are available at most places. Check for specifics.\n",
+          "question": "Are there audio-video setups for functions?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Banquet Hall Farmhouses in Hyderabad",
+          "content": "<p>Our Banquet Hall Farmhouses offer the perfect structured indoor space for all your best celebrations. Set in verified farmhouses near Hyderabad, these properties feature spacious banquet halls ideal for weddings, receptions, birthdays, engagements, family functions and corporate events. With ample banquet hall space, lawns and luxurious farmhouse amenities, you get the best of both worlds, a formal setting to host your guests and the comfort of a relaxed farmhouse vibe, all just a short drive from the city.</p><p>Celebrate every occasion in style at InstaFarms Banquet Hall Farmhouses near <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddagolkonda\" target=\"_blank\">Pedda Golconda </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tspa-moinabad\" target=\"_blank\">TSPA/Moinabad</a> (65 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-medchal\" target=\"_blank\">Medchal </a>(40 mins) and more. <br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/nature-stay-farmhouses\" target=\"_blank\">Nature Stay Farmhouses</a>, <a href=\"https://instafarms.in/collections/luxury-pool-party-farmhouses\" target=\"_blank\">Luxury Pool Party Farmhouses</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T03:19:52.000Z",
+      "updatedAt": "2025-10-11T13:23:45.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "82cce675-f2d5-4aac-aaee-223caa04425f",
+      "name": "Luxury pool party farmhouses",
+      "description": "",
+      "heading": null,
+      "slug": "luxury-pool-party-farmhouses",
+      "weight": 92,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FZcOepLuxury_Pool_Party_Farmhouses.webp?alt=media&token=023bfa1e-a593-4cdd-9a3c-7e00ccbe50bb",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections//luxury-pool-party-farmhouses",
+        "metaTitle": "Luxury Pool Farmhouses for Parties and Family Events",
+        "metaDescription": "Find luxury pool party farmhouses perfect for epic celebrations with friends or family events. Enjoy private pools, lush spaces & fun vibes. Book now!\r\n"
+      },
+      "faqs": [
+        {
+          "answer": "Most farmhouses offer private pools exclusively for your booking group. It’s always specified in the listing.",
+          "weight": 0,
+          "question": "Are these pools private or shared?"
+        },
+        {
+          "answer": "Depends on property rules. Some allow till midnight.\n",
+          "weight": 0,
+          "question": "Is pool access available at night?"
+        },
+        {
+          "answer": "Yes — most have sunbeds, seating, or cabanas.",
+          "weight": 0,
+          "question": "Are there poolside seating and loungers available?"
+        },
+        {
+          "answer": "Yes — hygiene and maintenance are a top priority. Pools are cleaned before each new check-in.\n",
+          "weight": 0,
+          "question": "Is the pool cleaned daily?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Best Pool Party Farmhouses Near Hyderabad",
+          "content": "<p>Make a splash with our Majestic Pools Collection, a handpicked range of verified farmhouses near Hyderabad featuring some grand pools perfect for group getaways, pool parties and all day lounging. These pools offer plenty of space for everyone to relax, play and celebrate in style. If you're hosting a birthday bash, a corporate outing, a family reunion or just want a staycation, these luxurious farmhouses offer pools big enough for your entire group. Every property in this collection is a verified listing, ensuring you enjoy a premium experience with full access to both the farmhouse and its large swimming pool. Host an unforgettable pool party at InstaFarms Luxury Pool Party Farmhouses near <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-moinabad\" target=\"_blank\">Moinabad</a> (65 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-medchal\" target=\"_blank\">Medchal</a> (40 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamshabad\" target=\"_blank\">Shamshabad</a> (40 mins) and more. Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-with-big-screen\" target=\"_blank\">Big Screen Farmhouses</a>, <a href=\"https://instafarms.in/collections/nature-stay-farmhouses\" target=\"_blank\">Nature Stay  Farmhouses</a> and more.<br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:54:50.000Z",
+      "updatedAt": "2026-03-11T15:19:32.242Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "f9ee834e-ec77-4d53-bef3-f25e84bf7180",
+      "name": "Pet Friendly Farmhouses",
+      "description": null,
+      "heading": null,
+      "slug": "pet-friendly-farmhouses",
+      "weight": 46,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FzAlnYPet_Friendly_Farmhouses_1.webp?alt=media&token=2f36c168-379d-467d-921a-d8112d013652",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "",
+        "metaImage": "",
+        "metaTitle": "Pet-Friendly Farmhouses in Hyderabad | Bring Your Pets Along",
+        "metaDescription": "Our pet-friendly farmhouses in Hyderabad offer secure lawns, private pools, and modern amenities, so you don't have to leave pets behind on family getaways.\n"
+      },
+      "faqs": [
+        {
+          "answer": "<p>Not all. But this collection is dedicated to verified pet friendly options. Always check the property details before booking.<br><br></p>",
+          "question": "Are all InstaFarms Properties pet friendly?"
+        },
+        {
+          "answer": "<p>Yes, most properties have enclosed lawns or boundaries. Supervision is advised around pools or open spaces.<br><br></p>",
+          "question": "Are pets safe in these farmhouses?"
+        },
+        {
+          "answer": "<p>It depends from property to property. Details are listed on each property page.<br><br></p>",
+          "question": "Are there extra charges for pets?"
+        },
+        {
+          "answer": "<p>Play outdoor games, host BBQ evenings, swim or relax indoors. Meanwhile, your pet enjoys the freedom of large open spaces.<br><br></p>",
+          "question": "What activities can I do during my stay?"
+        },
+        {
+          "answer": "<p>Most are located within 30–60 minutes from the city, making them perfect for a weekend getaway near Hyderabad.<br><br></p>",
+          "question": "How far are these farmhouses from Hyderabad?"
+        },
+        {
+          "answer": "<p>Yes, InstaFarms offers quick and secure farmhouse booking in Hyderabad with instant confirmation.<br><br></p>",
+          "question": "Can I book these farmhouses instantly?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Pet Friendly Farmhouses in Hyderabad",
+          "content": "<p>At InstaFarms, we understand that pets are a part of your family and you would want to include them in your getaways. That's why we've curated a collection of pet friendly farmhouses that offer the perfect blend of comfort, nature and hospitality, ensuring both you and your pets have an unforgettable getaway.</p><p>Why should you choose our Pet Friendly Properties?<br><br>Spacious Properties <br>All of our Pet Friendly Farmhouses have spacious outdoor spaces, letting your pets explore freely and safely. From playful runs in the lawns to leisurely walks around the property, your furry companions will enjoy every moment. These farmhouses for rent in Hyderabad are ideal for pets who love open space and nature. <br><br>Verified Properties<br>Each listing undergoes a careful verification process to ensure the environment is pet-safe and meets InstaFarms’ standards for cleanliness and comfort. <br><br>Hassle Free Booking<br>InstaFarms makes farmhouse booking in Hyderabad simple and transparent with verified properties, instant confirmation, and flexible policies.<br><br>What to expect in our pet friendly properties <br>Secure and fenced property - So your pets can roam safely.<br>Comfortable Interiors - Fully furnished with AC bedrooms, modern kitchens and Wi-Fi.<br>Entertainment Facilities - Swimming pools, indoor games, movie projectors and BBQ areas.<br>Verified Properties - Each farmhouse is hand-checked to ensure cleanliness, comfort and safety.<br><br>With InstaFarms, you don’t just rent a farmhouse, you also create memorable experiences for your whole family, including your furry friends.<br><br>InstaFarms Properties are ideal for every occasion<br>Our pet friendly farmhouses in Hyderabad can also be used for other kinds of retreats such as: <br>Family Reunions and gatherings - Celebrate togetherness in a peaceful setting where pets are free to join the fun.<br><br>Quick Weekend Getaways near Hyderabad - Most of our farmhouses are an hour’s drive from the city, these farmhouses are ideal for quick breaks with your pets by your side.<br><br>Special Celebrations - Birthdays, anniversaries or private parties become even more special when every family member, including your pets, is part of the day.<br><br>Relaxing Retreats - If you just want to escape the city noise and stress with serene views, open spaces and your furry friend for company.</p><p><strong>Book your pet friendly farmhouse today<br></strong>With InstaFarms, you don’t need to compromise on family time or leave your pet behind. Our curated farmhouse for rent in Hyderabad options combine comfort, privacy and convenience, perfect for your next celebration or retreat.<br><br>So pack your bags, grab the leash and set out for a relaxing escape away from the city. Explore our collection and make your next trip a truly pet-friendly farmhouse Hyderabad experience. <br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-08T17:48:52.000Z",
+      "updatedAt": "2025-12-09T02:28:22.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "956c50ce-08e3-4927-a0e0-6f62aa40e200",
+      "name": "Farmhouses with home theatre",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-with-home-theatre",
+      "weight": 95,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2Fs6OUGFarmhouses_with_Home_Theatre.webp?alt=media&token=3434482d-3e10-4204-8bcc-aed194a71893",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-with-home-theatre",
+        "metaImage": "",
+        "metaTitle": "Farmhouses with Home Theatre for Ultimate Entertainment",
+        "metaKeywords": "Farmhouses With Home Theatre",
+        "metaDescription": "Enjoy farmhouses with home theatre for private screenings and family fun. Perfect for friends' fun and private screenings. Explore and book a farmhouse now!"
+      },
+      "faqs": [
+        {
+          "answer": "High-quality projectors or LED screens with surround sound systems. Details vary per property and are listed in each profile.\n",
+          "question": "What kind of audio and video systems are provided?"
+        },
+        {
+          "answer": "Seating ranges from 8 to 30, depending on the property. Check specific capacity on the property listing.\n",
+          "question": "How many people can be seated in the home theatre room?"
+        },
+        {
+          "answer": "Yes — most setups support OTT logins or HDMI/Chromecast connections.",
+          "question": "Can we watch OTT platforms like Netflix, Prime, or Hotstar?"
+        },
+        {
+          "answer": "Usually yes, but a few properties might charge extra. It’ll be mentioned in the pricing section.\n",
+          "question": "Is the home theatre usage included in the booking cost?"
+        },
+        {
+          "answer": "Most farmhouses prefer keeping the theatre areas clean and restrict outside snacks or drinks inside the cinema room. However, a few properties might allow it. It’s best to check the house rules under the property details or confirm with our support team beforehand.\n",
+          "question": "Can we bring our own snacks or drinks to the theatre area?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Best home theatre farmhouses near Hyderabad",
+          "content": "<p>Experience cinema like never before at our Home Theatre Escapes, a premium collection of farmhouses near Hyderabad that come with equipped private home theatres. These verified properties are perfect for a movie marathon, binge-watching your favorite series or hosting a live sports screening with friends. Experience the ultimate audio-visual screening in the comfort of a scenic farmhouse setting.</p><p>Enjoy the ultimate theatre experience with InstaFarms near <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddagolkonda\" target=\"_blank\">Pedda Golconda</a> (50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tspa-moinabad\" target=\"_blank\">TSPA/Moinabad</a> (65 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-medchal\" target=\"_blank\">Medchal </a>(40 mins) and more. <br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-with-private-pool-and-theatre\" target=\"_blank\">Private Pool Theatre Farmhouses</a>, <a href=\"https://instafarms.in/collections/farmhouses-with-sports-amenities\" target=\"_blank\">Farmhouses with Sports Amenities</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:47:51.000Z",
+      "updatedAt": "2025-10-11T12:48:54.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "5ecd45ab-2352-4d5f-8eac-e8c192aaf5ea",
+      "name": "Farmhouses with big screen",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-with-big-screen",
+      "weight": 99,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FPH0KaBig_Screen_Farmhouses.webp?alt=media&token=047bcb96-c1e7-4f0f-bf40-6e544fd48ee9",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-with-big-screen",
+        "metaImage": "",
+        "metaTitle": "Farmhouses with Big Screen for Events & Movies | Book Now",
+        "metaKeywords": "Farmhouses With Big Screen",
+        "metaDescription": "Looking for farmhouses with big screen facilities? Perfect for movie nights and events. Browse available properties and book your dream farmhouse today!"
+      },
+      "faqs": [
+        {
+          "answer": "<p>Some farmhouses have <a href=\"https://instafarms.in/blog/5-farmhouses-with-the-best-indoor-projection-setups/\" target=\"_blank\">indoor projectors</a> while others have open-air projector setups. You can check the listing photos and amenities section for specific details.\n</p>",
+          "question": "What kind of screens do these farmhouses have?"
+        },
+        {
+          "answer": "Yes! Most setups allow you to connect via HDMI, pen drives, or OTT logins. Check with the property about compatible devices before your visit.\n",
+          "question": "Can we play our own movies or content?"
+        },
+        {
+          "answer": "<p><br></p><p>Outdoor screenings usually work best post-sunset. <a href=\"https://instafarms.in/hyderabad/tspa_moinabad/2br-retreat-pool-side-projector-indoor-home-theatre-hyd1003.html\" target=\"_blank\">Indoor theatres</a> are usable anytime. Timings and equipment details will be listed per property.</p><p>Some of the best properties with a big screen projection are <a href=\"https://instafarms.in/hyderabad/medchal/budget-villa-5br-pool-kids-home-theatre-hyd1034.html\" target=\"_blank\">HYD1034 near Medchal</a>, <a href=\"https://instafarms.in/hyderabad/manikonda/elegant-3br-terrace-pool-pets-pool-home-theatre-villa-hyd1018.html\" target=\"_blank\">HYD1018 - 3BR Manikonda</a> &amp; <a href=\"https://instafarms.in/hyderabad/medchal/luxury-8br-villa-in-medchal-hyderabad-outdoor-amphitheaterprojector-hallbanquet-hall-hyd1040.html\" target=\"_blank\">HYD1040 - 8BR Medchal</a><br></p><p>Some farmhouses with Home Theatres are <a href=\"https://instafarms.in/hyderabad/medchal/budget-villa-5br-pool-kids-home-theatre-hyd1034.html\" target=\"_blank\">HYD1034 - Budget Friendly Pool Property near Medchal</a> &amp; <a href=\"https://instafarms.in/hyderabad/tspa_moinabad/2br-retreat-pool-side-projector-indoor-home-theatre-hyd1003.html\" target=\"_blank\">HYD1003 - 2BR Retreat near TSPA/Moinabad.<br></a></p><p><a href=\"https://instafarms.in/hyderabad/tspa_moinabad/2br-retreat-pool-side-projector-indoor-home-theatre-hyd1003.html\" target=\"_blank\"><br></a></p><p><br></p>",
+          "question": "Is the screen setup available during both day and night?"
+        },
+        {
+          "answer": "Some farmhouses have lounge seating. Others may have open lawn setups where you can customize your seating.",
+          "question": "Are seating arrangements provided for the screening area?"
+        },
+        {
+          "answer": "In most cases, it’s included in your booking package. If there’s an extra fee, it’ll be mentioned clearly on the property listing.\n",
+          "question": "Is there an extra charge for using the screen setup?"
+        }
+      ],
+      "info": [
+        {
+          "title": "BIG SCREEN FARMHOUSES in Hyderabad",
+          "content": "<p>Movie nights just got a major upgrade. Our 'Big Screen Getaways' feature farmhouses near Hyderabad that are equipped with indoor or outdoor projector setups which are perfect for binge-watching sessions, live match screenings or movie marathons under the stars. Gather your friends, grab the popcorn and enjoy a cinematic experience like never before, surrounded by nature and away from city noise. It’s your personal box office escape - no queues, no interruptions, just pure enjoyment.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">Enjoy InstaFarms properties with Big Projector Screens in locations like <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-medchal\" target=\"_blank\">Medchal </a>(40 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddagolkonda\" target=\"_blank\">Pedda Golconda</a> (50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tukkuguda\" target=\"_blank\">Tukkuguda</a> (50 mins) and more.<br>Explore other <a href=\"https://instafarms.in/\" target=\"_blank\">InstaFarms Collections</a> like <a href=\"https://instafarms.in/collections/farmhouses-for-events\" target=\"_blank\">Farmhouses for Events</a>, <a href=\"https://instafarms.in/collections/luxury-pool-party-farmhouses\" target=\"_blank\">Luxury Pool Party Farmhouses</a> and more.<br><br></p><br class=\"Apple-interchange-newline\"><br><p><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:34:25.000Z",
+      "updatedAt": "2025-10-11T10:56:35.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "82478486-b236-4825-9c68-fd86a51900b6",
+      "name": "Trending Farmhouses",
+      "description": null,
+      "heading": null,
+      "slug": "trending-farmhouses",
+      "weight": 38,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FrlL6nTrending_Farmhouses.webp?alt=media&token=2471fb81-be88-4920-9c01-9197c7df7b7b",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "",
+        "metaImage": "",
+        "metaTitle": "Trending Farmhouses in Hyderabad | Popular Luxury Stays",
+        "metaDescription": "Discover trending farmhouses in Hyderabad—luxury stays with private pools, scenic settings, and modern amenities. Perfect for parties, trips & retreats.\n"
+      },
+      "faqs": [
+        {
+          "answer": "<p>These properties rank highest in popularity, rated consistently by guests and frequently booked. They are InstaFarms’ standout picks for comfort, amenities and ambiance.<br></p>",
+          "question": "What makes these farmhouses “trending”?"
+        },
+        {
+          "answer": "<p>Absolutely. All trending listings are verified by InstaFarms for quality, cleanliness, and accuracy. We ensure your private farmhouse booking in Hyderabad is as safe as it is memorable.<br><br></p>",
+          "question": "Are these listings verified?"
+        },
+        {
+          "answer": "<p>Yes, many of them are classified as luxury farmhouses in Hyderabad, offering premium facilities like private pools, projectors and upscale interiors.<br><br></p>",
+          "question": "Are these trending farmhouses considered luxury stays?"
+        },
+        {
+          "answer": "<p>Certainly! These trending properties are perfect for a short retreat as they are located close to the city but are worlds apart in experience.<br><br></p>",
+          "question": "Can I find options suitable for a weekend getaway near Hyderabad?"
+        },
+        {
+          "answer": "<p>Browse the listing, pick your dates and guest count and hit \"Book Now.\" Instant confirmations are the norm, no delays.<br><br></p>",
+          "question": "How do I book a trending farmhouse?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Trending Farmhouses in Hyderabad",
+          "content": "<p>Discover the most sought-after farmhouse escapes under “Trending Farmhouses” which is a curated collection of InstaFarms’ most in-demand listings. These properties have gained popularity for their luxurious amenities, serene settings and flawless guest experiences. Whether you're searching for a farmhouse for rent in Hyderabad, a luxury farmhouse in Hyderabad or planning a weekend getaway near Hyderabad, this page brings together your top choices in one place.</p><p><strong>Why these farmhouses are trending</strong><br>Handpicked Popularity<br>Each listing featured here is hand-selected based on booking frequency, guest feedback and unique offerings. These are the ones visitors are raving about and rebooking time and again.<br><br>Perfect for Every Occasion<br>Planning a family reunion, a party or a peaceful retreat? These properties cater to a variety of experiences, from vibrant gatherings to quiet escapes.<br><br>Unbeatable Value <br>Enjoy upscale comforts without premium pricing. InstaFarms balances luxury and affordability, making high-end farm stays accessible to more explorers.<br><br><strong>Property Highlights</strong> <br>Sprawling Pool Villas - Great for parties, large groups with private pools, projector setups and lawns<br><br>Cozy and spacious Stays - We have intimate 2 to 3 BR escapes perfect for couples or small families seeking comfort. We also provide larger properties for bigger groups with the best amenities. <br><br>Modern Interiors + Entertainment - These farmhouses have sleek designs, indoor projection, gaming tables and so much more to give you the perfect weekend fun. <br><br>Event-Ready Estates - These farmhouses are also ideal for weddings or corporate retreats with staging areas, halls and capacity for 20+ guests. <br><br><strong>How to Maximize Your Stay</strong><br>Use filters like location (Shamshabad, Shamirpet, Moinabad), number of bedrooms, guests and amenities to get the farmhouse that perfectly matches your needs.<br><br>Book instantly – You do not need to wait or call someone to book a farmhouse. Just visit our website and book instantly.<br><br>Reach out to our customer service if you have special needs or are planning larger gatherings or even if you want to know some details.<br><br>Plan early for high-demand weekends, these trending stays book fast!</p><p>Our Trending Farmhouses collection is your passport to curated luxury, effortless booking and unforgettable memories. Whether you're chasing a high-end luxury farmhouse in Hyderabad, a serene spot for a weekend getaway near Hyderabad, or a verified farmhouse for rent in Hyderabad, InstaFarms is where to start. Book your perfect escape today and experience InstaFarms’ promise - verified stays, elegant comfort and a seamless journey from search to savour.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-09-09T11:41:21.000Z",
+      "updatedAt": "2025-09-10T20:06:04.000Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf"
+    },
+    {
+      "id": "38f703bb-ec36-4a81-85d8-929094f3d7a0",
+      "name": "Farmhouses near city",
+      "description": null,
+      "heading": null,
+      "slug": "farmhouses-near-city",
+      "weight": 100,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2Frkp55Farmhouses_Near_City.webp?alt=media&token=66cb86c8-dd00-42e7-b673-c65dc079aaac",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-near-city",
+        "metaTitle": "Find Farmhouses Near City | Book Your Perfect Escape Today",
+        "metaDescription": "Discover the best farmhouses near the city for weekend getaways and events. Explore top locations, amenities, and book your ideal farmhouse with ease!"
+      },
+      "faqs": [
+        {
+          "answer": "<p>Most of these farmhouses are within 30 minutes from key Hyderabad locations like Gachibowli, Banjara Hills, or Hitech City. Exact distance varies by property — you can check it in the listing details. Some of them include <a href=\"https://instafarms.in/hyderabad/shankarpally/12br-rain-dance-discotech-resort-hyd1059.html\" target=\"_blank\">HYD1059 - 12BR Shankarpally</a>, <a href=\"https://instafarms.in/hyderabad/kollur/2br-outdoor-projector-luxury-pool-farmhouse-hyd1004.html\" target=\"_blank\">HYD1004 - Luxury 2BR Kollur</a>, <a href=\"https://instafarms.in/hyderabad/kollur/2br-luxury-suites-half-basket-ball-court-villa-hyd1005.html\" target=\"_blank\">HYD1005 - 2BR Kollur.<br></a></p>",
+          "weight": 0,
+          "question": "How far are these farmhouses from the city center?"
+        },
+        {
+          "answer": "<p>Yes, since they're closer to the city, these are great for quick getaways or spontaneous <a href=\"https://instafarms.in/collections//luxury-pool-party-farmhouses\" target=\"_blank\">pool parties</a>. Availability depends on <a href=\"https://instafarms.in/blog/10-essential-things-you-must-check-before-booking-a-farmhouse-stay-avoid-these-common-mistakes/\" target=\"_blank\">booking </a>slots, so it's best to book a day in advance.\n</p>",
+          "weight": 0,
+          "question": "Are these farmhouses suitable for last-minute plans?"
+        },
+        {
+          "answer": "Most properties are well-connected by cab services. You’ll find location details and maps listed with each property.\n",
+          "weight": 0,
+          "question": "Is transport or cab access easy for these locations?"
+        },
+        {
+          "answer": "Depends on the area, but being closer to the city means Swiggy/Zomato usually service most locations. You can also opt for the property's in-house kitchen if available.\n",
+          "weight": 0,
+          "question": "Are there food delivery options available at these farmhouses?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Closer to the City Farmhouse in Hyderabad",
+          "content": "<p>Escape the city's hustle without venturing too far. Our 'Urban Getaways' collection offers luxurious farmhouses within just a short drive from the city. Immerse yourself in lush greenery, unwind by private pools and enjoy the comforts of modern amenities, all within easy reach. Whether it's a spontaneous weekend break or a planned celebration, these farmhouses provide the perfect blend of convenience and relaxation.​Enjoy InstaFarms properties near the city in locations like <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-kollur\" target=\"_blank\">Kollur</a> (45 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-medchal\" target=\"_blank\">Medchal</a> (40 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamirpet\" target=\"_blank\">Shamirpet</a> (40 mins) and more. Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-with-big-screen\" target=\"_blank\">Big Screen Farmhouses</a>, <a href=\"https://instafarms.in/collections/farmhouses-for-events\" target=\"_blank\">Farmhouses for Events</a>, <a href=\"https://instafarms.in/collections/luxury-pool-party-farmhouses\" target=\"_blank\">Luxury Pool Party Farmhouses</a> and more.</p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T01:23:20.000Z",
+      "updatedAt": "2026-02-12T08:03:48.013Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "id": "bcd47e3b-5ed4-4eb9-ac29-8d5f045a83c2",
+      "name": "Luxury Farmhouses",
+      "description": "",
+      "heading": null,
+      "slug": "luxury-farmhouses",
+      "weight": 93,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2FfV1gbLuxury_Farmhouses.webp?alt=media&token=02da46a6-3ccf-436e-9a59-314821797c08",
+      "altText": null,
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/luxury-farmhouses",
+        "metaTitle": "Luxury Farmhouses for Exclusive Stays | Book Today",
+        "metaDescription": "Indulge in luxury with premium farmhouses offering top amenities. Ideal for lavish events and relaxing escapes. Discover and reserve your luxury farmhouse now!"
+      },
+      "faqs": [
+        {
+          "answer": "Private pools, luxury interiors, jacuzzi, designer lawns, premium sound systems, and fine-dining setups. Features vary per property.\n",
+          "weight": 0,
+          "question": "What amenities do these farmhouses offer?"
+        },
+        {
+          "answer": "Yes — some farmhouses offer private chef or catering options. You can find details on each property page.\n",
+          "weight": 0,
+          "question": "Is chef service available?"
+        },
+        {
+          "answer": "Definitely — these properties are perfect for high-end gatherings, brand shoots, and corporate parties.",
+          "weight": 0,
+          "question": "Are these suitable for corporate or influencer events?"
+        },
+        {
+          "answer": "Some properties offer wellness tie-ups. You can inquire with the support while booking.\n",
+          "weight": 0,
+          "question": "Can we arrange spa or wellness services here?"
+        },
+        {
+          "answer": "Select luxury farmhouses are pet-friendly — check listing tags for details.",
+          "weight": 0,
+          "question": "Are pets allowed in luxury farmhouses?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Luxury Farmhouses in Hyderabad",
+          "content": "<p>Step into luxury with our Lavish Retreats, a premium selection of farmhouses near Hyderabad that redefine indulgence and privacy. These properties are handpicked for their refined interiors, sprawling outdoor spaces, and high-end amenities like pools, elegant lawns, stylish bedrooms and curated décor. Lavish Retreats offer a five-star experience tucked away in nature, just a short drive from the city.</p><p>Experience Luxury at InstaFarms premium Farmhouses in locations like <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddagolkonda\" target=\"_blank\">Pedda Golconda</a> (50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamirpet\" target=\"_blank\">Shamirpet </a>(40 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-kollur\" target=\"_blank\">Kollur </a>(45 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/farmhouses-with-sports-amenities\" target=\"_blank\">Farmhouses with Sports Amenities</a>,<a href=\"https://instafarms.in/collections/farmhouses-with-large-swimming-pool\" target=\"_blank\"> Farmhouses with Large Swimming Pools</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:51:55.000Z",
+      "updatedAt": "2026-03-11T14:51:45.202Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    },
+    {
+      "id": "80733895-b2b2-4207-9076-fbde79986959",
+      "name": "Farmhouses with sports amenities",
+      "description": "",
+      "heading": null,
+      "slug": "farmhouses-with-sports-amenities",
+      "weight": 90,
+      "hpc": 10,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/jarvis-a6aba.appspot.com/o/Properties%2F2SDTeFarmhouses_with_Sports_Amenities.webp?alt=media&token=f0228a02-0f55-4f6b-bea4-3b38f7dc0fb3",
+      "altText": "Sports Farmhouses in Hyderabad",
+      "isActive": true,
+      "meta": {
+        "metaUrl": "https://instafarms.in/collections/farmhouses-with-sports-amenities",
+        "metaTitle": "Farmhouses with Sports Amenities | Play & Stay Now",
+        "metaDescription": "Enjoy farmhouses featuring sports amenities like cricket and badminton courts. Find and book your ideal farmhouse with sports facilities today!"
+      },
+      "faqs": [
+        {
+          "answer": "Options range from cricket pitches, volleyball courts, basketball, badminton, table tennis to football fields. Check individual listings.\n",
+          "weight": 0,
+          "question": "What sports facilities do these farmhouses have?"
+        },
+        {
+          "answer": "Some farmhouses provide basic gear, while others recommend bringing your own.\n",
+          "weight": 0,
+          "question": "Is sports equipment provided?"
+        },
+        {
+          "answer": "Perfectly suited — great for group activities and outdoor events.\n",
+          "weight": 0,
+          "question": "Are these suitable for corporate team outings?"
+        }
+      ],
+      "info": [
+        {
+          "title": "Sports Farmhouses in Hyderabad",
+          "content": "<p>Sporting Getaways contains a curated collection of farmhouses near Hyderabad with dedicated sports zones and activity areas, ranging from box cricket pitches and volleyball courts to badminton setups, trampolines and indoor games like foosball, table tennis, carroms and more. Each of these verified properties offers a balanced mix of recreation and relaxation, ideal for groups that love friendly competition and outdoor energy.</p><p>Boost your energy at InstaFarms Farmhouses with Sports Amenities near <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-tspa-moinabad\" target=\"_blank\">TSPA/Moinabad </a>(65 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-peddagolkonda\" target=\"_blank\">Pedda Golconda </a>(50 mins), <a href=\"https://instafarms.in/telangana/hyderabad/farmhouses-in-shamirpet\" target=\"_blank\">Shamirpet </a>(40 mins) and more.<br>Explore other InstaFarms Collections like <a href=\"https://instafarms.in/collections/kids-friendly-farmhouses\" target=\"_blank\">Kids Friendly Farmhouses</a>,<a href=\"https://instafarms.in/collections/luxury-farmhouses\" target=\"_blank\"> Luxury Farmhouses</a> and more.<br><br></p>",
+          "isPublished": true
+        }
+      ],
+      "createdAt": "2025-03-27T02:57:20.000Z",
+      "updatedAt": "2026-03-11T15:27:58.993Z",
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "ac286bce-5616-4280-8cf5-a882f1ae18e8"
+    }
+  ]
+}

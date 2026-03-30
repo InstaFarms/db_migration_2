@@ -1,0 +1,67 @@
+{
+  "table": "suppliesChecklistItems",
+  "schemaVersion": "old-schema",
+  "rowCount": 4,
+  "rows": [
+    {
+      "id": "0fc5ec2f-54b2-44ff-8c39-20d5687387de",
+      "checklistItemMasterId": "d54f4ec0-206c-4639-b38e-1ca2dee988ec",
+      "propertyAuditAreaId": "2f3cd36f-35be-4ab9-916c-cd45488aa9bb",
+      "expectedQuantity": 5,
+      "requiredThreshold": 3,
+      "criticalThreshold": 2,
+      "photoRequirementType": "REQUIRED_IF_ISSUE",
+      "weight": 1,
+      "isActive": true,
+      "createdAt": "2026-02-27T15:08:10.397Z",
+      "updatedAt": "2026-02-27T15:08:10.397Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "4cf8ea90-5466-4ad1-a9f4-35bd30a6594c",
+      "checklistItemMasterId": "d54f4ec0-206c-4639-b38e-1ca2dee988ec",
+      "propertyAuditAreaId": "be453efa-6b22-4ad5-9ba8-59fda00e9ab6",
+      "expectedQuantity": 5,
+      "requiredThreshold": 3,
+      "criticalThreshold": 2,
+      "photoRequirementType": "NOT_REQUIRED",
+      "weight": 10,
+      "isActive": true,
+      "createdAt": "2026-03-02T08:19:42.376Z",
+      "updatedAt": "2026-03-02T08:19:42.376Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "2e59a953-ce43-4e95-9b2e-64e7a9c411df",
+      "checklistItemMasterId": "77317011-1903-4edf-8b74-5619a5f47983",
+      "propertyAuditAreaId": "897cbeba-5768-400c-8195-f13f66ebfd61",
+      "expectedQuantity": 1,
+      "requiredThreshold": 1,
+      "criticalThreshold": 0,
+      "photoRequirementType": "ALWAYS_REQUIRED",
+      "weight": 0,
+      "isActive": true,
+      "createdAt": "2026-03-09T16:34:10.345Z",
+      "updatedAt": "2026-03-09T16:34:10.345Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    },
+    {
+      "id": "ea2e43a0-3278-4fc6-9c0a-6434407d74b4",
+      "checklistItemMasterId": "77317011-1903-4edf-8b74-5619a5f47983",
+      "propertyAuditAreaId": "8fd1c633-4d28-4d78-ac31-2cd78ca41bd6",
+      "expectedQuantity": 1,
+      "requiredThreshold": 1,
+      "criticalThreshold": 0,
+      "photoRequirementType": "ALWAYS_REQUIRED",
+      "weight": 0,
+      "isActive": true,
+      "createdAt": "2026-03-10T10:06:54.138Z",
+      "updatedAt": "2026-03-10T10:06:54.138Z",
+      "adminCreatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49",
+      "adminUpdatedBy": "0c6c2f38-022b-418f-bec9-82ba49152b49"
+    }
+  ]
+}

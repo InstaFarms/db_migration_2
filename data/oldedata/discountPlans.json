@@ -1,0 +1,29 @@
+{
+  "table": "discountPlans",
+  "schemaVersion": "old-schema",
+  "rowCount": 2,
+  "rows": [
+    {
+      "id": "5abcd718-0604-4218-aea0-081d4094c289",
+      "name": "Plan 1",
+      "isActive": true,
+      "createdAt": "2026-01-28T11:32:46.562Z",
+      "updatedAt": "2026-02-12T15:06:09.722Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    },
+    {
+      "id": "d2559163-cc24-4c2c-a441-3219f3595d04",
+      "name": "Default",
+      "isActive": true,
+      "createdAt": "2024-12-30T12:02:00.000Z",
+      "updatedAt": "2026-02-15T08:00:24.020Z",
+      "createdBy": null,
+      "updatedBy": null,
+      "adminCreatedBy": "e6cddcc3-4d9e-41de-97aa-3365b26a57bf",
+      "adminUpdatedBy": "7a3a3ea1-a6e7-4758-b718-8b27413460c2"
+    }
+  ]
+}

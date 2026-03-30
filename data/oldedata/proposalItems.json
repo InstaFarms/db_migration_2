@@ -1,0 +1,143 @@
+{
+  "table": "proposalItems",
+  "schemaVersion": "old-schema",
+  "rowCount": 17,
+  "rows": [
+    {
+      "id": "f351537f-8d66-42c1-8279-6d295c90f0d0",
+      "proposalId": "99b0670c-db75-4204-9466-dbb47b921b5c",
+      "propertyId": "4318047b-88e3-428c-a0b4-9a3c7f936425",
+      "order": 0,
+      "createdAt": "2026-03-21T05:20:19.132Z",
+      "updatedAt": "2026-03-21T05:20:19.132Z"
+    },
+    {
+      "id": "f73295d4-0438-498c-baeb-f4f955a2d87b",
+      "proposalId": "99b0670c-db75-4204-9466-dbb47b921b5c",
+      "propertyId": "762a1373-1c97-4980-9b19-f1f35e84ed40",
+      "order": 1,
+      "createdAt": "2026-03-21T05:20:19.132Z",
+      "updatedAt": "2026-03-21T05:20:19.132Z"
+    },
+    {
+      "id": "22c61500-f892-44b6-b478-221bd0bd6f6b",
+      "proposalId": "99b0670c-db75-4204-9466-dbb47b921b5c",
+      "propertyId": "3da72e8f-9ab5-45eb-9a7b-17ae187356bc",
+      "order": 2,
+      "createdAt": "2026-03-21T05:20:19.132Z",
+      "updatedAt": "2026-03-21T05:20:19.132Z"
+    },
+    {
+      "id": "32588a47-41a8-4f7e-94a2-c104dc9426df",
+      "proposalId": "99b0670c-db75-4204-9466-dbb47b921b5c",
+      "propertyId": "2656117a-5c85-4a04-80b1-2c340ed93f20",
+      "order": 3,
+      "createdAt": "2026-03-21T05:20:19.132Z",
+      "updatedAt": "2026-03-21T05:20:19.132Z"
+    },
+    {
+      "id": "5e0727f4-1cb3-40bd-91a0-bb596e898bee",
+      "proposalId": "8aeb9ea0-a085-4cc4-b67a-13e9a5a8d1a4",
+      "propertyId": "c881aa65-31b7-4871-b8b2-f428e0da7b40",
+      "order": 0,
+      "createdAt": "2026-03-21T23:10:54.150Z",
+      "updatedAt": "2026-03-21T23:10:54.150Z"
+    },
+    {
+      "id": "b65c6f88-4b19-429c-9565-d988ad4ba191",
+      "proposalId": "8aeb9ea0-a085-4cc4-b67a-13e9a5a8d1a4",
+      "propertyId": "fa421091-2120-45d6-a5a1-e003d0419b37",
+      "order": 1,
+      "createdAt": "2026-03-21T23:10:54.150Z",
+      "updatedAt": "2026-03-21T23:10:54.150Z"
+    },
+    {
+      "id": "2b1c8b49-6b4f-4311-81f8-145aed69ab1a",
+      "proposalId": "8aeb9ea0-a085-4cc4-b67a-13e9a5a8d1a4",
+      "propertyId": "645488a5-bcbe-473c-8003-7d130a8b462a",
+      "order": 2,
+      "createdAt": "2026-03-21T23:10:54.150Z",
+      "updatedAt": "2026-03-21T23:10:54.150Z"
+    },
+    {
+      "id": "bcce1db4-3574-4b25-9afe-c461fab6ac73",
+      "proposalId": "8aeb9ea0-a085-4cc4-b67a-13e9a5a8d1a4",
+      "propertyId": "714f4804-67b0-458f-8d0c-ad850a72b0da",
+      "order": 3,
+      "createdAt": "2026-03-21T23:10:54.150Z",
+      "updatedAt": "2026-03-21T23:10:54.150Z"
+    },
+    {
+      "id": "e7a0cff3-ba29-4915-8c2d-dc9f849a0c53",
+      "proposalId": "8aeb9ea0-a085-4cc4-b67a-13e9a5a8d1a4",
+      "propertyId": "1174480b-f9e7-498a-8b2d-e8631b49d77c",
+      "order": 4,
+      "createdAt": "2026-03-21T23:10:54.150Z",
+      "updatedAt": "2026-03-21T23:10:54.150Z"
+    },
+    {
+      "id": "c42aa33b-b6bb-4140-b35f-cc49782599f5",
+      "proposalId": "8aeb9ea0-a085-4cc4-b67a-13e9a5a8d1a4",
+      "propertyId": "28c2ec1d-c6b2-42ec-9d54-c0aaa6d829ec",
+      "order": 5,
+      "createdAt": "2026-03-21T23:10:54.150Z",
+      "updatedAt": "2026-03-21T23:10:54.150Z"
+    },
+    {
+      "id": "be76fb2f-c605-43cf-a515-3499fd98fb1f",
+      "proposalId": "68fb55f4-78f0-4a6e-868a-03749faddd47",
+      "propertyId": "714f4804-67b0-458f-8d0c-ad850a72b0da",
+      "order": 0,
+      "createdAt": "2026-03-23T08:22:50.592Z",
+      "updatedAt": "2026-03-23T08:22:50.592Z"
+    },
+    {
+      "id": "7f6e3bdd-6238-4a84-8da1-0e7ceb345b19",
+      "proposalId": "68fb55f4-78f0-4a6e-868a-03749faddd47",
+      "propertyId": "62b8ba4b-a995-41d7-aefa-9dfc284ef7cb",
+      "order": 1,
+      "createdAt": "2026-03-23T08:22:50.592Z",
+      "updatedAt": "2026-03-23T08:22:50.592Z"
+    },
+    {
+      "id": "e65ca395-8592-4808-a19f-c695989ba48b",
+      "proposalId": "68fb55f4-78f0-4a6e-868a-03749faddd47",
+      "propertyId": "ad2f75bc-1941-46a0-97c4-8579023d7523",
+      "order": 2,
+      "createdAt": "2026-03-23T08:22:50.592Z",
+      "updatedAt": "2026-03-23T08:22:50.592Z"
+    },
+    {
+      "id": "e7d8c5e0-1e50-4572-83af-2aa143e2b55e",
+      "proposalId": "d469736a-6936-4380-b4e8-569dc2a8af8f",
+      "propertyId": "714f4804-67b0-458f-8d0c-ad850a72b0da",
+      "order": 0,
+      "createdAt": "2026-03-26T12:27:09.113Z",
+      "updatedAt": "2026-03-26T12:27:09.113Z"
+    },
+    {
+      "id": "b779f651-4f21-42b6-84d1-48ba8db4363a",
+      "proposalId": "d469736a-6936-4380-b4e8-569dc2a8af8f",
+      "propertyId": "fa421091-2120-45d6-a5a1-e003d0419b37",
+      "order": 1,
+      "createdAt": "2026-03-26T12:27:09.113Z",
+      "updatedAt": "2026-03-26T12:27:09.113Z"
+    },
+    {
+      "id": "b01286e5-7aeb-4897-82ce-9ff3cf1d3e62",
+      "proposalId": "d469736a-6936-4380-b4e8-569dc2a8af8f",
+      "propertyId": "1174480b-f9e7-498a-8b2d-e8631b49d77c",
+      "order": 2,
+      "createdAt": "2026-03-26T12:27:09.113Z",
+      "updatedAt": "2026-03-26T12:27:09.113Z"
+    },
+    {
+      "id": "a3dff8f1-709a-4b4b-afc9-6c9d1eed2a83",
+      "proposalId": "d469736a-6936-4380-b4e8-569dc2a8af8f",
+      "propertyId": "62b8ba4b-a995-41d7-aefa-9dfc284ef7cb",
+      "order": 3,
+      "createdAt": "2026-03-26T12:27:09.113Z",
+      "updatedAt": "2026-03-26T12:27:09.113Z"
+    }
+  ]
+}

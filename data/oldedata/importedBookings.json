@@ -1,0 +1,46 @@
+{
+  "table": "importedBookings",
+  "schemaVersion": "old-schema",
+  "rowCount": 3,
+  "rows": [
+    {
+      "id": "f440ac7e-2739-46de-81a6-efd1f709dec7",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "entity_id": null,
+      "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+      "externalBookingId": "7f662ec65913-4ed33bb7879e570f5f3300ad603a35b8@airbnb.com",
+      "checkinDate": "2026-06-27T18:30:00.000Z",
+      "checkoutDate": "2027-03-30T18:30:00.000Z",
+      "summary": "Airbnb (Not available)",
+      "description": null,
+      "createdAt": "2026-03-29T18:30:00.347Z",
+      "updatedAt": "2026-03-30T00:00:00.722Z"
+    },
+    {
+      "id": "f44cc567-a762-40b8-afc6-2fa5ba180308",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "entity_id": null,
+      "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+      "externalBookingId": "7f662ec65913-03169e80a2969303feac3894599e7c37@airbnb.com",
+      "checkinDate": "2026-03-27T18:30:00.000Z",
+      "checkoutDate": "2026-03-28T18:30:00.000Z",
+      "summary": "Airbnb (Not available)",
+      "description": null,
+      "createdAt": "2026-03-27T18:30:00.301Z",
+      "updatedAt": "2026-03-29T18:30:00.336Z"
+    },
+    {
+      "id": "d18adccd-8a77-4447-9829-5f8734a47487",
+      "propertyId": "4f4eb3c0-a177-4f13-a284-5ec9e8b3462f",
+      "entity_id": null,
+      "icalLinkId": "23e3dda0-d9a1-446e-8e8b-b01c43f25999",
+      "externalBookingId": "7f662ec65913-e0de74725db075ad7ca4cebdbd43c959@airbnb.com",
+      "checkinDate": "2026-03-29T18:30:00.000Z",
+      "checkoutDate": "2026-03-30T18:30:00.000Z",
+      "summary": "Airbnb (Not available)",
+      "description": null,
+      "createdAt": "2026-03-29T18:30:00.342Z",
+      "updatedAt": "2026-03-29T18:30:00.342Z"
+    }
+  ]
+}

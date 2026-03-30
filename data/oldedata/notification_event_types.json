@@ -1,0 +1,43 @@
+{
+  "table": "notification_event_types",
+  "schemaVersion": "old-schema",
+  "rowCount": 6,
+  "rows": [
+    {
+      "id": "910644b5-6020-4a92-9ee0-506fb30494e2",
+      "name": "booking_confirm",
+      "createdAt": "2026-03-07T11:00:42.176Z",
+      "updatedAt": "2026-03-07T11:00:42.176Z"
+    },
+    {
+      "id": "d7de4035-545d-470d-9f9f-b2987bf08055",
+      "name": "booking_request",
+      "createdAt": "2026-03-07T11:00:49.907Z",
+      "updatedAt": "2026-03-07T11:00:49.907Z"
+    },
+    {
+      "id": "577abd3f-08df-4f12-825b-548c9468e917",
+      "name": "booking_request_accepted",
+      "createdAt": "2026-03-07T11:00:50.539Z",
+      "updatedAt": "2026-03-07T11:00:50.539Z"
+    },
+    {
+      "id": "703a409b-ab61-481a-a4b1-009e08e8b234",
+      "name": "request_denied",
+      "createdAt": "2026-03-07T11:00:51.177Z",
+      "updatedAt": "2026-03-07T11:00:51.177Z"
+    },
+    {
+      "id": "11d2c549-b6b1-4784-ad2c-5ec0fc9766c2",
+      "name": "booking_cancelled_by_customer",
+      "createdAt": "2026-03-07T11:00:51.808Z",
+      "updatedAt": "2026-03-07T11:00:51.808Z"
+    },
+    {
+      "id": "80860bf0-0c61-49ff-9032-fa432f567d10",
+      "name": "booking_cancelled_by_host",
+      "createdAt": "2026-03-07T11:00:54.327Z",
+      "updatedAt": "2026-03-07T11:00:54.327Z"
+    }
+  ]
+}
