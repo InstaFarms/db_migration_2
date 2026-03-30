@@ -8,8 +8,7 @@
     "schema:push": "tsx src/migration-json/push-schema.ts",
     "json:export": "tsx src/migration-json/export/run-export.ts",
     "json:import": "tsx src/migration-json/import/run-import.ts",
-    "json:validate": "tsx src/migration-json/validate/run-validate.ts",
-    "json:all": "npm run json:export && npm run json:import && npm run json:validate"
+    "json:validate": "tsx src/migration-json/validate/run-validate.ts"
   },
   "keywords": [],
   "author": "InstaFarms",
