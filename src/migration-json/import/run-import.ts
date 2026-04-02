@@ -138,19 +138,31 @@ const ensureDefaultBrand = async (
 
     if (!adminId) return null;
 
-    const brandName = process.env.MIGRATION_BRAND_NAME ?? "InstaFarms";
-    const brandDomain = process.env.MIGRATION_BRAND_DOMAIN ?? null;
-    const brandRes = await newPool.query(
-        `
-        INSERT INTO "brands" ("name","domain","isActive","adminCreatedBy","adminUpdatedBy")
-        VALUES ($1,$2,true,$3,$3)
-        ON CONFLICT ("name")
-        DO UPDATE SET "domain"=EXCLUDED."domain", "adminUpdatedBy"=EXCLUDED."adminUpdatedBy"
-        RETURNING "id"
-    `,
-        [brandName, brandDomain, adminId]
-    );
-    return brandRes.rows[0].id as string;
+    const brandsToEnsure: Array<{ name: string; domain: string | null }> = [
+        { name: "InstaFarms", domain: process.env.MIGRATION_BRAND_DOMAIN ?? null },
+        { name: "Mago", domain: null },
+        { name: "Listings", domain: null },
+    ];
+
+    let defaultBrandId: string | null = null;
+    for (const brand of brandsToEnsure) {
+        const brandRes = await newPool.query(
+            `
+            INSERT INTO "brands" ("name","domain","isActive","adminCreatedBy","adminUpdatedBy")
+            VALUES ($1,$2,true,$3,$3)
+            ON CONFLICT ("name")
+            DO UPDATE SET "domain"=EXCLUDED."domain", "adminUpdatedBy"=EXCLUDED."adminUpdatedBy"
+            RETURNING "id"
+        `,
+            [brand.name, brand.domain, adminId]
+        );
+
+        if (brand.name === "InstaFarms") {
+            defaultBrandId = brandRes.rows[0].id as string;
+        }
+    }
+
+    return defaultBrandId;
 };
 
 const ensureDefaultAdmin = async (
@@ -218,25 +230,6 @@ const ensureChecklistCategories = async (
     } catch {
         // Best-effort; importer will still fail later with precise FK errors if categories remain missing.
     }
-};
-
-const getColumnNullability = async (
-    pool: import("pg").Pool,
-    tableName: string
-): Promise<Map<string, boolean>> => {
-    const res = await pool.query(
-        `
-        SELECT column_name, is_nullable
-        FROM information_schema.columns
-        WHERE table_schema='public' AND table_name=$1
-    `,
-        [tableName]
-    );
-    const map = new Map<string, boolean>();
-    for (const row of res.rows) {
-        map.set(row.column_name as string, row.is_nullable === "YES");
-    }
-    return map;
 };
 
 const getIdSet = async (
@@ -475,7 +468,6 @@ const run = async (): Promise<void> => {
             }
 
             const targetColumns = new Set(await getTargetColumns(newPool, targetTable));
-            const nullableByColumn = await getColumnNullability(newPool, targetTable);
             const filteredRows = rowsToInsert.map((r) => {
                 const out: Record<string, unknown> = {};
                 for (const [k, v] of Object.entries(r)) {
@@ -492,11 +484,10 @@ const run = async (): Promise<void> => {
                 ) {
                     out.id = randomUUID();
                 }
-                // If target requires brandId, auto-fill from default brand.
+                // Auto-fill brandId from default brand whenever target has brandId and source row is missing it.
                 if (
                     defaultBrandId &&
                     targetColumns.has("brandId") &&
-                    nullableByColumn.get("brandId") === false &&
                     (out.brandId == null || out.brandId === "")
                 ) {
                     out.brandId = defaultBrandId;
