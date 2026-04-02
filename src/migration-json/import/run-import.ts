@@ -247,6 +247,130 @@ const getIdSet = async (
     return new Set(res.rows.map((r) => String(r.id)));
 };
 
+const getJsonColumns = async (
+    pool: import("pg").Pool,
+    tableName: string
+): Promise<Set<string>> => {
+    const res = await pool.query(
+        `
+        SELECT column_name
+        FROM information_schema.columns
+        WHERE table_schema='public'
+          AND table_name=$1
+          AND udt_name IN ('json','jsonb')
+    `,
+        [tableName]
+    );
+    return new Set(res.rows.map((r) => String(r.column_name)));
+};
+
+const toPropertyBrandSlug = (row: Record<string, unknown>): string => {
+    const fallback = String(row.id ?? "");
+    const base = String(row.slug ?? row.propertyCode ?? row.propertyName ?? fallback);
+    const cleaned = base.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    return cleaned || fallback;
+};
+
+const upsertPropertiesDataSpecificToBrandsFromProperties = async (
+    pool: import("pg").Pool,
+    propertiesRows: Record<string, unknown>[],
+    brandId: string,
+    adminId: string
+): Promise<number> => {
+    if (propertiesRows.length === 0) return 0;
+
+    const targetColumns = new Set(await getTargetColumns(pool, "propertiesDataSpecificToBrands"));
+    const jsonColumns = await getJsonColumns(pool, "propertiesDataSpecificToBrands");
+    const sourceColumns = new Set<string>();
+    for (const row of propertiesRows) {
+        for (const key of Object.keys(row)) sourceColumns.add(key);
+    }
+
+    const excludedColumns = new Set([
+        "id",
+        "propertyId",
+        "brandId",
+        "slug",
+        "adminCreatedBy",
+        "adminUpdatedBy",
+    ]);
+
+    const copyColumns = [...sourceColumns].filter(
+        (c) => targetColumns.has(c) && !excludedColumns.has(c)
+    );
+
+    const insertColumns = [
+        "propertyId",
+        "brandId",
+        ...copyColumns,
+        "slug",
+        "adminCreatedBy",
+        "adminUpdatedBy",
+    ];
+    const updateColumns = [...copyColumns, "slug", "adminUpdatedBy"];
+
+    let count = 0;
+    for (const row of propertiesRows) {
+        const propertyId = row.id == null ? "" : String(row.id);
+        if (!propertyId) continue;
+
+        const hasSourceIsActive = Object.prototype.hasOwnProperty.call(row, "isActive");
+        const hasSourceStatus = Object.prototype.hasOwnProperty.call(row, "status");
+        const mappedValues: Record<string, unknown> = {};
+        for (const c of copyColumns) {
+            if (c === "isActive" && !hasSourceIsActive && hasSourceStatus) {
+                mappedValues[c] = row.status;
+            } else if (jsonColumns.has(c)) {
+                const value = row[c];
+                if (typeof value === "string") {
+                    const trimmed = value.trim();
+                    if (trimmed.length === 0) {
+                        mappedValues[c] = null;
+                    } else {
+                        try {
+                            mappedValues[c] = JSON.stringify(JSON.parse(trimmed));
+                        } catch {
+                            mappedValues[c] = null;
+                        }
+                    }
+                } else if (value == null) {
+                    mappedValues[c] = null;
+                } else {
+                    mappedValues[c] = JSON.stringify(value);
+                }
+            } else {
+                mappedValues[c] = row[c];
+            }
+        }
+
+        const values: unknown[] = [
+            propertyId,
+            brandId,
+            ...copyColumns.map((c) => mappedValues[c]),
+            toPropertyBrandSlug(row),
+            adminId,
+            adminId,
+        ];
+        const placeholders = insertColumns.map((_, idx) => `$${idx + 1}`).join(",");
+        const updates = updateColumns.map((c) => `"${c}" = EXCLUDED."${c}"`).join(", ");
+
+        await pool.query(
+            `
+            INSERT INTO "propertiesDataSpecificToBrands" (${insertColumns
+                .map((c) => `"${c}"`)
+                .join(",")})
+            VALUES (${placeholders})
+            ON CONFLICT ("propertyId","brandId")
+            DO UPDATE SET ${updates}
+        `,
+            values
+        );
+        count += 1;
+    }
+
+    return count;
+};
+
 const run = async (): Promise<void> => {
     const config = getConfig();
     const newPool = createNewPool(config);
@@ -295,6 +419,7 @@ const run = async (): Promise<void> => {
         const idStrategyReport: Record<string, { mode: string; reason: string }> = {};
         const idMapsDir = path.join(config.dataDir, "_id-map");
         await mkdir(idMapsDir, { recursive: true });
+        let sourcePropertiesRows: Record<string, unknown>[] | null = null;
 
         const orderIndex = new Map(order.map((table, idx) => [table, idx]));
         const orderedSource = [...toImport].sort((a, b) => {
@@ -329,6 +454,11 @@ const run = async (): Promise<void> => {
 
             log("info", "Importing table", { sourceTable, targetTable });
             const rows = await readTableRows(config.dataDir, manifestItem.file);
+            if (sourceTable === "properties") {
+                // Keep original source rows so the old properties table is split
+                // into new properties + propertiesDataSpecificToBrands.
+                sourcePropertiesRows = rows;
+            }
 
             let rowsToInsert = rows;
             let generatedIdMap: Record<string, string> = {};
@@ -541,18 +671,17 @@ const run = async (): Promise<void> => {
                 if (!brandId) {
                     return;
                 }
-                await newPool.query(
-                    `
-                    INSERT INTO "propertiesDataSpecificToBrands"
-                    ("propertyId","brandId","slug","adminCreatedBy","adminUpdatedBy")
-                    SELECT p."id", $1::uuid,
-                        lower(regexp_replace(coalesce(p."propertyCode", p."propertyName", p."id"::text), '[^a-zA-Z0-9]+', '-', 'g')),
-                        $2::uuid,$2::uuid
-                    FROM "properties" p
-                    ON CONFLICT ("propertyId","brandId") DO NOTHING
-                `,
-                    [brandId, adminId]
+                const propertiesSource =
+                    sourcePropertiesRows ?? (await readTableRows(config.dataDir, "properties.json"));
+                const brandRowsUpserted = await upsertPropertiesDataSpecificToBrandsFromProperties(
+                    newPool,
+                    propertiesSource,
+                    brandId,
+                    adminId
                 );
+                log("info", "Split properties into propertiesDataSpecificToBrands", {
+                    rows: brandRowsUpserted,
+                });
 
                 // Derive geo-brand mapping tables from imported properties.
                 // Cast uuid params explicitly: in INSERT...SELECT, untyped $n are inferred as text.

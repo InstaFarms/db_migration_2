@@ -47,10 +47,6 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "ezeeSyncData": {
-    "mode": "preserve",
-    "reason": "UUID id with FK compatibility."
-  },
   "faqs": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."

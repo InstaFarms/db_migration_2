@@ -13,6 +13,7 @@ const skip = (sourceTable: string, reason: string): TableMapRule => ({
 
 export const fixedRules: TableMapRule[] = [
     { sourceTable: "listingUsers", targetTable: "customers", mode: "transform" },
+    skip("ezeeSyncData", "Excluded by migration decision"),
     skip("entities", "Excluded by migration decision"),
     skip("rooms", "Excluded by migration decision"),
     skip("bookingRooms", "Excluded by migration decision"),
