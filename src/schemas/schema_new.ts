@@ -3354,38 +3354,57 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
     .leftJoin(brandsOnStates, and(eq(brandsOnStates.stateId, states.id), eq(brandsOnStates.brandId, propertiesDataSpecificToBrands.brandId)))
 );
 
-export const areaDetailView = (db: any, brandId: string) =>
-  db
+export const areaDetailView = pgView("areaDetailView").as((qb) =>
+  qb
     .select({
       id: areas.id,
+      brandId: brandsOnAreas.brandId,
+
       area: areas.area,
       weight: brandsOnAreas.weight,
       featured: brandsOnAreas.featured,
       isActive: brandsOnAreas.isActive,
-      slug: brandsOnAreas.slug,
+      slug: sql<string | null>`${brandsOnAreas.slug}`.as("slug"),
+
       stateId: cities.stateId,
       cityId: areas.cityId,
+
       createdAt: areas.createdAt,
       updatedAt: areas.updatedAt,
       adminCreatedBy: areas.adminCreatedBy,
       adminUpdatedBy: areas.adminUpdatedBy,
 
       state: states.state,
-      stateSlug: brandsOnStates.slug,
+      stateSlug: sql<string | null>`${brandsOnStates.slug}`.as("stateSlug"),
       city: cities.city,
-      citySlug: brandsOnCities.slug,
+      citySlug: sql<string | null>`${brandsOnCities.slug}`.as("citySlug"),
 
       faqs: brandsOnAreas.faqs,
-
       metadata: brandsOnAreas.meta,
       information: brandsOnAreas.info,
     })
     .from(areas)
-    .leftJoin(brandsOnAreas, and(eq(brandsOnAreas.areaId, areas.id), eq(brandsOnAreas.brandId, brandId)))
+    .leftJoin(brandsOnAreas, eq(brandsOnAreas.areaId, areas.id))
     .leftJoin(cities, eq(areas.cityId, cities.id))
-    .leftJoin(brandsOnCities, and(eq(brandsOnCities.cityId, cities.id), eq(brandsOnCities.brandId, brandId)))
+    .leftJoin(
+      brandsOnCities,
+      and(
+        eq(brandsOnCities.cityId, cities.id),
+        eq(brandsOnCities.brandId, brandsOnAreas.brandId)
+      )
+    )
     .leftJoin(states, eq(cities.stateId, states.id))
-    .leftJoin(brandsOnStates, and(eq(brandsOnStates.stateId, states.id), eq(brandsOnStates.brandId, brandId)));
+    .leftJoin(
+      brandsOnStates,
+      and(
+        eq(brandsOnStates.stateId, states.id),
+        eq(brandsOnStates.brandId, brandsOnAreas.brandId)
+      )
+    )
+);
+
+export const areaDetailQuery = (db: any, brandId: string) =>
+  db.select().from(areaDetailView).where(eq(areaDetailView.brandId, brandId));
 
 
 // listing system tables
