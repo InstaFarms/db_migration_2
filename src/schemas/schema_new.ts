@@ -36,12 +36,10 @@ import {
   paymentTypeOptions,
   refundStatusOptions,
   roleOptions,
-  transactionTypeOptions,
-  webhookStatusOptions,
-} from "./types_new.ts";
+  transactionTypeOptions
+} from "./types_new";
 
 export const rolesEnum = pgEnum("role", roleOptions);
-export const webhookStatusEnum = pgEnum("webhookstatus", webhookStatusOptions);
 export const genderEnum = pgEnum("gender", genderOptions);
 export const refundStatusEnum = pgEnum("refundStatusEnum", refundStatusOptions);
 export const cancellationTypeEnum = pgEnum(
@@ -164,6 +162,12 @@ export const propertyDerivativeTypeEnum = pgEnum("propertyDerivativeType", [
   "NORMAL_PROPERTY",
   "SPLIT_PROPERTY",
   "MERGED_PROPERTY",
+]);
+
+export const propertyDerivativeTypeByBrandEnum = pgEnum("propertyDerivativeTypeByBrand", [
+  "NORMAL",
+  "MERGE",
+  "SPLIT",
 ]);
 
 export const itemTypeEnum = pgEnum("itemType", [
@@ -729,6 +733,9 @@ export const propertiesDataSpecificToBrands = pgTable(
       .references(() => brands.id, {
         onDelete: "cascade",
       }),
+    propertyDerivativeType: propertyDerivativeTypeByBrandEnum("propertyDerivativeType")
+      .notNull()
+      .default("NORMAL"),
 
     isActive: boolean("isActive").notNull().default(true),
     slug: text("slug").notNull(),
@@ -972,11 +979,11 @@ export const splitPropertyMappings = pgTable(
   {
     parentPropertyId: uuid("parentPropertyId")
       .notNull()
-      .references(() => properties.id, { onDelete: "cascade" }),
+      .references(() => propertiesDataSpecificToBrands.id, { onDelete: "cascade" }),
 
     childPropertyId: uuid("childPropertyId")
       .notNull()
-      .references(() => properties.id, { onDelete: "cascade" }),
+      .references(() => propertiesDataSpecificToBrands.id, { onDelete: "cascade" }),
   },
   (table) => [
     primaryKey({
@@ -990,7 +997,6 @@ export const splitPropertyMappings = pgTable(
 
     // ✅ Correct unique constraint
     unique("split_unique_child").on(table.childPropertyId),
-
     index("split_parent_idx").on(table.parentPropertyId),
   ]
 );
@@ -1000,11 +1006,11 @@ export const mergedPropertyMappings = pgTable(
   {
     mergedPropertyId: uuid("mergedPropertyId")
       .notNull()
-      .references(() => properties.id, { onDelete: "cascade" }),
+      .references(() => propertiesDataSpecificToBrands.id, { onDelete: "cascade" }),
 
     constituentPropertyId: uuid("constituentPropertyId")
       .notNull()
-      .references(() => properties.id, { onDelete: "cascade" }),
+      .references(() => propertiesDataSpecificToBrands.id, { onDelete: "cascade" }),
   },
   (table) => [
     primaryKey({
@@ -1017,10 +1023,7 @@ export const mergedPropertyMappings = pgTable(
     ),
 
     // ✅ Correct unique constraint
-    unique("merge_unique_constituent").on(
-      table.constituentPropertyId
-    ),
-
+    unique("merge_unique_constituent").on(table.constituentPropertyId),
     index("merge_parent_idx").on(table.mergedPropertyId),
   ]
 );
@@ -2031,12 +2034,7 @@ export const blockedDates = pgTable(
       .references(() => properties.id),
     blockedDate: date({ mode: "string" }).notNull(),
     platform: text("platform"),
-    // // Link to booking for auto-blocking/unblocking of related properties
-    // bookingId: uuid()
-    //   .references(() => bookings.id, {
-    //     onDelete: "cascade",
-    //   }),
-
+    reason: text("reason"),
     ...timestamps,
     ...adminOrUserUpdateReference,
   },
@@ -2755,35 +2753,6 @@ export const extraPlans = pgTable(
   ]
 );
 
-export const ratePlans = pgTable(
-  "ratePlans",
-  {
-    id: uuid("id").primaryKey().defaultRandom(),
-    brandId: uuid("brandId")
-      .notNull()
-      .references(() => brands.id, {
-        onDelete: "cascade",
-      }),
-    name: text("name").notNull(),
-    description: text("description"),
-    baseRate: integer("baseRate").notNull(),
-    weekendRate: integer("weekendRate"),
-    seasonalRate: integer("seasonalRate"),
-    currency: text("currency").notNull().default("INR"),
-    validFrom: text("validFrom"),
-    validTo: text("validTo"),
-    isActive: boolean("isActive").default(true).notNull(),
-    ...timestamps,
-    ...adminOrUserUpdateReference,
-  },
-  (table) => [
-    index("rate_plans_name_idx").on(table.name),
-    index("rate_plans_brand_id_idx").on(table.brandId),
-    index("rate_plans_is_active_idx").on(table.isActive),
-    setUserOrAdminUpdatedByConstraint(table),
-  ]
-);
-
 export const spaces = pgTable("spaces", {
   id: uuid("id").primaryKey().defaultRandom(),
   name: text("name").notNull(),
@@ -2875,6 +2844,8 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       description: propertiesDataSpecificToBrands.description,
       exploreYourStay: propertiesDataSpecificToBrands.exploreYourStay,
       weight: propertiesDataSpecificToBrands.weight,
+
+      propertyDerivativeType: propertiesDataSpecificToBrands.propertyDerivativeType,
 
       allowCallBooking: propertiesDataSpecificToBrands.allowCallBooking,
       allowEnquiry: propertiesDataSpecificToBrands.allowEnquiry,
@@ -4160,7 +4131,6 @@ export const adminOnlyTables = {
   landmarks: landmarks,
   nearbyLocations: nearbyLocations,
   admins: admins,
-  ratePlans: ratePlans,
   settings: settings,
   cancellationPlans: cancellationPlans,
   specialDates: specialDates,

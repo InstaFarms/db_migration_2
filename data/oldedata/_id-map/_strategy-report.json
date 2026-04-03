@@ -75,10 +75,6 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "ratePlans": {
-    "mode": "preserve",
-    "reason": "UUID id with FK compatibility."
-  },
   "recentSearches": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
