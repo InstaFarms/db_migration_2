@@ -4,11 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json:clear": "tsx src/migration-json/clear-cache.ts",
-    "schema:push": "tsx src/migration-json/push-schema.ts",
-    "json:export": "tsx src/migration-json/export/run-export.ts",
-    "json:import": "tsx src/migration-json/import/run-import.ts",
-    "json:validate": "tsx src/migration-json/validate/run-validate.ts"
+    "json:clear": "node --import tsx src/migration-json/clear-cache.ts",
+    "schema:push": "node --import tsx src/migration-json/push-schema.ts",
+    "json:export": "node --import tsx src/migration-json/export/run-export.ts",
+    "json:import": "node --import tsx src/migration-json/import/run-import.ts",
+    "json:validate": "node --import tsx src/migration-json/validate/run-validate.ts"
   },
   "keywords": [],
   "author": "InstaFarms",

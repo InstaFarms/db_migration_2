@@ -313,21 +313,6 @@ const upsertPropertiesDataSpecificToBrandsFromProperties = async (
         for (const c of copyColumns) {
             if (c === "isActive" && !hasSourceIsActive && hasSourceStatus) {
                 mappedValues[c] = row.status;
-            } else if (c === "propertyDerivativeType") {
-                const rawValue = row[c];
-                const normalized =
-                    typeof rawValue === "string" ? rawValue.trim().toUpperCase() : "";
-                if (normalized === "NORMAL" || normalized === "MERGE" || normalized === "SPLIT") {
-                    mappedValues[c] = normalized;
-                } else if (normalized === "NORMAL_PROPERTY") {
-                    mappedValues[c] = "NORMAL";
-                } else if (normalized === "MERGED_PROPERTY") {
-                    mappedValues[c] = "MERGE";
-                } else if (normalized === "SPLIT_PROPERTY") {
-                    mappedValues[c] = "SPLIT";
-                } else {
-                    mappedValues[c] = "NORMAL";
-                }
             } else if (jsonColumns.has(c)) {
                 const value = row[c];
                 if (typeof value === "string") {
