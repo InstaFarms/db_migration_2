@@ -39,7 +39,7 @@ import {
     roleOptions,
     transactionTypeOptions,
     webhookStatusOptions,
-} from "./types_old.ts";
+} from "./types.ts";
 
 export const rolesEnum = pgEnum("role", roleOptions);
 export const webhookStatusEnum = pgEnum("webhookstatus", webhookStatusOptions);

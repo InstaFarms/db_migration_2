@@ -1,6 +1,6 @@
 # InstaFarms DB migration (old schema → new schema)
 
-This repo helps you move data from a PostgreSQL database that matches `src/schemas/schema_old.ts` into one that matches `src/schemas/schema_new.ts`, using JSON files as an intermediate format.
+This repo helps you move data from a PostgreSQL database that matches `src/schema_old/schema.ts` into one that matches `src/schema_new/schema.ts`, using JSON files as an intermediate format.
 
 ## Prerequisites
 

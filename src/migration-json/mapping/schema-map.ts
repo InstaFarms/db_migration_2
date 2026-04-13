@@ -13,6 +13,23 @@ const skip = (sourceTable: string, reason: string): TableMapRule => ({
 
 export const fixedRules: TableMapRule[] = [
     { sourceTable: "listingUsers", targetTable: "customers", mode: "transform" },
+    { sourceTable: "payments", targetTable: "bookingPayments", mode: "transform" },
+    { sourceTable: "cancellations", targetTable: "bookingCancellation", mode: "transform" },
+    { sourceTable: "ownersWallet", targetTable: "ownerWallet", mode: "transform" },
+    { sourceTable: "walletTransactions", targetTable: "ownerWalletLedger", mode: "transform" },
+    {
+        sourceTable: "walletWithdrawalRequests",
+        targetTable: "ownerPayouts",
+        mode: "transform",
+    },
+    skip("blockedDates", "Removed from new schema"),
+    skip("propertyFaqs", "Removed from new schema"),
+    skip("propertyHouseRules", "Removed from new schema"),
+    skip(
+        "propertyPhotos",
+        "Replaced by photoPropertyBrandMapping; derived during import"
+    ),
+    skip("ratePlans", "Removed from new schema"),
     skip("ezeeSyncData", "Excluded by migration decision"),
     skip("entities", "Excluded by migration decision"),
     skip("rooms", "Excluded by migration decision"),

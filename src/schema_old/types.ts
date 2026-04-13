@@ -15,7 +15,7 @@ import {
     users,
     reviews,
     reviewMagicLinks
-} from "./schema_old.ts";// BUILD ERROR
+} from "./schema.ts";// BUILD ERROR
 
 
 export const roleOptions = ["Owner", "Manager", "Caretaker"] as const;

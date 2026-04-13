@@ -48,6 +48,7 @@ const run = async (): Promise<void> => {
             tables: manifest,
         });
         log("info", "Export complete", { tableCount: manifest.length, dataDir: config.dataDir });
+        console.log(`Successfully exported ${manifest.length} tables to ${config.dataDir}`);
     } finally {
         await oldPool.end();
     }

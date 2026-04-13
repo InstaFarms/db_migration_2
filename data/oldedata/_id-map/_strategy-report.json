@@ -75,10 +75,6 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "ratePlans": {
-    "mode": "preserve",
-    "reason": "UUID id with FK compatibility."
-  },
   "recentSearches": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
@@ -159,11 +155,11 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "ownersWallet": {
+  "walletWithdrawalRequests": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "walletTransactions": {
+  "ownersWallet": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
@@ -171,7 +167,7 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "walletWithdrawalRequests": {
+  "properties": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
@@ -180,10 +176,6 @@
     "reason": "UUID id with FK compatibility."
   },
   "nearbyLocations": {
-    "mode": "preserve",
-    "reason": "UUID id with FK compatibility."
-  },
-  "properties": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
@@ -202,10 +194,6 @@
   "bankDetailsOnProperties": {
     "mode": "preserve",
     "reason": "No id column; preserving composite/natural keys."
-  },
-  "blockedDates": {
-    "mode": "preserve",
-    "reason": "UUID id with FK compatibility."
   },
   "bookings": {
     "mode": "preserve",
@@ -263,10 +251,6 @@
     "mode": "preserve",
     "reason": "No id column; preserving composite/natural keys."
   },
-  "propertyPhotos": {
-    "mode": "preserve",
-    "reason": "No id column; preserving composite/natural keys."
-  },
   "property_tags": {
     "mode": "preserve",
     "reason": "No id column; preserving composite/natural keys."
@@ -303,11 +287,15 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
+  "payments": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
   "notification_event_log": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
-  "payments": {
+  "walletTransactions": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
@@ -347,15 +335,15 @@
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
+  "bookingPaymentSchedule": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
   "notification_dead_letter_queue": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
   "notification_delivery_log": {
-    "mode": "preserve",
-    "reason": "UUID id with FK compatibility."
-  },
-  "bookingPaymentSchedule": {
     "mode": "preserve",
     "reason": "UUID id with FK compatibility."
   },
