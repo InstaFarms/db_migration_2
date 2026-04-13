@@ -1160,6 +1160,211 @@ const derivePhotoPropertyBrandMappingFromPropertyPhotos = async (
     return count;
 };
 
+const seedAdminRolesAndPermissions = async (
+    pool: import("pg").Pool,
+    newTables: string[],
+    dryRun: boolean
+): Promise<void> => {
+    if (dryRun) {
+        log("info", "Skipping admin role/permission seed in dry-run mode");
+        return;
+    }
+
+    const requiredTables = ["admins", "adminPermissions", "adminRolePermissions"];
+    const missingTables = requiredTables.filter((tableName) => !newTables.includes(tableName));
+    if (missingTables.length > 0) {
+        log("warn", "Skipping admin role/permission seed due to missing table(s)", {
+            missingTables,
+        });
+        return;
+    }
+
+    const sql = `
+        WITH actor AS (
+          SELECT id
+          FROM "admins"
+          ORDER BY "createdAt" ASC
+          LIMIT 1
+        ),
+        permission_seed(key, label) AS (
+          VALUES
+            ('DASHBOARD', 'Dashboard'),
+            ('ALL_USERS', 'All Users'),
+            ('ADMINS', 'Admins'),
+            ('CUSTOMERS', 'Customers'),
+            ('SUPERVISORS', 'Supervisors'),
+            ('OWNER_GANG', 'Owner gang'),
+            ('ALL_PROPERTY_USERS', 'All Property Users'),
+            ('OWNERS', 'Owners'),
+            ('MANAGERS', 'Managers'),
+            ('CARETAKERS', 'Caretakers'),
+            ('LOCATIONS', 'Locations'),
+            ('PROPERTY_DATA', 'Property Data'),
+            ('PROPOSALS', 'Proposals'),
+            ('BOOKING_MANAGEMENT', 'Booking Management'),
+            ('WALLET_AND_SETTLEMENTS', 'Wallet & Settlements'),
+            ('REPORTS', 'Reports'),
+            ('COUPONS', 'Coupons'),
+            ('COLLECTIONS', 'Collections'),
+            ('AUDIT_DATA', 'Audit Data'),
+            ('CONTACT_REQUESTS', 'Contact Requests'),
+            ('NOTIFICATIONS', 'Notifications'),
+            ('INSTAFARMS_SPECIFIC_DATA', 'Instafarms Specific Data'),
+            ('HISTORY', 'History')
+        ),
+        upsert_permissions AS (
+          INSERT INTO "adminPermissions"
+            ("key", "label", "description", "isActive", "adminCreatedBy", "adminUpdatedBy")
+          SELECT
+            ps.key::"adminPermissionKey",
+            ps.label,
+            NULL,
+            TRUE,
+            a.id,
+            a.id
+          FROM permission_seed ps
+          CROSS JOIN actor a
+          ON CONFLICT ("key") DO UPDATE
+          SET
+            "label" = EXCLUDED."label",
+            "isActive" = TRUE,
+            "adminUpdatedBy" = (SELECT id FROM actor),
+            "updatedAt" = CURRENT_TIMESTAMP
+          RETURNING "key", id
+        ),
+        all_permissions AS (
+          SELECT ap.id, ap."key"
+          FROM "adminPermissions" ap
+          JOIN permission_seed ps
+            ON ap."key" = ps.key::"adminPermissionKey"
+        ),
+        roles(role) AS (
+          VALUES
+            ('SUPER_ADMIN'),
+            ('OPS_TEAM'),
+            ('SALES_EXECUTIVE'),
+            ('FINANCE_TEAM')
+        ),
+        allowed(role, key) AS (
+          VALUES
+            ('SUPER_ADMIN', 'DASHBOARD'),
+            ('SUPER_ADMIN', 'ALL_USERS'),
+            ('SUPER_ADMIN', 'ADMINS'),
+            ('SUPER_ADMIN', 'CUSTOMERS'),
+            ('SUPER_ADMIN', 'SUPERVISORS'),
+            ('SUPER_ADMIN', 'OWNER_GANG'),
+            ('SUPER_ADMIN', 'ALL_PROPERTY_USERS'),
+            ('SUPER_ADMIN', 'OWNERS'),
+            ('SUPER_ADMIN', 'MANAGERS'),
+            ('SUPER_ADMIN', 'CARETAKERS'),
+            ('SUPER_ADMIN', 'LOCATIONS'),
+            ('SUPER_ADMIN', 'PROPERTY_DATA'),
+            ('SUPER_ADMIN', 'PROPOSALS'),
+            ('SUPER_ADMIN', 'BOOKING_MANAGEMENT'),
+            ('SUPER_ADMIN', 'WALLET_AND_SETTLEMENTS'),
+            ('SUPER_ADMIN', 'REPORTS'),
+            ('SUPER_ADMIN', 'COUPONS'),
+            ('SUPER_ADMIN', 'COLLECTIONS'),
+            ('SUPER_ADMIN', 'AUDIT_DATA'),
+            ('SUPER_ADMIN', 'CONTACT_REQUESTS'),
+            ('SUPER_ADMIN', 'NOTIFICATIONS'),
+            ('SUPER_ADMIN', 'INSTAFARMS_SPECIFIC_DATA'),
+            ('SUPER_ADMIN', 'HISTORY'),
+            ('OPS_TEAM', 'DASHBOARD'),
+            ('OPS_TEAM', 'ALL_USERS'),
+            ('OPS_TEAM', 'ADMINS'),
+            ('OPS_TEAM', 'CUSTOMERS'),
+            ('OPS_TEAM', 'SUPERVISORS'),
+            ('OPS_TEAM', 'OWNER_GANG'),
+            ('OPS_TEAM', 'ALL_PROPERTY_USERS'),
+            ('OPS_TEAM', 'OWNERS'),
+            ('OPS_TEAM', 'MANAGERS'),
+            ('OPS_TEAM', 'CARETAKERS'),
+            ('OPS_TEAM', 'LOCATIONS'),
+            ('OPS_TEAM', 'PROPERTY_DATA'),
+            ('OPS_TEAM', 'PROPOSALS'),
+            ('OPS_TEAM', 'BOOKING_MANAGEMENT'),
+            ('OPS_TEAM', 'WALLET_AND_SETTLEMENTS'),
+            ('OPS_TEAM', 'REPORTS'),
+            ('OPS_TEAM', 'COUPONS'),
+            ('OPS_TEAM', 'COLLECTIONS'),
+            ('OPS_TEAM', 'AUDIT_DATA'),
+            ('OPS_TEAM', 'CONTACT_REQUESTS'),
+            ('OPS_TEAM', 'NOTIFICATIONS'),
+            ('OPS_TEAM', 'INSTAFARMS_SPECIFIC_DATA'),
+            ('OPS_TEAM', 'HISTORY'),
+            ('SALES_EXECUTIVE', 'PROPOSALS'),
+            ('SALES_EXECUTIVE', 'BOOKING_MANAGEMENT'),
+            ('SALES_EXECUTIVE', 'COUPONS'),
+            ('SALES_EXECUTIVE', 'NOTIFICATIONS'),
+            ('FINANCE_TEAM', 'DASHBOARD'),
+            ('FINANCE_TEAM', 'ALL_USERS'),
+            ('FINANCE_TEAM', 'ADMINS'),
+            ('FINANCE_TEAM', 'CUSTOMERS'),
+            ('FINANCE_TEAM', 'SUPERVISORS'),
+            ('FINANCE_TEAM', 'OWNER_GANG'),
+            ('FINANCE_TEAM', 'ALL_PROPERTY_USERS'),
+            ('FINANCE_TEAM', 'OWNERS'),
+            ('FINANCE_TEAM', 'MANAGERS'),
+            ('FINANCE_TEAM', 'CARETAKERS'),
+            ('FINANCE_TEAM', 'BOOKING_MANAGEMENT'),
+            ('FINANCE_TEAM', 'WALLET_AND_SETTLEMENTS'),
+            ('FINANCE_TEAM', 'REPORTS'),
+            ('FINANCE_TEAM', 'NOTIFICATIONS')
+        ),
+        matrix AS (
+          SELECT
+            r.role::"adminPanelRole" AS role,
+            p."key",
+            CASE WHEN a.key IS NULL THEN FALSE ELSE TRUE END AS can_view,
+            CASE WHEN a.key IS NULL THEN FALSE ELSE TRUE END AS can_edit
+          FROM roles r
+          CROSS JOIN all_permissions p
+          LEFT JOIN allowed a
+            ON a.role = r.role
+           AND a.key = p."key"::text
+        )
+        INSERT INTO "adminRolePermissions"
+          ("role", "permissionId", "canView", "canEdit", "adminCreatedBy", "adminUpdatedBy")
+        SELECT
+          m.role,
+          p.id,
+          m.can_view,
+          m.can_edit,
+          ac.id,
+          ac.id
+        FROM matrix m
+        JOIN all_permissions p
+          ON p."key" = m."key"
+        CROSS JOIN actor ac
+        ON CONFLICT ("role", "permissionId") DO UPDATE
+        SET
+          "canView" = EXCLUDED."canView",
+          "canEdit" = EXCLUDED."canEdit",
+          "adminUpdatedBy" = (SELECT id FROM actor),
+          "updatedAt" = CURRENT_TIMESTAMP;
+
+        UPDATE "admins"
+        SET
+          "panelRole" = 'SUPER_ADMIN'::"adminPanelRole",
+          "updatedAt" = CURRENT_TIMESTAMP
+        WHERE "panelRole" IS DISTINCT FROM 'SUPER_ADMIN'::"adminPanelRole";
+    `;
+
+    const client = await pool.connect();
+    try {
+        await client.query("BEGIN");
+        await client.query(sql);
+        await client.query("COMMIT");
+        log("info", "Seeded admin permissions, role mappings, and SUPER_ADMIN assignments");
+    } catch (error) {
+        await client.query("ROLLBACK");
+        throw error;
+    } finally {
+        client.release();
+    }
+};
+
 const run = async (): Promise<void> => {
     const config = getConfig();
     const newPool = createNewPool(config);
@@ -1573,20 +1778,20 @@ const run = async (): Promise<void> => {
                 const adminId = adminRes.rows[0].id as string;
                 const brandId = defaultBrandId;
                 if (!brandId) {
-                    return;
-                }
-                const propertiesSource =
-                    sourcePropertiesRows ?? (await readTableRows(config.dataDir, "properties.json"));
-                const brandRowsUpserted = await upsertPropertiesDataSpecificToBrandsFromProperties(
-                    newPool,
-                    propertiesSource,
-                    brandId,
-                    adminId,
-                    newTables
-                );
-                log("info", "Split properties into brand mappings", {
-                    rows: brandRowsUpserted,
-                });
+                    log("warn", "Skipping brand-layer derivation because default brand could not be resolved");
+                } else {
+                    const propertiesSource =
+                        sourcePropertiesRows ?? (await readTableRows(config.dataDir, "properties.json"));
+                    const brandRowsUpserted = await upsertPropertiesDataSpecificToBrandsFromProperties(
+                        newPool,
+                        propertiesSource,
+                        brandId,
+                        adminId,
+                        newTables
+                    );
+                    log("info", "Split properties into brand mappings", {
+                        rows: brandRowsUpserted,
+                    });
 
                 const areaRowsUpserted = await upsertPropertyAreaMappingsFromProperties(
                     newPool,
@@ -1819,8 +2024,11 @@ const run = async (): Promise<void> => {
                         );
                     }
                 }
+                }
             }
         }
+
+        await seedAdminRolesAndPermissions(newPool, newTables, config.dryRun);
 
         log("info", "Import complete");
     } finally {
