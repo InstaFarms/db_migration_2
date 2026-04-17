@@ -782,6 +782,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       mondayInfantExtraGuestChargeWithGST: pricingForDay("MONDAY", "infant_extra_guest_charge_with_gst").as("mondayInfantExtraGuestChargeWithGST"),
       mondayBaseGuestCount: pricingForDay("MONDAY", "base_guest_count").as("mondayBaseGuestCount"),
       mondayDiscount: pricingForDay("MONDAY", "discount").as("mondayDiscount"),
+      mondayGSTslab: pricingForDay("MONDAY", "gst_slab").as("mondayGSTslab"),
 
       tuesdayAdultExtraGuestCharge: pricingForDay("TUESDAY", "adult_extra_guest_charge").as("tuesdayAdultExtraGuestCharge"),
       tuesdayAdultExtraGuestChargeWithGST: pricingForDay("TUESDAY", "adult_extra_guest_charge_with_gst").as("tuesdayAdultExtraGuestChargeWithGST"),
@@ -791,6 +792,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       tuesdayInfantExtraGuestChargeWithGST: pricingForDay("TUESDAY", "infant_extra_guest_charge_with_gst").as("tuesdayInfantExtraGuestChargeWithGST"),
       tuesdayBaseGuestCount: pricingForDay("TUESDAY", "base_guest_count").as("tuesdayBaseGuestCount"),
       tuesdayDiscount: pricingForDay("TUESDAY", "discount").as("tuesdayDiscount"),
+      tuesdayGSTslab: pricingForDay("TUESDAY", "gst_slab").as("tuesdayGSTslab"),
 
       wednesdayAdultExtraGuestCharge: pricingForDay("WEDNESDAY", "adult_extra_guest_charge").as("wednesdayAdultExtraGuestCharge"),
       wednesdayAdultExtraGuestChargeWithGST: pricingForDay("WEDNESDAY", "adult_extra_guest_charge_with_gst").as("wednesdayAdultExtraGuestChargeWithGST"),
@@ -800,6 +802,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       wednesdayInfantExtraGuestChargeWithGST: pricingForDay("WEDNESDAY", "infant_extra_guest_charge_with_gst").as("wednesdayInfantExtraGuestChargeWithGST"),
       wednesdayBaseGuestCount: pricingForDay("WEDNESDAY", "base_guest_count").as("wednesdayBaseGuestCount"),
       wednesdayDiscount: pricingForDay("WEDNESDAY", "discount").as("wednesdayDiscount"),
+      wednesdayGSTslab: pricingForDay("WEDNESDAY", "gst_slab").as("wednesdayGSTslab"),
 
       thursdayAdultExtraGuestCharge: pricingForDay("THURSDAY", "adult_extra_guest_charge").as("thursdayAdultExtraGuestCharge"),
       thursdayAdultExtraGuestChargeWithGST: pricingForDay("THURSDAY", "adult_extra_guest_charge_with_gst").as("thursdayAdultExtraGuestChargeWithGST"),
@@ -809,6 +812,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       thursdayInfantExtraGuestChargeWithGST: pricingForDay("THURSDAY", "infant_extra_guest_charge_with_gst").as("thursdayInfantExtraGuestChargeWithGST"),
       thursdayBaseGuestCount: pricingForDay("THURSDAY", "base_guest_count").as("thursdayBaseGuestCount"),
       thursdayDiscount: pricingForDay("THURSDAY", "discount").as("thursdayDiscount"),
+      thursdayGSTslab: pricingForDay("THURSDAY", "gst_slab").as("thursdayGSTslab"),
 
       fridayAdultExtraGuestCharge: pricingForDay("FRIDAY", "adult_extra_guest_charge").as("fridayAdultExtraGuestCharge"),
       fridayAdultExtraGuestChargeWithGST: pricingForDay("FRIDAY", "adult_extra_guest_charge_with_gst").as("fridayAdultExtraGuestChargeWithGST"),
@@ -818,6 +822,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       fridayInfantExtraGuestChargeWithGST: pricingForDay("FRIDAY", "infant_extra_guest_charge_with_gst").as("fridayInfantExtraGuestChargeWithGST"),
       fridayBaseGuestCount: pricingForDay("FRIDAY", "base_guest_count").as("fridayBaseGuestCount"),
       fridayDiscount: pricingForDay("FRIDAY", "discount").as("fridayDiscount"),
+      fridayGSTslab: pricingForDay("FRIDAY", "gst_slab").as("fridayGSTslab"),
 
       saturdayAdultExtraGuestCharge: pricingForDay("SATURDAY", "adult_extra_guest_charge").as("saturdayAdultExtraGuestCharge"),
       saturdayAdultExtraGuestChargeWithGST: pricingForDay("SATURDAY", "adult_extra_guest_charge_with_gst").as("saturdayAdultExtraGuestChargeWithGST"),
@@ -827,6 +832,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       saturdayInfantExtraGuestChargeWithGST: pricingForDay("SATURDAY", "infant_extra_guest_charge_with_gst").as("saturdayInfantExtraGuestChargeWithGST"),
       saturdayBaseGuestCount: pricingForDay("SATURDAY", "base_guest_count").as("saturdayBaseGuestCount"),
       saturdayDiscount: pricingForDay("SATURDAY", "discount").as("saturdayDiscount"),
+      saturdayGSTslab: pricingForDay("SATURDAY", "gst_slab").as("saturdayGSTslab"),
 
       sundayAdultExtraGuestCharge: pricingForDay("SUNDAY", "adult_extra_guest_charge").as("sundayAdultExtraGuestCharge"),
       sundayAdultExtraGuestChargeWithGST: pricingForDay("SUNDAY", "adult_extra_guest_charge_with_gst").as("sundayAdultExtraGuestChargeWithGST"),
@@ -836,6 +842,7 @@ export const propertyDetailView = pgView("propertyDetailView").as((qb) =>
       sundayInfantExtraGuestChargeWithGST: pricingForDay("SUNDAY", "infant_extra_guest_charge_with_gst").as("sundayInfantExtraGuestChargeWithGST"),
       sundayBaseGuestCount: pricingForDay("SUNDAY", "base_guest_count").as("sundayBaseGuestCount"),
       sundayDiscount: pricingForDay("SUNDAY", "discount").as("sundayDiscount"),
+      sundayGSTslab: pricingForDay("SUNDAY", "gst_slab").as("sundayGSTslab"),
 
       mondayFloatingAdultExtraGuestCharge: pricingForDay("MONDAY", "floating_adult_extra_guest_charge").as("mondayFloatingAdultExtraGuestCharge"),
       mondayFloatingAdultExtraGuestChargeWithGST: pricingForDay("MONDAY", "floating_adult_extra_guest_charge_with_gst").as("mondayFloatingAdultExtraGuestChargeWithGST"),

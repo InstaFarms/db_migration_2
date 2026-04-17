@@ -202,36 +202,111 @@ export const photoCategoryOptions = [
 export const cancellationPlanTypeOptions = ["longterm", "shortterm"] as const;
 
 export const bookingPaymentChannelOptions = ["RAZORPAY", "BANK_TRANSFER"] as const;
-export const bookingSourceOptions = [
+export const bookingPaymentReceiverTypeOptions = ["PLATFORM", "OWNER"] as const;
+export const bookingPaymentMethodOptions = [
+  "PG",
+  "BANK_TRANSFER",
+  "UPI",
+  "CASH",
+] as const;
+export const bookingPaymentInstrumentOptions = [
+  "CREDIT_CARD",
+  "DEBIT_CARD",
+  "UPI",
+  "WALLET",
+  "NET_BANKING",
+  "PAY_LATER",
+  "OTHERS",
+] as const;
+export const bookingPaymentGatewayOptions = ["RAZORPAY", "CASHFREE", "OTHERS"] as const;
+export const bookingPaymentCaptureTypeOptions = ["SYSTEM", "MANUAL"] as const;
+export const bookingPaymentForOptions = [
+  "FULL_PAYMENT",
+  "ADVANCE_PAYMENT",
+  "BALANCE_PAYMENT",
+  "ADJUSTMENT",
+] as const;
+export const bookingTechPlatformOptions = [
   "WEBSITE_DESKTOP",
-  "WEBSITE_APP",
+  "WEBSITE_MOBILE",
   "APP_ANDROID",
   "APP_IOS",
-  "ADMINPANNEL",
+  "ADMIN_PANEL",
   "JARVIS",
 ] as const;
-export const bookingTableTypeOptions = ["ONLINE", "OFFLINE"] as const;
+export const  bookingSourceTypeOptions= ["ONLINE", "OFFLINE"] as const;
 export const bookingLifecycleStatusOptions = [
-  "PENDING",
   "CONFIRMED",
   "CANCELLED",
   "COMPLETED",
 ] as const;
 export const bookingRequestStatusOptions = [
   "PENDING",
-  "ACCEPTED",
+  "APPROVED",
   "REJECTED",
-  "CANCELLED",
+  "EXPIRED",
+] as const;
+export const bookingRequestDecisionTakerTypeOptions = [
+  "OWNER",
+  "MANAGER",
+  "ADMIN",
+  "CUSTOMER"
+] as const;
+export const bookingRequestRefundStatusOptions = [
+  "NOT_INITIATED",
+  "INITIATED",
+  "COMPLETED",
+] as const;
+export const bookingCancellationTypeOptions = [
+  "CUSTOMER_CANCELLED",
+  "OWNER_CANCELLED",
+  "ADMIN_CANCELLED",
+  "NO_SHOW",
+] as const;
+export const bookingCancellationStayTypeOptions = ["SHORT", "LONG"] as const;
+export const bookingCancellationRefundStatusOptions = [
+  "NOT_INITIATED",
+  "INITIATED",
+  "COMPLETED",
 ] as const;
 export const bookingDiscountTypeOptions = [
-  "OWNER",
-  "MULTIPLE_NIGHTS",
+  "OWNER_DISCOUNT",
+  "MULTIPLE_NIGHTS_DISCOUNT",
   "COUPON",
 ] as const;
+export const bookingDiscountValueTypeOptions = ["PERCENTAGE", "FLAT"] as const;
+export const bookingDiscountCalculationBaseOptions = [
+  "BASE_AMOUNT",
+  "RUNNING_TOTAL",
+] as const;
+export const bookingRefundTypeOptions = [
+  "GOODWILL",
+  "ADJUSTMENT",
+  "CUSTOMER_REFUND",
+] as const;
 export const bookingRefundStatusOptions = [
-  "REFUND_INITIATED",
+  "PENDING",
+  "PARTIALLY_REFUNDED",
   "REFUNDED",
   "FAILED",
+] as const;
+export const bookingRefundAttemptStatusOptions = [
+  "PENDING",
+  "SUCCESS",
+  "FAILED",
+] as const;
+export const bookingRefundInitiatedByTypeOptions = ["SYSTEM", "ADMIN"] as const;
+export const bookingPriceAdjustmentTypeOptions = [
+  "EXTRA_GUEST",
+  "EXTENSION",
+  "DAMAGE",
+  "GOODWILL",
+  "PRICE_CORRECTION",
+  "OTHER",
+] as const;
+export const bookingPriceAdjustmentFlowTypeOptions = [
+  "CUSTOMER_TO_PLATFORM",
+  "PLATFORM_TO_CUSTOMER",
 ] as const;
 export const inventorySourceTypeOptions = [
   "BOOKING",
@@ -331,20 +406,81 @@ export const ownerWalletLedgerTypeOptions = [
   "CANCELLATION_COMMISSION",
   "MILESTONE_ADJUSTMENT",
 ] as const;
+export const ownerWalletLedgerReferenceTypeOptions = [
+  "BOOKING_SETTLEMENT",
+  "PAYOUT",
+  "REFUND_RECOVERY",
+  "ADJUSTMENT",
+  "MILESTONE_ADJUSTMENT",
+  "MANUAL",
+] as const;
+export const ownerWalletLedgerComponentTypeOptions = [
+  "BOOKING_EARNING",
+  "CANCELLATION_EARNING",
+  "REFUND_DEDUCTION",
+  "GOODWILL_DEDUCTION",
+  "MILESTONE_BONUS",
+  "PAYOUT",
+  "MANUAL",
+  "TDS_DEDUCTION",
+] as const;
 export const ledgerDirectionOptions = ["CREDIT", "DEBIT"] as const;
 export const ownerPayoutStatusOptions = [
-  "PENDING",
+  "INITIATED",
   "PROCESSING",
-  "COMPLETED",
+  "SUCCESS",
   "FAILED",
-  "CANCELLED",
 ] as const;
+export const ownerPayoutMethodOptions = ["BANK_TRANSFER", "UPI", "MANUAL"] as const;
+export const ownerPayoutGatewayOptions = ["RAZORPAY", "CASHFREE", "MANUAL"] as const;
+export const ownerPayoutAttemptStatusOptions = ["SUCCESS", "FAILED"] as const;
+export const ownerSettlementStatusOptions = ["PENDING", "FINALIZED", "ADJUSTED"] as const;
+export const ownerSettlementAdjustmentTypeOptions = [
+  "GOODWILL",
+  "DAMAGE",
+  "EXTRA_GUEST",
+  "EXTENSION",
+  "PENALTY",
+  "MANUAL",
+  "PRICE_CORRECTION",
+] as const;
+export const ownerSettlementAdjustmentDirectionOptions = ["INCREASE", "DECREASE"] as const;
+export const tdsRecordReferenceTypeOptions = [
+  "BOOKING",
+  "CANCELLATION",
+  "ADJUSTMENT",
+] as const;
+export const tdsRecordEntryTypeOptions = ["CREDIT", "DEBIT"] as const;
+export const gstRecordTypeOptions = ["BOOKING_GST", "COMMISSION_GST"] as const;
+export const gstRecordReferenceTypeOptions = [
+  "BOOKING",
+  "CANCELLATION",
+  "ADJUSTMENT",
+] as const;
+export const gstRecordLiabilityHolderOptions = ["PLATFORM", "OWNER"] as const;
+export const gstRecordEntryDirectionOptions = ["DEBIT", "CREDIT"] as const;
 export const platformLedgerTypeOptions = [
   "COMMISSION",
   "COMMISSION_REVERSAL",
   "CANCEL_COMMISSION",
   "MILESTONE_COMMISSION_ADJUSTMENT",
   "GATEWAY_FEE",
+] as const;
+export const platformLedgerReferenceTypeOptions = [
+  "BOOKING",
+  "CANCELLATION",
+  "REFUND",
+  "MILESTONE_ADJUSTMENT",
+  "MANUAL_ADJUSTMENT",
+] as const;
+export const platformLedgerEntryTypeOptions = ["CREDIT", "DEBIT"] as const;
+export const platformLedgerCategoryOptions = [
+  "COMMISSION",
+  "CANCELLATION_COMMISSION",
+  "REFUND_LOSS",
+  "GOODWILL",
+  "MILESTONE_ADJUSTMENT",
+  "MANUAL",
 ] as const;
 
 export interface ServerActionResult {

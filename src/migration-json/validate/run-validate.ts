@@ -3,6 +3,7 @@ import path from "node:path";
 import { getConfig } from "../shared/config";
 import { createNewPool, createOldPool } from "../shared/db";
 import { log } from "../shared/logger";
+import { getRuleForTable } from "../mapping/schema-map";
 
 const quote = (name: string): string => `"${name.replace(/"/g, "\"\"")}"`;
 
@@ -22,6 +23,7 @@ const run = async (): Promise<void> => {
         const counts: Array<{ table: string; source: number; target: number; delta: number }> = [];
         for (const item of manifest.tables) {
             const table = item.table;
+            if (getRuleForTable(table).mode === "skip") continue;
             const targetExists = await newPool.query(
                 `
                 SELECT 1 FROM information_schema.tables
@@ -43,14 +45,6 @@ const run = async (): Promise<void> => {
 
         const orphanChecks = [
             {
-                check: "payments.bookingId -> bookings.id",
-                sql: `SELECT COUNT(*)::bigint AS c FROM "payments" p LEFT JOIN "bookings" b ON b."id"=p."bookingId" WHERE p."bookingId" IS NOT NULL AND b."id" IS NULL`,
-            },
-            {
-                check: "bookings.propertyId -> properties.id",
-                sql: `SELECT COUNT(*)::bigint AS c FROM "bookings" b LEFT JOIN "properties" p ON p."id"=b."propertyId" WHERE b."propertyId" IS NOT NULL AND p."id" IS NULL`,
-            },
-            {
                 check: "propertyPhotos.photoId -> photos.id",
                 sql: `SELECT COUNT(*)::bigint AS c FROM "propertyPhotos" pp LEFT JOIN "photos" p ON p."id"=pp."photoId" WHERE p."id" IS NULL`,
             },
@@ -65,7 +59,7 @@ const run = async (): Promise<void> => {
             }
         }
 
-        const sampleTables = ["users", "properties", "bookings", "payments"];
+        const sampleTables = ["users", "properties"];
         const sampleHash: Array<{ table: string; sourceDigest: string | null; targetDigest: string | null; matched: boolean }> = [];
         for (const table of sampleTables) {
             try {

@@ -1,1 +1,46 @@
-{}
+{
+  "carouselPhotos": {
+    "mode": "preserve",
+    "reason": "No id column; preserving composite/natural keys."
+  },
+  "whatsappLog": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "inventoryChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "maintenanceChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "suppliesChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "tickets": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "inventoryAuditChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "maintenanceAuditChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "suppliesAuditChecklistItems": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "ticketResolutionLogs": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  },
+  "checklistItemMedia": {
+    "mode": "preserve",
+    "reason": "UUID id with FK compatibility."
+  }
+}

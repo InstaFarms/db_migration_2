@@ -1,6 +1,8 @@
 import { Pool } from "pg";
+import { BOOKING_DATA_SOURCE_TABLES } from "../mapping/schema-map";
 
 export const EXCLUDED_TABLES = new Set<string>([
+    ...BOOKING_DATA_SOURCE_TABLES,
     "entities",
     "entityProperties",
     "entityBlockedDates",

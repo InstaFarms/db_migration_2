@@ -1753,7 +1753,11 @@ const run = async (): Promise<void> => {
             "utf8"
         );
 
-        if (!config.dryRun && newTables.includes("bookingRefund")) {
+        if (
+            !config.dryRun &&
+            newTables.includes("bookingRefund") &&
+            getRuleForTable("cancellations").mode !== "skip"
+        ) {
             const cancellationsSource =
                 sourceCancellationsRows ??
                 (await readTableRows(config.dataDir, "cancellations.json").catch(

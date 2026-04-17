@@ -11,17 +11,34 @@ const skip = (sourceTable: string, reason: string): TableMapRule => ({
     reason,
 });
 
+export const BOOKING_DATA_SOURCE_TABLES = new Set<string>([
+    "bookings",
+    "bookingAuditLog",
+    "bookingPaymentSchedule",
+    "bookingCancellation",
+    "bookingPayments",
+    "payments",
+    "cancellations",
+    "icalLinks",
+    "importedBookings",
+    "reviews",
+    "reviewMagicLinks",
+    "ownerWallet",
+    "ownerWalletLedger",
+    "ownerPayouts",
+    "ownersWallet",
+    "walletTransactions",
+    "walletWithdrawalRequests",
+    "notification_delivery_log",
+    "notification_dead_letter_queue",
+    "notification_event_log",
+]);
+
 export const fixedRules: TableMapRule[] = [
     { sourceTable: "listingUsers", targetTable: "customers", mode: "transform" },
-    { sourceTable: "payments", targetTable: "bookingPayments", mode: "transform" },
-    { sourceTable: "cancellations", targetTable: "bookingCancellation", mode: "transform" },
-    { sourceTable: "ownersWallet", targetTable: "ownerWallet", mode: "transform" },
-    { sourceTable: "walletTransactions", targetTable: "ownerWalletLedger", mode: "transform" },
-    {
-        sourceTable: "walletWithdrawalRequests",
-        targetTable: "ownerPayouts",
-        mode: "transform",
-    },
+    ...[...BOOKING_DATA_SOURCE_TABLES].map((sourceTable) =>
+        skip(sourceTable, "Booking-related data is intentionally not imported")
+    ),
     skip("blockedDates", "Removed from new schema"),
     skip("propertyFaqs", "Removed from new schema"),
     skip("propertyHouseRules", "Removed from new schema"),

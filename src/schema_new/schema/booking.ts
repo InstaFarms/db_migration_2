@@ -3,6 +3,7 @@ import {
   boolean,
   check,
   date,
+  foreignKey,
   index,
   integer,
   json,
@@ -29,12 +30,30 @@ import {
   blockingStatusOptions,
   blockingTypeOptions,
   bookingDiscountTypeOptions,
+  bookingDiscountValueTypeOptions,
+  bookingDiscountCalculationBaseOptions,
+  bookingPaymentCaptureTypeOptions,
   bookingLifecycleStatusOptions,
   bookingPaymentChannelOptions,
+  bookingPaymentForOptions,
+  bookingPaymentGatewayOptions,
+  bookingPaymentInstrumentOptions,
+  bookingPaymentMethodOptions,
+  bookingPaymentReceiverTypeOptions,
   bookingRefundStatusOptions,
+  bookingRefundAttemptStatusOptions,
+  bookingRefundTypeOptions,
+  bookingRefundInitiatedByTypeOptions,
+  bookingPriceAdjustmentTypeOptions,
+  bookingPriceAdjustmentFlowTypeOptions,
   bookingRequestStatusOptions,
-  bookingSourceOptions,
-  bookingTableTypeOptions,
+  bookingRequestDecisionTakerTypeOptions,
+  bookingRequestRefundStatusOptions,
+  bookingCancellationTypeOptions,
+  bookingCancellationStayTypeOptions,
+  bookingCancellationRefundStatusOptions,
+  bookingSourceTypeOptions,
+  bookingTechPlatformOptions,
   iCalOTAOptions,
   inventoryBlockCategoryOptions,
   inventoryBlockTypeOptions,
@@ -44,7 +63,7 @@ import {
 import { customers } from "./customer.ts";
 import { properties } from "./property.ts";
 import { coupons } from "./propertyCoupon.ts";
-import { users } from "./user.ts";
+import { cancellationPlans } from "./propertyCancellation.ts";
 
 // =========================================================
 // =========================================================
@@ -53,18 +72,83 @@ import { users } from "./user.ts";
 // =========================================================
 
 export const bookingPaymentChannelEnum = pgEnum("bookingPaymentChannel", bookingPaymentChannelOptions);
+export const bookingPaymentReceiverTypeEnum = pgEnum(
+  "bookingPaymentReceiverType",
+  bookingPaymentReceiverTypeOptions
+);
+export const bookingPaymentMethodEnum = pgEnum(
+  "bookingPaymentMethod",
+  bookingPaymentMethodOptions
+);
+export const bookingPaymentInstrumentEnum = pgEnum(
+  "bookingPaymentInstrument",
+  bookingPaymentInstrumentOptions
+);
+export const bookingPaymentGatewayEnum = pgEnum(
+  "bookingPaymentGateway",
+  bookingPaymentGatewayOptions
+);
+export const bookingPaymentCaptureTypeEnum = pgEnum(
+  "bookingPaymentCaptureType",
+  bookingPaymentCaptureTypeOptions
+);
+export const bookingPaymentForEnum = pgEnum("bookingPaymentFor", bookingPaymentForOptions);
 
-export const bookingSourceEnum = pgEnum("bookingSource", bookingSourceOptions);
-
-export const bookingTableTypeEnum = pgEnum("bookingTableType", bookingTableTypeOptions);
+export const bookingSourceTypeEnum = pgEnum("bookingSourceType", bookingSourceTypeOptions);
+export const bookingTechPlatformEnum = pgEnum("bookingTechPlatform",bookingTechPlatformOptions);
 
 export const bookingLifecycleStatusEnum = pgEnum("bookingLifecycleStatus", bookingLifecycleStatusOptions);
 
 export const bookingRequestStatusEnum = pgEnum("bookingRequestStatus", bookingRequestStatusOptions);
+export const bookingRequestDecisionTakerTypeEnum = pgEnum(
+  "bookingRequestDecisionTakerType",
+  bookingRequestDecisionTakerTypeOptions
+);
+export const bookingRequestRefundStatusEnum = pgEnum(
+  "bookingRequestRefundStatus",
+  bookingRequestRefundStatusOptions
+);
+export const bookingCancellationTypeEnum = pgEnum(
+  "bookingCancellationType",
+  bookingCancellationTypeOptions
+);
+export const bookingCancellationStayTypeEnum = pgEnum(
+  "bookingCancellationStayType",
+  bookingCancellationStayTypeOptions
+);
+export const bookingCancellationRefundStatusEnum = pgEnum(
+  "bookingCancellationRefundStatus",
+  bookingCancellationRefundStatusOptions
+);
 
 export const bookingDiscountTypeEnum = pgEnum("bookingDiscountType", bookingDiscountTypeOptions);
+export const bookingDiscountValueTypeEnum = pgEnum(
+  "bookingDiscountValueType",
+  bookingDiscountValueTypeOptions
+);
+export const bookingDiscountCalculationBaseEnum = pgEnum(
+  "bookingDiscountCalculationBase",
+  bookingDiscountCalculationBaseOptions
+);
 
 export const bookingRefundStatusEnum = pgEnum("bookingRefundStatus", bookingRefundStatusOptions);
+export const bookingRefundAttemptStatusEnum = pgEnum(
+  "bookingRefundAttemptStatus",
+  bookingRefundAttemptStatusOptions
+);
+export const bookingRefundTypeEnum = pgEnum("bookingRefundType", bookingRefundTypeOptions);
+export const bookingRefundInitiatedByTypeEnum = pgEnum(
+  "bookingRefundInitiatedByType",
+  bookingRefundInitiatedByTypeOptions
+);
+export const bookingPriceAdjustmentTypeEnum = pgEnum(
+  "bookingPriceAdjustmentType",
+  bookingPriceAdjustmentTypeOptions
+);
+export const bookingPriceAdjustmentFlowTypeEnum = pgEnum(
+  "bookingPriceAdjustmentFlowType",
+  bookingPriceAdjustmentFlowTypeOptions
+);
 
 export const inventorySourceTypeEnum = pgEnum("inventorySourceType", inventorySourceTypeOptions);
 
@@ -90,136 +174,414 @@ export const iCalOTAEnum = pgEnum("iCalOTA", iCalOTAOptions);
 // =========================================================
 // =========================================================
 
-// ==================== ICAL LINKS =========================
-
-export const icalLinks = pgTable(
-  "icalLinks",
-  {
-    id: uuid("id").primaryKey().defaultRandom(),
-    propertyId: uuid("propertyId").references(() => properties.id, {
-      onDelete: "cascade",
-    }),
-    name: text("name").notNull(),
-    icalUrl: text("icalUrl").notNull(),
-    lastSyncedAt: timestamp("lastSyncedAt", {
-      withTimezone: true,
-      mode: "string",
-    }),
-    syncStatus: text("syncStatus").notNull().default("pending"),
-    syncError: text("syncError"),
-    isActive: boolean("isActive").notNull().default(true),
-    ...timestamps,
-    ...adminOrUserUpdateReference,
-  },
-  (table) => [
-    index("ical_links_property_id_idx").on(table.propertyId),
-    index("ical_links_sync_status_idx").on(table.syncStatus),
-    setUserOrAdminUpdatedByConstraint(table),
-  ]
-);
-
-// ==================== IMPORTED BOOKINGS ==================
-
-export const importedBookings = pgTable(
-  "importedBookings",
-  {
-    id: uuid("id").primaryKey().defaultRandom(),
-    propertyId: uuid("propertyId").references(() => properties.id, {
-      onDelete: "cascade",
-    }),
-    icalLinkId: uuid("icalLinkId")
-      .notNull()
-      .references(() => icalLinks.id, {
-        onDelete: "cascade",
-      }),
-    externalBookingId: text("externalBookingId").notNull(),
-    checkinDate: date({ mode: "string" }).notNull(),
-    checkoutDate: date({ mode: "string" }).notNull(),
-    summary: text("summary"),
-    description: text("description"),
-    ...timestamps,
-  },
-  (table) => [
-    unique("unique_external_booking").on(table.icalLinkId, table.externalBookingId),
-    index("imported_bookings_property_id_idx").on(table.propertyId),
-    index("imported_bookings_ical_link_id_idx").on(table.icalLinkId),
-    index("imported_bookings_checkin_date_idx").on(table.checkinDate),
-  ]
-);
-
 // ==================== BOOKINGS ===========================
 
 export const bookings = pgTable(
   "bookings",
   {
     id: uuid("id").primaryKey().defaultRandom(),
-    brandId: uuid("brandId").references(() => brands.id, {
+    propertyId: uuid("property_id").notNull().references(() => properties.id, {
+      onDelete: "cascade",
+    }),
+    customerId: uuid("customer_id").notNull().references(() => customers.id, {
+      onDelete: "cascade",
+    }),
+    brandId: uuid("brand_id").notNull().references(() => brands.id, {
       onDelete: "restrict",
     }),
-    propertyId: uuid("propertyId").references(() => properties.id, {
-      onDelete: "cascade",
-    }),
-    customerId: uuid("customerId").references(() => customers.id, {
-      onDelete: "cascade",
-    }),
-    bookingType: bookingTableTypeEnum("bookingType").notNull(),
-    bookingSource: bookingSourceEnum("bookingSource").notNull(),
-    status: bookingLifecycleStatusEnum("status").notNull().default("PENDING"),
+    bookingSourceType: bookingSourceTypeEnum("booking_source_type").notNull(),
+    bookingTechPlatform: bookingTechPlatformEnum("bookingTechPlatform").notNull(),
+    status: bookingLifecycleStatusEnum("status").notNull(),
     checkinDate: date("checkinDate", { mode: "string" }).notNull(),
     checkoutDate: date("checkoutDate", { mode: "string" }).notNull(),
-    remarks: text("remarks"),
-    specialRequests: text("specialRequests"),
+    totalGuestCount: integer("totalGuestCount").notNull().default(1),
+    totalNights: integer("total_nights").notNull(),
+    remarks: text("booking_remarks"),
+    specialRequests: text("special_requests"),
     ...timestamps,
     ...adminOrUserUpdateReference,
   },
   (table) => [
     check("checkout_after_checkin", sql`"checkoutDate" > "checkinDate"`),
+    check("bookings_total_guest_count_positive", sql`${table.totalGuestCount} > 0`),
+    check("bookings_total_nights_positive", sql`${table.totalNights} > 0`),
     index("bookings_brand_id_idx").on(table.brandId),
     index("bookings_property_id_idx").on(table.propertyId),
     index("bookings_customer_id_idx").on(table.customerId),
     index("bookings_checkin_date_idx").on(table.checkinDate),
     index("bookings_status_idx").on(table.status),
-    index("bookings_booking_source_idx").on(table.bookingSource),
-    index("bookings_booking_type_idx").on(table.bookingType),
+    index("bookings_booking_source_type_idx").on(table.bookingSourceType),
+    index("bookings_booking_tech_platform_idx").on(table.bookingTechPlatform),
     setUserOrAdminUpdatedByConstraint(table),
   ]
 );
 
-// ==================== BOOKING GUESTS =====================
+// ==================== BOOKING GUEST BREAKUP ==============
 
-export const bookingGuests = pgTable(
-  "bookingGuests",
+export const bookingGuestBreakup = pgTable(
+  "bookingGuestBreakup",
   {
-    bookingId: uuid("bookingId")
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingId: uuid("booking_id")
       .notNull()
       .unique()
       .references(() => bookings.id, {
         onDelete: "cascade",
       }),
-    staysAdult: integer("staysAdult").notNull().default(0),
-    staysChild: integer("staysChild").notNull().default(0),
-    staysInfant: integer("staysInfant").notNull().default(0),
-    floatingAdults: integer("floatingAdults").notNull().default(0),
-    floatingChildren: integer("floatingChildren").notNull().default(0),
-    floatingInfants: integer("floatingInfants").notNull().default(0),
+
+    stayAdultCount: integer("stayAdultCount").notNull().default(1),
+    stayChildCount: integer("stayChildCount").notNull().default(0),
+    stayInfantCount: integer("stayInfantCount").notNull().default(0),
+
+    floatingAdultCount: integer("floatingAdultCount").notNull().default(0),
+    floatingChildCount: integer("floatingChildCount").notNull().default(0),
+    floatingInfantCount: integer("floatingInfantCount").notNull().default(0),
+
     ...timestamps,
-    ...adminOrUserUpdateReference,
   },
   (table) => [
-    check("booking_guests_stays_adult_non_negative", sql`"staysAdult" >= 0`),
-    check("booking_guests_stays_child_non_negative", sql`"staysChild" >= 0`),
-    check("booking_guests_stays_infant_non_negative", sql`"staysInfant" >= 0`),
-    check("booking_guests_floating_adults_non_negative", sql`"floatingAdults" >= 0`),
+    index("booking_guest_breakup_booking_id_idx").on(table.bookingId),
+
+    check("booking_guest_breakup_stay_adult_positive", sql`${table.stayAdultCount} > 0`),
+    check("booking_guest_breakup_stay_child_non_negative", sql`${table.stayChildCount} >= 0`),
+    check("booking_guest_breakup_stay_infant_non_negative", sql`${table.stayInfantCount} >= 0`),
     check(
-      "booking_guests_floating_children_non_negative",
-      sql`"floatingChildren" >= 0`
+      "booking_guest_breakup_floating_adult_non_negative",
+      sql`${table.floatingAdultCount} >= 0`
     ),
     check(
-      "booking_guests_floating_infants_non_negative",
-      sql`"floatingInfants" >= 0`
+      "booking_guest_breakup_floating_child_non_negative",
+      sql`${table.floatingChildCount} >= 0`
     ),
-    index("booking_guests_booking_id_idx").on(table.bookingId),
-    setUserOrAdminUpdatedByConstraint(table),
+    check(
+      "booking_guest_breakup_floating_infant_non_negative",
+      sql`${table.floatingInfantCount} >= 0`
+    ),
+  ]
+);
+
+// ==================== BOOKING PRICING SUMMARY ============
+
+export const bookingPricingSummary = pgTable(
+  "booking_pricing_summary",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingId: uuid("booking_id")
+      .notNull()
+      .unique()
+      .references(() => bookings.id, {
+        onDelete: "cascade",
+      }),
+
+    totalBeforeDiscountExclGst: real("total_before_discount_excl_gst")
+      .notNull()
+      .default(0),
+    totalDiscountAmountExclGst: real("total_discount_amount_excl_gst")
+      .notNull()
+      .default(0),
+    totalAfterDiscountExclGst: real("total_after_discount_excl_gst")
+      .notNull()
+      .default(0),
+    totalGstAmount: real("total_gst_amount").notNull().default(0),
+    finalAmountInclGst: real("final_amount_incl_gst").notNull().default(0),
+
+    pricingVersion: integer("pricing_version").notNull().default(1),
+    ...timestamps,
+  },
+  (table) => [
+    index("booking_pricing_summary_booking_id_idx").on(table.bookingId),
+    index("booking_pricing_summary_created_at_idx").on(table.createdAt),
+
+    check(
+      "booking_pricing_summary_total_before_non_negative",
+      sql`${table.totalBeforeDiscountExclGst} >= 0`
+    ),
+    check(
+      "booking_pricing_summary_discount_non_negative",
+      sql`${table.totalDiscountAmountExclGst} >= 0`
+    ),
+    check(
+      "booking_pricing_summary_total_after_non_negative",
+      sql`${table.totalAfterDiscountExclGst} >= 0`
+    ),
+    check(
+      "booking_pricing_summary_gst_non_negative",
+      sql`${table.totalGstAmount} >= 0`
+    ),
+    check(
+      "booking_pricing_summary_final_amount_non_negative",
+      sql`${table.finalAmountInclGst} >= 0`
+    ),
+    check(
+      "booking_pricing_summary_pricing_version_positive",
+      sql`${table.pricingVersion} > 0`
+    ),
+    check(
+      "booking_pricing_summary_total_after_formula_valid",
+      sql`${table.totalAfterDiscountExclGst} = (${table.totalBeforeDiscountExclGst} - ${table.totalDiscountAmountExclGst})`
+    ),
+    check(
+      "booking_pricing_summary_final_formula_valid",
+      sql`${table.finalAmountInclGst} = (${table.totalAfterDiscountExclGst} + ${table.totalGstAmount})`
+    ),
+  ]
+);
+
+// ==================== BOOKING PRICE DAYWISE BREAKUP ======
+
+export const bookingPriceDaywiseBreakup = pgTable(
+  "booking_price_daywise_breakup",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingId: uuid("booking_id")
+      .notNull()
+      .references(() => bookings.id, {
+        onDelete: "cascade",
+      }),
+
+    stayDate: date("stay_date", { mode: "string" }).notNull(),
+
+    basePriceExclGst: real("base_price_excl_gst").notNull().default(0),
+    extraGuestChargesExclGst: real("extra_guest_charges_excl_gst")
+      .notNull()
+      .default(0),
+    floatingGuestChargesExclGst: real("floating_guest_charges_excl_gst")
+      .notNull()
+      .default(0),
+
+    totalBeforeDiscountExclGst: real("total_before_discount_excl_gst")
+      .notNull()
+      .default(0),
+    discountAmountExclGst: real("discount_amount_excl_gst").notNull().default(0),
+    priceAfterDiscountExclGst: real("price_after_discount_excl_gst")
+      .notNull()
+      .default(0),
+
+    bookingGstRate: integer("booking_gst_rate").notNull(),
+    bookingGstAmount: real("booking_gst_amount").notNull().default(0),
+    finalPriceInclGst: real("final_price_incl_gst").notNull().default(0),
+
+    ...timestamps,
+  },
+  (table) => [
+    unique("booking_price_daywise_breakup_booking_date_unique").on(
+      table.bookingId,
+      table.stayDate
+    ),
+
+    index("booking_price_daywise_breakup_booking_id_idx").on(table.bookingId),
+    index("booking_price_daywise_breakup_stay_date_idx").on(table.stayDate),
+    index("booking_price_daywise_breakup_created_at_idx").on(table.createdAt),
+
+    check(
+      "booking_price_daywise_breakup_base_price_non_negative",
+      sql`${table.basePriceExclGst} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_extra_guest_non_negative",
+      sql`${table.extraGuestChargesExclGst} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_floating_guest_non_negative",
+      sql`${table.floatingGuestChargesExclGst} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_total_before_non_negative",
+      sql`${table.totalBeforeDiscountExclGst} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_discount_non_negative",
+      sql`${table.discountAmountExclGst} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_price_after_non_negative",
+      sql`${table.priceAfterDiscountExclGst} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_gst_amount_non_negative",
+      sql`${table.bookingGstAmount} >= 0`
+    ),
+    check(
+      "booking_price_daywise_breakup_final_price_non_negative",
+      sql`${table.finalPriceInclGst} >= 0`
+    ),
+
+    check(
+      "booking_price_daywise_breakup_gst_rate_valid",
+      sql`${table.bookingGstRate} IN (5, 18, 28)`
+    ),
+
+    check(
+      "booking_price_daywise_breakup_total_before_formula_valid",
+      sql`${table.totalBeforeDiscountExclGst} = (${table.basePriceExclGst} + ${table.extraGuestChargesExclGst} + ${table.floatingGuestChargesExclGst})`
+    ),
+    check(
+      "booking_price_daywise_breakup_price_after_formula_valid",
+      sql`${table.priceAfterDiscountExclGst} = (${table.totalBeforeDiscountExclGst} - ${table.discountAmountExclGst})`
+    ),
+    check(
+      "booking_price_daywise_breakup_final_formula_valid",
+      sql`${table.finalPriceInclGst} = (${table.priceAfterDiscountExclGst} + ${table.bookingGstAmount})`
+    ),
+  ]
+);
+
+// ==================== BOOKING PAYMENTS ===================
+
+export const bookingPayments = pgTable(
+  "booking_payments",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingId: uuid("booking_id")
+      .notNull()
+      .references(() => bookings.id, {
+        onDelete: "cascade",
+      }),
+
+    receiverType: bookingPaymentReceiverTypeEnum("receiver_type").notNull(),
+    paymentMethod: bookingPaymentMethodEnum("payment_method").notNull(),
+    paymentInstrument: bookingPaymentInstrumentEnum("payment_instrument").notNull(),
+    paymentGateway: bookingPaymentGatewayEnum("payment_gateway"),
+    paymentCaptureType: bookingPaymentCaptureTypeEnum("payment_capture_type").notNull(),
+
+    amount: real("amount").notNull(),
+    currency: text("currency").notNull().default("INR"),
+    gatewayFee: real("gateway_fee").notNull().default(0),
+    netAmountReceived: real("net_amount_received").notNull().default(0),
+
+    paymentFor: bookingPaymentForEnum("payment_for").notNull(),
+    paymentReference: text("payment_reference"),
+    remarks: text("remarks"),
+
+    paidAt: timestamp("paid_at", {
+      withTimezone: true,
+      mode: "string",
+    }).notNull(),
+
+    ...timestamps,
+  },
+  (table) => [
+    index("booking_payments_booking_id_idx").on(table.bookingId),
+    index("booking_payments_paid_at_idx").on(table.paidAt),
+    index("booking_payments_payment_for_idx").on(table.paymentFor),
+    index("booking_payments_receiver_type_idx").on(table.receiverType),
+    index("booking_payments_reference_idx").on(table.paymentReference),
+
+    check("booking_payments_amount_positive", sql`${table.amount} > 0`),
+    check("booking_payments_gateway_fee_non_negative", sql`${table.gatewayFee} >= 0`),
+    check(
+      "booking_payments_gateway_fee_not_more_than_amount",
+      sql`${table.gatewayFee} <= ${table.amount}`
+    ),
+    check(
+      "booking_payments_net_amount_non_negative",
+      sql`${table.netAmountReceived} >= 0`
+    ),
+    check(
+      "booking_payments_net_amount_formula_valid",
+      sql`${table.netAmountReceived} = (${table.amount} - ${table.gatewayFee})`
+    ),
+    check(
+      "booking_payments_gateway_required_for_pg_only",
+      sql`(
+        (${table.paymentMethod} = 'PG' AND ${table.paymentGateway} IS NOT NULL)
+        OR
+        (${table.paymentMethod} <> 'PG' AND ${table.paymentGateway} IS NULL)
+      )`
+    ),
+    check(
+      "booking_payments_currency_not_empty",
+      sql`length(trim(${table.currency})) > 0`
+    ),
+  ]
+);
+
+// ==================== BOOKING DISCOUNTS ==================
+
+export const bookingDiscounts = pgTable(
+  "booking_discount",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingId: uuid("booking_id")
+      .notNull()
+      .references(() => bookings.id, {
+        onDelete: "cascade",
+      }),
+
+    discountType: bookingDiscountTypeEnum("discount_type").notNull(),
+    couponId: uuid("coupon_id").references(() => coupons.id, {
+      onDelete: "set null",
+    }),
+    couponCode: text("coupon_code"),
+
+    discountValueType: bookingDiscountValueTypeEnum("discount_value_type").notNull(),
+    discountPercentage: real("discount_percentage"),
+    flatDiscountValue: real("flat_discount_value"),
+
+    applicationOrder: integer("application_order").notNull().default(1),
+    calculationBase: bookingDiscountCalculationBaseEnum("calculation_base")
+      .notNull()
+      .default("BASE_AMOUNT"),
+
+    amountBeforeDiscount: real("amount_before_discount").notNull().default(0),
+    discountAmount: real("discount_amount").notNull().default(0),
+    amountAfterDiscount: real("amount_after_discount").notNull().default(0),
+
+    description: text("description"),
+
+    ...timestamps,
+  },
+  (table) => [
+    unique("booking_discount_booking_order_unique").on(table.bookingId, table.applicationOrder),
+
+    index("booking_discount_booking_id_idx").on(table.bookingId),
+    index("booking_discount_type_idx").on(table.discountType),
+    index("booking_discount_coupon_id_idx").on(table.couponId),
+    index("booking_discount_application_order_idx").on(table.applicationOrder),
+    index("booking_discount_created_at_idx").on(table.createdAt),
+
+    check(
+      "booking_discount_application_order_positive",
+      sql`${table.applicationOrder} > 0`
+    ),
+    check(
+      "booking_discount_discount_percentage_valid",
+      sql`${table.discountPercentage} IS NULL OR (${table.discountPercentage} > 0 AND ${table.discountPercentage} <= 100)`
+    ),
+    check(
+      "booking_discount_flat_discount_value_non_negative",
+      sql`${table.flatDiscountValue} IS NULL OR ${table.flatDiscountValue} >= 0`
+    ),
+    check(
+      "booking_discount_amount_before_non_negative",
+      sql`${table.amountBeforeDiscount} >= 0`
+    ),
+    check("booking_discount_amount_non_negative", sql`${table.discountAmount} >= 0`),
+    check(
+      "booking_discount_amount_after_non_negative",
+      sql`${table.amountAfterDiscount} >= 0`
+    ),
+    check(
+      "booking_discount_amount_not_more_than_base",
+      sql`${table.discountAmount} <= ${table.amountBeforeDiscount}`
+    ),
+    check(
+      "booking_discount_amount_after_formula_valid",
+      sql`${table.amountAfterDiscount} = (${table.amountBeforeDiscount} - ${table.discountAmount})`
+    ),
+    check(
+      "booking_discount_value_type_fields_valid",
+      sql`(
+        (${table.discountValueType} = 'PERCENTAGE' AND ${table.discountPercentage} IS NOT NULL AND ${table.flatDiscountValue} IS NULL)
+        OR
+        (${table.discountValueType} = 'FLAT' AND ${table.flatDiscountValue} IS NOT NULL AND ${table.discountPercentage} IS NULL)
+      )`
+    ),
   ]
 );
 
@@ -229,252 +591,472 @@ export const bookingRequests = pgTable(
   "bookingRequests",
   {
     id: uuid("id").primaryKey().defaultRandom(),
-    propertyId: uuid("propertyId")
+    propertyId: uuid("property_id")
       .notNull()
       .references(() => properties.id, {
         onDelete: "cascade",
       }),
-    brandId: uuid("brandId")
-      .notNull()
-      .references(() => brands.id, {
-        onDelete: "cascade",
-      }),
-    startDate: date("startDate", { mode: "string" }).notNull(),
-    endDate: date("endDate", { mode: "string" }).notNull(),
-    customerId: uuid("customerId")
+    customerId: uuid("customer_id")
       .notNull()
       .references(() => customers.id, {
         onDelete: "cascade",
       }),
-    status: bookingRequestStatusEnum("status").notNull(),
-    acceptedAt: timestamp("acceptedAt", {
+    brandId: uuid("brand_id")
+      .notNull()
+      .references(() => brands.id, {
+        onDelete: "cascade",
+      }),
+
+    checkinDate: date("checkin_date", { mode: "string" }).notNull(),
+    checkoutDate: date("checkout_date", { mode: "string" }).notNull(),
+    durationNights: integer("duration_nights").notNull(),
+    totalGuestCount: integer("total_guest_count").notNull(),
+    guestBreakup: jsonb("guest_breakup").notNull().default(sql`'{}'::jsonb`),
+    totalAmount: real("total_amount").notNull().default(0),
+    gatewayFee: real("gateway_fee").notNull().default(0),
+
+    status: bookingRequestStatusEnum("status").notNull().default("PENDING"),
+
+    decisionTakerType: bookingRequestDecisionTakerTypeEnum("decision_taker_type"),
+    decisionTakerId: uuid("decision_taker_id"),
+    decisionTimestamp: timestamp("decision_timestamp", {
       withTimezone: true,
       mode: "string",
     }),
-    rejectedAt: timestamp("rejectedAt", {
+    decisionReason: text("decision_reason"),
+
+    refundStatus: bookingRequestRefundStatusEnum("refund_status")
+      .notNull()
+      .default("NOT_INITIATED"),
+    refundReference: text("refund_reference"),
+    refundTimestamp: timestamp("refund_timestamp", {
       withTimezone: true,
       mode: "string",
     }),
-    cancelledAt: timestamp("cancelledAt", {
+
+    convertedBookingId: uuid("converted_booking_id").references(() => bookings.id, {
+      onDelete: "set null",
+    }),
+
+    remarks: text("remarks"),
+    expiryTimestamp: timestamp("expiry_timestamp", {
       withTimezone: true,
       mode: "string",
     }),
-    rejectionReason: text("rejectionReason"),
-    cancellationReason: text("cancellationReason"),
-    bookingPayload: json("bookingPayload"),
-    createdBy: uuid("createdBy"),
+
+    bookingPayload: json("booking_payload"),
+
     ...timestamps,
   },
   (table) => [
-    check("booking_requests_end_after_start", sql`"endDate" > "startDate"`),
+    check("booking_requests_checkout_after_checkin", sql`${table.checkoutDate} > ${table.checkinDate}`),
+    check("booking_requests_duration_nights_positive", sql`${table.durationNights} > 0`),
+    check("booking_requests_total_guests_positive", sql`${table.totalGuestCount} > 0`),
+    check("booking_requests_total_amount_non_negative", sql`${table.totalAmount} >= 0`),
+    check(
+      "booking_requests_decision_fields_consistent",
+      sql`(
+        (${table.decisionTakerType} IS NULL AND ${table.decisionTakerId} IS NULL AND ${table.decisionTimestamp} IS NULL)
+        OR
+        (${table.decisionTakerType} IS NOT NULL AND ${table.decisionTakerId} IS NOT NULL AND ${table.decisionTimestamp} IS NOT NULL)
+      )`
+    ),
+    check(
+      "booking_requests_refund_fields_consistent",
+      sql`(
+        (${table.refundStatus} = 'NOT_INITIATED' AND ${table.refundReference} IS NULL AND ${table.refundTimestamp} IS NULL)
+        OR
+        (${table.refundStatus} IN ('INITIATED','COMPLETED'))
+      )`
+    ),
+
     index("booking_requests_property_id_idx").on(table.propertyId),
     index("booking_requests_brand_id_idx").on(table.brandId),
     index("booking_requests_customer_id_idx").on(table.customerId),
     index("booking_requests_status_idx").on(table.status),
-    index("booking_requests_start_date_idx").on(table.startDate),
+    index("booking_requests_checkin_date_idx").on(table.checkinDate),
+    index("booking_requests_checkout_date_idx").on(table.checkoutDate),
+    index("booking_requests_expiry_timestamp_idx").on(table.expiryTimestamp),
+    index("booking_requests_converted_booking_id_idx").on(table.convertedBookingId),
     index("booking_requests_created_at_idx").on(table.createdAt),
-  ]
-);
-
-// ==================== BOOKING PAYMENTS ===================
-
-export const bookingPayments = pgTable(
-  "bookingPayments",
-  {
-    id: uuid("id").primaryKey().defaultRandom(),
-    bookingId: uuid("bookingId")
-      .notNull()
-      .references(() => bookings.id, {
-        onDelete: "cascade",
-      }),
-    isAdvancePayment: boolean("isAdvancePayment").notNull().default(false),
-    amount: real("amount").notNull(),
-    paymentDate: timestamp("paymentDate", {
-      withTimezone: true,
-      mode: "string",
-    }).notNull(),
-    paymentChannel: bookingPaymentChannelEnum("paymentChannel").notNull(),
-    razorpayPaymentId: text("razorpayPaymentId"),
-    razorpayOrderId: text("razorpayOrderId"),
-    paymentGatewayCharge: real("paymentGatewayCharge").default(0),
-    paymentGatewayInstrument: text("paymentGatewayInstrument"),
-    ...timestamps,
-    ...adminOrUserUpdateReference,
-  },
-  (table) => [
-    check("booking_payments_amount_positive", sql`${table.amount} > 0`),
-    check(
-      "booking_payments_gateway_charge_non_negative",
-      sql`"paymentGatewayCharge" IS NULL OR "paymentGatewayCharge" >= 0`
-    ),
-    index("booking_payments_booking_id_idx").on(table.bookingId),
-    index("booking_payments_payment_date_idx").on(table.paymentDate),
-    index("booking_payments_channel_idx").on(table.paymentChannel),
-    index("booking_payments_razorpay_payment_id_idx").on(table.razorpayPaymentId),
-    setUserOrAdminUpdatedByConstraint(table),
-  ]
-);
-
-// ==================== BOOKING PRICING ====================
-
-export const bookingPricing = pgTable(
-  "bookingPricing",
-  {
-    bookingId: uuid("bookingId")
-      .notNull()
-      .unique()
-      .references(() => bookings.id, {
-        onDelete: "cascade",
-      }),
-    baseRentalAmountWithGst: real("baseRentalAmountWithGst").default(0),
-    extraAdultGuestChargeWithGst: real("extraAdultGuestChargeWithGst").default(0),
-    extraChildGuestChargeWithGst: real("extraChildGuestChargeWithGst").default(0),
-    floatingGuestCharge: real("floatingGuestCharge").default(0),
-    bookingAmountWithGstBeforeDiscounts: real("bookingAmountWithGstBeforeDiscounts").default(0),
-    bookingAmountPaidWithGst: real("bookingAmountPaidWithGst").default(0),
-    fullBookingAmountWithGst: real("fullBookingAmountWithGst").default(0),
-    remainingAmountToBePaidWithGst: real("remainingAmountToBePaidWithGst").default(0),
-    daywiseBreakup: jsonb("daywiseBreakup"),
-    totalGstCollected: real("totalGstCollected").default(0),
-    bookingAmountWithDiscountBeforeGst: real("bookingAmountWithDiscountBeforeGst").default(0),
-    totalDiscountAmount: real("totalDiscountAmount").default(0),
-    ...timestamps,
-    ...adminOrUserUpdateReference,
-  },
-  (table) => [
-    check("booking_pricing_base_rental_non_negative", sql`"baseRentalAmountWithGst" >= 0`),
-    check(
-      "booking_pricing_extra_adult_non_negative",
-      sql`"extraAdultGuestChargeWithGst" >= 0`
-    ),
-    check(
-      "booking_pricing_extra_child_non_negative",
-      sql`"extraChildGuestChargeWithGst" >= 0`
-    ),
-    check(
-      "booking_pricing_floating_guest_charge_non_negative",
-      sql`"floatingGuestCharge" >= 0`
-    ),
-    check(
-      "booking_pricing_before_discount_non_negative",
-      sql`"bookingAmountWithGstBeforeDiscounts" >= 0`
-    ),
-    check("booking_pricing_paid_amount_non_negative", sql`"bookingAmountPaidWithGst" >= 0`),
-    check("booking_pricing_full_amount_non_negative", sql`"fullBookingAmountWithGst" >= 0`),
-    check(
-      "booking_pricing_remaining_amount_non_negative",
-      sql`"remainingAmountToBePaidWithGst" >= 0`
-    ),
-    check("booking_pricing_total_gst_non_negative", sql`"totalGstCollected" >= 0`),
-    check(
-      "booking_pricing_discounted_before_gst_non_negative",
-      sql`"bookingAmountWithDiscountBeforeGst" >= 0`
-    ),
-    check("booking_pricing_total_discount_non_negative", sql`"totalDiscountAmount" >= 0`),
-    index("booking_pricing_booking_id_idx").on(table.bookingId),
-    setUserOrAdminUpdatedByConstraint(table),
-  ]
-);
-
-// ==================== BOOKING DISCOUNTS ==================
-
-export const bookingDiscounts = pgTable(
-  "bookingDiscounts",
-  {
-    id: uuid("id").primaryKey().defaultRandom(),
-    bookingId: uuid("bookingId")
-      .notNull()
-      .references(() => bookings.id, {
-        onDelete: "cascade",
-      }),
-    couponId: uuid("couponId").references(() => coupons.id, {
-      onDelete: "set null",
-    }),
-    discountType: bookingDiscountTypeEnum("discountType").notNull(),
-    discountValue: real("discountValue").default(0),
-    discountAmount: real("discountAmount").default(0),
-    ...timestamps,
-    ...adminOrUserUpdateReference,
-  },
-  (table) => [
-    check("booking_discounts_value_non_negative", sql`"discountValue" >= 0`),
-    check("booking_discounts_amount_non_negative", sql`"discountAmount" >= 0`),
-    index("booking_discounts_booking_id_idx").on(table.bookingId),
-    index("booking_discounts_coupon_id_idx").on(table.couponId),
-    index("booking_discounts_type_idx").on(table.discountType),
-    setUserOrAdminUpdatedByConstraint(table),
   ]
 );
 
 // ==================== BOOKING CANCELLATION ===============
 
 export const bookingCancellation = pgTable(
-  "bookingCancellation",
+  "booking_cancellation",
   {
     id: uuid("id").primaryKey().defaultRandom(),
-    bookingId: uuid("bookingId")
+
+    bookingId: uuid("booking_id")
       .notNull()
       .unique()
       .references(() => bookings.id, {
         onDelete: "cascade",
       }),
-    refundAmount: real("refundAmount").notNull(),
-    cancelCharge: real("cancelCharge").default(0),
-    cancellationPlatformCommission: real("cancellationPlatformCommission").default(0),
-    cancellationFeeOwnerShare: real("cancellationFeeOwnerShare").default(0),
-    cancelledBy: uuid("cancelledBy").references(() => users.id, {
+
+    cancellationType: bookingCancellationTypeEnum("cancellation_type").notNull(),
+    cancelledById: uuid("cancelled_by_id"),
+    cancellationTimestamp: timestamp("cancellation_timestamp", {
+      withTimezone: true,
+      mode: "string",
+    }).notNull(),
+
+    daysBeforeCheckin: integer("days_before_checkin").notNull(),
+    stayDurationNights: integer("stay_duration_nights").notNull(),
+    stayType: bookingCancellationStayTypeEnum("stay_type").notNull(),
+
+    policyId: uuid("policy_id").references(() => cancellationPlans.id, {
       onDelete: "set null",
     }),
+    policySnapshot: jsonb("policy_snapshot").notNull().default(sql`'{}'::jsonb`),
+
+    totalBookingAmount: real("total_booking_amount").notNull().default(0),
+    totalAmountPaid: real("total_amount_paid").notNull().default(0),
+
+    cancellationPercentage: real("cancellation_percentage"),
+    cancellationAmountBeforeGst: real("cancellation_amount_before_gst")
+      .notNull()
+      .default(0),
+
+    gstRate: integer("gst_rate"),
+    gstApplicable: boolean("gst_applicable").notNull().default(false),
+    paymentGatewayChargesDeducted: boolean("payment_gateway_charges_deducted")
+      .notNull()
+      .default(false),
+
+    totalDeductions: real("total_deductions").notNull().default(0),
+    refundAmount: real("refund_amount").notNull().default(0),
+
+    platformCommissionRateOnCancellation: real("platform_commission_rate_on_cancellation"),
+    platformCommissionOnCancellationFee: real("platform_commission_on_cancellation_fee")
+      .notNull()
+      .default(0),
+    ownerEarningsFromCancellation: real("owner_earnings_from_cancellation")
+      .notNull()
+      .default(0),
+    gstOnCancellationFee: real("gst_on_cancellation_fee").notNull().default(0),
+
+    refundStatus: bookingCancellationRefundStatusEnum("refund_status")
+      .notNull()
+      .default("NOT_INITIATED"),
+    refundCompletionTimestamp: timestamp("refund_completion_timestamp", {
+      withTimezone: true,
+      mode: "string",
+    }),
+
+    cancellationReason: text("cancellation_reason"),
+    remarks: text("remarks"),
+
     ...timestamps,
-    ...adminOrUserUpdateReference,
   },
   (table) => [
-    check("booking_cancellation_refund_non_negative", sql`"refundAmount" >= 0`),
-    check("booking_cancellation_charge_non_negative", sql`"cancelCharge" >= 0`),
+    index("booking_cancellation_booking_id_idx").on(table.bookingId),
+    index("booking_cancellation_type_idx").on(table.cancellationType),
+    index("booking_cancellation_timestamp_idx").on(table.cancellationTimestamp),
+    index("booking_cancellation_refund_status_idx").on(table.refundStatus),
+
+    check(
+      "booking_cancellation_days_before_checkin_non_negative",
+      sql`${table.daysBeforeCheckin} >= 0`
+    ),
+    check(
+      "booking_cancellation_stay_duration_nights_positive",
+      sql`${table.stayDurationNights} > 0`
+    ),
+    check(
+      "booking_cancellation_total_booking_amount_non_negative",
+      sql`${table.totalBookingAmount} >= 0`
+    ),
+    check(
+      "booking_cancellation_total_amount_paid_non_negative",
+      sql`${table.totalAmountPaid} >= 0`
+    ),
+    check(
+      "booking_cancellation_percentage_valid",
+      sql`${table.cancellationPercentage} IS NULL OR (${table.cancellationPercentage} >= 0 AND ${table.cancellationPercentage} <= 100)`
+    ),
+    check(
+      "booking_cancellation_amount_before_gst_non_negative",
+      sql`${table.cancellationAmountBeforeGst} >= 0`
+    ),
+    check(
+      "booking_cancellation_gst_rate_valid",
+      sql`${table.gstRate} IS NULL OR ${table.gstRate} IN (5, 18, 28)`
+    ),
+    check(
+      "booking_cancellation_total_deductions_non_negative",
+      sql`${table.totalDeductions} >= 0`
+    ),
+    check(
+      "booking_cancellation_refund_amount_non_negative",
+      sql`${table.refundAmount} >= 0`
+    ),
+    check(
+      "booking_cancellation_platform_commission_rate_valid",
+      sql`${table.platformCommissionRateOnCancellation} IS NULL OR (${table.platformCommissionRateOnCancellation} >= 0 AND ${table.platformCommissionRateOnCancellation} <= 100)`
+    ),
     check(
       "booking_cancellation_platform_commission_non_negative",
-      sql`"cancellationPlatformCommission" >= 0`
+      sql`${table.platformCommissionOnCancellationFee} >= 0`
     ),
     check(
-      "booking_cancellation_owner_share_non_negative",
-      sql`"cancellationFeeOwnerShare" >= 0`
+      "booking_cancellation_owner_earnings_non_negative",
+      sql`${table.ownerEarningsFromCancellation} >= 0`
     ),
-    index("booking_cancellation_booking_id_idx").on(table.bookingId),
-    setUserOrAdminUpdatedByConstraint(table),
+    check(
+      "booking_cancellation_gst_on_fee_non_negative",
+      sql`${table.gstOnCancellationFee} >= 0`
+    ),
+    // check(
+    //   "booking_cancellation_total_deductions_formula_valid",
+    //   sql`${table.totalDeductions} = (${table.cancellationAmountBeforeGst} + ${table.gstOnCancellationFee})`
+    // ),
+    check(
+      "booking_cancellation_refund_amount_formula_valid",
+      sql`${table.refundAmount} = (${table.totalAmountPaid} - ${table.totalDeductions})`
+    ),
+    // check(
+    //   "booking_cancellation_owner_earnings_formula_valid",
+    //   sql`${table.ownerEarningsFromCancellation} = (${table.cancellationAmountBeforeGst} - ${table.platformCommissionOnCancellationFee})`
+    // ),
+    check(
+      "booking_cancellation_refund_completion_consistent",
+      sql`(
+        (${table.refundStatus} = 'COMPLETED' AND ${table.refundCompletionTimestamp} IS NOT NULL)
+        OR
+        (${table.refundStatus} <> 'COMPLETED')
+      )`
+    ),
   ]
 );
 
 // ==================== BOOKING REFUND =====================
 
 export const bookingRefund = pgTable(
-  "bookingRefund",
+  "booking_refund",
   {
     id: uuid("id").primaryKey().defaultRandom(),
-    bookingId: uuid("bookingId")
+
+    bookingId: uuid("booking_id")
       .notNull()
       .unique()
       .references(() => bookings.id, {
         onDelete: "cascade",
       }),
-    refundAmount: real("refundAmount").notNull(),
-    refundStatus: bookingRefundStatusEnum("refundStatus")
+
+    bookingCancellationId: uuid("booking_cancellation_id").references(
+      () => bookingCancellation.id,
+      {
+        onDelete: "set null",
+      }
+    ),
+    adjustmentId: uuid("adjustment_id").references(() => bookingPriceAdjustments.id, {
+      onDelete: "set null",
+    }),
+
+    refundAmount: real("refund_amount").notNull().default(0),
+    currency: text("currency").notNull().default("INR"),
+
+    refundType: bookingRefundTypeEnum("refund_type")
       .notNull()
-      .default("REFUND_INITIATED"),
-    razorpayRefundId: text("razorpayRefundId"),
-    refundError: text("refundError"),
-    refundAttempts: integer("refundAttempts").default(0),
+      .default("CUSTOMER_REFUND"),
+    refundReason: text("refund_reason"),
+
+    status: bookingRefundStatusEnum("status").notNull().default("PENDING"),
+    totalRefundedAmount: real("total_refunded_amount").notNull().default(0),
+
+    isTherePriceAdjustment: boolean("is_there_price_adjustment")
+      .notNull()
+      .default(false),
+
+    initiatedByType: bookingRefundInitiatedByTypeEnum("initiated_by_type")
+      .notNull()
+      .default("SYSTEM"),
+    initiatedById: uuid("initiated_by_id"),
+
     ...timestamps,
-    ...adminOrUserUpdateReference,
   },
   (table) => [
-    check("booking_refund_amount_non_negative", sql`"refundAmount" >= 0`),
-    check("booking_refund_attempts_non_negative", sql`"refundAttempts" >= 0`),
     index("booking_refund_booking_id_idx").on(table.bookingId),
-    index("booking_refund_status_idx").on(table.refundStatus),
-    setUserOrAdminUpdatedByConstraint(table),
+    index("booking_refund_cancellation_id_idx").on(table.bookingCancellationId),
+    index("booking_refund_status_idx").on(table.status),
+    index("booking_refund_created_at_idx").on(table.createdAt),
+
+    check("booking_refund_amount_non_negative", sql`${table.refundAmount} >= 0`),
+    check(
+      "booking_refund_total_refunded_non_negative",
+      sql`${table.totalRefundedAmount} >= 0`
+    ),
+    check(
+      "booking_refund_total_refunded_not_more_than_target",
+      sql`${table.totalRefundedAmount} <= ${table.refundAmount}`
+    ),
+    check(
+      "booking_refund_currency_not_empty",
+      sql`length(trim(${table.currency})) > 0`
+    ),
+    check(
+      "booking_refund_adjustment_link_consistent",
+      sql`(
+        (${table.isTherePriceAdjustment} = true AND ${table.adjustmentId} IS NOT NULL)
+        OR
+        (${table.isTherePriceAdjustment} = false AND ${table.adjustmentId} IS NULL)
+      )`
+    ),
+    check(
+      "booking_refund_initiator_consistent",
+      sql`(
+        (${table.initiatedByType} = 'SYSTEM' AND ${table.initiatedById} IS NULL)
+        OR
+        (${table.initiatedByType} = 'ADMIN' AND ${table.initiatedById} IS NOT NULL)
+      )`
+    ),
   ]
 );
 
+// ==================== BOOKING REFUND ATTEMPT =============
+
+export const bookingRefundAttempt = pgTable(
+  "booking_refund_attempt",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingRefundId: uuid("booking_refund_id")
+      .notNull()
+      .references(() => bookingRefund.id, {
+        onDelete: "cascade",
+      }),
+
+    attemptNumber: integer("attempt_number").notNull(),
+    attemptAmount: real("attempt_amount").notNull(),
+
+    refundMethod: bookingPaymentMethodEnum("refund_method").notNull(),
+    refundGateway: bookingPaymentGatewayEnum("refund_gateway"),
+    refundReference: text("refund_reference"),
+    originalPaymentReference: text("original_payment_reference"),
+
+    status: bookingRefundAttemptStatusEnum("status").notNull().default("PENDING"),
+    failureReason: text("failure_reason"),
+
+    attemptedAt: timestamp("attempted_at", {
+      withTimezone: true,
+      mode: "string",
+    }).notNull(),
+
+    createdAt: timestamp("created_at", {
+      withTimezone: true,
+      mode: "string",
+    })
+      .notNull()
+      .defaultNow(),
+  },
+  (table) => [
+    unique("booking_refund_attempt_refund_attempt_number_unique").on(
+      table.bookingRefundId,
+      table.attemptNumber
+    ),
+
+    index("booking_refund_attempt_refund_id_idx").on(table.bookingRefundId),
+    index("booking_refund_attempt_status_idx").on(table.status),
+    index("booking_refund_attempt_attempted_at_idx").on(table.attemptedAt),
+    index("booking_refund_attempt_created_at_idx").on(table.createdAt),
+
+    check(
+      "booking_refund_attempt_attempt_number_positive",
+      sql`${table.attemptNumber} > 0`
+    ),
+    check(
+      "booking_refund_attempt_amount_positive",
+      sql`${table.attemptAmount} > 0`
+    ),
+    check(
+      "booking_refund_attempt_gateway_required_for_pg_only",
+      sql`(
+        (${table.refundMethod} = 'PG' AND ${table.refundGateway} IS NOT NULL)
+        OR
+        (${table.refundMethod} <> 'PG' AND ${table.refundGateway} IS NULL)
+      )`
+    ),
+    check(
+      "booking_refund_attempt_failure_reason_consistent",
+      sql`(
+        (${table.status} = 'FAILED' AND ${table.failureReason} IS NOT NULL)
+        OR
+        (${table.status} <> 'FAILED')
+      )`
+    ),
+  ]
+);
+
+// ==================== BOOKING PRICE ADJUSTMENTS ==========
+
+export const bookingPriceAdjustments = pgTable(
+  "booking_price_adjustments",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+
+    bookingId: uuid("booking_id")
+      .notNull()
+      .references(() => bookings.id, {
+        onDelete: "cascade",
+      }),
+
+    adjustmentDate: date("adjustment_date", { mode: "string" }).notNull(),
+    adjustmentType: bookingPriceAdjustmentTypeEnum("adjustment_type").notNull(),
+    description: text("description"),
+    flowType: bookingPriceAdjustmentFlowTypeEnum("flow_type").notNull(),
+
+    amountExclGst: real("amount_excl_gst").notNull().default(0),
+    gstRate: integer("gst_rate"),
+    gstAmount: real("gst_amount").notNull().default(0),
+    amountInclGst: real("amount_incl_gst").notNull().default(0),
+
+    createdAt: timestamp("created_at", {
+      withTimezone: true,
+      mode: "string",
+    })
+      .notNull()
+      .defaultNow(),
+  },
+  (table) => [
+    index("booking_price_adjustments_booking_id_idx").on(table.bookingId),
+    index("booking_price_adjustments_adjustment_date_idx").on(table.adjustmentDate),
+    index("booking_price_adjustments_adjustment_type_idx").on(table.adjustmentType),
+    index("booking_price_adjustments_flow_type_idx").on(table.flowType),
+    index("booking_price_adjustments_created_at_idx").on(table.createdAt),
+
+    check(
+      "booking_price_adjustments_amount_excl_non_negative",
+      sql`${table.amountExclGst} >= 0`
+    ),
+    check(
+      "booking_price_adjustments_gst_rate_valid",
+      sql`${table.gstRate} IS NULL OR ${table.gstRate} IN (5, 18, 28)`
+    ),
+    check(
+      "booking_price_adjustments_gst_amount_non_negative",
+      sql`${table.gstAmount} >= 0`
+    ),
+    check(
+      "booking_price_adjustments_amount_incl_non_negative",
+      sql`${table.amountInclGst} >= 0`
+    ),
+    check(
+      "booking_price_adjustments_amount_formula_valid",
+      sql`${table.amountInclGst} = (${table.amountExclGst} + ${table.gstAmount})`
+    ),
+    check(
+      "booking_price_adjustments_gst_presence_consistent",
+      sql`(
+        (${table.gstRate} IS NULL AND ${table.gstAmount} = 0)
+        OR
+        (${table.gstRate} IS NOT NULL)
+      )`
+    ),
+  ]
+);
 // ==================== BLOCKING ===========================
 
 export const blocking = pgTable(
@@ -551,6 +1133,63 @@ export const inventoryCalendar = pgTable(
   ]
 );
 
+// ==================== ICAL LINKS =========================
+
+export const icalLinks = pgTable(
+  "icalLinks",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    propertyId: uuid("propertyId").references(() => properties.id, {
+      onDelete: "cascade",
+    }),
+    name: text("name").notNull(),
+    icalUrl: text("icalUrl").notNull(),
+    lastSyncedAt: timestamp("lastSyncedAt", {
+      withTimezone: true,
+      mode: "string",
+    }),
+    syncStatus: text("syncStatus").notNull().default("pending"),
+    syncError: text("syncError"),
+    isActive: boolean("isActive").notNull().default(true),
+    ...timestamps,
+    ...adminOrUserUpdateReference,
+  },
+  (table) => [
+    index("ical_links_property_id_idx").on(table.propertyId),
+    index("ical_links_sync_status_idx").on(table.syncStatus),
+    setUserOrAdminUpdatedByConstraint(table),
+  ]
+);
+
+// ==================== IMPORTED BOOKINGS ==================
+
+export const importedBookings = pgTable(
+  "importedBookings",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    propertyId: uuid("propertyId").references(() => properties.id, {
+      onDelete: "cascade",
+    }),
+    icalLinkId: uuid("icalLinkId")
+      .notNull()
+      .references(() => icalLinks.id, {
+        onDelete: "cascade",
+      }),
+    externalBookingId: text("externalBookingId").notNull(),
+    checkinDate: date({ mode: "string" }).notNull(),
+    checkoutDate: date({ mode: "string" }).notNull(),
+    summary: text("summary"),
+    description: text("description"),
+    ...timestamps,
+  },
+  (table) => [
+    unique("unique_external_booking").on(table.icalLinkId, table.externalBookingId),
+    index("imported_bookings_property_id_idx").on(table.propertyId),
+    index("imported_bookings_ical_link_id_idx").on(table.icalLinkId),
+    index("imported_bookings_checkin_date_idx").on(table.checkinDate),
+  ]
+);
+
 // ==================== BOOKING AUDIT LOG ==================
 
 export const bookingAuditLog = pgTable(
@@ -593,9 +1232,7 @@ export const bookingPaymentSchedule = pgTable(
     totalBookingAmount: real("totalBookingAmount").notNull(),
     advanceAmount: real("advanceAmount").notNull(),
     remainingAmount: real("remainingAmount").notNull(),
-    advancePaymentId: uuid("advancePaymentId")
-      .notNull()
-      .references(() => bookingPayments.id),
+    advancePaymentId: uuid("advancePaymentId").notNull(),
     advancePaidAt: timestamp("advancePaidAt", {
       withTimezone: true,
       mode: "string",
@@ -608,6 +1245,11 @@ export const bookingPaymentSchedule = pgTable(
     check("total_amount_positive", sql`"totalBookingAmount" > 0`),
     check("advance_amount_positive", sql`"advanceAmount" >= 0`),
     check("remaining_amount_positive", sql`"remainingAmount" >= 0`),
+    foreignKey({
+      columns: [table.advancePaymentId],
+      foreignColumns: [bookingPayments.id],
+      name: "bookingPaymentSchedule_advancePaymentId_bookingPayments_id_fk",
+    }),
     check(
       "amounts_sum_correct",
       sql`"advanceAmount" + "remainingAmount" = "totalBookingAmount"`

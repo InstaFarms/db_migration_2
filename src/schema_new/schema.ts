@@ -21,6 +21,9 @@ import * as proposalSchemaModule from "./schema/proposal.ts";
 import * as adminSchemaModule from "./schema/admin.ts";
 import * as enquirySchemaModule from "./schema/enquiry.ts";
 import * as userSchemaModule from "./schema/user.ts";
+import * as ownerFinanceSchemaModule from "./schema/ownerFinance.ts";
+import * as ledgerSchemaModule from "./schema/ledger.ts";
+import * as tdsAndGstSchemaModule from "./schema/tdsAndGst.ts";
 import * as logSchemaModule from "./schema/log.ts";
 import * as recentSchemaModule from "./schema/recent.ts";
 import * as siteDataSchemaModule from "./schema/siteData.ts";
@@ -93,30 +96,97 @@ export const areaDetailView = locationSchemaModule.areaDetailView;
 export const areaDetailQuery = locationSchemaModule.areaDetailQuery;
 
 // Users Schema
-export const platformLedgerTypeEnum = userSchemaModule.platformLedgerTypeEnum;
-export const ledgerDirectionEnum = userSchemaModule.ledgerDirectionEnum;
 export const users = userSchemaModule.users;
-export const platformLedger = userSchemaModule.platformLedger;
-export const ownerWallet = userSchemaModule.ownerWallet;
-export const ownerSettlement = userSchemaModule.ownerSettlement;
-export const ownerWalletLedger = userSchemaModule.ownerWalletLedger;
-export const ownerPayouts = userSchemaModule.ownerPayouts;
-export const ownerWalletLedgerTypeEnum = userSchemaModule.ownerWalletLedgerTypeEnum;
-export const ownerPayoutStatusEnum = userSchemaModule.ownerPayoutStatusEnum;
 export const bankDetails = userSchemaModule.bankDetails;
 export const bankDetailsOnProperties = userSchemaModule.bankDetailsOnProperties;
 export const ownersOnProperties = userSchemaModule.ownersOnProperties;
 export const managersOnProperties = userSchemaModule.managersOnProperties;
 export const caretakersOnProperties = userSchemaModule.caretakersOnProperties;
 
-// Booking Schema
+// Owner Finance Schema
+export const ledgerDirectionEnum = ownerFinanceSchemaModule.ledgerDirectionEnum;
+export const ownerWallet = ownerFinanceSchemaModule.ownerWallet;
+export const ownerSettlement = ownerFinanceSchemaModule.ownerSettlement;
+export const ownerSettlementAdjustments = ownerFinanceSchemaModule.ownerSettlementAdjustments;
+export const ownerWalletLedger = ownerFinanceSchemaModule.ownerWalletLedger;
+export const ownerPayouts = ownerFinanceSchemaModule.ownerPayouts;
+export const ownerPayoutAttempts = ownerFinanceSchemaModule.ownerPayoutAttempts;
+export const ownerWalletLedgerReferenceTypeEnum =
+  ownerFinanceSchemaModule.ownerWalletLedgerReferenceTypeEnum;
+export const ownerWalletLedgerComponentTypeEnum =
+  ownerFinanceSchemaModule.ownerWalletLedgerComponentTypeEnum;
+export const ownerWalletLedgerTypeEnum = ownerFinanceSchemaModule.ownerWalletLedgerTypeEnum;
+export const ownerSettlementStatusEnum = ownerFinanceSchemaModule.ownerSettlementStatusEnum;
+export const ownerSettlementAdjustmentTypeEnum =
+  ownerFinanceSchemaModule.ownerSettlementAdjustmentTypeEnum;
+export const ownerSettlementAdjustmentDirectionEnum =
+  ownerFinanceSchemaModule.ownerSettlementAdjustmentDirectionEnum;
+export const ownerPayoutStatusEnum = ownerFinanceSchemaModule.ownerPayoutStatusEnum;
+export const ownerPayoutMethodEnum = ownerFinanceSchemaModule.ownerPayoutMethodEnum;
+export const ownerPayoutGatewayEnum = ownerFinanceSchemaModule.ownerPayoutGatewayEnum;
+export const ownerPayoutAttemptStatusEnum =
+  ownerFinanceSchemaModule.ownerPayoutAttemptStatusEnum;
+
+// Ledger Schema
+export const platformLedgerTypeEnum = ledgerSchemaModule.platformLedgerCategoryEnum;
+export const platformLedgerReferenceTypeEnum =
+  ledgerSchemaModule.platformLedgerReferenceTypeEnum;
+export const platformLedgerEntryTypeEnum = ledgerSchemaModule.platformLedgerEntryTypeEnum;
+export const platformLedgerCategoryEnum = ledgerSchemaModule.platformLedgerCategoryEnum;
+export const platformLedger = ledgerSchemaModule.platformLedger;
+
+// TDS and GST Schema
+export const tdsRecordReferenceTypeEnum = tdsAndGstSchemaModule.tdsRecordReferenceTypeEnum;
+export const tdsRecordEntryTypeEnum = tdsAndGstSchemaModule.tdsRecordEntryTypeEnum;
+export const gstRecordTypeEnum = tdsAndGstSchemaModule.gstRecordTypeEnum;
+export const gstRecordReferenceTypeEnum = tdsAndGstSchemaModule.gstRecordReferenceTypeEnum;
+export const gstRecordLiabilityHolderEnum = tdsAndGstSchemaModule.gstRecordLiabilityHolderEnum;
+export const gstRecordEntryDirectionEnum = tdsAndGstSchemaModule.gstRecordEntryDirectionEnum;
+export const tdsRecords = tdsAndGstSchemaModule.tdsRecords;
+export const gstRecords = tdsAndGstSchemaModule.gstRecords;
+
+// // -----------  Booking Schema --------------
+// Enums
 export const bookingPaymentChannelEnum = bookingSchemaModule.bookingPaymentChannelEnum;
-export const bookingSourceEnum = bookingSchemaModule.bookingSourceEnum;
-export const bookingTableTypeEnum = bookingSchemaModule.bookingTableTypeEnum;
+export const bookingPaymentReceiverTypeEnum =
+  bookingSchemaModule.bookingPaymentReceiverTypeEnum;
+export const bookingPaymentMethodEnum = bookingSchemaModule.bookingPaymentMethodEnum;
+export const bookingPaymentInstrumentEnum =
+  bookingSchemaModule.bookingPaymentInstrumentEnum;
+export const bookingPaymentGatewayEnum = bookingSchemaModule.bookingPaymentGatewayEnum;
+export const bookingPaymentCaptureTypeEnum =
+  bookingSchemaModule.bookingPaymentCaptureTypeEnum;
+export const bookingPaymentForEnum = bookingSchemaModule.bookingPaymentForEnum;
+export const bookingSourceTypeEnum = bookingSchemaModule.bookingSourceTypeEnum;
+export const bookingTechPlatformEnum = bookingSchemaModule.bookingTechPlatformEnum;
+// export const bookingSourceEnum = bookingSchemaModule.bookingSourceTypeOptions;
+// export const bookingTableTypeEnum = bookingSchemaModule.bookingTableTypeEnum;
 export const bookingLifecycleStatusEnum = bookingSchemaModule.bookingLifecycleStatusEnum;
 export const bookingRequestStatusEnum = bookingSchemaModule.bookingRequestStatusEnum;
+export const bookingRequestDecisionTakerTypeEnum =
+  bookingSchemaModule.bookingRequestDecisionTakerTypeEnum;
+export const bookingRequestRefundStatusEnum =
+  bookingSchemaModule.bookingRequestRefundStatusEnum;
+export const bookingCancellationTypeEnum = bookingSchemaModule.bookingCancellationTypeEnum;
+export const bookingCancellationStayTypeEnum =
+  bookingSchemaModule.bookingCancellationStayTypeEnum;
+export const bookingCancellationRefundStatusEnum =
+  bookingSchemaModule.bookingCancellationRefundStatusEnum;
 export const bookingDiscountTypeEnum = bookingSchemaModule.bookingDiscountTypeEnum;
+export const bookingDiscountValueTypeEnum =
+  bookingSchemaModule.bookingDiscountValueTypeEnum;
+export const bookingDiscountCalculationBaseEnum =
+  bookingSchemaModule.bookingDiscountCalculationBaseEnum;
 export const bookingRefundStatusEnum = bookingSchemaModule.bookingRefundStatusEnum;
+export const bookingRefundAttemptStatusEnum =
+  bookingSchemaModule.bookingRefundAttemptStatusEnum;
+export const bookingRefundTypeEnum = bookingSchemaModule.bookingRefundTypeEnum;
+export const bookingRefundInitiatedByTypeEnum =
+  bookingSchemaModule.bookingRefundInitiatedByTypeEnum;
+export const bookingPriceAdjustmentTypeEnum =
+  bookingSchemaModule.bookingPriceAdjustmentTypeEnum;
+export const bookingPriceAdjustmentFlowTypeEnum =
+  bookingSchemaModule.bookingPriceAdjustmentFlowTypeEnum;
 export const inventorySourceTypeEnum = bookingSchemaModule.inventorySourceTypeEnum;
 export const inventoryBlockTypeEnum = bookingSchemaModule.inventoryBlockTypeEnum;
 export const inventoryBlockCategoryEnum = bookingSchemaModule.inventoryBlockCategoryEnum;
@@ -126,14 +196,18 @@ export const blockingSourceEnum = bookingSchemaModule.blockingSourceEnum;
 export const blockingReasonTypeEnum = bookingSchemaModule.blockingReasonTypeEnum;
 export const blockingStatusEnum = bookingSchemaModule.blockingStatusEnum;
 export const iCalOTAEnum = bookingSchemaModule.iCalOTAEnum;
+// Tables
 export const bookings = bookingSchemaModule.bookings;
-export const bookingGuests = bookingSchemaModule.bookingGuests;
+export const bookingGuestBreakup = bookingSchemaModule.bookingGuestBreakup;
+export const bookingPricingSummary = bookingSchemaModule.bookingPricingSummary;
+export const bookingPriceDaywiseBreakup = bookingSchemaModule.bookingPriceDaywiseBreakup;
 export const bookingRequests = bookingSchemaModule.bookingRequests;
 export const bookingPayments = bookingSchemaModule.bookingPayments;
-export const bookingPricing = bookingSchemaModule.bookingPricing;
 export const bookingDiscounts = bookingSchemaModule.bookingDiscounts;
 export const bookingCancellation = bookingSchemaModule.bookingCancellation;
+export const bookingPriceAdjustments = bookingSchemaModule.bookingPriceAdjustments;
 export const bookingRefund = bookingSchemaModule.bookingRefund;
+export const bookingRefundAttempt = bookingSchemaModule.bookingRefundAttempt;
 export const blocking = bookingSchemaModule.blocking;
 export const inventoryCalendar = bookingSchemaModule.inventoryCalendar;
 export const bookingAuditLog = bookingSchemaModule.bookingAuditLog;
@@ -331,12 +405,15 @@ const accessibilitySetup = createAccessibilitySetup({
   icalLinks,
   importedBookings,
   customers,
-  bookingPricing,
   bookingDiscounts,
   bookingCancellation,
+  bookingPriceAdjustments,
   bookingRefund,
+  bookingRefundAttempt,
   bookings,
-  bookingGuests,
+  bookingGuestBreakup,
+  bookingPricingSummary,
+  bookingPriceDaywiseBreakup,
   bookingRequests,
   bookingPayments,
   discountPlans,
@@ -364,8 +441,12 @@ const accessibilitySetup = createAccessibilitySetup({
   propertyMilestoneResults,
   ownerWallet,
   ownerSettlement,
+  ownerSettlementAdjustments,
   ownerWalletLedger,
   ownerPayouts,
+  ownerPayoutAttempts,
+  tdsRecords,
+  gstRecords,
   supervisors,
   propertyAuditAreaCategoryMaster,
   propertyAuditAreas,
@@ -410,6 +491,9 @@ export * as proposalSchema from "./schema/proposal.ts";
 export * as adminSchema from "./schema/admin.ts";
 export * as enquirySchema from "./schema/enquiry.ts";
 export * as userSchema from "./schema/user.ts";
+export * as ownerFinanceSchema from "./schema/ownerFinance.ts";
+export * as ledgerSchema from "./schema/ledger.ts";
+export * as tdsAndGstSchema from "./schema/tdsAndGst.ts";
 export * as logSchema from "./schema/log.ts";
 export * as recentSchema from "./schema/recent.ts";
 export * as siteDataSchema from "./schema/siteData.ts";

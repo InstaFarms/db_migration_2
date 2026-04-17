@@ -2,461 +2,386 @@
   "activities": {
     "done": true,
     "processedRows": 46,
-    "updatedAt": "2026-04-13T12:01:43.444Z"
+    "updatedAt": "2026-04-17T14:55:58.915Z"
   },
   "admins": {
     "done": true,
     "processedRows": 12,
-    "updatedAt": "2026-04-13T12:01:43.466Z"
+    "updatedAt": "2026-04-17T14:55:58.941Z"
   },
   "amenities": {
     "done": true,
     "processedRows": 36,
-    "updatedAt": "2026-04-13T12:01:43.488Z"
+    "updatedAt": "2026-04-17T14:55:58.964Z"
   },
   "bulkUpdateLogs": {
     "done": true,
     "processedRows": 3,
-    "updatedAt": "2026-04-13T12:01:43.506Z"
+    "updatedAt": "2026-04-17T14:55:58.981Z"
   },
   "cancellationPlans": {
     "done": true,
     "processedRows": 8,
-    "updatedAt": "2026-04-13T12:01:43.522Z"
+    "updatedAt": "2026-04-17T14:55:58.997Z"
   },
   "checklistCategoryMaster": {
     "done": true,
     "processedRows": 14,
-    "updatedAt": "2026-04-13T12:01:43.540Z"
+    "updatedAt": "2026-04-17T14:55:59.015Z"
   },
   "collections": {
     "done": true,
     "processedRows": 19,
-    "updatedAt": "2026-04-13T12:01:43.567Z"
+    "updatedAt": "2026-04-17T14:55:59.041Z"
   },
   "coupons": {
     "done": true,
     "processedRows": 52,
-    "updatedAt": "2026-04-13T12:01:43.595Z"
+    "updatedAt": "2026-04-17T14:55:59.072Z"
   },
   "customers": {
     "done": true,
     "processedRows": 586,
-    "updatedAt": "2026-04-13T12:01:43.655Z"
+    "updatedAt": "2026-04-17T14:55:59.152Z"
   },
   "listingUsers": {
     "done": true,
     "processedRows": 1,
-    "updatedAt": "2026-04-13T12:01:43.671Z"
+    "updatedAt": "2026-04-17T14:55:59.176Z"
   },
   "discountPlans": {
     "done": true,
     "processedRows": 2,
-    "updatedAt": "2026-04-13T12:01:43.688Z"
+    "updatedAt": "2026-04-17T14:55:59.194Z"
   },
   "extraPlans": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:43.696Z"
+    "updatedAt": "2026-04-17T14:55:59.204Z"
   },
   "faqs": {
     "done": true,
     "processedRows": 25,
-    "updatedAt": "2026-04-13T12:01:43.714Z"
+    "updatedAt": "2026-04-17T14:55:59.223Z"
   },
   "globalConstants": {
     "done": true,
     "processedRows": 1,
-    "updatedAt": "2026-04-13T12:01:43.730Z"
+    "updatedAt": "2026-04-17T14:55:59.246Z"
   },
   "issueTypes": {
     "done": true,
     "processedRows": 5,
-    "updatedAt": "2026-04-13T12:01:43.746Z"
+    "updatedAt": "2026-04-17T14:55:59.261Z"
   },
   "notification_event_types": {
     "done": true,
     "processedRows": 6,
-    "updatedAt": "2026-04-13T12:01:43.781Z"
+    "updatedAt": "2026-04-17T14:55:59.277Z"
   },
   "photos": {
     "done": true,
     "processedRows": 10121,
-    "updatedAt": "2026-04-13T12:01:44.634Z"
+    "updatedAt": "2026-04-17T14:56:00.161Z"
   },
   "propertyAuditAreaCategoryMaster": {
     "done": true,
     "processedRows": 8,
-    "updatedAt": "2026-04-13T12:01:44.649Z"
+    "updatedAt": "2026-04-17T14:56:00.185Z"
   },
   "propertyTypes": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:44.673Z"
+    "updatedAt": "2026-04-17T14:56:00.205Z"
   },
   "recentSearches": {
     "done": true,
     "processedRows": 762,
-    "updatedAt": "2026-04-13T12:01:44.744Z"
+    "updatedAt": "2026-04-17T14:56:00.281Z"
   },
   "safetyHygiene": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:44.757Z"
+    "updatedAt": "2026-04-17T14:56:00.297Z"
   },
   "settings": {
     "done": true,
     "processedRows": 2,
-    "updatedAt": "2026-04-13T12:01:44.774Z"
+    "updatedAt": "2026-04-17T14:56:00.318Z"
   },
   "singlePages ": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:44.783Z"
+    "updatedAt": "2026-04-17T14:56:00.327Z"
   },
   "spaces": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:44.792Z"
+    "updatedAt": "2026-04-17T14:56:00.340Z"
   },
   "states": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:44.808Z"
+    "updatedAt": "2026-04-17T14:56:00.360Z"
   },
   "staticImages": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:44.818Z"
+    "updatedAt": "2026-04-17T14:56:00.372Z"
   },
   "supervisors": {
     "done": true,
     "processedRows": 2,
-    "updatedAt": "2026-04-13T12:01:44.835Z"
+    "updatedAt": "2026-04-17T14:56:00.394Z"
   },
   "tags": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:44.851Z"
+    "updatedAt": "2026-04-17T14:56:00.415Z"
   },
   "users": {
     "done": true,
     "processedRows": 291,
-    "updatedAt": "2026-04-13T12:01:44.887Z"
+    "updatedAt": "2026-04-17T14:56:00.456Z"
   },
   "permanentPriceUpdateLogs": {
     "done": true,
     "processedRows": 10,
-    "updatedAt": "2026-04-13T12:01:44.912Z"
+    "updatedAt": "2026-04-17T14:56:00.482Z"
   },
   "cancellationPercentages": {
     "done": true,
     "processedRows": 24,
-    "updatedAt": "2026-04-13T12:01:44.929Z"
+    "updatedAt": "2026-04-17T14:56:00.501Z"
   },
   "checklistItemMaster": {
     "done": true,
     "processedRows": 60,
-    "updatedAt": "2026-04-13T12:01:44.948Z"
+    "updatedAt": "2026-04-17T14:56:00.521Z"
   },
   "proposals": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:44.964Z"
+    "updatedAt": "2026-04-17T14:56:00.538Z"
   },
   "discountPlansValues": {
     "done": true,
     "processedRows": 3,
-    "updatedAt": "2026-04-13T12:01:44.980Z"
+    "updatedAt": "2026-04-17T14:56:00.555Z"
   },
   "notification_templates": {
     "done": true,
     "processedRows": 29,
-    "updatedAt": "2026-04-13T12:01:45.003Z"
+    "updatedAt": "2026-04-17T14:56:00.586Z"
   },
   "cms": {
     "done": true,
     "processedRows": 5,
-    "updatedAt": "2026-04-13T12:01:45.023Z"
+    "updatedAt": "2026-04-17T14:56:00.607Z"
   },
   "cities": {
     "done": true,
     "processedRows": 8,
-    "updatedAt": "2026-04-13T12:01:45.041Z"
+    "updatedAt": "2026-04-17T14:56:00.645Z"
   },
   "activityLogs": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.050Z"
+    "updatedAt": "2026-04-17T14:56:00.655Z"
   },
   "bankDetails": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.060Z"
-  },
-  "walletWithdrawalRequests": {
-    "done": true,
-    "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.069Z"
-  },
-  "ownersWallet": {
-    "done": true,
-    "processedRows": 23,
-    "updatedAt": "2026-04-13T12:01:45.086Z"
+    "updatedAt": "2026-04-17T14:56:00.665Z"
   },
   "areas": {
     "done": true,
     "processedRows": 13,
-    "updatedAt": "2026-04-13T12:01:45.102Z"
+    "updatedAt": "2026-04-17T14:56:00.716Z"
   },
   "properties": {
     "done": true,
     "processedRows": 141,
-    "updatedAt": "2026-04-13T12:01:45.211Z"
+    "updatedAt": "2026-04-17T14:56:00.837Z"
   },
   "landmarks": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.222Z"
+    "updatedAt": "2026-04-17T14:56:00.847Z"
   },
   "nearbyLocations": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.230Z"
+    "updatedAt": "2026-04-17T14:56:00.858Z"
   },
   "searchQuery": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.239Z"
+    "updatedAt": "2026-04-17T14:56:00.867Z"
   },
   "activitiesOnProperties": {
     "done": true,
     "processedRows": 970,
-    "updatedAt": "2026-04-13T12:01:45.302Z"
+    "updatedAt": "2026-04-17T14:56:00.956Z"
   },
   "amenitiesOnProperties": {
     "done": true,
     "processedRows": 1911,
-    "updatedAt": "2026-04-13T12:01:45.424Z"
+    "updatedAt": "2026-04-17T14:56:01.071Z"
   },
   "bankDetailsOnProperties": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.434Z"
-  },
-  "bookings": {
-    "done": true,
-    "processedRows": 490,
-    "updatedAt": "2026-04-13T12:01:45.505Z"
+    "updatedAt": "2026-04-17T14:56:01.079Z"
   },
   "caretakersOnProperties": {
     "done": true,
     "processedRows": 116,
-    "updatedAt": "2026-04-13T12:01:45.526Z"
+    "updatedAt": "2026-04-17T14:56:01.100Z"
   },
   "carousel": {
     "done": true,
     "processedRows": 6,
-    "updatedAt": "2026-04-13T12:01:45.543Z"
+    "updatedAt": "2026-04-17T14:56:01.117Z"
   },
   "collectionProperties": {
     "done": true,
     "processedRows": 730,
-    "updatedAt": "2026-04-13T12:01:45.598Z"
+    "updatedAt": "2026-04-17T14:56:01.170Z"
   },
   "contactEnquiry": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.608Z"
+    "updatedAt": "2026-04-17T14:56:01.180Z"
   },
   "enquiries": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:45.632Z"
-  },
-  "icalLinks": {
-    "done": true,
-    "processedRows": 1,
-    "updatedAt": "2026-04-13T12:01:45.649Z"
+    "updatedAt": "2026-04-17T14:56:01.199Z"
   },
   "managersOnProperties": {
     "done": true,
     "processedRows": 133,
-    "updatedAt": "2026-04-13T12:01:45.671Z"
+    "updatedAt": "2026-04-17T14:56:01.222Z"
   },
   "ownersOnProperties": {
     "done": true,
     "processedRows": 126,
-    "updatedAt": "2026-04-13T12:01:45.694Z"
+    "updatedAt": "2026-04-17T14:56:01.248Z"
   },
   "propertyAuditAreas": {
     "done": true,
     "processedRows": 26,
-    "updatedAt": "2026-04-13T12:01:45.712Z"
+    "updatedAt": "2026-04-17T14:56:01.270Z"
   },
   "propertyAuditSessions": {
     "done": true,
     "processedRows": 18,
-    "updatedAt": "2026-04-13T12:01:45.731Z"
+    "updatedAt": "2026-04-17T14:56:01.291Z"
   },
   "propertyCancellationPlans": {
     "done": true,
     "processedRows": 248,
-    "updatedAt": "2026-04-13T12:01:45.759Z"
+    "updatedAt": "2026-04-17T14:56:01.331Z"
   },
   "propertyCoupons": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.767Z"
+    "updatedAt": "2026-04-17T14:56:01.340Z"
   },
   "propertyDiscountPlans": {
     "done": true,
     "processedRows": 125,
-    "updatedAt": "2026-04-13T12:01:45.790Z"
+    "updatedAt": "2026-04-17T14:56:01.388Z"
   },
   "property_tags": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.798Z"
+    "updatedAt": "2026-04-17T14:56:01.397Z"
   },
   "proposalItems": {
     "done": true,
     "processedRows": 17,
-    "updatedAt": "2026-04-13T12:01:45.816Z"
+    "updatedAt": "2026-04-17T14:56:01.417Z"
   },
   "recentlyVisited": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.844Z"
+    "updatedAt": "2026-04-17T14:56:01.445Z"
   },
   "safetyHygieneOnProperties": {
     "done": true,
     "processedRows": 10,
-    "updatedAt": "2026-04-13T12:01:45.865Z"
+    "updatedAt": "2026-04-17T14:56:01.463Z"
   },
   "spaceProperties": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.875Z"
+    "updatedAt": "2026-04-17T14:56:01.471Z"
   },
   "specialDates": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:45.902Z"
+    "updatedAt": "2026-04-17T14:56:01.489Z"
   },
   "viewEnquiry": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:45.911Z"
-  },
-  "bookingAuditLog": {
-    "done": true,
-    "processedRows": 1517,
-    "updatedAt": "2026-04-13T12:01:46.029Z"
-  },
-  "cancellations": {
-    "done": true,
-    "processedRows": 36,
-    "updatedAt": "2026-04-13T12:01:46.056Z"
-  },
-  "payments": {
-    "done": true,
-    "processedRows": 82,
-    "updatedAt": "2026-04-13T12:01:46.081Z"
-  },
-  "notification_event_log": {
-    "done": true,
-    "processedRows": 116,
-    "updatedAt": "2026-04-13T12:01:46.110Z"
-  },
-  "walletTransactions": {
-    "done": true,
-    "processedRows": 77,
-    "updatedAt": "2026-04-13T12:01:46.134Z"
-  },
-  "reviewMagicLinks": {
-    "done": true,
-    "processedRows": 3,
-    "updatedAt": "2026-04-13T12:01:46.153Z"
-  },
-  "reviews": {
-    "done": true,
-    "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:46.162Z"
+    "updatedAt": "2026-04-17T14:56:01.497Z"
   },
   "carouselPhotos": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:46.182Z"
+    "updatedAt": "2026-04-17T15:01:18.075Z"
   },
   "whatsappLog": {
     "done": true,
     "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:46.192Z"
-  },
-  "importedBookings": {
-    "done": true,
-    "processedRows": 3,
-    "updatedAt": "2026-04-13T12:01:46.210Z"
+    "updatedAt": "2026-04-17T15:01:18.085Z"
   },
   "inventoryChecklistItems": {
     "done": true,
     "processedRows": 60,
-    "updatedAt": "2026-04-13T12:01:46.230Z"
+    "updatedAt": "2026-04-17T15:01:18.112Z"
   },
   "maintenanceChecklistItems": {
     "done": true,
     "processedRows": 22,
-    "updatedAt": "2026-04-13T12:01:46.247Z"
+    "updatedAt": "2026-04-17T15:01:18.130Z"
   },
   "suppliesChecklistItems": {
     "done": true,
     "processedRows": 4,
-    "updatedAt": "2026-04-13T12:01:46.262Z"
+    "updatedAt": "2026-04-17T15:01:18.146Z"
   },
   "tickets": {
     "done": true,
     "processedRows": 12,
-    "updatedAt": "2026-04-13T12:01:46.280Z"
-  },
-  "bookingPaymentSchedule": {
-    "done": true,
-    "processedRows": 0,
-    "updatedAt": "2026-04-13T12:01:46.290Z"
-  },
-  "notification_dead_letter_queue": {
-    "done": true,
-    "processedRows": 160,
-    "updatedAt": "2026-04-13T12:01:46.350Z"
-  },
-  "notification_delivery_log": {
-    "done": true,
-    "processedRows": 1172,
-    "updatedAt": "2026-04-13T12:01:46.791Z"
+    "updatedAt": "2026-04-17T15:01:18.165Z"
   },
   "inventoryAuditChecklistItems": {
     "done": true,
     "processedRows": 6,
-    "updatedAt": "2026-04-13T12:01:46.809Z"
+    "updatedAt": "2026-04-17T15:01:18.183Z"
   },
   "maintenanceAuditChecklistItems": {
     "done": true,
     "processedRows": 18,
-    "updatedAt": "2026-04-13T12:01:46.827Z"
+    "updatedAt": "2026-04-17T15:01:18.245Z"
   },
   "suppliesAuditChecklistItems": {
     "done": true,
     "processedRows": 23,
-    "updatedAt": "2026-04-13T12:01:46.847Z"
+    "updatedAt": "2026-04-17T15:01:18.271Z"
   },
   "ticketResolutionLogs": {
     "done": true,
     "processedRows": 2,
-    "updatedAt": "2026-04-13T12:01:46.869Z"
+    "updatedAt": "2026-04-17T15:01:18.287Z"
   },
   "checklistItemMedia": {
     "done": true,
     "processedRows": 23,
-    "updatedAt": "2026-04-13T12:01:46.904Z"
+    "updatedAt": "2026-04-17T15:01:18.307Z"
   }
 }
